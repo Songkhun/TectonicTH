@@ -29,3 +29,8 @@ const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;
 export function esc(s) {
   return s == null ? '' : String(s).replace(/[&<>"']/g, c => ESC[c]);
 }
+
+export function formatSliceAge(age, lang) {
+  if (age === 0) return lang === 'th' ? 'ปัจจุบัน' : 'present day';
+  return lang === 'th' ? `${age} ล้านปีก่อน` : `${age} Ma`;
+}

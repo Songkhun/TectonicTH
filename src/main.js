@@ -1,5 +1,5 @@
 import { t, initLang, getLang, setLang, onLangChange } from './i18n.js';
-import { formatLat, esc } from './format.js';
+import { formatLat, formatSliceAge, esc } from './format.js';
 import { createGlobe } from './globe.js';
 import { createTimeline } from './timeline.js';
 import { createCard } from './card.js';
@@ -23,7 +23,7 @@ function start() {
   function showReadout(info) {
     lastInfo = info;
     const approx = info.exact ? '' : ` · ${t('approx_slice')}`;
-    readout.textContent = `${t('paleo_label')} ${formatLat(info.lonlat[1])} · ${info.age} ${t('ma_short')}${approx}`;
+    readout.textContent = `${t('paleo_label')} ${formatLat(info.lonlat[1])} · ${formatSliceAge(info.age, getLang())}${approx}`;
   }
 
   const card = createCard(document.getElementById('card'), {

@@ -10,9 +10,9 @@ MODEL = "TorsvikCocks2017"
 KANCHANABURI = (99.53, 14.02)
 SLICE_AGES = [470, 430, 400, 360, 320, 290, 270, 250, 230, 200, 150, 100, 66, 40, 20, 5, 0]
 MAX_SLICE_BYTES = 100_000
-# GPlates returns HTTP 500 for TorsvikCocks2017 coastlines at 0 Ma; present-day coastlines are
-# observed geography, so any model gives the same shapes there.
-PRESENT_COAST_MODEL = "MULLER2022"
+# GPlates returns HTTP 500 for TorsvikCocks2017 coastlines at 0 Ma, so the present-day slice
+# draws the same model's 1 Ma coastlines (plates move only tens of km in 1 Myr).
+PRESENT_COAST_TIME = 1
 
 
 class SliceTooLargeError(Exception):
@@ -92,7 +92,7 @@ def simplify_geojson(fc, tol=0.5, ndigits=1):
     return {"type": "FeatureCollection", "features": features}
 
 
-def fetch_slice(age, session, base_url=GWS_URL, model=MODEL, timeout=90, coast_model=None):
+def fetch_slice(age, session, base_url=GWS_URL, model=MODEL, timeout=90, coast_time=None):
     lon, lat = KANCHANABURI
     r = session.get(f"{base_url}/reconstruct/reconstruct_points/",
                     params={"points": f"{lon},{lat}", "time": age, "model": model}, timeout=timeout)
@@ -101,13 +101,13 @@ def fetch_slice(age, session, base_url=GWS_URL, model=MODEL, timeout=90, coast_m
     if abs(px) > 360 or abs(py) > 90:
         raise UnplacedPointError(f"model {model} cannot place Kanchanaburi at {age} Ma (got {px}, {py})")
     r = session.get(f"{base_url}/reconstruct/coastlines/",
-                    params={"time": age, "model": coast_model or model}, timeout=timeout)
+                    params={"time": age if coast_time is None else coast_time, "model": model}, timeout=timeout)
     r.raise_for_status()
     raw = r.json()
     tol = 0.3
     for _ in range(8):
         sl = {"age": age, "model": model, "kanchanaburi": [round(px, 2), round(py, 2)],
-              "coast_model": coast_model or model, "coastlines": simplify_geojson(raw, tol=tol, ndigits=1)}
+              "coast_time": age if coast_time is None else coast_time, "coastlines": simplify_geojson(raw, tol=tol, ndigits=1)}
         if len(json.dumps(sl, separators=(",", ":")).encode("utf-8")) <= MAX_SLICE_BYTES:
             return sl
         tol *= 1.5
@@ -130,7 +130,7 @@ def fetch_all(out_dir, session, ages):
             print(f"skip {age} Ma (exists)")
             continue
         try:
-            sl = fetch_slice(age, session, coast_model=PRESENT_COAST_MODEL if age == 0 else None)
+            sl = fetch_slice(age, session, coast_time=PRESENT_COAST_TIME if age == 0 else None)
         except Exception as exc:  # noqa: BLE001 — report any failure with its age
             print(f"ERROR: slice {age} Ma failed: {exc}", file=sys.stderr)
             return 1

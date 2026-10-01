@@ -134,12 +134,13 @@ def test_fetch_slice_uses_model_constant():
     assert all(c[1]["model"] == paleo.MODEL for c in session.calls)
 
 
-def test_present_day_coastlines_come_from_present_coast_model(tmp_path):
+def test_present_day_coastlines_use_one_ma_from_same_model(tmp_path):
     session = FakeSession()
     assert fetch_all(tmp_path, session, [0]) == 0
     coast_call = [c for c in session.calls if "coastlines" in c[0]][0]
     point_call = [c for c in session.calls if "reconstruct_points" in c[0]][0]
-    assert coast_call[1]["model"] == paleo.PRESENT_COAST_MODEL
-    assert point_call[1]["model"] == paleo.MODEL
+    assert coast_call[1]["model"] == paleo.MODEL
+    assert coast_call[1]["time"] == paleo.PRESENT_COAST_TIME == 1
+    assert point_call[1]["time"] == 0
     saved = json.loads((tmp_path / "0.json").read_text(encoding="utf-8"))
-    assert saved["coast_model"] == paleo.PRESENT_COAST_MODEL
+    assert saved["coast_time"] == 1 and saved["age"] == 0

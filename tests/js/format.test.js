@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { formatAge, formatLat, esc } from '../../src/format.js';
+import { formatAge, formatLat, formatSliceAge, esc } from '../../src/format.js';
 
 test('deep time ages in Ma', () => {
   assert.equal(formatAge(270, 15, 'en'), '270 ± 15 Ma');
@@ -31,4 +31,11 @@ test('latitude readout', () => {
 test('esc neutralises HTML', () => {
   assert.equal(esc('<script>"a" & \'b\'</script>'), '&lt;script&gt;&quot;a&quot; &amp; &#39;b&#39;&lt;/script&gt;');
   assert.equal(esc(null), '');
+});
+
+test('slice age readout says present at 0 Ma', () => {
+  assert.equal(formatSliceAge(0, 'th'), 'ปัจจุบัน');
+  assert.equal(formatSliceAge(0, 'en'), 'present day');
+  assert.equal(formatSliceAge(270, 'th'), '270 ล้านปีก่อน');
+  assert.equal(formatSliceAge(270, 'en'), '270 Ma');
 });
