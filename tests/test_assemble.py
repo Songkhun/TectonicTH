@@ -103,3 +103,18 @@ def test_build_strips_private_note_fields(tmp_path):
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
     assert "instructor-only note" not in html
     assert "_notes" not in html
+
+
+def test_artifact_variant_has_no_document_wrapper(tmp_path):
+    root = make_root(tmp_path)
+    (root / "src/index.html").write_text(
+        '<!doctype html>\n<html lang="th">\n<head>\n<meta charset="utf-8">\n<title>Deep Time Kanchanaburi</title>\n'
+        '<style>/*__CSS__*/</style>\n</head>\n<body>\n<main>hi</main>\n<!--__DATA__-->\n<!--__SCRIPTS__-->\n</body>\n</html>\n',
+        encoding="utf-8")
+    out = assemble.build_artifact(root, module_order=["a.js", "b.js"])
+    html = out.read_text(encoding="utf-8")
+    assert out.name == "artifact.html"
+    for tag in ("<!doctype", "<html", "<head", "<body", "</body>", "</html>", "</head>"):
+        assert tag not in html.lower()
+    assert html.lstrip().startswith("<meta charset")
+    assert html.index("<title>") < 8192 and "<main>hi</main>" in html and 'id="dt-data"' in html

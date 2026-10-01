@@ -11,14 +11,14 @@
     --bg: #15171a; --surface: #1f2226; --text: #ece8e1; --muted: #a39d92; --border: #33373d;
     --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
     --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
-    --globe-edge: #3e5568; --globe-marker: #ff7a50;
+    --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #15171a; --surface: #1f2226; --text: #ece8e1; --muted: #a39d92; --border: #33373d;
   --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
   --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
-  --globe-edge: #3e5568; --globe-marker: #ff7a50;
+  --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }

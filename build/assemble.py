@@ -96,13 +96,25 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     return out
 
 
+WRAPPER_RE = re.compile(r"<!doctype[^>]*>|</?html[^>]*>|</?head>|</?body[^>]*>", re.I)
+
+
+def build_artifact(root, strict=False, module_order=MODULE_ORDER):
+    """Same page without document wrapper tags; the Artifact publisher adds its own skeleton."""
+    full = build(root, strict=strict, module_order=module_order)
+    out = full.with_name("artifact.html")
+    out.write_text(WRAPPER_RE.sub("", full.read_text(encoding="utf-8")).strip() + "\n", encoding="utf-8")
+    return out
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--strict", action="store_true", help="refuse to build with unverified events")
+    parser.add_argument("--artifact", action="store_true", help="also write dist/artifact.html for claude.ai publishing")
     args = parser.parse_args(argv)
     root = Path(__file__).resolve().parent.parent
     try:
-        out = build(root, strict=args.strict)
+        out = (build_artifact if args.artifact else build)(root, strict=args.strict)
     except BuildError as exc:
         print(f"BUILD FAILED: {exc}", file=sys.stderr)
         return 1
