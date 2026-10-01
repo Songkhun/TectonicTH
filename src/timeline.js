@@ -1,5 +1,5 @@
 import { layoutTimeline } from './layout.js';
-import { activeIndex } from './select.js';
+import { activeIndex, scrollPads } from './select.js';
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
 
@@ -12,6 +12,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
   inner.className = 'tl-inner';
   container.appendChild(inner);
   let pad = 0;
+  let padBottom = 0;
   let active = -1;
   let rowEls = [];
 
@@ -24,9 +25,9 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
   }
 
   function render() {
-    pad = Math.round(container.clientHeight / 2);
+    ({ top: pad, bottom: padBottom } = scrollPads(container.clientHeight));
     inner.innerHTML = '';
-    inner.style.height = `${layout.height + 2 * pad}px`;
+    inner.style.height = `${layout.height + pad + padBottom}px`;
     for (const b of layout.bands) {
       const el = document.createElement('div');
       el.className = 'tl-band';
@@ -53,7 +54,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
   }
 
   function update() {
-    const i = activeIndex(layout.rows, container.scrollTop + container.clientHeight / 2 - pad, ROW_H);
+    const i = activeIndex(layout.rows, container.scrollTop, ROW_H);
     if (i < 0 || i === active) return;
     if (rowEls[active]) rowEls[active].classList.remove('is-active');
     rowEls[i].classList.add('is-active');

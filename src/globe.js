@@ -1,4 +1,4 @@
-import { nearestSlice } from './select.js';
+import { nearestSlice, frameDue } from './select.js';
 import { shortestLonDelta, normalizeWinding } from './geo.js';
 
 export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
@@ -20,11 +20,24 @@ export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
   let width = 0;
   let height = 0;
 
-  function colors() {
+  let palette = null;
+  let lastDraw = -Infinity;
+
+  function readColors() {
     const cs = getComputedStyle(canvas);
     const v = name => cs.getPropertyValue(name).trim();
     return { ocean: v('--globe-ocean'), land: v('--globe-land'), grid: v('--globe-grid'), edge: v('--globe-edge'), marker: v('--globe-marker') };
   }
+
+  function colors() {
+    if (!palette) palette = readColors();
+    return palette;
+  }
+
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    palette = null;
+    draw(performance.now());
+  });
 
   function drawLand(slice, c) {
     ctx.beginPath();
@@ -55,6 +68,7 @@ export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
 
   function draw(now) {
     if (!width) return;
+    lastDraw = now;
     const c = colors();
     projection.rotate(rotation);
     ctx.clearRect(0, 0, width, height);
@@ -69,7 +83,7 @@ export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
 
   function frame(now) {
     if (anim) anim(now);
-    draw(now);
+    if (frameDue(now, lastDraw, anim !== null)) draw(now);
     if (!reducedMotion || anim) requestAnimationFrame(frame);
   }
 
@@ -123,7 +137,8 @@ export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
   d3.select(canvas).call(d3.drag().on('drag', ev => {
     dragged = true;
     anim = null;
-    rotation = [rotation[0] + ev.dx * 0.4, Math.max(-90, Math.min(90, rotation[1] - ev.dy * 0.4))];
+    const lon = ((rotation[0] + ev.dx * 0.4 + 540) % 360) - 180;
+    rotation = [lon, Math.max(-90, Math.min(90, rotation[1] - ev.dy * 0.4))];
     draw(performance.now());
   }));
 

@@ -57,7 +57,7 @@ body.lecture { --scale: 1.4; }
 .tl-icon { font-size: 1.3em; }
 .badge { display: inline-block; font-size: .66em; padding: 1px 6px; border-radius: 999px; background: var(--badge-bg); color: var(--badge-text); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-#card { position: absolute; left: 16px; right: 16px; bottom: 16px; max-height: 60%; overflow-y: auto; background: var(--surface);
+#card { position: absolute; left: 16px; right: 16px; bottom: 16px; max-height: 55%; overflow-y: auto; background: var(--surface);
   border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; box-shadow: 0 8px 28px rgba(0, 0, 0, .18); z-index: 5; }
 #card h2 { margin: 4px 0 6px; font-size: 1.1em; }
 #card p { margin: 6px 0; font-size: .92em; }
@@ -67,7 +67,8 @@ body.lecture { --scale: 1.4; }
 .card-close { border: 0; background: none; font-size: 1.4em; line-height: 1; color: var(--muted); cursor: pointer; padding: 0 4px; }
 .card-unit { color: var(--muted); }
 #card .card-cite { font-size: .8em; color: var(--muted); }
-.card-nav { display: flex; justify-content: space-between; margin-top: 10px; }
+.card-nav { display: flex; justify-content: space-between; margin-top: 10px; position: sticky; bottom: -14px;
+  padding-block: 8px 14px; background: var(--surface); }
 .card-nav button, dialog#about button { font: inherit; font-size: .85em; padding: 6px 12px; border-radius: 8px;
   border: 1px solid var(--border); background: var(--bg); color: var(--text); cursor: pointer; }
 dialog#about { max-width: min(680px, calc(100vw - 32px)); max-height: calc(100vh - 64px); border: 1px solid var(--border);
@@ -85,5 +86,5 @@ dialog#about ol, dialog#about ul { padding-left: 20px; font-size: .85em; }
   .lane-local { left: 56px; width: calc(50% - 44px); }
   .lane-world { left: calc(50% + 16px); width: calc(50% - 48px); }
   .lane-life { width: 28px; }
-  #card { max-height: 70%; }
+  #card { max-height: 60%; }
 }

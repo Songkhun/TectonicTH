@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { activeIndex, nearestSlice } from '../../src/select.js';
+import { activeIndex, nearestSlice, scrollPads, frameDue } from '../../src/select.js';
 
 const rows = [{ y: 0 }, { y: 50 }, { y: 100 }];
 
@@ -21,4 +21,15 @@ test('nearestSlice exact and approximate', () => {
   assert.deepEqual(nearestSlice(275, ages), { age: 270, exact: false });
   assert.deepEqual(nearestSlice(0.004, ages), { age: 0, exact: false });
   assert.throws(() => nearestSlice(10, []));
+});
+
+test('scrollPads put the active line in the top quarter, clear of the card', () => {
+  assert.deepEqual(scrollPads(800), { top: 200, bottom: 600 });
+  assert.deepEqual(scrollPads(0), { top: 0, bottom: 0 });
+});
+
+test('frameDue throttles idle pulse redraws but never an animation', () => {
+  assert.equal(frameDue(1000, 990, false), false);
+  assert.equal(frameDue(1100, 990, false), true);
+  assert.equal(frameDue(1000, 999, true), true);
 });

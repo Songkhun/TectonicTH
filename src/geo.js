@@ -1,5 +1,5 @@
 export function shortestLonDelta(from, to) {
-  return ((to - from + 540) % 360) - 180;
+  return ((((to - from) % 360) + 540) % 360) - 180;
 }
 
 function fixPolygon(rings, geoArea) {

@@ -58,7 +58,8 @@ def test_build_escapes_script_close_in_content(tmp_path):
     root = make_root(tmp_path, starter)
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
     assert "Danger </script>" not in html
-    assert "Danger <\\/script>" in html
+    block = html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0]
+    assert json.loads(block)["events"][0]["body_en"] == "Danger </script><b>bold</b>"
 
 
 def test_build_fails_on_invalid_content(tmp_path):
@@ -118,3 +119,14 @@ def test_artifact_variant_has_no_document_wrapper(tmp_path):
         assert tag not in html.lower()
     assert html.lstrip().startswith("<meta charset")
     assert html.index("<title>") < 8192 and "<main>hi</main>" in html and 'id="dt-data"' in html
+
+
+def test_build_survives_html_comment_openers_in_content(tmp_path):
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
+    starter[0]["body_en"] = "odd <!--<script> text <body> here"
+    root = make_root(tmp_path, starter)
+    out = assemble.build_artifact(root, module_order=["a.js", "b.js"])
+    html = out.read_text(encoding="utf-8")
+    block = html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0]
+    assert "<" not in block
+    assert json.loads(block)["events"][0]["body_en"] == "odd <!--<script> text <body> here"

@@ -31,3 +31,9 @@ test('normalizeWinding leaves correct rings and handles MultiPolygon', () => {
   const multi = { type: 'FeatureCollection', features: [{ type: 'Feature', properties: {}, geometry: { type: 'MultiPolygon', coordinates: [[ccw], [cw]] } }] };
   assert.ok(d3.geoArea(normalizeWinding(multi, d3.geoArea)) < 0.2);
 });
+
+test('shortestLonDelta stays short when the start angle is outside ±180 (after dragging)', () => {
+  assert.equal(shortestLonDelta(1000, -100), -20);
+  assert.equal(shortestLonDelta(-1000, 100), 20);
+  assert.equal(shortestLonDelta(720, 10), 10);
+});

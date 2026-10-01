@@ -32,7 +32,10 @@ function start() {
   });
 
   const timeline = createTimeline(document.getElementById('timeline'), data.events, data.periods, {
-    onActive: e => showReadout(globe.showSlice(e.paleo_age)),
+    onActive: e => {
+      showReadout(globe.showSlice(e.paleo_age));
+      if (!lecture) card.hide();
+    },
     onSelect: e => card.show(e),
   });
 

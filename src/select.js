@@ -16,3 +16,14 @@ export function nearestSlice(age, sliceAges) {
   }
   return { age: best, exact: best === age };
 }
+
+// The active line sits a quarter of the way down the timeline so the event card never covers it.
+export function scrollPads(clientHeight) {
+  const top = Math.round(clientHeight * 0.25);
+  return { top, bottom: clientHeight - top };
+}
+
+// Idle redraws (the marker pulse) run at about 15 fps; animation frames always draw.
+export function frameDue(now, lastDraw, animating, interval = 66) {
+  return animating || now - lastDraw >= interval;
+}
