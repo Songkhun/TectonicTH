@@ -132,3 +132,14 @@ def test_fetch_slice_uses_model_constant():
     s = fetch_slice(270, session)
     assert s["model"] == paleo.MODEL
     assert all(c[1]["model"] == paleo.MODEL for c in session.calls)
+
+
+def test_present_day_coastlines_come_from_present_coast_model(tmp_path):
+    session = FakeSession()
+    assert fetch_all(tmp_path, session, [0]) == 0
+    coast_call = [c for c in session.calls if "coastlines" in c[0]][0]
+    point_call = [c for c in session.calls if "reconstruct_points" in c[0]][0]
+    assert coast_call[1]["model"] == paleo.PRESENT_COAST_MODEL
+    assert point_call[1]["model"] == paleo.MODEL
+    saved = json.loads((tmp_path / "0.json").read_text(encoding="utf-8"))
+    assert saved["coast_model"] == paleo.PRESENT_COAST_MODEL
