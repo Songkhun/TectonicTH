@@ -70,7 +70,8 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     if "</script" in d3.lower() or "</script" in js.lower():
         raise BuildError("a script contains '</script' and cannot be inlined")
 
-    data = json.dumps({"events": events, "periods": periods, "slices": slices, "model": MODEL,
+    public_events = [{k: v for k, v in e.items() if not k.startswith("_")} for e in events]
+    data = json.dumps({"events": public_events, "periods": periods, "slices": slices, "model": MODEL,
                        "built": dt.date.today().isoformat()},
                       ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 

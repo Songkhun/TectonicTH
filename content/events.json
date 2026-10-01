@@ -1,27 +1,785 @@
 [
-  {
-    "id": "ratburi-limestone", "lane": "local", "age_ma": 270, "age_uncertainty_ma": 15,
-    "title_th": "หินปูนกลุ่มราชบุรี", "title_en": "Ratburi limestone",
-    "body_th": "หินปูนกลุ่มราชบุรีสะสมตัวในทะเลตื้นที่อบอุ่นในยุคเพอร์เมียน ขณะที่แผ่นซีบูมาสุ (Sibumasu) เคลื่อนออกจากขอบมหาทวีปกอนด์วานา ปัจจุบันหินปูนนี้เป็นภูเขาหินปูนและถ้ำจำนวนมากในกาญจนบุรี",
-    "body_en": "Ratburi Group limestone built up in warm, shallow seas during the Permian, as the Sibumasu block drifted away from Gondwana. Today it forms many of Kanchanaburi's limestone hills and caves.",
-    "rock_unit": "Ratburi Group (กลุ่มหินราชบุรี)", "visit_site": null,
-    "citation": {"text": "Ridd, Barber & Crow (eds) 2011, The Geology of Thailand, Geological Society of London", "url": "https://doi.org/10.1144/GOTH"},
-    "paleo_age": 270, "lecture_stop": true, "verified": false
+ {
+  "id": "ordovician-limestone",
+  "lane": "local",
+  "age_ma": 466,
+  "age_uncertainty_ma": 8,
+  "title_th": "ทะเลหินปูนยุคออร์โดวิเชียน",
+  "title_en": "Ordovician carbonate sea",
+  "body_th": "ในยุคออร์โดวิเชียน (Ordovician) ภาคตะวันตกของไทยเป็นส่วนหนึ่งของแผ่นซีบูมาสุ (Sibumasu) ซึ่งอยู่บริเวณขอบมหาทวีปกอนด์วานา (Gondwana) และถูกปกคลุมด้วยทะเลตื้นที่มีการสะสมตัวของตะกอนคาร์บอเนต ซากดึกดำบรรพ์ขนาดเล็กโคโนดอนต์ (conodont) จากหมวดหินท่ามะนาว (Tha Manao Formation) บริเวณบ้านท่ากระดาน อำเภอศรีสวัสดิ์ บ่งชี้ว่าหินปูนชั้นบางเหล่านี้มีอายุช่วงฟลอเอียนตอนปลายถึงดาร์ริวิเลียน (late Floian–Darriwilian) หรือออร์โดวิเชียนตอนต้นถึงตอนกลาง หินปูนชุดนี้จึงเป็นหลักฐานของไหล่ทวีปเขตร้อนเมื่อกว่า 450 ล้านปีก่อน",
+  "body_en": "In the Ordovician, western Thailand was part of the Sibumasu block on the margin of Gondwana and was covered by a shallow sea depositing carbonate sediment. Conodont microfossils from the Tha Manao Formation at Ban Tha Kradan, Si Sawat district, date these thin-bedded limestones to the late Floian–Darriwilian (Early–Middle Ordovician). These limestones therefore record a tropical shelf more than 450 million years ago.",
+  "rock_unit": "Tha Manao Formation, Thung Song Group (หมวดหินท่ามะนาว กลุ่มหินทุ่งสง)",
+  "visit_site": null,
+  "citation": {
+   "text": "Chen Z., Li W., Fang X., Li C., Burrett C., Udchachon M. et al. 2023, Ordovician conodonts from the Ban Tha Kradan area, Western Thailand, Estonian Journal of Earth Sciences 72(1):125",
+   "url": "https://doi.org/10.3176/earth.2023.30"
   },
-  {
-    "id": "end-permian-extinction", "lane": "world", "age_ma": 251.94, "age_uncertainty_ma": 0.04,
-    "title_th": "การสูญพันธุ์ครั้งใหญ่ปลายยุคเพอร์เมียน", "title_en": "End-Permian mass extinction",
-    "body_th": "การสูญพันธุ์ครั้งใหญ่ที่สุดในประวัติโลก สิ่งมีชีวิตในทะเลราวร้อยละ 90 หายไป สัมพันธ์กับการปะทุของภูเขาไฟไซบีเรียนแทรปส์ (Siberian Traps)",
-    "body_en": "The largest mass extinction in Earth's history: about 90% of marine species disappeared, linked to the Siberian Traps eruptions.",
-    "rock_unit": null, "visit_site": null,
-    "citation": {"text": "Burgess, Bowring & Shen 2014, PNAS 111:3316–3321", "url": "https://doi.org/10.1073/pnas.1317692111"},
-    "paleo_age": 250, "lecture_stop": false, "verified": false
+  "paleo_age": 470,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Source (open-access abstract, read in full) assigns the Tha Manao Fm to 'upper Floian to Darriwilian' and the overlying Pa Kae Fm to Sandbian–lower Katian; keywords give Kanchanaburi Province. Numeric range ~474–458 Ma is my conversion of the stages using the ICS chart (GTS2020), not stated in the source. The full paper is Chen et al. 2024 Palaeoworld 33:546–558, https://doi.org/10.1016/j.palwor.2022.12.004 (checked on Crossref, paywalled, not read). Tha Manao Fm as part of Thung Song Group follows Thai usage; the abstract itself does not name the Thung Song Group. The 'Gondwana margin' statement is general (e.g. Metcalfe 2013; Agematsu & Sashida 2009 Paleontol. Res. 13:327–336, https://doi.org/10.2517/1342-8144-13.4.327), not from this abstract. The 'Nautiloid Site Geosite' section at Ban Tha Kradan would make a good visit site but I could not confirm its coordinates. DOI checked: resolves to kirj.ee; PDF downloaded and read."
+ },
+ {
+  "id": "kanchanaburi-group",
+  "lane": "local",
+  "age_ma": 401,
+  "age_uncertainty_ma": 42,
+  "title_th": "โคลนทะเลลึกยุคไซลูเรียน–ดีโวเนียน",
+  "title_en": "Silurian–Devonian deep-sea muds",
+  "body_th": "ถัดขึ้นมาจากหินปูนยุคออร์โดวิเชียนเป็นกลุ่มหินทองผาภูมิ (Thong Pha Phum Group) อายุไซลูเรียน–ดีโวเนียน (Silurian–Devonian) ซึ่งประกอบด้วยหินดินดาน หินทรายแป้ง หินโคลน และหินปูนชั้นบาง โผล่ให้เห็นที่บ้านท่ากระดาน อำเภอศรีสวัสดิ์ แกรปโตไลต์ (graptolite) ในชั้นล่างบ่งชี้อายุไซลูเรียน(?)ถึงดีโวเนียนตอนต้น ส่วนเทนทาคูไลต์ (tentaculitid) 7 ชนิดบ่งชี้อายุดีโวเนียนตอนต้นถึงตอนปลาย ชั้นหินเนื้อละเอียดเหล่านี้สะสมตัวบนลาดทวีปจนถึงแอ่งทะเลลึกที่มีพลังงานต่ำ",
+  "body_en": "Above the Ordovician limestones lies the Silurian–Devonian Thong Pha Phum Group of shale, siltstone, mudstone and thin limestone, exposed at Ban Tha Kradan, Si Sawat district. Graptolites in the lower beds suggest a Silurian(?) to Early Devonian age, and seven species of tentaculitids indicate Early to Late Devonian. These fine-grained rocks were deposited on a continental slope to deep-marine basin under low-energy conditions.",
+  "rock_unit": "Thong Pha Phum Group (กลุ่มหินทองผาภูมิ)",
+  "visit_site": null,
+  "citation": {
+   "text": "Maneerat W., Jitmahantakul S. & Charoentitirat T. 2022, Devonian tentaculite of the Thong Pha Phum Group in Si Sawat District, Kanchanaburi Province, Bulletin of Earth Sciences of Thailand 14(1):35–49",
+   "url": "https://ph01.tci-thaijo.org/index.php/bestjournal/article/view/248779"
   },
-  {
-    "id": "first-dinosaurs", "lane": "life", "age_ma": 233, "age_uncertainty_ma": null,
-    "title_th": "ไดโนเสาร์กลุ่มแรก", "title_en": "First dinosaurs",
-    "body_th": "", "body_en": "", "icon": "🦕",
-    "rock_unit": null, "visit_site": null, "citation": null,
-    "paleo_age": 230, "lecture_stop": false, "verified": false
-  }
+  "paleo_age": 400,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Source abstract: graptolites (Monograptus, Diplograptus) 'probably Silurian? to Lower Devonian'; tentaculites 'Lower to Upper Devonian'; slope to deep-marine, low energy. Related Chula thesis (https://doi.org/10.58837/chula.the.2021.186) says the group sits conformably on the Thung Song Group and under the Early Carboniferous Khuan Klang Fm. Age 401 ± 42 Ma = midpoint of the whole Silurian–Devonian (443.8–358.9 Ma, my conversion); seed was 425. I used the current name Thong Pha Phum Group; older literature calls these rocks the Kanchanaburi Formation/Group, so I kept the event id. Thai journal with no DOI; I checked the article page loads (HTTP 200) and read its abstract."
+ },
+ {
+  "id": "kaeng-krachan-diamictite",
+  "lane": "local",
+  "age_ma": 286,
+  "age_uncertainty_ma": 13,
+  "title_th": "หินโคลนปนกรวดจากยุคน้ำแข็ง",
+  "title_en": "Glacial pebbly mudstones",
+  "body_th": "ในยุคเพอร์เมียนตอนต้น (Early Permian) หินโคลนปนกรวด (diamictite) หนาของกลุ่มหินแก่งกระจาน (Kaeng Krachan Group) สะสมตัวในแอ่งแยกตัว (rift basin) ตั้งแต่จังหวัดกาญจนบุรีลงไปตลอดคาบสมุทรไทย ก้อนหินตกจากน้ำแข็ง (dropstone) และร่องรอยซากดึกดำบรรพ์กลุ่ม Cruziana บ่งชี้ว่าส่วนล่างของกลุ่มหินสะสมตัวจากกระแสตะกอนตามแรงโน้มถ่วง (gravity flow) ในสภาวะทะเลที่ได้รับอิทธิพลจากธารน้ำแข็ง (glaciomarine) ซึ่งเชื่อมโยงกับยุคน้ำแข็งของกอนด์วานา กลุ่มหินนี้มีอายุช่วงแอสเซเลียนถึงคุงกูเรียน (Asselian–Kungurian) และถูกปิดทับอย่างต่อเนื่องด้วยหินปูนของกลุ่มหินราชบุรี",
+  "body_en": "In the Early Permian, thick pebbly mudstones (diamictites) of the Kaeng Krachan Group accumulated in rift basins from Kanchanaburi southward through peninsular Thailand. Dropstones and Cruziana trace fossils show that the lower part was deposited by gravity flows under glaciomarine conditions linked to the Gondwana glaciation. The group spans the Asselian to Kungurian and is overlain conformably by the limestones of the Ratburi Group.",
+  "rock_unit": "Kaeng Krachan Group (กลุ่มหินแก่งกระจาน)",
+  "visit_site": null,
+  "citation": {
+   "text": "Chaodumrong P. 2010, Revised lithostratigraphy of the Kaeng Krachan Group, Department of Mineral Resources (Thailand) Technical Report, Stratigraphic Standard No. 1/2553, ISBN 978-974-226-450-5",
+   "url": "https://www.dmr.go.th/wp-content/uploads/2023/01/%E0%B8%A5%E0%B8%B3%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%AB%E0%B8%B4%E0%B8%99%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%99%E0%B9%81%E0%B8%81%E0%B9%88%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B2%E0%B8%99-%E0%B8%9B%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%9B%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.pdf"
+  },
+  "paleo_age": 290,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "This is a government (DMR) report, not a peer-reviewed paper, but it is Kanchanaburi-specific and I read the bilingual abstract in the PDF. It assigns the whole group to Asselian–Kungurian (Early Permian) and proposes a Late Carboniferous hiatus with NO Late Carboniferous fossils, so the 'Late Carboniferous–Early Permian' wording in the brief is not supported by this source. Age 286 ± 13 Ma = midpoint of Asselian–Kungurian (298.9–273.0 Ma, my ICS conversion); seed was 295. The glaciomarine part is the lower part of the group (likely Asselian–Sakmarian), so 290–295 Ma would also be defensible for the diamictites themselves. Peer-reviewed options: Ridd 2009 J. Asian Earth Sci. 36:238–251, https://doi.org/10.1016/j.jseaes.2009.06.006 (Kaeng Krachan Group as a glacially influenced rift fill; on Crossref, abstract not readable); Ampaiwan et al. 2009 Island Arc 18:52–68, https://doi.org/10.1111/j.1440-1738.2008.00653.x (Phuket, not Kanchanaburi). No visit site with confirmed coordinates."
+ },
+ {
+  "id": "sibumasu-rifting",
+  "lane": "local",
+  "age_ma": 281.6,
+  "age_uncertainty_ma": 8.6,
+  "title_th": "ซีบูมาสุแยกจากกอนด์วานา",
+  "title_en": "Sibumasu rifts from Gondwana",
+  "body_th": "ในช่วงปลายของยุคเพอร์เมียนตอนต้น แผ่นซีบูมาสุ (Sibumasu) และแผ่นทวีปอื่นในกลุ่มซิมเมอเรีย (Cimmerian continent) ได้แยกตัวออกจากขอบด้านเหนือของกอนด์วานา (Gondwana) ขณะที่แผ่นทวีปเหล่านี้เคลื่อนที่ออกไป มหาสมุทรใหม่ชื่อมีโซทีทิส (Meso-Tethys) ได้เปิดขึ้นระหว่างแผ่นทวีปเหล่านี้กับกอนด์วานา เปลือกโลกที่รองรับกาญจนบุรีในปัจจุบันจึงเริ่มการเดินทางอันยาวนานขึ้นไปทางเหนือสู่เอเชีย",
+  "body_en": "In the late Early Permian, Sibumasu and the other blocks of the eastern Cimmerian continent rifted and separated from northern Gondwana. As they drifted away, a new ocean, the Meso-Tethys, opened between these blocks and Gondwana. The crust beneath today's Kanchanaburi thus began its long northward journey towards Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Metcalfe I. 2013, Gondwana dispersion and Asian accretion: tectonic and palaeogeographic evolution of eastern Tethys, Journal of Asian Earth Sciences 66:1–33",
+   "url": "https://doi.org/10.1016/j.jseaes.2012.12.020"
+  },
+  "paleo_age": 290,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract (read via the UNE repository page) says the Meso-Tethys 'opened in the late Early Permian' as the eastern Cimmerian continent (incl. Sibumasu) separated from Gondwana. 'Late Early Permian' read as Artinskian–Kungurian, 290.1–273.0 Ma (my ICS conversion) → 281.6 ± 8.6 Ma; seed 285. DOI checked on Crossref (title, author, 66:1–33) and resolves to Elsevier."
+ },
+ {
+  "id": "ratburi-limestone",
+  "lane": "local",
+  "age_ma": 260.5,
+  "age_uncertainty_ma": 9.5,
+  "title_th": "หินปูนราชบุรีและถ้ำคาสต์",
+  "title_en": "Ratburi limestone and karst",
+  "body_th": "ในยุคเพอร์เมียนตอนกลางถึงตอนปลาย พื้นทะเลตื้นคาร์บอเนต (carbonate platform) ที่กว้างใหญ่ปกคลุมแผ่นซีบูมาสุ และเกิดการสะสมตัวของหินปูนและหินโดโลไมต์หนาของกลุ่มหินราชบุรี (Ratburi Group) หินปูนบริเวณอำเภอไทรโยคมีซากดึกดำบรรพ์คตข้าวสาร (fusulinid) แบรคิโอพอด (brachiopod) หอยฝาเดียว และพลับพลึงทะเล (crinoid) อายุประมาณ 270–251 ล้านปี ต่อมาน้ำฝนและน้ำใต้ดินซึ่งเป็นกรดอ่อนได้ละลายหินปูนจนเกิดเป็นภูมิประเทศแบบคาสต์ (karst) ที่มีเทือกเขาหินปูนและถ้ำมากมาย เช่น ถ้ำละว้า",
+  "body_en": "In the Middle to Late Permian, a broad carbonate platform covered Sibumasu and laid down the thick limestones and dolomites of the Ratburi Group. Around Sai Yok these rocks contain fusulinids, brachiopods, gastropods and crinoids dated to about 270–251 million years ago. Weakly acidic rain and groundwater later dissolved the limestone into karst ridges and caves, such as Tham Lawa.",
+  "rock_unit": "Ratburi Group (กลุ่มหินราชบุรี)",
+  "visit_site": {
+   "name_th": "ถ้ำละว้า (บ้านถ้ำละว้า อำเภอไทรโยค)",
+   "name_en": "Tham Lawa cave (Ban Tham Lawa, Sai Yok)",
+   "lat": 14.289667,
+   "lon": 98.979028
+  },
+  "citation": {
+   "text": "Department of Mineral Resources (Thailand) 2022, Report on fossils and palaeoenvironment survey, RSPG area, Sai Yok District, Kanchanaburi, DMR Technical Report สทข.3 1/2565 (in Thai)",
+   "url": "https://www.dmr.go.th/wp-content/uploads/2023/11/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%8B%E0%B8%B2%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%81%E0%B8%94%E0%B8%B3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%9E%E0%B9%8C-%E0%B8%AD%E0%B8%9E.%E0%B8%AA%E0%B8%98.-%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%84-%E0%B8%9B%E0%B8%B5-65.pdf"
+  },
+  "paleo_age": 270,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Government (DMR) report in Thai, not peer-reviewed; I read the PDF. It places the Sai Yok Permian limestones in the Ratburi Group, gives fossil ages 'Midian–Dzhulfian ประมาณ 251–270 ล้านปี', describes karst and caves, and lists ถ้ำละว้า among the karst attractions of Sai Yok. It does NOT describe Tham Lawa's rock directly. Older maps call the local unit the Sai Yok Limestone (หมวดหินปูนไทรโยค), which is correlated with the Ratburi Group. Age 260.5 ± 9.5 Ma = midpoint of 251–270; seed 270. Thailex lexicon gives the Ratburi a Kungurian/Roadian–Wuchiapingian range. Peer-reviewed alternative: Ueno & Charoentitirat 2011 in Ridd et al. (eds) The Geology of Thailand, https://doi.org/10.1144/GOTH. Coordinates are for the village 'Ban Tham Lawa' (GeoNames, Sai Yok > Wang Krachae), not the cave entrance; please check the cave position on a map."
+ },
+ {
+  "id": "indosinian-collision",
+  "lane": "local",
+  "age_ma": 242.1,
+  "age_uncertainty_ma": 5.1,
+  "title_th": "การชนกันของซีบูมาสุกับอินโดไชนา",
+  "title_en": "Sibumasu–Indochina collision",
+  "body_th": "ในยุคไทรแอสซิกตอนกลาง (Middle Triassic) แผ่นซีบูมาสุชนกับแนวหมู่เกาะภูเขาไฟสุโขทัย (Sukhothai Arc) ที่อยู่ทางขอบตะวันตกของแผ่นอินโดไชนา (Indochina) ทำให้มหาสมุทรพาลีโอทีทิส (Palaeo-Tethys) ปิดตัวลง แนวรอยตะเข็บธรณีอินทนนท์ (Inthanon suture zone) ทางภาคเหนือของไทยคือร่องรอยของมหาสมุทรที่ปิดไปแล้ว และการชนครั้งนี้เป็นส่วนหนึ่งของการก่อเทือกเขาอินโดไซเนียน (Indosinian orogeny) เหตุการณ์นี้ทำให้ภาคตะวันตกของไทยรวมทั้งกาญจนบุรีเชื่อมติดกับแผ่นดินใหญ่ของเอเชีย",
+  "body_en": "In the Middle Triassic, Sibumasu collided with the Sukhothai Arc on the western margin of Indochina, closing the Palaeo-Tethys Ocean. The Inthanon suture zone of northern Thailand marks the closed ocean, and the collision forms part of the Indosinian orogeny. This event joined western Thailand, including Kanchanaburi, to mainland Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Sone M. & Metcalfe I. 2008, Parallel Tethyan sutures in mainland Southeast Asia: new insights for Palaeo-Tethys closure and implications for the Indosinian orogeny, Comptes Rendus Geoscience 340:166–179",
+   "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+  },
+  "paleo_age": 250,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Abstract (read via OpenAlex) states 'a mid-Triassic collision of Sibumasu to the Sukhothai Arc of Indochina (= closure of the Palaeo-Tethys)', that the Changning–Menglian and Inthanon zones are the Palaeo-Tethys suture, and that the Sukhothai Zone is an island arc on the Indochina margin (they also describe a Late Permian back-arc collapse). Age 242.1 ± 5.1 Ma = Anisian–Ladinian, 247.2–237 Ma (my conversion); seed 230, so paleo_age snaps to 250, not 230. Metcalfe 2013 (https://doi.org/10.1016/j.jseaes.2012.12.020) just says 'Triassic'. DOI checked on Crossref and resolves to Comptes Rendus."
+ },
+ {
+  "id": "western-granites",
+  "lane": "local",
+  "age_ma": 80,
+  "age_uncertainty_ma": 5,
+  "title_th": "หินแกรนิตแนวตะวันตก",
+  "title_en": "Western Province granites",
+  "body_th": "ในยุคครีเทเชียสตอนปลาย (Late Cretaceous) หินแกรนิตของแนวหินแกรนิตด้านตะวันตกของไทย–เมียนมา (Western Thailand–Myanmar granite province) เกิดการแทรกดันหรือได้รับความร้อนซ้ำ (thermal overprint) ตามขอบด้านตะวันตกของแผ่นซีบูมาสุ การหาอายุ U–Pb ด้วยไอออนไมโครโพรบของขอบผลึกเซอร์คอน (zircon) จากภูเก็ตในแนวนี้ได้อายุประมาณ 81 ล้านปีและ 85–75 ล้านปี ซ้อนทับบนแกนผลึกยุคไทรแอสซิกอายุประมาณ 213 ล้านปี หินแกรนิตในแนวนี้จำนวนมากมีแร่ดีบุกอยู่ในสายแร่แบบไกรเซน (greisen)",
+  "body_en": "In the Late Cretaceous, granites of the Western Thailand–Myanmar province were intruded or thermally overprinted along the western margin of Sibumasu. Ion-microprobe U–Pb dating of zircon rims from Phuket in this belt gives about 81 Ma and 85–75 Ma, around Triassic cores of about 213 Ma. Many granites in the province carry abundant tin in greisen-type veins.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Searle M.P., Whitehouse M.J., Robb L.J. et al. 2012, Tectonic evolution of the Sibumasu–Indochina terrane collision zone in Thailand and Malaysia: constraints from new U–Pb zircon chronology of SE Asian tin granitoids, Journal of the Geological Society 169:489–500",
+   "url": "https://doi.org/10.1144/0016-76492011-107"
+  },
+  "paleo_age": 66,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract (read via OpenAlex): province (1) Western Thailand–Myanmar; Phuket zircon cores 212 ± 2 and 214 ± 2 Ma with rims 81.2 ± 1.2 and 85–75 Ma; tin in greisen veins. Age 80 ± 5 = the 85–75 Ma rim range. Searle et al. did not sample Kanchanaburi; the Western belt includes Kanchanaburi (e.g. Pilok). Liu et al. 2024 (see pilok entry) give ore-bearing Western-belt granites 85–69 Ma. Whether these granites are Cretaceous intrusions or Triassic granites reheated in the Cretaceous is still debated, hence 'intruded or thermally overprinted'. DOI checked on Crossref."
+ },
+ {
+  "id": "pilok-tin-tungsten",
+  "lane": "local",
+  "age_ma": 79,
+  "age_uncertainty_ma": 5,
+  "title_th": "แหล่งแร่ดีบุก–ทังสเตนปิล๊อก",
+  "title_en": "Pilok tin–tungsten deposits",
+  "body_th": "สายแร่ดีบุก–ทังสเตน ไกรเซน (greisen) และสายแร่แบบร่างแห (stockwork) ที่ปิล๊อก อำเภอทองผาภูมิ เกิดในหินแกรนิตชนิด S (S-type granite) ที่มีทัวร์มาลีนและในหินตะกอนแปรสภาพยุคไซลูเรียน–ดีโวเนียนโดยรอบ การหาอายุ U–Pb โดยตรงในแร่วุลแฟรไมต์ (wolframite) และแคสซิเทอไรต์ (cassiterite) ระบุว่าแหล่งแร่ดีบุกในแนวตะวันตกเกิดเมื่อประมาณ 84–74 ล้านปีก่อน (ครีเทเชียสตอนปลาย) ปิล๊อกเป็นเมืองเหมืองแร่สำคัญตั้งแต่ทศวรรษ 1940 จนกระทั่งราคาดีบุกตกต่ำในปี พ.ศ. 2528 (ค.ศ. 1985)",
+  "body_en": "Tin–tungsten veins, greisens and stockworks at Pilok, Thong Pha Phum, are hosted in tourmaline-bearing S-type granites and the surrounding Silurian–Devonian metasediments. In-situ U–Pb dating of wolframite and cassiterite places the Western-belt tin deposits at about 84–74 million years ago (Late Cretaceous). Pilok was an important mining town from the 1940s until the tin price crash of 1985.",
+  "rock_unit": null,
+  "visit_site": {
+   "name_th": "ปิล๊อก อำเภอทองผาภูมิ",
+   "name_en": "Pilok, Thong Pha Phum",
+   "lat": 14.67083,
+   "lon": 98.38333
+  },
+  "citation": {
+   "text": "Liu L., Hu R.-Z., Fu Y.-Z. et al. 2024, Cassiterite and zircon U-Pb ages and compositions from ore-bearing and barren granites in Thailand: constraints on the formation of tin deposits in Southeast Asia, Ore Geology Reviews 174:106282",
+   "url": "https://doi.org/10.1016/j.oregeorev.2024.106282"
+  },
+  "paleo_age": 66,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Abstract (read via OpenAlex) gives Western-belt Sn deposits 84–74 Ma → 79 ± 5 Ma. Seed was 60 Ma: about 20 Myr older here. Pilok-specific values seen only in search-engine snippets of this paper (not read in full): wolframite 83.8 ± 1.0 Ma, cassiterite 74.3 ± 1.1 Ma, host granite zircon 207.2 ± 1.0 Ma (so the host granite may be Triassic, older than the ore); host-rock and S-type/tourmaline details also from those snippets and from a Chula thesis (https://doi.org/10.58837/chula.the.2019.241). Mining history (Mines Organization from 1940, tin crash 1985) and coordinates are from Wikipedia 'Pilok' (village centre, not a specific mine). DOI checked on Crossref (OA, CC BY-NC); full text blocked to my fetcher."
+ },
+ {
+  "id": "india-asia-faults",
+  "lane": "local",
+  "age_ma": 32.8,
+  "age_uncertainty_ma": 4.9,
+  "title_th": "รอยเลื่อนจากการชนอินเดีย–เอเชีย",
+  "title_en": "India–Asia collision faults",
+  "body_th": "เมื่อแผ่นอินเดียดันเข้าชนเอเชีย เขตรอยเลื่อนเจดีย์สามองค์ (Three Pagodas Fault Zone) และเขตรอยเลื่อนวังเจ้า (Wang Chao หรือ Mae Ping Fault Zone) ได้ตัดผ่านด้านตะวันตกของแผ่นอินโดไชนาและเลื่อนตัวในแนวระดับแบบเหลื่อมซ้าย (sinistral strike-slip) การหาอายุด้วยวิธี 40Ar/39Ar แสดงว่าการเฉือนแบบเหนียว (ductile shear) ตามรอยเลื่อนวังเจ้าสิ้นสุดลงราว 30.5 ล้านปีก่อน และบ่งชี้ว่าอินโดไชนาตอนตะวันตกเฉียงใต้ถูกบีบให้เคลื่อนออกด้านข้าง (extrusion) ในช่วงอีโอซีนตอนปลายถึงโอลิโกซีนตอนต้น ในกาญจนบุรี เขตรอยเลื่อนเจดีย์สามองค์วางตัวตามลำน้ำแควน้อย ส่วนเขตรอยเลื่อนศรีสวัสดิ์ (Si Sawat Fault Zone) วางตัวตามลำน้ำแควใหญ่",
+  "body_en": "As India pushed into Asia, the Three Pagodas and Wang Chao (Mae Ping) fault zones cut western Indochina and moved by left-lateral (sinistral) strike-slip. 40Ar/39Ar dating shows that ductile shearing on the Wang Chao zone ended around 30.5 Ma, implying that south-western Indochina was extruded in the late Eocene–early Oligocene. In Kanchanaburi the Three Pagodas Fault Zone follows the Khwae Noi river and the Si Sawat Fault Zone follows the Khwae Yai.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Lacassin R., Maluski H., Leloup P.H., Tapponnier P. et al. 1997, Tertiary diachronic extrusion and deformation of western Indochina: structural and 40Ar/39Ar evidence from NW Thailand, Journal of Geophysical Research 102(B5):10013–10037",
+   "url": "https://doi.org/10.1029/96JB03831"
+  },
+  "paleo_age": 40,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Abstract (read via OpenAlex): left-lateral shear in the Lansang gneiss (Wang Chao zone) 'probably terminated around 30.5 Ma'; extrusion of SW Indochina in the 'upper Eocene–lower Oligocene'. Age 32.8 ± 4.9 Ma = 37.7–27.8 Ma (my ICS conversion); seed 40. The last sentence (faults following the Khwae Noi and Khwae Yai) comes from the DMR 2022 Sai Yok report cited in ratburi-limestone, not from Lacassin. Watkinson et al. 2011 (https://doi.org/10.1029/2011JB008379) note that sinistral shear on the Mae Ping and Three Pagodas faults was active in the middle Eocene too, so motion may have started before 40 Ma. Si Sawat fault: Songmuang et al. 2007 ScienceAsia 33:23 (https://doi.org/10.2306/scienceasia1513-1874.2007.33.023) say it joins the Three Pagodas Fault at its southern end. Morley 2002 (https://doi.org/10.1016/S0040-1951(02)00061-6) is on Crossref but I could not read its abstract. DOI checked."
+ },
+ {
+  "id": "fault-reversal",
+  "lane": "local",
+  "age_ma": 21.9,
+  "age_uncertainty_ma": 5.9,
+  "title_th": "รอยเลื่อนกลับทิศการเลื่อน",
+  "title_en": "Faults reverse their slip",
+  "body_th": "ต่อมาทิศการเลื่อนตัวของเขตรอยเลื่อนแม่ปิงและเขตรอยเลื่อนเจดีย์สามองค์ ซึ่งวางตัวในแนวตะวันตกเฉียงเหนือ–ตะวันออกเฉียงใต้ ได้กลับทิศจากเหลื่อมซ้าย (sinistral) เป็นเหลื่อมขวา (dextral) รูปร่างของแอ่งตะกอนยุคเทอร์เชียรี (Tertiary basin) ในที่ราบภาคกลางบ่งชี้ว่าแอ่งเหล่านี้เกิดจากการกลับทิศการเลื่อนตัวดังกล่าวในช่วงโอลิโกซีนตอนปลายถึงไมโอซีนตอนต้น (Late Oligocene–Early Miocene) ข้อมูลธรณีฟิสิกส์ทางอากาศยังช่วยระบุแนวรอยเลื่อนเหล่านี้ใต้ตะกอนของที่ราบภาคกลางด้วย",
+  "body_en": "Later, slip on the NW–SE-trending Mae Ping and Three Pagodas fault zones reversed from sinistral to dextral (right-lateral). The geometry of Tertiary basins in the Central Plain shows that they formed by this reversal during the Late Oligocene–Early Miocene. Airborne geophysical data also help trace these faults beneath the sediments of the Central Plain.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Tulyatid J. & Fairhead J.D. 1999, Tectonic development of Central Thailand: new evidences from airborne geophysical data, Bulletin of the Geological Society of Malaysia 43:63–76",
+   "url": "https://doi.org/10.7186/bgsm43199907"
+  },
+  "paleo_age": 20,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract (read via OpenAlex): Tertiary basins of the Central Plain 'were formed due to the reversed movement from sinistral to dextral of the major NW–SE-trending strike-slip fault zones during Late Oligocene–Early Miocene times'. Age 21.9 ± 5.9 Ma = 27.8–16.0 Ma (my ICS conversion); seed 23. The authors (Tulyatid & Fairhead) are from Crossref; Crossref also lists two blank author entries, so check the full author list. Kanchanaburi field evidence of the later dextral phase (D2): Kongsukkho & Kanjanapayont 2022 Bull. Earth Sci. Thailand 14(1):50–61 and the Heliyon 2022 paper https://doi.org/10.1016/j.heliyon.2022.e12038 (no date given). Morley 2002 Tectonophysics 347:189–215 is the classic reference but I could not read it. DOI resolves to gsm.org.my. | Link check 2026-10-02: DOI is registered in Crossref, but the publisher landing page returns 404; consider citing the GSM PDF directly."
+ },
+ {
+  "id": "bo-phloi-basalt",
+  "lane": "local",
+  "age_ma": 3.14,
+  "age_uncertainty_ma": 0.17,
+  "title_th": "ลาวาบะซอลต์บ่อพลอยนำพลอยขึ้นมา",
+  "title_en": "Bo Phloi basalt brings sapphires",
+  "body_th": "ในสมัยไพลโอซีน (Pliocene) หินบะซอลต์แอลคาไล (alkali basalt) ชนิดเนฟิลีนฮาวายไอต์ (nepheline hawaiite) ปะทุขึ้นที่เขาลานท้อม (Khao Lantom) ใกล้ตัวอำเภอบ่อพลอย และที่ห้วยมะกา (Huai Maka) การหาอายุด้วยวิธีโพแทสเซียม–อาร์กอน (K/Ar) ได้ 3.14 ± 0.17 ล้านปี ส่วนการหาอายุด้วยวิธี 40Ar/39Ar ในภายหลังได้ 4.17 ± 0.11 ล้านปี แมกมานี้นำผลึกขนาดใหญ่ (megacryst) ของคอรันดัม (corundum) หรือพลอยแซฟไฟร์ ร่วมกับสปิเนลและไพรอกซีน ขึ้นมาจากเปลือกโลกตอนล่างหรือเนื้อโลกตอนบนสู่ผิวโลก",
+  "body_en": "In the Pliocene, alkali basalt (nepheline hawaiite) erupted at Khao Lantom near Bo Phloi town and at Huai Maka. K/Ar dating gave 3.14 ± 0.17 Ma, while a later 40Ar/39Ar age is 4.17 ± 0.11 Ma. The magma carried megacrysts of corundum (sapphire), spinel and pyroxene from the lower crust or upper mantle to the surface.",
+  "rock_unit": "Bo Phloi basalt (หินบะซอลต์บ่อพลอย), informal name",
+  "visit_site": {
+   "name_th": "อำเภอบ่อพลอย (แหล่งพลอยบ่อพลอย)",
+   "name_en": "Bo Phloi district (Bo Phloi gem field)",
+   "lat": 14.32583,
+   "lon": 99.51444
+  },
+  "citation": {
+   "text": "Khamloet P., Pisutha-Arnond V. & Sutthirat C. 2014, Mineral inclusions in sapphire from the basalt-related deposit in Bo Phloi, Kanchanaburi, western Thailand: indication of their genesis, Russian Geology and Geophysics 55:1087–1102 (citing the K/Ar age of Barr & Macdonald 1981, GSA Bulletin 92:508–512)",
+   "url": "https://doi.org/10.1016/j.rgg.2014.08.004"
+  },
+  "paleo_age": 5,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "I read the Khamloet et al. 2014 PDF (from git.or.th). It says the basalt crops out 'at Khao Lantom, near Bo Phloi city, and at Huai Maka of Ban Chong Dan, 6 km north', is 'nepheline hawaiite' (Barr & Macdonald 1978, 1981), and has 'a K/Ar age of 3.14 ± 0.17 Ma (Barr and Macdonald, 1981) and an 40Ar/39Ar age of 4.17 ± 0.11 Ma (Sutthirat et al., 1994)'; megacrysts include clinopyroxene, black spinel and corundum. I used the K/Ar age as requested; using the Ar-Ar age instead would give 4.17 Ma (paleo_age is 5 either way). Barr & Macdonald 1981 GSA Bull. 92(8):508–512, https://doi.org/10.1130/0016-7606(1981)92<508:GAGOLC>2.0.CO;2, is on Crossref and resolves, but I did not read it. Its age for Bo Phloi is cited second-hand. The Thai spelling เขาลานท้อม is my transliteration; please check it. The sapphires themselves probably grew in a felsic melt in the lower crust (Khamloet et al.), so 'xenocrysts' is right. Coordinates: Wikipedia infobox for Bo Phloi district, not a specific outcrop (I could not confirm Lan Lava/Khao Lantom coordinates)."
+ },
+ {
+  "id": "sapphire-gravels",
+  "lane": "local",
+  "age_ma": 0.393,
+  "age_uncertainty_ma": 0.381,
+  "title_th": "ลานแร่พลอยในชั้นกรวด",
+  "title_en": "Sapphire-bearing river gravels",
+  "body_th": "การผุพังและการกร่อนของหินบะซอลต์บ่อพลอยทำให้พลอยแซฟไฟร์ซึ่งหนักและทนทานหลุดออกมา แล้วถูกทางน้ำพัดพาไปสะสมรวมกันในชั้นกรวดของที่ราบน้ำท่วมถึง (floodplain) และตะพักลำน้ำระดับต่ำ (low terrace) ชั้นกรวดที่มีพลอย (gem paystreak) พบมากในชั้นกรวดและกรวดชั้นเฉียง (foreset-bedded gravel) ตามร่องน้ำโบราณของธารประสานสาย (braided river) และการหาอายุด้วยคาร์บอน-14 จากเศษไม้และพีตบ่งชี้ว่าชั้นเหล่านี้เกิดในสมัยไพลสโตซีนตอนกลางถึงตอนปลาย (Middle–Late Pleistocene) ชั้นกรวดเหล่านี้ทำให้บ่อพลอยเคยเป็นแหล่งพลอยแซฟไฟร์แบบลานแร่ (alluvial deposit) ที่ใหญ่ที่สุดในเอเชียตะวันออกเฉียงใต้",
+  "body_en": "Weathering and erosion of the Bo Phloi basalt released its heavy, durable sapphires, which rivers concentrated in gravel beds of the floodplain and low terraces. The gem paystreaks lie mostly in gravel and foreset-bedded gravel layers along an incised channel of an ancient braided river, and C-14 dating of wood and peat places them in the middle to late Pleistocene. These gravels made Bo Phloi the largest alluvial sapphire mine in Southeast Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Choowong M. 2002, Quaternary geology and sapphire deposits from the Bo Phloi gem field, Kanchanaburi Province, Western Thailand, Journal of Asian Earth Sciences 20:119–125",
+   "url": "https://doi.org/10.1016/S1367-9120(01)00032-3"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract (read via the science.gov/ADS listing): paystreaks in floodplain and low-terrace gravels; 'C-14 dating of wood and peat within gemstone-bearing layers indicated that the deposit formed during the middle to late Pleistocene'; incised palaeo-channel of a braided river. Age 0.393 ± 0.381 Ma is simply the midpoint of Middle–Late Pleistocene (0.774–0.0117 Ma). Radiocarbon only reaches about 50 ka, so the dated layers are really Late Pleistocene. A search-engine summary quoted wood dates of about 24,500–33,500 yr BP, but I could not confirm this in the paper. If confirmed, use about 0.029 ± 0.0045 Ma. 'Largest alluvial sapphire mine in SE Asia' is from Khamloet et al. 2014 (see bo-phloi-basalt), not Choowong. Seed was 1 Ma. DOI checked on Crossref."
+ },
+ {
+  "id": "erawan-travertine",
+  "lane": "local",
+  "age_ma": 0,
+  "age_uncertainty_ma": null,
+  "title_th": "ทูฟาน้ำตกเอราวัณ",
+  "title_en": "Erawan Falls tufa terraces",
+  "body_th": "ที่น้ำตกเอราวัณ ลำธารที่ไหลตลอดปีไหลผ่านหินปูนเนื้อมวลและหินปูนเนื้อโดโลไมต์ยุคเพอร์เมียนลงมาเป็นน้ำตก 7 ชั้นพร้อมแอ่งน้ำสีเขียวมรกต น้ำที่มีคาร์บอนไดออกไซด์ละลายหินปูนออกมาในรูปแคลเซียมไบคาร์บอเนต (calcium bicarbonate) และเมื่อคาร์บอนไดออกไซด์หลุดออกไปที่น้ำตก แคลไซต์ (calcite) จะตกผลึกกลับเป็นคราบและชั้นทูฟา (tufa) หรือทราเวอร์ทีน (travertine) กระบวนการนี้ยังคงเกิดขึ้นอยู่จนถึงปัจจุบัน",
+  "body_en": "At Erawan Falls a perennial stream flows over massive and dolomitic Permian limestone in seven tiers with emerald-green pools. Water charged with CO2 dissolves the limestone as calcium bicarbonate, and when CO2 escapes at the falls calcite crystallises again as tufa (travertine) coatings and terraces. This process is still going on today.",
+  "rock_unit": null,
+  "visit_site": {
+   "name_th": "น้ำตกเอราวัณ อุทยานแห่งชาติเอราวัณ",
+   "name_en": "Erawan Falls, Erawan National Park",
+   "lat": 14.3688,
+   "lon": 99.14394
+  },
+  "citation": {
+   "text": "Singtuen V., Phajuy B. & Gałka E. 2021, Characteristics and assessment of selected waterfalls formed in different geological basements in Thailand, GeoJournal of Tourism and Geosites 37(3):880–887",
+   "url": "https://doi.org/10.30892/gtg.37319-721"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "I read the PDF: Erawan is 'covered by Permian limestone composed of massive and dolomitic limestone with chert nodules and numerous fossils', 7 tiers; tufa forms by CaCO3 dissolving as Ca(HCO3)2 and re-crystallising as calcite; coordinates in the paper's table are 14.36880N 99.14394E (GeoNames gives the national park at 14.37545, 99.14364). The source gives NO age for the tufa, so I set age_ma = 0 (still forming), not the 0.01 Ma seed. The source does not name the limestone unit; it is probably Ratburi Group, but I have not confirmed this, so rock_unit is null. Open-access journal with DOI (resolves to the PDF)."
+ },
+ {
+  "id": "ban-kao-neolithic",
+  "lane": "local",
+  "age_ma": 0.003795,
+  "age_uncertainty_ma": 0.00014,
+  "title_th": "ชุมชนยุคหินใหม่บ้านเก่า",
+  "title_en": "Ban Kao Neolithic culture",
+  "body_th": "คณะสำรวจก่อนประวัติศาสตร์ไทย–เดนมาร์ก (Thai–Danish Prehistoric Expedition) นำโดยเพอร์ เซอเรนเซน (Per Sørensen) ได้ขุดค้นแหล่งที่อยู่อาศัยและสุสานยุคหินใหม่ (Neolithic) ที่บ้านเก่า ห่างจากฝั่งใต้ของแม่น้ำแควน้อยประมาณ 400 เมตร ในช่วง พ.ศ. 2503–2505 (ค.ศ. 1960–62) การหาอายุด้วยคาร์บอนกัมมันตรังสี (radiocarbon dating) ให้อายุของแหล่งนี้ 1770 ± 140 ปีก่อนคริสตกาล โบราณวัตถุที่พบประกอบด้วยเครื่องปั้นดินเผา เครื่องมือหิน เครื่องประดับ และเครื่องมือกระดูก",
+  "body_en": "The Thai–Danish Prehistoric Expedition led by Per Sørensen excavated Neolithic settlements and cemeteries at Ban Kao, about 400 m south of the Khwae Noi river, in 1960–62. Radiocarbon dating gave the site an age of 1770 ± 140 BC. Finds include pottery, stone tools, ornaments and bone implements.",
+  "rock_unit": null,
+  "visit_site": {
+   "name_th": "แหล่งโบราณคดีบ้านเก่า",
+   "name_en": "Ban Kao archaeological site",
+   "lat": 13.867,
+   "lon": 99.15
+  },
+  "citation": {
+   "text": "Dunn F.L. 1966, Radiocarbon dating of the Malayan Neolithic, Proceedings of the Prehistoric Society 32:352–353",
+   "url": "https://doi.org/10.1017/S0079497X0001447X"
+  },
+  "paleo_age": 0,
+  "lecture_stop": true,
+  "verified": false,
+  "_notes": "Dunn 1966 (abstract/first page on Cambridge Core, read via fetch) states: '1770 ± 140 B.C. obtained for the site of Ban-Kao excavated by the Danish-Thailand expedition in the neighbourhood of Kanchanaburi'. This is probably an uncalibrated radiocarbon date, so a calibrated age may differ by a few centuries. age_ma = 3795 years before 2026 CE (1770 + 2025), using the same 'years before 2026' convention as the 1943 and 1983 seeds. The primary report is Sørensen & Hatting 1967, Ban-Kao Part 1 (Munksgaard), which has no DOI. Wikipedia 'Ban Kao' gives later material from 1300–200 BCE and an Iron Age phase. The 400 m distance, 1960–62 dates and coordinates (13.867, 99.150, low precision) come from Wikipedia. The artefact list is from the fetched summary of Dunn's page; check it. DOI checked on Crossref."
+ },
+ {
+  "id": "death-railway",
+  "lane": "local",
+  "age_ma": 8.3e-05,
+  "age_uncertainty_ma": null,
+  "title_th": "ทางรถไฟสายมรณะ",
+  "title_en": "Thailand–Burma 'Death Railway'",
+  "body_th": "ในช่วง พ.ศ. 2485–2486 (ค.ศ. 1942–43) เชลยศึกฝ่ายสัมพันธมิตรและแรงงานชาวเอเชียถูกบังคับให้สร้างทางรถไฟสายไทย–พม่า ซึ่งช่วงในประเทศไทยส่วนใหญ่ลัดเลาะไปตามหุบเขาแม่น้ำแควน้อย ที่ช่องเขาขาด (Hellfire Pass หรือ Konyu cutting) ในเทือกเขาตะนาวศรี เชลยศึกต้องตัดหินด้วยแรงคนเพื่อเปิดทาง ซึ่งเป็นช่องตัดหินที่ใหญ่ที่สุดของเส้นทาง ทางรถไฟสร้างเสร็จเมื่อวันที่ 16 ตุลาคม พ.ศ. 2486 (ค.ศ. 1943) โดยแลกกับชีวิตผู้คนจำนวนมหาศาล",
+  "body_en": "In 1942–43 Allied prisoners of war and Asian labourers were forced to build the Thailand–Burma Railway, whose Thai section mostly followed the Khwae Noi valley. At Hellfire Pass (Konyu cutting) in the Tenasserim Hills, prisoners cut the largest rock cutting on the line, largely by hand. The railway was completed on 16 October 1943 at a terrible cost in lives.",
+  "rock_unit": null,
+  "visit_site": {
+   "name_th": "ช่องเขาขาด (Hellfire Pass) อำเภอไทรโยค",
+   "name_en": "Hellfire Pass (Konyu cutting), Sai Yok",
+   "lat": 14.35528,
+   "lon": 98.9525
+  },
+  "citation": {
+   "text": "Australian War Memorial n.d., Australian prisoners of war: Second World War – Prisoners of the Japanese, Burma-Thailand Railway (research guide)",
+   "url": "https://www.awm.gov.au/research/guide/pow-ww2-burma-thai"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "AWM page (fetched) says 'The railway was completed on 16 October 1943', that D Force and H Force cut 'Hell Fire Pass', and that 2,815 Australians died on the railway. Wikipedia 'Burma Railway' says the Thai section 'followed the valley of the Khwae Noi', that Hellfire Pass was 'the largest rock cutting on the railway', and that the two railheads met on 17 October 1943, so dates differ by a day between sources. Coordinates are from Wikipedia 'Hellfire Pass' (Wikidata). The rock: Australian DVA Anzac Portal pages, seen only in search snippets because the site timed out, describe 'solid limestone and quartz rock' / 'semi-marbleised limestone'. I left the rock type out of the body until it is checked; the brief's 'granite' is not supported by anything I found. Not peer-reviewed, but an authoritative institutional source."
+ },
+ {
+  "id": "kanchanaburi-1983-quake",
+  "lane": "local",
+  "age_ma": 4.3e-05,
+  "age_uncertainty_ma": null,
+  "title_th": "แผ่นดินไหวกาญจนบุรี พ.ศ. 2526",
+  "title_en": "1983 Srinagarind reservoir earthquake",
+  "body_th": "เมื่อวันที่ 22 เมษายน พ.ศ. 2526 (ค.ศ. 1983) เกิดแผ่นดินไหวขนาด Ms 5.9 (mb 5.8) บริเวณอ่างเก็บน้ำเขื่อนศรีนครินทร์ ห่างจากกรุงเทพฯ ไปทางตะวันตกเฉียงเหนือประมาณ 190 กิโลเมตร และรับรู้แรงสั่นได้ในพื้นที่กว้างของไทยและพม่า การจำลองแหล่งกำเนิดแผ่นดินไหวแสดงว่าเป็นการเลื่อนแบบย้อน (thrust faulting) ที่ระดับตื้น (ประมาณ 8 กิโลเมตรสำหรับแผ่นดินไหวหลัก) โดยมีแผ่นดินไหวนำ (foreshock) และแผ่นดินไหวตาม (aftershock) จำนวนมาก ช่วงเวลาที่เกิดสัมพันธ์กับการลดระดับน้ำในอ่างเก็บน้ำ จึงถูกยกเป็นตัวอย่างหนึ่งของแผ่นดินไหวที่เกี่ยวข้องกับอ่างเก็บน้ำ (reservoir-induced seismicity)",
+  "body_en": "On 22 April 1983 an earthquake of Ms 5.9 (mb 5.8) struck at the Srinagarind reservoir, about 190 km northwest of Bangkok, and was felt over a large area of Thailand and Burma. Source modelling shows shallow thrust faulting (about 8 km depth for the main shock), with foreshocks and many aftershocks. Its timing correlates with unloading of the reservoir, so it is discussed as a case of reservoir-induced seismicity.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Chung W.-Y. & Liu C. 1992, The reservoir-associated earthquakes of April 1983 in western Thailand: source modeling and implications for induced seismicity, Pure and Applied Geophysics 138(1):17–41",
+   "url": "https://doi.org/10.1007/BF00876712"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Title, authors, volume and pages checked on Crossref; DOI resolves to Springer. The abstract text (mb 5.8, Ms 5.9, about 190 km NW of Bangkok, thrust events, focal depths 5.4/8/22.7 km for foreshock/main/aftershock, correlation with reservoir unloading, M0 3.86e24 dyne-cm) came from search-engine snippets of the Springer/ADS pages, because both blocked direct fetch; please check against the paper. USGS ComCat (queried by API) lists event usp0001und, 1983-04-22 00:37:37 UTC, Mw 5.7, 14.926N 99.023E (https://earthquake.usgs.gov/earthquakes/eventpage/usp0001und), plus an mb 5.2 event about 3 hours later. The reservoir-trigger interpretation is debated; Chung & Liu link it to unloading (water-level drawdown), not filling. age_ma 0.000043 = 43 years before 2026, following the seed convention."
+ },
+ {
+  "id": "hin-dat-hot-spring",
+  "lane": "local",
+  "age_ma": 0,
+  "age_uncertainty_ma": null,
+  "title_th": "บ่อน้ำพุร้อนหินดาด",
+  "title_en": "Hin Dat hot spring",
+  "body_th": "บ่อน้ำพุร้อนหินดาด อำเภอทองผาภูมิ เป็นน้ำพุร้อนในพื้นที่หินแกรนิตตามแนวเขตรอยเลื่อนเจดีย์สามองค์ ซึ่งน้ำร้อนไหลขึ้นสู่ผิวดินตามรอยเลื่อนที่มีมุมเทชัน เช้าวันที่ 26 ธันวาคม พ.ศ. 2547 (ค.ศ. 2004) หลังเกิดแผ่นดินไหวใหญ่และคลื่นสึนามิในมหาสมุทรอินเดีย อุณหภูมิของน้ำพุร้อนหินดาดเพิ่มขึ้นอย่างฉับพลันและน้ำกลายเป็นสีขุ่นขาว ปรากฏการณ์นี้แสดงว่าระบบรอยเลื่อนและน้ำบาดาลร้อนในพื้นที่ยังคงตอบสนองต่อแผ่นดินไหวขนาดใหญ่ที่อยู่ห่างไกล",
+  "body_en": "Hin Dat hot spring in Thong Pha Phum lies in granitic terrain along the Three Pagodas Fault Zone, where hot water rises to the surface along steep faults. On the morning of 26 December 2004, after the great Indian Ocean earthquake and tsunami, the spring's temperature rose abruptly and its water turned milky. This shows that the local fault and geothermal system still responds to distant large earthquakes.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Giao P.H., Putthapiban P. & Vichalai C. 2007, Geophysical investigation of hot spring sites in Kanchanaburi with reference to local tourism development, Proceedings GEOTHAI'07 International Conference on Geology of Thailand, Bangkok, p. 103–",
+   "url": "https://library.dmr.go.th/elib/cgi-bin/opacexe.exe?op=mmvw&db=Main&skin=S&mmid=7475&bid=12709"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "I read the PDF from the DMR e-library. It says that on 26 Dec 2004 'the temperatures of hot springs along Three Pagodas Faults abruptly increased. For example, the temperature at the Hindat hot spring increased and water became milky at approximately 8 a.m. in that morning'. It also says thermal springs are tied to steep active faults in granitic terrain, and that a well at Pak Tho reached 48°C on 28 Dec 2004. Conference paper, not peer-reviewed; page range not confirmed (text shows p. 104). The suggested source Kranrod et al. 2026, Atmosphere 17(8):777, https://doi.org/10.3390/atmos17080777, is real (Crossref: 'Comprehensive Assessment of Radon (222Rn), Thoron (220Rn), and Their Progeny in a Natural Hot Spring Environment: A Case Study of Hin Dad, Kanchanaburi, Thailand'), but its abstract covers only radon/thoron levels (water 3–24 Bq/L) and says nothing about faults or 2004. I could not open its full text (MDPI blocked), so I cited Giao et al. instead. Hin Dat subdistrict is in Thong Pha Phum (GeoNames). The spring's own coordinates are not confirmed, so visit_site is null. Body says 'Indian Ocean earthquake' as the source does; the brief's 'Sumatra' wording means the same event."
+ },
+ {
+  "id": "gobe",
+  "lane": "world",
+  "age_ma": 470,
+  "age_uncertainty_ma": null,
+  "title_th": "การแผ่ขยายความหลากหลายยุคออร์โดวิเชียน",
+  "title_en": "Great Ordovician Biodiversification Event",
+  "body_th": "ในยุคออร์โดวิเชียน ความหลากหลายของสิ่งมีชีวิตในทะเลเพิ่มขึ้นอย่างก้าวกระโดด เรียกว่าเหตุการณ์การแผ่ขยายความหลากหลายครั้งใหญ่ยุคออร์โดวิเชียน (Great Ordovician Biodiversification Event, GOBE) โดยมีแบรคิโอพอด (brachiopod) ไบรโอซัว (bryozoa) และแกรปโตไลต์ (graptolite) เพิ่มจำนวนชนิดอย่างมาก อัตราการเกิดชนิดใหม่สูงสุดในช่วงดาร์ริวิเลียน (Darriwilian) ซึ่งสอดคล้องกับมหาสมุทรที่เย็นลงและออกซิเจนในบรรยากาศที่เพิ่มขึ้น",
+  "body_en": "During the Ordovician, marine biodiversity rose dramatically in the Great Ordovician Biodiversification Event (GOBE), with brachiopods, bryozoans and graptolites diversifying rapidly. Diversification rates peaked in the mid-Darriwilian, alongside a cooling ocean and rising atmospheric oxygen, at a time when the shallow seas covering Gondwana's margin, including the Sibumasu block beneath western Thailand, were filling with shelly fauna.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Stigall et al. 2019, Coordinated biotic and abiotic change during the GOBE, Palaeogeogr. Palaeoclimatol. Palaeoecol. 530:249-270",
+   "url": "https://doi.org/10.1016/j.palaeo.2019.05.034"
+  },
+  "paleo_age": 470,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "470 Ma is the brief's approximate value; the abstract gives no number, only that diversification rates peak in the mid-Darriwilian (ICS chart: Darriwilian 467.3-458.4 Ma). DOI checked on Crossref (title/authors/vol/pages match) and resolves to Elsevier. Sibumasu clause is general context, not from this paper; please check."
+ },
+ {
+  "id": "end-ordovician-extinction",
+  "lane": "world",
+  "age_ma": 444,
+  "age_uncertainty_ma": null,
+  "title_th": "ยุคน้ำแข็งและการสูญพันธุ์ปลายออร์โดวิเชียน",
+  "title_en": "Late Ordovician glaciation and extinction",
+  "body_th": "ปลายยุคออร์โดวิเชียนในช่วงฮีร์แนนเทียน (Hirnantian) เกิดการสูญพันธุ์ครั้งใหญ่ครั้งแรกในห้าครั้งของบรมยุคฟาเนอโรโซอิก (Phanerozoic) ทำให้สิ่งมีชีวิตในทะเลราว 85% ของชนิดหายไป การสูญพันธุ์เกิดเป็นสองระลอก ระลอกแรกเชื่อมโยงกับธารน้ำแข็ง (glaciation) ที่ขั้วโลกใต้บนกอนด์วานา (Gondwana) และระดับน้ำทะเลที่ลดลง ส่วนระลอกที่สองสัมพันธ์กับภาวะไร้ออกซิเจน (anoxia) เมื่อน้ำแข็งละลายและน้ำทะเลรุกล้ำกลับ",
+  "body_en": "At the end of the Ordovician (Hirnantian), the first of the five big Phanerozoic mass extinctions removed about 85% of marine species. It came in two pulses: the first tied to an intense, short-lived glaciation over the South Pole on Gondwana and falling sea level, the second to widespread anoxia as the ice melted and the sea flooded back, affecting the Gondwanan shelf seas that included the future Southeast Asian blocks.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Harper, Hammarlund & Rasmussen 2014, End Ordovician extinctions: a coincidence of causes, Gondwana Research 25:1294-1307",
+   "url": "https://doi.org/10.1016/j.gr.2012.12.021"
+  },
+  "paleo_age": 430,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract gives Hirnantian, two pulses, ~85% of species, but no numeric age. 444 Ma is the brief's value; ICS chart Hirnantian is 445.2-443.8 Ma. DOI checked on Crossref and resolves to Elsevier."
+ },
+ {
+  "id": "late-devonian-extinction",
+  "lane": "world",
+  "age_ma": 371.9,
+  "age_uncertainty_ma": null,
+  "title_th": "การสูญพันธุ์ปลายดีโวเนียน (เคลวาสเซอร์)",
+  "title_en": "Late Devonian Kellwasser extinction",
+  "body_th": "ที่รอยต่อระหว่างช่วงฟราสเนียนและฟาเมนเนียน (Frasnian–Famennian, F–F) เกิดวิกฤตทางชีวภาพครั้งใหญ่ที่เรียกว่าเหตุการณ์เคลวาสเซอร์ (Kellwasser Event) ซึ่งทำลายระบบนิเวศคาร์บอเนตและแนวปะการังทั่วโลก หลักฐานความผิดปกติของปรอท (mercury anomaly) ชี้ว่ากิจกรรมภูเขาไฟจากแหล่งหินอัคนีขนาดใหญ่ (large igneous province, LIP) เช่น วิลูย (Viluy) ในไซบีเรีย อาจกระตุ้นภาวะไร้ออกซิเจนในมหาสมุทรและการแกว่งของภูมิอากาศอย่างรวดเร็ว",
+  "body_en": "At the Frasnian–Famennian (F–F) boundary, the Kellwasser crisis devastated carbonate ecosystems and reefs worldwide. Global mercury anomalies point to volcanism from large igneous provinces such as the Viluy LIP in Siberia as a trigger for ocean anoxia and rapid climate swings, a crisis whose marine record is also sought in Devonian sections of Southeast Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Racki 2020, A volcanic scenario for the Frasnian–Famennian major biotic crisis, Global and Planetary Change 189:103174",
+   "url": "https://doi.org/10.1016/j.gloplacha.2020.103174"
+  },
+  "paleo_age": 360,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract explicitly cites 'the revised date of 371.9 Ma for the F–F boundary' (brief said ~372). Review chosen; Carmichael et al. 2019 GPC 183:102984 (10.1016/j.gloplacha.2019.102984) is an alternative Kellwasser review. DOI checked on Crossref and resolves. SE Asia clause is general context."
+ },
+ {
+  "id": "late-paleozoic-ice-age",
+  "lane": "world",
+  "age_ma": 300,
+  "age_uncertainty_ma": null,
+  "title_th": "ยุคน้ำแข็งปลายพาลีโอโซอิกถึงจุดสูงสุด",
+  "title_en": "Late Paleozoic Ice Age peaks",
+  "body_th": "ยุคน้ำแข็งปลายพาลีโอโซอิก (Late Paleozoic Ice Age, LPIA) เป็นยุคน้ำแข็งที่ยาวนานที่สุดของบรมยุคฟาเนอโรโซอิก โดยมีแผ่นน้ำแข็งขนาดปานกลางหลายศูนย์กลางปกคลุมตอนใต้ของกอนด์วานา สลับกับช่วงอุ่นที่น้ำแข็งหดตัว คาร์บอนไดออกไซด์ในบรรยากาศ (atmospheric CO2) เป็นตัวขับเคลื่อนหลักของการเปลี่ยนแปลงทั้งแผ่นน้ำแข็งและภูมิอากาศ",
+  "body_en": "The Late Paleozoic Ice Age (LPIA) was the longest-lived ice age of the Phanerozoic, with moderate-size ice sheets spreading from several centres across southern Gondwana, separated by warmer intervals of ice retreat. Atmospheric CO2 was a primary driver of ice and climate change; glacial-marine diamictites on the Sibumasu block of western Thailand and Malaysia record this ice age on Gondwana's margin.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Montañez & Poulsen 2013, The Late Paleozoic Ice Age: an evolving paradigm, Annu. Rev. Earth Planet. Sci. 41:629-656",
+   "url": "https://doi.org/10.1146/annurev.earth.031208.100118"
+  },
+  "paleo_age": 290,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract gives no numeric age; 300 Ma (around the Carboniferous–Permian transition) is the brief's value for peak glaciation and should be checked against the review's text and figures. Sibumasu diamictite clause is regional context, not from this paper. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "pangaea-assembled",
+  "lane": "world",
+  "age_ma": 320,
+  "age_uncertainty_ma": null,
+  "title_th": "มหาทวีปแพนเจียรวมตัวสมบูรณ์",
+  "title_en": "Pangaea assembled",
+  "body_th": "มหาทวีปแพนเจีย (Pangaea) เกิดจากการรวมตัวของแผ่นทวีปต่าง ๆ ทีละส่วน จนสมบูรณ์เมื่อราว 320 ล้านปีก่อน ขณะเดียวกันการแยกตัวแบบเฉื่อย (passive rifting) ในช่วงคาร์บอนิเฟอรัสตอนบนถึงเพอร์เมียนได้เปิดมหาสมุทรนีโอเททิส (Neo-Tethys) ที่ขอบกอนด์วานา",
+  "body_en": "Pangaea formed by the progressive amalgamation of continental blocks, completed around 320 Ma. At the same time, passive rifting in the Late Carboniferous and Permian opened the Neo-Tethys Ocean along Gondwana's margin, the process that detached the Sibumasu block now underlying western Thailand.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Frizon de Lamotte et al. 2015, Style of rifting and the stages of Pangea breakup, Tectonics 34:1009-1029",
+   "url": "https://doi.org/10.1002/2014tc003760"
+  },
+  "paleo_age": 320,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Age as stated in abstract: 'Pangea results from the progressive amalgamation of continental blocks achieved at 320 Ma' (brief suggested ~300). Nance, Murphy & Santosh 2014 Gondwana Res. 25:4-29 (10.1016/j.gr.2012.12.026) is the standard review but its abstract gives no assembly age, so not used. Same paper as pangaea-breakup. Sibumasu clause is regional context. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "end-triassic-extinction",
+  "lane": "world",
+  "age_ma": 201.564,
+  "age_uncertainty_ma": 0.015,
+  "title_th": "การสูญพันธุ์ปลายไทรแอสซิกและภูเขาไฟ CAMP",
+  "title_en": "End-Triassic extinction and CAMP volcanism",
+  "body_th": "การสูญพันธุ์ปลายยุคไทรแอสซิก (end-Triassic extinction) ทำให้ความหลากหลายของสิ่งมีชีวิตทั้งบนบกและในทะเลลดลงอย่างมาก และเปิดทางให้ไดโนเสาร์ครองโลก การหาอายุยูเรเนียม-ตะกั่วในเพทาย (zircon U-Pb geochronology) แสดงว่าภูเขาไฟระลอกแรกของมณฑลหินอัคนีแอตแลนติกตอนกลาง (Central Atlantic Magmatic Province, CAMP) เกิดพร้อมกับการสูญพันธุ์ และปะทุเป็นสี่ระลอกในช่วงราว 600,000 ปี",
+  "body_en": "The end-Triassic extinction caused major losses on land and in the sea and set the stage for dinosaurs to dominate. Zircon U-Pb geochronology shows the earliest flood basalts of the Central Atlantic Magmatic Province (CAMP) were synchronous with the extinction and erupted in four pulses over about 600,000 years, as Pangaea began to split far from Southeast Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Blackburn et al. 2013, Zircon U-Pb geochronology links the end-Triassic extinction with the CAMP, Science 340:941-945",
+   "url": "https://doi.org/10.1126/science.1234204"
+  },
+  "paleo_age": 200,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract confirms synchrony and four pulses over ~600 kyr; numeric age 201.564 ± 0.015 Ma for the extinction is the value widely quoted from this paper (found via search, not read in the full text; please check). Within the brief's 201.4-201.6 range. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "pangaea-breakup",
+  "lane": "world",
+  "age_ma": 190,
+  "age_uncertainty_ma": 10,
+  "title_th": "แพนเจียแตกตัว มหาสมุทรแอตแลนติกตอนกลางเปิด",
+  "title_en": "Pangaea breaks up, Central Atlantic opens",
+  "body_th": "การแตกตัวที่แท้จริงของแพนเจียเริ่มจากการแยกตัวแบบเฉื่อยในยุคไทรแอสซิก ซึ่งนำไปสู่การเกิด CAMP เมื่อราว 200 ล้านปีก่อน และการเปิดมหาสมุทรแอตแลนติกตอนกลาง (Central Atlantic Ocean) ในช่วงต้นจูแรสซิก ต่อมาการแยกตัวแบบมีพลัง (active rifting) ที่เกี่ยวกับแหล่งหินอัคนีคารู-แฟร์ราร์ (Karoo-Ferrar) เมื่อราว 183 ล้านปีก่อน ได้เปิดมหาสมุทรอินเดียตะวันตก",
+  "body_en": "The true disintegration of Pangaea began with Triassic passive rifting that led to the CAMP (~200 Ma) and the opening of the Central Atlantic in the earliest Jurassic, followed by active rifting linked to the Karoo-Ferrar LIP (~183 Ma) that opened the West Indian Ocean. Meanwhile, on the eastern side of the supercontinent, the Shan-Thai and Indochina blocks were already welded together in mainland Southeast Asia.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Frizon de Lamotte et al. 2015, Style of rifting and the stages of Pangea breakup, Tectonics 34:1009-1029",
+   "url": "https://doi.org/10.1002/2014tc003760"
+  },
+  "paleo_age": 200,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Brief range 180-200 Ma → midpoint 190 ± 10. Source abstract gives CAMP 200 Ma, Central Atlantic opening 'lowermost Jurassic', Karoo-Ferrar 183 Ma. Same paper as pangaea-assembled; a dedicated Central Atlantic paper (e.g. Labails et al. 2010 EPSL 297:355-368, 10.1016/j.epsl.2010.06.024) could replace it, but its age could not be checked from the abstract. Indosinian clause is regional context."
+ },
+ {
+  "id": "k-pg-impact",
+  "lane": "world",
+  "age_ma": 66.043,
+  "age_uncertainty_ma": 0.011,
+  "title_th": "อุกกาบาตชิกซูลูบกับจุดจบไดโนเสาร์",
+  "title_en": "Chicxulub impact ends dinosaurs",
+  "body_th": "เมื่อราว 66 ล้านปีก่อน ที่รอยต่อครีเทเชียส-พาลีโอจีน (Cretaceous–Paleogene, K–Pg boundary) เกิดการสูญพันธุ์ครั้งใหญ่ซึ่งทำให้ไดโนเสาร์ที่ไม่ใช่นก (non-avian dinosaurs) หายไป การหาอายุด้วยวิธีอาร์กอน-อาร์กอน (40Ar/39Ar dating) ความละเอียดสูงแสดงว่าการพุ่งชนของอุกกาบาตชิกซูลูบ (Chicxulub impact) และการสูญพันธุ์เกิดห่างกันไม่เกินราว 32,000 ปี",
+  "body_en": "About 66 million years ago, at the Cretaceous–Paleogene (K–Pg) boundary, a mass extinction wiped out the non-avian dinosaurs. High-precision 40Ar/39Ar dating shows the Chicxulub impact and the extinction coincide to within about 32,000 years, ending the age of the dinosaurs whose fossils are found in the Khorat Plateau of northeastern Thailand.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Renne et al. 2013, Time scales of critical events around the Cretaceous-Paleogene boundary, Science 339:684-687",
+   "url": "https://doi.org/10.1126/science.1230492"
+  },
+  "paleo_age": 66,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "66.043 ± 0.011 Ma is the K–Pg boundary age from this paper (confirmed via search; widely cited). Brief said 66.0. Synchrony within ~32 kyr from the paper's summary. Khorat dinosaur clause is regional context. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "india-asia-collision",
+  "lane": "world",
+  "age_ma": 59,
+  "age_uncertainty_ma": 1,
+  "title_th": "อินเดียชนเอเชีย เทือกเขาหิมาลัยยกตัว",
+  "title_en": "India collides with Asia",
+  "body_th": "การชนกันของแผ่นทวีปอินเดียกับเอเชีย (India–Asia collision) ในบริเวณหิมาลัยตอนกลาง-ตะวันออก เริ่มขึ้นเมื่อราว 59 ± 1 ล้านปีก่อน ในสมัยพาลีโอซีนตอนกลาง (Middle Paleocene) โดยดูจากการเปลี่ยนแหล่งที่มาของตะกอน (sediment provenance) อย่างฉับพลันในแอ่งร่องลึก (trench) การชนนี้ทำให้เทือกเขาหิมาลัยและที่ราบสูงทิเบตยกตัว และผลักให้เปลือกโลกของเอเชียตะวันออกเฉียงใต้เคลื่อนตัวไปตามรอยเลื่อนขนาดใหญ่",
+  "body_en": "India's collision with Asia began in the central-eastern Himalaya at about 59 ± 1 Ma (Middle Paleocene), dated by an abrupt change in sediment provenance in trench deposits. The collision raised the Himalaya and Tibet and drove the large strike-slip faults of mainland Southeast Asia, including the Three Pagodas and Sri Sawat faults near Kanchanaburi.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Hu et al. 2016, The timing of India-Asia collision onset – facts, theories, controversies, Earth-Science Reviews 160:264-299",
+   "url": "https://doi.org/10.1016/j.earscirev.2016.07.014"
+  },
+  "paleo_age": 66,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "59 ± 1 Ma as stated in the abstract (via search snippet of the abstract); within the brief's 50-60 Ma. Three Pagodas/Sri Sawat clause is regional context, not from this paper. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "asian-monsoon",
+  "lane": "world",
+  "age_ma": 23,
+  "age_uncertainty_ma": null,
+  "title_th": "มรสุมเอเชียทวีกำลัง",
+  "title_en": "Asian monsoon intensifies",
+  "body_th": "บันทึกการผุพัง (weathering records) จากตะกอนในทะเลจีนใต้ อ่าวเบงกอล และทะเลอาหรับ ทำให้สามารถย้อนดูภูมิอากาศมรสุมเอเชีย (Asian monsoon) ได้ถึงต้นยุคนีโอจีน (Neogene) เมื่อราว 23 ล้านปีก่อน ความแรงของมรสุมสัมพันธ์กับอัตราการยกตัวและกร่อนของหิมาลัย ซึ่งสูงสุดเมื่อราว 15 ล้านปีก่อนและยังคงสูงจนถึงราว 10.5 ล้านปีก่อน",
+  "body_en": "Weathering records from the South China Sea, Bay of Bengal and Arabian Sea reconstruct the Asian monsoon back to the earliest Neogene, about 23 Ma. Monsoon intensity tracks Himalayan exhumation, which peaked around 15 Ma and stayed high until 10.5 Ma, setting up the wet-dry seasonal climate that still controls weathering and rivers in Thailand.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Clift et al. 2008, Correlation of Himalayan exhumation rates and Asian monsoon intensity, Nature Geoscience 1:875-880",
+   "url": "https://doi.org/10.1038/ngeo351"
+  },
+  "paleo_age": 20,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Abstract (read verbatim via Aberdeen repository) gives the correlation 'over the past 23 Myr' and peak erosion ~15 Ma, high until 10.5 Ma. 23 Ma used (brief said ~25); you could use ~15 Ma if you want the peak instead. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "quaternary-ice-ages",
+  "lane": "world",
+  "age_ma": 2.58,
+  "age_uncertainty_ma": null,
+  "title_th": "ยุคน้ำแข็งควอเทอร์นารีและแผ่นดินซุนดา",
+  "title_en": "Ice ages expose Sundaland",
+  "body_th": "ยุคควอเทอร์นารี (Quaternary) มีการสลับระหว่างยุคน้ำแข็ง (glacial) และยุคอบอุ่น (interglacial) หลายครั้ง เมื่อระดับน้ำทะเลลดลงถึงราว 120 เมตร ไหล่ทวีปซุนดา (Sunda Shelf) โผล่พ้นน้ำกลายเป็นแผ่นดินซุนดา (Sundaland) ที่เชื่อมประเทศไทยกับเกาะบอร์เนียว สุมาตรา และชวา และมีระบบแม่น้ำโบราณขนาดใหญ่ไหลผ่าน",
+  "body_en": "The Quaternary saw repeated glacial and interglacial cycles. When sea level fell by up to about 120 m, the Sunda Shelf emerged as Sundaland, linking Thailand by land to Borneo, Sumatra and Java and crossed by large ancient river systems.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Voris 2000, Maps of Pleistocene sea levels in Southeast Asia, Journal of Biogeography 27:1153-1167",
+   "url": "https://doi.org/10.1046/j.1365-2699.2000.00489.x"
+  },
+  "paleo_age": 5,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "2.58 Ma is the ICS base of the Quaternary (brief's value), not from Voris, which covers the last 250 kyr with shorelines down to -120 m (from abstract). Consider adding an ICS/Gibbard et al. 2010 citation for the 2.58 Ma age. paleo_age = 5 because 2.58 is not younger than 2.5. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "toba-eruption",
+  "lane": "world",
+  "age_ma": 0.07388,
+  "age_uncertainty_ma": 0.00032,
+  "title_th": "การปะทุครั้งใหญ่ของภูเขาไฟโทบา",
+  "title_en": "Toba super-eruption",
+  "body_th": "การปะทุครั้งใหญ่ของภูเขาไฟโทบา (Toba supereruption) บนเกาะสุมาตราเป็นเหตุการณ์ภูเขาไฟบนบกที่ใหญ่ที่สุดของยุคควอเทอร์นารี เถ้าภูเขาไฟ (volcanic ash) และละอองซัลเฟตตกสะสมในทั้งสองซีกโลก อายุ 40Ar/39Ar ของผลึกซานิดีน (sanidine) จากหุบเขาเล็งกอง (Lenggong Valley) ในมาเลเซียคือ 73.88 ± 0.32 พันปี",
+  "body_en": "The Toba supereruption in Sumatra was the largest terrestrial volcanic event of the Quaternary, spreading ash and sulfate aerosols across both hemispheres. Sanidine from Toba ash in the Lenggong Valley, Malaysia, gives a 40Ar/39Ar age of 73.88 ± 0.32 ka, and the ash forms a time-marker layer across Southeast Asia and India.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "Storey et al. 2012, Astronomically calibrated 40Ar/39Ar age for the Toba supereruption, PNAS 109:18684-18688",
+   "url": "https://doi.org/10.1073/pnas.1208178109"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "73.88 ± 0.32 ka (1σ) from the abstract → 0.07388 ± 0.00032 Ma. The abstract says ash fell in both hemispheres and names Malaysia; the 'India' ash layer is well known but not in this abstract. DOI checked on Crossref and resolves."
+ },
+ {
+  "id": "myanmar-2025-earthquake",
+  "lane": "world",
+  "age_ma": 1e-06,
+  "age_uncertainty_ma": null,
+  "title_th": "แผ่นดินไหวเมียนมา M7.7 ปี 2568",
+  "title_en": "M7.7 Myanmar earthquake, 2025",
+  "body_th": "วันที่ 28 มีนาคม พ.ศ. 2568 เกิดแผ่นดินไหวขนาด 7.7 ใกล้เมืองมัณฑะเลย์ ประเทศเมียนมา จากการเลื่อนตัวตามแนวระดับ (strike-slip faulting) ของรอยเลื่อนสะกาย (Sagaing Fault) ซึ่งเป็นแนวรอยต่อระหว่างแผ่นอินเดียกับแผ่นซุนดา ที่ความลึกเพียงราว 10 กิโลเมตร แรงสั่นสะเทือนรับรู้ได้ไกลถึงกรุงเทพฯ ซึ่งอยู่ห่างออกไปราว 1,000 กิโลเมตร",
+  "body_en": "On 28 March 2025 a M7.7 earthquake struck near Mandalay, Myanmar, through right-lateral strike-slip faulting on the Sagaing Fault at the India–Sunda plate boundary, at only about 10 km depth. Shaking was felt as far as Bangkok, about 1,000 km away.",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": {
+   "text": "USGS 2025, M 7.7 – 2025 Mandalay, Burma (Myanmar) Earthquake, event page us7000pn9s",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9s"
+  },
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false,
+  "_notes": "Event ID checked with the USGS FDSN API: us7000pn9s = 'M 7.7 - 2025 Mandalay, Burma (Myanmar) Earthquake', 2025-03-28 06:20:52 UTC, depth 10 km. USGS confirms felt in Bangkok; Kanchanaburi comes from the brief and needs a local report or a USGS DYFI check. age_ma 0.000001 as the brief instructs. | Edited by main session: removed the unsourced \"felt in Kanchanaburi\" claim; Bangkok distance ≈1,030 km computed from USGS epicentre to Bangkok."
+ },
+ {
+  "id": "first-jawed-fish",
+  "lane": "life",
+  "age_ma": 430,
+  "age_uncertainty_ma": null,
+  "title_th": "ปลามีขากรรไกร",
+  "title_en": "Jawed fishes",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🐟",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 430,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-forests",
+  "lane": "life",
+  "age_ma": 385,
+  "age_uncertainty_ma": null,
+  "title_th": "ป่าไม้ยุคแรก",
+  "title_en": "First forests",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🌳",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 400,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-reptiles",
+  "lane": "life",
+  "age_ma": 312,
+  "age_uncertainty_ma": null,
+  "title_th": "สัตว์เลื้อยคลานกลุ่มแรก",
+  "title_en": "First reptiles",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🦎",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 320,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-dinosaurs",
+  "lane": "life",
+  "age_ma": 233,
+  "age_uncertainty_ma": null,
+  "title_th": "ไดโนเสาร์กลุ่มแรก",
+  "title_en": "First dinosaurs",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🦕",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 230,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-mammals",
+  "lane": "life",
+  "age_ma": 200,
+  "age_uncertainty_ma": null,
+  "title_th": "สัตว์เลี้ยงลูกด้วยนมยุคแรก",
+  "title_en": "Early mammals",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🐁",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 200,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-birds",
+  "lane": "life",
+  "age_ma": 150,
+  "age_uncertainty_ma": null,
+  "title_th": "นกกลุ่มแรก",
+  "title_en": "First birds",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🐦",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 150,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "flowering-plants",
+  "lane": "life",
+  "age_ma": 130,
+  "age_uncertainty_ma": null,
+  "title_th": "พืชดอก",
+  "title_en": "Flowering plants",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🌸",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 150,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "first-primates",
+  "lane": "life",
+  "age_ma": 55,
+  "age_uncertainty_ma": null,
+  "title_th": "ไพรเมตยุคแรก",
+  "title_en": "Early primates",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🐒",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 66,
+  "lecture_stop": false,
+  "verified": false
+ },
+ {
+  "id": "homo-sapiens",
+  "lane": "life",
+  "age_ma": 0.3,
+  "age_uncertainty_ma": null,
+  "title_th": "มนุษย์ปัจจุบัน (Homo sapiens)",
+  "title_en": "Homo sapiens",
+  "body_th": "",
+  "body_en": "",
+  "icon": "🧍",
+  "rock_unit": null,
+  "visit_site": null,
+  "citation": null,
+  "paleo_age": 0,
+  "lecture_stop": false,
+  "verified": false
+ }
 ]

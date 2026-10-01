@@ -94,3 +94,12 @@ def test_size_limit(tmp_path, monkeypatch):
     monkeypatch.setattr(assemble, "MAX_HTML_BYTES", 100)
     with pytest.raises(BuildError, match="bytes"):
         build(root, module_order=["a.js", "b.js"])
+
+
+def test_build_strips_private_note_fields(tmp_path):
+    starter = json.loads((ROOT / "content/events.json").read_text(encoding="utf-8"))
+    starter[0]["_notes"] = "instructor-only note"
+    root = make_root(tmp_path, starter)
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    assert "instructor-only note" not in html
+    assert "_notes" not in html
