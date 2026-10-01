@@ -16,7 +16,7 @@ def make_root(tmp_path, events=None):
     for d in ("content", "paleo", "src", "vendor"):
         (root / d).mkdir(parents=True)
     shutil.copy(ROOT / "content/timescale.json", root / "content/timescale.json")
-    starter = json.loads((ROOT / "content/events.json").read_text(encoding="utf-8"))
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
     (root / "content/events.json").write_text(json.dumps(events if events is not None else starter, ensure_ascii=False), encoding="utf-8")
     for age in (270, 250, 230, 0):
         (root / f"paleo/{age}.json").write_text(json.dumps({"age": age, "kanchanaburi": [99.53, 14.02], "coastlines": {"type": "FeatureCollection", "features": []}}), encoding="utf-8")
@@ -53,7 +53,7 @@ def test_build_inlines_everything(tmp_path):
 
 
 def test_build_escapes_script_close_in_content(tmp_path):
-    starter = json.loads((ROOT / "content/events.json").read_text(encoding="utf-8"))
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
     starter[0]["body_en"] = "Danger </script><b>bold</b>"
     root = make_root(tmp_path, starter)
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
@@ -62,7 +62,7 @@ def test_build_escapes_script_close_in_content(tmp_path):
 
 
 def test_build_fails_on_invalid_content(tmp_path):
-    starter = json.loads((ROOT / "content/events.json").read_text(encoding="utf-8"))
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
     starter[0]["citation"] = None
     root = make_root(tmp_path, starter)
     with pytest.raises(BuildError, match="citation"):
@@ -97,7 +97,7 @@ def test_size_limit(tmp_path, monkeypatch):
 
 
 def test_build_strips_private_note_fields(tmp_path):
-    starter = json.loads((ROOT / "content/events.json").read_text(encoding="utf-8"))
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
     starter[0]["_notes"] = "instructor-only note"
     root = make_root(tmp_path, starter)
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
