@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ratburi-limestone", "lane": "local", "age_ma": 270, "age_uncertainty_ma": 15,
+    "title_th": "หินปูนกลุ่มราชบุรี", "title_en": "Ratburi limestone",
+    "body_th": "หินปูนกลุ่มราชบุรีสะสมตัวในทะเลตื้นที่อบอุ่นในยุคเพอร์เมียน ขณะที่แผ่นซีบูมาสุ (Sibumasu) เคลื่อนออกจากขอบมหาทวีปกอนด์วานา ปัจจุบันหินปูนนี้เป็นภูเขาหินปูนและถ้ำจำนวนมากในกาญจนบุรี",
+    "body_en": "Ratburi Group limestone built up in warm, shallow seas during the Permian, as the Sibumasu block drifted away from Gondwana. Today it forms many of Kanchanaburi's limestone hills and caves.",
+    "rock_unit": "Ratburi Group (กลุ่มหินราชบุรี)", "visit_site": null,
+    "citation": {"text": "Ridd, Barber & Crow (eds) 2011, The Geology of Thailand, Geological Society of London", "url": "https://doi.org/10.1144/GOTH"},
+    "paleo_age": 270, "lecture_stop": true, "verified": false
+  },
+  {
+    "id": "end-permian-extinction", "lane": "world", "age_ma": 251.94, "age_uncertainty_ma": 0.04,
+    "title_th": "การสูญพันธุ์ครั้งใหญ่ปลายยุคเพอร์เมียน", "title_en": "End-Permian mass extinction",
+    "body_th": "การสูญพันธุ์ครั้งใหญ่ที่สุดในประวัติโลก สิ่งมีชีวิตในทะเลราวร้อยละ 90 หายไป สัมพันธ์กับการปะทุของภูเขาไฟไซบีเรียนแทรปส์ (Siberian Traps)",
+    "body_en": "The largest mass extinction in Earth's history: about 90% of marine species disappeared, linked to the Siberian Traps eruptions.",
+    "rock_unit": null, "visit_site": null,
+    "citation": {"text": "Burgess, Bowring & Shen 2014, PNAS 111:3316–3321", "url": "https://doi.org/10.1073/pnas.1317692111"},
+    "paleo_age": 250, "lecture_stop": false, "verified": false
+  },
+  {
+    "id": "first-dinosaurs", "lane": "life", "age_ma": 233, "age_uncertainty_ma": null,
+    "title_th": "ไดโนเสาร์กลุ่มแรก", "title_en": "First dinosaurs",
+    "body_th": "", "body_en": "", "icon": "🦕",
+    "rock_unit": null, "visit_site": null, "citation": null,
+    "paleo_age": 230, "lecture_stop": false, "verified": false
+  }
+]

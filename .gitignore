@@ -1,1 +1,7 @@
+dist/
+review/
+__pycache__/
+.pytest_cache/
+*.json.tmp
+.DS_Store
 .superpowers/
