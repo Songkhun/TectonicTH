@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Time Kanchanaburi</title>
+<meta name="description" content="Kanchanaburi's geologic history alongside world events, on a globe of ancient plate positions.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<header class="topbar">
+  <h1><span data-i18n="app_title"></span><span class="sub" data-i18n="app_subtitle"></span></h1>
+  <button type="button" id="btn-lecture" aria-pressed="false" data-i18n="btn_lecture"></button>
+  <button type="button" id="btn-about" data-i18n="btn_about"></button>
+  <button type="button" id="btn-lang" data-i18n="btn_lang"></button>
+</header>
+<main class="main">
+  <section class="globe-pane">
+    <canvas id="globe" role="img"></canvas>
+    <div id="readout" aria-live="polite"></div>
+  </section>
+  <section class="tl-pane">
+    <div class="lanes" aria-hidden="true">
+      <span data-i18n="lane_period"></span><span data-i18n="lane_local"></span><span data-i18n="lane_world"></span><span data-i18n="lane_life"></span>
+    </div>
+    <div id="timeline" tabindex="0"></div>
+    <article id="card" hidden aria-live="polite"></article>
+  </section>
+</main>
+<dialog id="about">
+  <div id="about-body"></div>
+  <form method="dialog"><button data-i18n="close"></button></form>
+</dialog>
+<!--__DATA__-->
+<!--__SCRIPTS__-->
+</body>
+</html>
