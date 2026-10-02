@@ -53,6 +53,17 @@ report.active_at_top = await ev("document.querySelector('.tl-row.is-active')?.ti
 await ev("document.querySelector('.tl-row.lane-local').click()"); await sleep(200);
 report.card = await ev("document.getElementById('card').innerText");
 await shot('03-card.png');
+// evidence on lecture stops
+await ev("document.getElementById('btn-lecture').click()"); await sleep(1200);
+report.evidence_by_stop = [];
+for (let i = 0; i < 8; i++) {
+  report.evidence_by_stop.push(await ev(`({ title: document.querySelector('#card h2')?.innerText, items: document.querySelectorAll('#card .ev-item').length, compare: [...document.querySelectorAll('#card .ev-compare')].map(x => x.textContent) })`));
+  if (i === 0) await shot('03b-evidence.png');
+  await send('Input.dispatchKeyEvent', { type: 'keyDown', key: 'ArrowRight', code: 'ArrowRight' });
+  await send('Input.dispatchKeyEvent', { type: 'keyUp', key: 'ArrowRight', code: 'ArrowRight' });
+  await sleep(900);
+}
+await ev("document.getElementById('btn-lecture').click()"); await sleep(400);
 // language toggle
 await ev("document.getElementById('btn-lang').click()"); await sleep(300);
 report.lang_after_toggle = await ev("document.documentElement.lang + ' | ' + document.querySelector('.topbar h1').innerText + ' | ' + document.getElementById('readout').textContent + ' | ' + document.getElementById('card').innerText.slice(0, 80)");

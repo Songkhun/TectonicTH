@@ -83,7 +83,9 @@ def test_rows_to_items_handles_blanks_and_lists():
                 "finding_th": "พบโพรง", "finding_en": "Cavity found", "citation_text": "Division report 2024",
                 "citation_url": "https://example.org/r.pdf", "site_lat": "14.4", "site_lon": "98.85",
                 "site_name_th": "ไทรโยค", "site_name_en": "Sai Yok", "notes": "line 3"})
-    it = rows_to_items([row])[0]
+    items, errs = rows_to_items([row])
+    assert errs == []
+    it = items[0]
     assert it["event_ids"] == ["ratburi-limestone", "indosinian-collision"]
     assert it["source_type"] == "own-survey" and it["verified"] is False
     assert it["paleolat"] is None and it["value"] is None
@@ -96,7 +98,9 @@ def test_rows_to_items_reads_paleolat_and_ignores_verified_column():
     row.update({"id": "pm", "event_ids": "ratburi-limestone", "method": "paleomagnetism",
                 "paleolat_deg": "-32", "paleolat_err": "6", "source_type": "peer-reviewed"})
     row["verified"] = "yes"
-    it = rows_to_items([row])[0]
+    items, errs = rows_to_items([row])
+    assert errs == []
+    it = items[0]
     assert it["paleolat"] == {"deg": -32.0, "err": 6.0}
     assert it["source_type"] == "peer-reviewed" and it["verified"] is False
 
@@ -188,3 +192,63 @@ def test_add_model_paleolat_queries_site_at_event_age():
     assert out[0]["model_paleolat"] == {"deg": -36.42, "age_ma": 270.0, "model": "TorsvikCocks2017"}
     assert session.calls == [{"points": "99.1,14.2", "time": 270.0, "model": "TorsvikCocks2017"}]
     assert "model_paleolat" not in out[1] and "model_paleolat" not in out[2]
+
+
+def _row(**kw):
+    row = {c: "" for c in TEMPLATE_COLUMNS}
+    row.update({"id": "ert-1", "event_ids": "ratburi-limestone", "method": "field-survey", "title_th": "ก",
+                "title_en": "A", "finding_th": "ข", "finding_en": "B", "citation_text": "Report",
+                "citation_url": "https://example.org/x"})
+    row.update(kw)
+    return row
+
+
+def test_bad_numbers_are_reported_not_crashing(tmp_path):
+    ev_path = tmp_path / "evidence.json"
+    csv_path = tmp_path / "rows.csv"
+    _write_csv(csv_path, [_row(site_lat="14,4", site_lon="98.85", site_name_th="ก", site_name_en="A")])
+    errors = import_rows(csv_path, ev_path, EVENTS)
+    assert errors == ["row 2 (ert-1): site_lat must be a number, got '14,4'"]
+    assert not ev_path.exists()
+
+
+def test_blank_paleolat_error_is_null_not_zero():
+    items, errs = rows_to_items([_row(method="paleomagnetism", paleolat_deg="-32")])
+    assert errs == [] and items[0]["paleolat"] == {"deg": -32.0, "err": None}
+
+
+def test_partial_site_is_an_error():
+    _, errs = rows_to_items([_row(site_lat="14.4")])
+    assert errs == ["row 2 (ert-1): site needs site_name_th, site_name_en, site_lat and site_lon together"]
+
+
+def test_non_utf8_csv_gives_a_clear_message(tmp_path):
+    csv_path = tmp_path / "rows.csv"
+    csv_path.write_bytes(",".join(TEMPLATE_COLUMNS).encode() + b"\n" + "ert-1,ratburi-limestone,field-survey,ไทย".encode("cp874") + b"\n")
+    errors = import_rows(csv_path, tmp_path / "evidence.json", EVENTS)
+    assert len(errors) == 1 and "CSV UTF-8" in errors[0]
+
+
+def test_example_rows_are_refused():
+    _, errs = rows_to_items([_row(id="example-ert-sai-yok")])
+    assert errs == ["row 2 (example-ert-sai-yok): this is the template's example row; delete it or give it a real id"]
+
+
+def test_stale_model_paleolat_is_reported():
+    mp = {"deg": -35.6, "age_ma": 270, "model": "TorsvikCocks2017"}
+    errors = validate_evidence([item(model_paleolat=mp)], EVENTS, {"ratburi-limestone": 260.5})
+    assert errors == ["pmag-ratburi: model_paleolat was computed for 270 Ma but ratburi-limestone is now 260.5 Ma; "
+                      "run python3 build/model_paleolat.py"]
+    assert validate_evidence([item(model_paleolat=mp)], EVENTS, {"ratburi-limestone": 270}) == []
+
+
+def test_unplaceable_site_removes_old_model_value():
+    from evidence import add_model_paleolat
+
+    class S(_Session):
+        def get(self, url, params=None, timeout=None):
+            return _Resp({"type": "MultiPoint", "coordinates": [[999.99, 999.99]]})
+
+    old = item(model_paleolat={"deg": -35.6, "age_ma": 200, "model": "TorsvikCocks2017"})
+    out = add_model_paleolat([old], {"ratburi-limestone": 270.0}, S())
+    assert "model_paleolat" not in out[0]

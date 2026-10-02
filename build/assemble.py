@@ -49,7 +49,8 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     evidence = load_evidence(root / "content/evidence.json")
 
     errors = (validate_timescale(periods) + validate_events(events, periods, slice_ages)
-              + validate_evidence(evidence, {e.get("id") for e in events}))
+              + validate_evidence(evidence, {e.get("id") for e in events},
+                                  {e.get("id"): e.get("age_ma") for e in events}))
     if "0" not in slices:
         errors.append("paleo slice for 0 Ma is missing")
     if errors:
