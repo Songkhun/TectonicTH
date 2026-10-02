@@ -139,3 +139,7 @@ def test_template_file_has_template_columns():
     root = Path(__file__).resolve().parent.parent
     with (root / "content/evidence_template.csv").open(encoding="utf-8-sig") as f:
         assert next(csvmod.reader(f)) == TEMPLATE_COLUMNS
+
+
+def test_paleolat_without_stated_error_is_allowed():
+    assert validate_evidence([item(paleolat={"deg": -13.0, "err": None})], EVENTS) == []

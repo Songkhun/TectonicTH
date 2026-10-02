@@ -68,8 +68,8 @@ def validate_evidence(items, event_ids):
             if it.get("method") != "paleomagnetism":
                 err("paleolat is only allowed on paleomagnetism items")
             elif not (isinstance(pl, dict) and _num(pl.get("deg")) and -90 <= pl["deg"] <= 90
-                      and _num(pl.get("err")) and pl["err"] >= 0):
-                err("paleolat needs deg in [-90, 90] and err >= 0")
+                      and (pl.get("err") is None or (_num(pl["err"]) and pl["err"] >= 0))):
+                err("paleolat needs deg in [-90, 90] and err null or >= 0")
 
         if not isinstance(it.get("verified"), bool):
             err("verified must be true or false")

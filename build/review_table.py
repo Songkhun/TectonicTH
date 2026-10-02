@@ -56,7 +56,7 @@ def _evidence_row(it):
         "title_th": it["title_th"], "title_en": it["title_en"],
         "finding_th": it["finding_th"], "finding_en": it["finding_en"],
         "value": it.get("value") or "",
-        "paleolat": f"{pl['deg']:g} ± {pl['err']:g}" if pl else "",
+        "paleolat": (f"{pl['deg']:g}" + (f" ± {pl['err']:g}" if pl.get("err") is not None else "")) if pl else "",
         "site": f"{site['name_en']} ({site['lat']}, {site['lon']})" if site else "",
         "citation": f"{cite['text']} — {cite['url']}" if cite else "",
         "source_type": it["source_type"],

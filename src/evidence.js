@@ -10,7 +10,8 @@ export function evidenceFor(eventId, items) {
 
 export function formatPaleolatCompare(paleolat, modelLat, lang) {
   const th = lang === 'th';
-  const measured = `${Math.abs(paleolat.deg)} ± ${paleolat.err}°${paleolat.deg < 0 ? 'S' : 'N'}`;
+  const err = paleolat.err == null ? '' : ` ± ${paleolat.err}`;
+  const measured = `${Math.abs(paleolat.deg)}${err}°${paleolat.deg < 0 ? 'S' : 'N'}`;
   const head = `${th ? 'วัดได้' : 'measured'} ${measured}`;
   if (modelLat == null) return head;
   return `${head} · ${th ? 'แบบจำลอง' : 'model'} ${formatLat(modelLat)}`;

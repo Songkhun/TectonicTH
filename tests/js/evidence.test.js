@@ -47,3 +47,7 @@ test('every method has a label in both languages', () => {
     assert.ok(I18N_STRINGS.en[`method_${m}`], m);
   }
 });
+
+test('paleolatitude without a stated error omits the ±', () => {
+  assert.equal(formatPaleolatCompare({ deg: -13, err: null }, -17.2, 'en'), 'measured 13°S · model ≈17°S');
+});
