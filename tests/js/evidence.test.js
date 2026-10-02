@@ -72,3 +72,7 @@ test('site coordinates are escaped in the map link', () => {
   assert.ok(!html.includes('1"onmouseover'));
   assert.ok(html.includes('1&quot;onmouseover'));
 });
+
+test('geochemistry and mapping are methods with labels', () => {
+  assert.ok(EVIDENCE_METHODS.includes('geochemistry') && EVIDENCE_METHODS.includes('mapping'));
+});

@@ -272,3 +272,8 @@ def test_add_model_paleolat_skips_items_whose_event_was_removed():
     from evidence import add_model_paleolat
     out = add_model_paleolat([item(event_ids=["gone"])], {"ratburi-limestone": 270.0}, _Session())
     assert "model_paleolat" not in out[0]
+
+
+@pytest.mark.parametrize("method", ["geochemistry", "mapping"])
+def test_geochemistry_and_mapping_methods_are_allowed(method):
+    assert validate_evidence([item(id="g", method=method, paleolat=None)], EVENTS) == []

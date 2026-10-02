@@ -85,7 +85,10 @@
   "finding_th": "วัดสภาพแม่เหล็กของหินบะซอลต์หมวดหินวั่วหนิวซื่อ (Woniusi Formation) ที่ 21 จุดใกล้เมืองเป่าซานและหย่งเต๋อ ได้มุมเอียงคล้ายกับหินดีโวเนียนในพื้นที่เดียวกัน บ่งชี้ละติจูดบรรพกาลราว 42° ในช่วงดีโวเนียน–คาร์บอนิเฟอรัส สอดคล้องกับสภาพอากาศหนาวที่ทำให้เกิดหินกรวดมนปนโคลนจากธารน้ำแข็ง",
   "finding_en": "Basalts of the Woniusi Formation sampled at 21 sites near Baoshan and Yongde gave inclinations like those of local Devonian rocks, indicating a paleolatitude of about 42° in Devono-Carboniferous time — a cool, mid-latitude setting consistent with glacial pebbly mudstones.",
   "value": "paleolatitude about 42° (Devono-Carboniferous)",
-  "paleolat": null,
+  "paleolat": {
+   "deg": -42.0,
+   "err": null
+  },
   "site": {
    "name_th": "เป่าซาน มณฑลยูนนาน จีน",
    "name_en": "Baoshan, western Yunnan, China",
@@ -98,7 +101,12 @@
   },
   "source_type": "peer-reviewed",
   "verified": false,
-  "_notes": "DOI confirmed on Crossref (Huang & Opdyke, Tectonophysics 192, 333-344, 1991). Abstract NOT read directly (ScienceDirect 403; abstract elided in Semantic Scholar/OpenAlex). From a search-engine snippet of the abstract: 'The Upper Carboniferous basaltic Woniusi Formation was sampled at 21 sites from two limbs of a syncline near Baoshan city (25.2°N, 99.3°E), and from a monocline near Yongde county (23.9°N, 99.2°E) ... indicating a paleolatitude of about 42° for the Baoshan area during the Devono-Carboniferous time.' Hemisphere not stated in snippet -> paleolat null. Note: the Woniusi basalts are dated Upper Carboniferous here but Early Permian in later work (Ali et al. 2013; Xu et al. 2015). The link to Kaeng Krachan diamictites is my interpretive bridge (both imply cool, high-mid latitude), not a claim of the paper - instructor to check wording."
+  "_notes": "DOI confirmed on Crossref (Huang & Opdyke, Tectonophysics 192, 333-344, 1991). Abstract NOT read directly (ScienceDirect 403; abstract elided in Semantic Scholar/OpenAlex). From a search-engine snippet of the abstract: 'The Upper Carboniferous basaltic Woniusi Formation was sampled at 21 sites from two limbs of a syncline near Baoshan city (25.2°N, 99.3°E), and from a monocline near Yongde county (23.9°N, 99.2°E) ... indicating a paleolatitude of about 42° for the Baoshan area during the Devono-Carboniferous time.' Hemisphere not stated in snippet -> paleolat null. Note: the Woniusi basalts are dated Upper Carboniferous here but Early Permian in later work (Ali et al. 2013; Xu et al. 2015). The link to Kaeng Krachan diamictites is my interpretive bridge (both imply cool, high-mid latitude), not a claim of the paper - instructor to check wording. | Update 2026-10-02: Hemisphere resolved from a SECONDARY source, not from Huang & Opdyke 1991 itself (still unread, ScienceDirect 403). Ali et al. 2013 (GJI 193:650-663, doi 10.1093/gji/ggt012, full text read with WebFetch), Section 3 'An earlier palaeomagnetic investigation': 'Huang & Opdyke (1991) carried out a palaeomagnetic investigation of the Woniusi Basalts, reporting data from two localities close of Baoshan city, and a third from near Yongde town, ~120 km to the south ... Huang & Opdyke's key finding was that the basalts had been erupted at ~42°S.' No ± error is stated for the H&O value. Ali et al. Section 5.6 also gives H&O's first Baoshan locality (8 sites A-H, 10 km ENE of the city) as tilt-corrected Dec = 220.1°, Inc = 60.2°, α95 = 9.3°. The existing site (25.2°N 99.3°E) matches the H&O snippet, so it is kept.",
+  "model_paleolat": {
+   "deg": -41.61,
+   "age_ma": 300,
+   "model": "TorsvikCocks2017"
+  }
  },
  {
   "id": "pmag-baoshan-permian-rift-basalt",
@@ -116,14 +124,24 @@
    "deg": -41.9,
    "err": null
   },
-  "site": null,
+  "site": {
+   "name_th": "เป่าซานและเมือง 707 มณฑลยูนนาน จีน (ค่าเฉลี่ยของ 7 จุดเก็บตัวอย่าง)",
+   "name_en": "Baoshan and Town 707 areas, western Yunnan, China (mean of 7 sampling localities)",
+   "lat": 24.972,
+   "lon": 99.244
+  },
   "citation": {
    "text": "Ali, Cheung, Aitchison & Sun 2013, Palaeomagnetic re-investigation of Early Permian rift basalts from the Baoshan Block, SW China, Geophysical Journal International 193:650-663",
    "url": "https://doi.org/10.1093/gji/ggt012"
   },
   "source_type": "peer-reviewed",
   "verified": false,
-  "_notes": "DOI confirmed on Crossref; abstract read in full via OpenAlex: 'Reliable data were obtained from four locations/28 individual cooling units, and when combined with the findings of an earlier study (three locations/19 sites) indicate that breakup occurred at 41.9°S (with errors, 34.2-51.2°S) ... we suggest that Sibumasu ... lay directly to the east, offshore of Australia.' Error is asymmetric (34.2-51.2°S), so paleolat.err is set to null rather than invented as a ± value; the instructor may display the range from 'value'. Sampling coordinates not in abstract. Related: Xu et al. 2015 (JAES 104:99-114, doi 10.1016/j.jseaes.2014.10.029) report 38°S ± 3.7° for the same basalts (from search snippet only) - not included as a separate item."
+  "_notes": "DOI confirmed on Crossref; abstract read in full via OpenAlex: 'Reliable data were obtained from four locations/28 individual cooling units, and when combined with the findings of an earlier study (three locations/19 sites) indicate that breakup occurred at 41.9°S (with errors, 34.2-51.2°S) ... we suggest that Sibumasu ... lay directly to the east, offshore of Australia.' Error is asymmetric (34.2-51.2°S), so paleolat.err is set to null rather than invented as a ± value; the instructor may display the range from 'value'. Sampling coordinates not in abstract. Related: Xu et al. 2015 (JAES 104:99-114, doi 10.1016/j.jseaes.2014.10.029) report 38°S ± 3.7° for the same basalts (from search snippet only) - not included as a separate item. | Update 2026-10-02: Full text of Ali et al. 2013 (GJI 193:650-663, open access on academic.oup.com) read with WebFetch, a tool that summarizes the page, so the quotes below should be checked against the PDF. Section 2 gives the coordinates of six new localities: Woniu Temple 25°09'06\"N 099°16'54\"E; Guanpo Village 25°12'36\"N 099°15'41\"E; hydroelectric dam NW of Guanpo 25°13'30\"N 099°16'55\"E; 3 km SW of Haitangwa 25°15'03\"N 099°18'09\"E; Suanpashan quarry 24°53'41\"N 099°07'10\"E; road cutting ~2 km from Town 707 24°54'59\"N 099°05'09\"E. Four of these gave usable data (Woniu, Guanpo, dam, Town 707 road cutting). The formation mean (Table 3: 'The resulting formation latitude is 41.9°S; with errors, the permissible range is 34.2°S-51.2°S') combines those 4 with the 3 earlier Huang & Opdyke (1991) localities, given approximately as Baoshan-1 and Baoshan-2 at ~25.2°N 99.3°E and Yongde at ~23.9°N 99.2°E. The site above is MY arithmetic mean of those 7 coordinates (the paper states no single reference site). The mean of the 4 new reliable localities alone would be 25.126°N 99.228°E. Paleolatitude unchanged (-41.9, asymmetric error 34.2-51.2°S, so err stays null).",
+  "model_paleolat": {
+   "deg": -40.94,
+   "age_ma": 281.6,
+   "model": "TorsvikCocks2017"
+  }
  },
  {
   "id": "pmag-shan-middle-permian",
@@ -1066,5 +1084,441 @@
   "source_type": "peer-reviewed",
   "verified": false,
   "_notes": "DOI confirmed on Crossref (J. World Prehist. 24:227-274, Dec 2011). Read the FULL TEXT (PDF hosted at pages.upd.edu.ph). Exact statement (p. 244): 'Ban Kao is a Neolithic settlement and cemetery in Kanchanaburi, excavated in the early 1960s by Sørensen (Sørensen and Hatting 1967), who obtained radiocarbon determinations relating to both the Neolithic phases. These indicate settlement within the first half of the 2nd millennium BC or slightly later (Fig. 8).' The caption of Fig. 8 says the dates are 'based on charcoal'. The paper does not list lab numbers or BP values in the text; these are in Sørensen & Hatting 1967, Archaeological Excavations in Thailand vol. II: Ban-Kao (Munksgaard), which I did not see. A search summary claimed a Bayesian re-analysis (occupation from the 19th/18th century BC, lasting about five centuries), but I could NOT find its source, so it is not used. The '4000–3500 years ago' in the finding is my conversion of '1st half of 2nd millennium BC'. Charcoal may have inbuilt age, so the dates may be slightly too old. Site is null: Wikipedia gives 13.867 N, 99.150 E for Ban Kao, but I did not confirm that this is the excavation site."
+ },
+ {
+  "id": "pmag-shanthai-siluro-devonian-30s-bunopas",
+  "event_ids": [
+   "kanchanaburi-group"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ข้อมูลแม่เหล็กโลกบรรพกาลยุคแรกของไทย: ฉาน-ไทยเคยอยู่ที่ราว 30° ใต้",
+  "title_en": "Early Thai paleomagnetic data: Shan-Thai at about 30°S",
+  "finding_th": "บทความปริทัศน์ของสงัด บุญโญปัสและสมบุญ โฆสิตานนท์ (2008) กล่าวว่าข้อมูลแม่เหล็กโลกบรรพกาล (paleomagnetism) ของหินยุคไซลูเรียน-ดีโวเนียนในวิทยานิพนธ์ของบุญโญปัส (1981) เป็นหลักฐานชิ้นแรกที่ชี้ว่าแผ่นฉาน-ไทย (Shan-Thai) เคยอยู่ในลักษณะกลับหัว ที่ละติจูดราว 30° ใต้ ติดกับชายฝั่งตะวันตกเฉียงเหนือของออสเตรเลีย และงานของ Bhongsuwan (1993) ได้ยืนยันผลนี้ ค่านี้เป็นการอ้างต่อจากบทความปริทัศน์ ไม่มีตำแหน่งจุดเก็บตัวอย่างหรือค่าความคลาดเคลื่อนกำกับ จึงควรใช้ประกอบการอธิบายประวัติการวิจัยในไทย ไม่ใช่ใช้เป็นค่าตรวจวัดที่แม่นยำ",
+  "finding_en": "A review by Bunopas & Khositanont (2008) states that the Siluro-Devonian paleomagnetic data in Bunopas's 1981 thesis were the first to show that Shan-Thai was inverted and lay at about 30°S next to NW Australia, and that Bhongsuwan (1993) confirmed this. The value comes second-hand through the review, with no sampling site or error given.",
+  "value": "paleolatitude 'about 30S' (Siluro-Devonian, Shan-Thai)",
+  "paleolat": {
+   "deg": -30.0,
+   "err": null
+  },
+  "site": null,
+  "citation": {
+   "text": "Bunopas & Khositanont 2008, Did Shan-Thai twice marry Indochina and then India?: A Review, Bulletin of Earth Sciences of Thailand 1(1-2):1-27",
+   "url": "https://ph01.tci-thaijo.org/index.php/bestjournal/article/view/246419"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text PDF read (ThaiJO open access; journal metadata gives year 2008, CC BY-NC-ND). No DOI found on Crossref. Exact text, p.1 Introduction: 'The Siluro-Devonian paleomagnetic data of Bunopas (1981) was the first to show that Shan-Thai was inverted and was at about 30S adjacent to NW Australia. This was confirmed by Bhongsuwan (1993).' The primary sources were NOT read: Bunopas 1981, PhD thesis, Victoria University of Wellington, 'Paleogeographic history of western Thailand and adjacent parts of Southeast Asia - a plate tectonics interpretation' (no online copy found); Bhongsuwan 1993, 'Palaeomagnetic investigations in Thailand', Luleå University of Technology licentiate thesis 1993:11 (the review calls it a PhD; DiVA record diva2:990424 lists it as a licentiate and has no full text). Sampling localities, error and age are unknown, so site = null. 'About 30S' is a rounded value, and its rock units and reliability (remagnetization was common in Thai Palaeozoic rocks) are untested. Teach it as history of Thai paleomagnetism. Treat it as weak. It roughly agrees with the ~42° Yunnan Devonian result and conflicts with Chen et al. 1996 (equatorial Late Silurian). The review is an invited, idiosyncratic paper (it also argues for a 0.8 Ma cometary impact). Its source_type is 'peer-reviewed' only because it appeared in a journal; a cautious instructor may prefer to treat it as a secondary report."
+ },
+ {
+  "id": "gap-erawan-tufa-limestone-basement",
+  "event_ids": [
+   "erawan-travertine",
+   "ratburi-limestone"
+  ],
+  "method": "mapping",
+  "title_th": "สำรวจภาคสนามและวิเคราะห์ความลาดชันน้ำตกเอราวัณ",
+  "title_en": "Field survey and DEM slopes of Erawan",
+  "finding_th": "การสำรวจภาคสนามร่วมกับการวิเคราะห์ภูมิสารสนเทศ (geoinformatics) พบว่าน้ำตกเอราวัณเป็นน้ำตกหลายชั้น (multi-tiered waterfall) 7 ชั้นที่ไหลบนหินปูนยุคเพอร์เมียน (Permian limestone) ซึ่งมีหัวเชิร์ต (chert nodules) และซากดึกดำบรรพ์จำนวนมาก ทูฟา (tufa) เกิดเมื่อน้ำที่ละลายแคลเซียมไบคาร์บอเนตปล่อยก๊าซ CO2 ออกไปจนแคลไซต์ (calcite) ตกผลึกเคลือบผิวหิน",
+  "finding_en": "Field investigation combined with geoinformatics analysis classifies Erawan as a 7-tier waterfall on Permian massive and dolomitic limestone with chert nodules and abundant fossils; tufa forms where lime-rich water loses CO2 and calcite crystallises on the rock surface.",
+  "value": null,
+  "paleolat": null,
+  "site": {
+   "name_th": "น้ำตกเอราวัณ กาญจนบุรี",
+   "name_en": "Erawan Waterfall, Kanchanaburi",
+   "lat": 14.3688,
+   "lon": 99.14394
+  },
+  "citation": {
+   "text": "Singtuen, Phajuy & Gałka 2021, Characteristics and assessment of selected waterfalls formed in different geological basements in Thailand, GeoJournal of Tourism and Geosites 37:880-887",
+   "url": "https://doi.org/10.30892/gtg.37319-721"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (title, journal, vol 37, pp 880-887). FULL TEXT read (open-access PDF from gtg.webhost.uoradea.ro). Paper states: Erawan 'is covered by Permian limestone composed of massive and dolomitic limestone with chert nodules and numerous fossils'; '7 tiers and emerald green ponds'; tufa 'is formed on the rock surfaces when CaCO3 + (H2O + CO2) dissolves Ca(HCO3)2 from the lime-rich waters, leaving calcite (CaCO3) to crystallize and H2O(l) + CO2(g) evaporate' (said of the Ordovician/Permian limestone waterfalls generally). Site coordinates 14.36880N 99.14394E are from the paper's Table 1. Table 2 gives Erawan upstream/downstream elevation and slope values but the PDF text layout is garbled, so no number used. DOUBTFUL: no dating (U-series/14C) or hydrochemistry study of the Erawan tufa itself was found; this is a descriptive geomorphology paper. Method 'geodesy' is a stretch (DEM/geoinformatics slope analysis + field mapping); there is no closer allowed method. Modest journal (geotourism). Consider replacing if a proper tufa geochemistry/dating source is found. | Main session re-tagged method geodesy → mapping (closest honest category)."
+ },
+ {
+  "id": "gap-hellfire-pass-permian-limestone",
+  "event_ids": [
+   "death-railway",
+   "ratburi-limestone"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ช่องเขาขาดถูกตัดผ่านหินปูนเพอร์เมียนหน่วย P2",
+  "title_en": "Hellfire Pass cut through Permian limestone",
+  "finding_th": "ช่องเขาขาด (Hellfire Pass) ถูกเชลยศึกขุดผ่านหินปูนหน่วย P2 ของกลุ่มหินปูนราชบุรี (Ratburi Limestone Group) ด้วยค้อนและสกัดเหล็ก อายุเพอร์เมียนของหินชุดนี้รู้ได้จากซากดึกดำบรรพ์ เช่น ฟิวซูลินิด (fusulinids) เรดิโอลาเรียน (radiolarians) และแบรคิโอพอด (brachiopods)",
+  "finding_en": "Hellfire Pass was hand-cut by prisoners of war through the gray bedded-to-massive P2 limestone unit of the Permian Ratburi Limestone Group, whose age is known from fossils such as fusulinids, radiolarians, brachiopods, corals, ammonoids and crinoids.",
+  "value": null,
+  "paleolat": null,
+  "site": {
+   "name_th": "ช่องเขาขาด อำเภอไทรโยค กาญจนบุรี",
+   "name_en": "Hellfire Pass, Sai Yok, Kanchanaburi",
+   "lat": 14.3527,
+   "lon": 98.9547
+  },
+  "citation": {
+   "text": "Sattraburut 2024, Quantitative assessment of Permian limestone geosites in the Sai Yok District, Kanchanaburi Province, Western Thailand, Vietnam Journal of Earth Sciences 46:120-146",
+   "url": "https://doi.org/10.15625/2615-9783/20009"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (title, author Thunyapat Sattraburut, Vietnam Journal of Earth Sciences; Crossref lacks vol/pages - vol 46(1):120-146 taken from the journal's article page). FULL TEXT read via OCR of the open-access PDF (text layer not extractable, so OCR - small transcription errors possible). Paper states: Hellfire Pass 'lies above the limestone of the P2 unit, making it incredibly difficult to construct using only hammers and tap cuttings'; 'the prisoners completed the cutting of the largest rock on the railway in about six weeks' (NB other sources e.g. DVA Anzac Portal say ~12 weeks - so no duration used as value); P2 unit 'gray bedded to massive limestone. Chert or siliceous nodules, dolomitic limestone, and minor sandstone and shale'; P1 and P2 'contain abundant fossil remains, such as fusulinids, radiolarians, brachiopods, corals, ammonoids, and crinoids (DMR, 2008; Sashida et al., 2022; Maneerat et al., 2022)' - i.e. the biostratigraphic age is from cited works, not new data. Coordinates 14.3527, 98.9547 from the paper's geosite table. Author is affiliated with Mahidol University (Faculty of Environment and Resource Studies) - local link. Not an engineering-geology study; no engineering-geology source for the railway was found."
+ },
+ {
+  "id": "gap-hirnantia-fauna-satun",
+  "event_ids": [
+   "end-ordovician-extinction"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ซากแบรคิโอพอดฮีร์นันเทียในจังหวัดสตูล",
+  "title_en": "Hirnantia brachiopod fauna in Satun, Thailand",
+  "finding_th": "กลุ่มซากแบรคิโอพอดฮีร์นันเทีย (Hirnantia fauna) ซึ่งเป็นสัตว์น้ำเย็นที่แพร่กระจายทั่วโลกช่วงยุคน้ำแข็งปลายออร์โดวิเชียน (Hirnantian) ถูกพบในหมวดหินวังตง (Wang Tong Formation) จังหวัดสตูล บ่งว่าตะกอนชุดนี้มีอายุตรงกับช่วงการสูญพันธุ์ครั้งใหญ่",
+  "finding_en": "A Hirnantia shelly fauna - the cool-water brachiopod assemblage that spread worldwide during the latest Ordovician (Hirnantian) glaciation - was documented from the Wang Tong Formation of Satun Province, southern Thailand, essentially identical to the fauna of the Northern Shan States, Myanmar.",
+  "value": null,
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Cocks & Fortey 1997, A new Hirnantia fauna from Thailand and the biogeography of the latest Ordovician of south-east Asia, Geobios 30:117-126",
+   "url": "https://doi.org/10.1016/S0016-6995(97)80017-4"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Cocks & Fortey, Geobios 30, 117-126, 1997). Abstract NOT read directly (ScienceDirect 403); content from a search-engine snippet of the abstract: 'A new occurrence of the widespread latest Ashgill (Hirnantian) Hirnantia shelly fauna is documented from the Wang Tong Formation of Satun Province, southern Thailand. The Thai fauna is essentially identical to that from the Panghsa-pyé Beds, Northern Shan States, Burma'. One search summary gave the volume as 20 - Crossref says 30. 'Cool-water' characterisation of the Hirnantia fauna is general textbook knowledge, not quoted from this abstract - check wording. Exact locality coordinates not known, site null."
+ },
+ {
+  "id": "gap-hirnantian-carbon-isotope-excursion",
+  "event_ids": [
+   "end-ordovician-extinction"
+  ],
+  "method": "geochemistry",
+  "title_th": "ไอโซโทปคาร์บอนบันทึกยุคน้ำแข็งเฮอร์นานเชียนช่วงสั้น",
+  "title_en": "Carbon-isotope excursion marks short Hirnantian glaciation",
+  "finding_th": "ค่าไอโซโทปเสถียรคาร์บอนและออกซิเจน (δ13C, δ18O) ร่วมกับหลักฐานการลดลงของระดับน้ำทะเลแสดงว่ายุคน้ำแข็งปลายออร์โดวิเชียนเกิดสั้น ๆ เฉพาะในช่วงเฮอร์นานเชียน (Hirnantian) ราว 0.5–1 ล้านปี ไม่ใช่ยาวนานหลายสิบล้านปีอย่างที่เคยคิด",
+  "finding_en": "Stable carbon and oxygen isotopes (δ13C, δ18O) together with bathymetric (sea-level) evidence confined the main Late Ordovician glaciation and its extinctions to the Hirnantian Stage, shortening the event to about 0.5-1 Myr.",
+  "value": null,
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Brenchley et al. 1994, Bathymetric and isotopic evidence for a short-lived Late Ordovician glaciation in a greenhouse period, Geology 22:295-298",
+   "url": "https://doi.org/10.1130/0091-7613(1994)022<0295:BAIEFA>2.3.CO;2"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Brenchley, Marshall, Carden, Robertson, Long, Meidla, Hints, Anderson; Geology 22, 295-298, 1994). Abstract NOT read (Crossref/OpenAlex have no abstract; GSW blocked). Content from a search-engine summary that paraphrases secondary literature: the paper 'restricted the main glacial event and its extinctions to the Hirnantian Stage, reducing the duration ... from 35 to 0.5-1 myr' and proposed the positive δ13C excursion reflected increased productivity. The '5-7‰' magnitude in that summary likely comes from later literature, so not used. That the isotopes were measured on brachiopod shells is my understanding, NOT confirmed - verify. DOUBTFUL method: isotope stratigraphy is chemostratigraphy, tagged 'geochronology' only as closest; it correlates/brackets the event rather than giving a numeric age. | Main session re-tagged method geochronology → geochemistry (closest honest category)."
+ },
+ {
+  "id": "gap-pangaea-apw-paleopoles",
+  "event_ids": [
+   "pangaea-assembled"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "เส้นทางขั้วแม่เหล็กโบราณกับการรวมตัวของแพนเจีย",
+  "title_en": "Apparent polar wander paths reconstruct Pangea assembly",
+  "finding_th": "การรวบรวมขั้วแม่เหล็กโบราณ (paleopoles) คุณภาพสูงของกอนด์วานา ลอเรนเทีย และบอลติกา แล้วสร้างเส้นทางการเคลื่อนที่ปรากฏของขั้ว (apparent polar wander path) ใหม่ ชี้ว่าการก่อตัวของแพนเจียเริ่มราว 400 ล้านปีก่อน และจบลงด้วยการชนกันแบบเกือบตั้งฉากระหว่างกอนด์วานากับลอรัสเซีย",
+  "finding_en": "A revised compilation of high-quality Middle Ordovician-Carboniferous paleopoles from Gondwana, Laurentia and Baltica, used to rebuild apparent polar wander paths, indicates Pangea's formation was initiated at about 400 Ma and culminated in mostly orthogonal Gondwana-Laurussia convergence.",
+  "value": "initiated ~400 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Wu et al. 2020, The amalgamation of Pangea: Paleomagnetic and geological observations revisited, GSA Bulletin 133:625-646",
+   "url": "https://doi.org/10.1130/B35633.1"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Wu, Murphy, Quesada, Li, Waldron, Williams, Pisarevsky, Collins; GSA Bulletin 133, 625-646; Crossref issued date 2020-07-24 (online), print volume 133 is 2021). FULL ABSTRACT read from Crossref record: '...the formation of Pangea was likely initiated at 400 Ma via the collision between Laurussia and a ribbon-like Gondwanan promontory ... and that the amalgamation culminated in the mostly orthogonal convergence between Gondwana and Laurussia.' The abstract does NOT give a culmination age; the page's 320 Ma 'assembled' is not stated here. Note the paper argues against the long-lived highly oblique convergence favoured by other paleomagnetic models - present as one interpretation."
+ },
+ {
+  "id": "gap-camp-flood-basalts-ar-ar",
+  "event_ids": [
+   "end-triassic-extinction",
+   "pangaea-breakup"
+  ],
+  "method": "geochronology",
+  "title_th": "หินบะซอลต์ CAMP อายุ 200 ล้านปีครอบคลุมพื้นที่มหาศาล",
+  "title_en": "CAMP flood basalts dated at 200 Ma",
+  "finding_th": "การหาอายุด้วยวิธี 40Ar/39Ar และข้อมูลแม่เหล็กโบราณแสดงว่าหินบะซอลต์ของมหาภาคหินอัคนีแอตแลนติกตอนกลาง (Central Atlantic Magmatic Province, CAMP) ปะทุกว้างกว่า 7 ล้านตารางกิโลเมตรภายในไม่กี่ล้านปี สูงสุดเมื่อ 200 ล้านปีก่อน ตรงกับการสูญพันธุ์ปลายไทรแอสซิกและการแตกตัวของแพนเจีย",
+  "finding_en": "40Ar/39Ar and paleomagnetic data show CAMP tholeiitic magmatism covered more than 7 million km2 within a few million years, peaking at 200 Ma, closely coinciding with the Triassic-Jurassic mass extinction and associated with Pangea breakup.",
+  "value": "peak at 200 Ma; >7 million km2",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Marzoli et al. 1999, Extensive 200-million-year-old continental flood basalts of the Central Atlantic Magmatic Province, Science 284:616-618",
+   "url": "https://doi.org/10.1126/science.284.5414.616"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'CAMP is defined by tholeiitic basalts that crop out in once-contiguous parts of North America, Europe, Africa, and South America and is associated with the breakup of Pangea. 40Ar/39Ar and paleomagnetic data indicate that CAMP magmatism extended over an area of 2.5 million square kilometers in north and central Brazil, and the total aerial extent of the magmatism exceeded 7 million square kilometers in a few million years, with peak activity at 200 million years ago. The magmatism coincided closely in time with a major mass extinction at the Triassic-Jurassic boundary.' Ar-Ar ages of 1999 are calibrated to older standards; superseded in precision by U-Pb (Blackburn 2013)."
+ },
+ {
+  "id": "gap-camp-zircon-u-pb-extinction",
+  "event_ids": [
+   "end-triassic-extinction"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ U–Pb ซิรคอนผูกการสูญพันธุ์กับ CAMP",
+  "title_en": "Zircon U-Pb links extinction to CAMP",
+  "finding_th": "การหาอายุยูเรเนียม–ตะกั่วในผลึกเซอร์คอน (zircon U–Pb) จากหินบะซอลต์ CAMP ในอเมริกาเหนือและโมร็อกโกแสดงว่าการปะทุครั้งแรกเกิดพร้อมกับการสูญพันธุ์ปลายไทรแอสซิก และแมกมาถูกปล่อยออกมาเป็น 4 ระลอกในช่วงราว 600,000 ปี",
+  "finding_en": "High-precision zircon U-Pb dates on CAMP rocks from North America and Morocco show the earliest volcanism was synchronous with the end-Triassic extinction, and that magma was released in four pulses over about 600,000 years.",
+  "value": "four pulses over ~600,000 years",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Blackburn et al. 2013, Zircon U-Pb geochronology links the end-Triassic extinction with the Central Atlantic Magmatic Province, Science 340:941-945",
+   "url": "https://doi.org/10.1126/science.1234204"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read via PubMed (PMID 23519213): 'This chronology demonstrates synchroneity between the earliest volcanism and extinction, tests and corroborates the existing astrochronologic time scale, and shows that the release of magma and associated atmospheric flux occurred in four pulses over about 600,000 years'. North America and Morocco sampling from the Science editor's summary on Crossref. The timeline age 201.564 Ma is believed to come from this paper's full text but I did NOT read the full text - not used as value. No pollen/spore turnover source was checked."
+ },
+ {
+  "id": "gap-central-atlantic-magnetic-anomalies",
+  "event_ids": [
+   "pangaea-breakup"
+  ],
+  "method": "magnetic",
+  "title_th": "แนวความผิดปกติแม่เหล็กชี้แอตแลนติกเริ่มเปิดเมื่อ 190 ล้านปี",
+  "title_en": "Magnetic anomalies date Central Atlantic opening",
+  "finding_th": "การแปลความข้อมูลความผิดปกติสนามแม่เหล็ก (magnetic anomalies) เช่น East Coast Magnetic Anomaly และคู่ฝั่งแอฟริกา ร่วมกับเส้นสำรวจไหวสะเทือนและแรงโน้มถ่วงจากดาวเทียม ชี้ว่ามหาสมุทรแอตแลนติกตอนกลางเริ่มเปิดตั้งแต่ปลายซินีมูเรียน (190 ล้านปี) และพื้นสมุทรขยายตัวช้ามาก (~0.8 ซม./ปี) ในช่วง 20 ล้านปีแรก",
+  "finding_en": "Re-interpreted magnetic anomalies (the East Coast Magnetic Anomaly and its newly identified African conjugate), with new seismic lines and satellite gravity, indicate the Central Atlantic began opening in the Late Sinemurian (190 Ma), with very slow accretion (~0.8 cm/yr) for the first 20 Myr.",
+  "value": "190 Ma onset; ~0.8 cm/yr (190-170 Ma)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Labails, Olivet, Aslanian & Roest 2010, An alternative early opening scenario for the Central Atlantic Ocean, Earth and Planetary Science Letters 297:355-368",
+   "url": "https://doi.org/10.1016/j.epsl.2010.06.024"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref. FULL TEXT (author accepted manuscript, Archimer/Ifremer PDF) read. Abstract: '...geophysical data (including new seismic lines, an interpretation of the newly compiled magnetic data, and satellite derived gravimetry) ... demonstrate that the opening of the Central Atlantic Ocean started already during the Late Sinemurian (190 Ma), based on a new identification of the African conjugate to the ECMA and on the extent of salt provinces off Morocco and Nova Scotia ... During the first 20 Myr after the initial breakup (190-170 Ma ...), oceanic accretion was extremely slow (~0.8 cm/y).' Note the ECMA is a margin/COB anomaly, not a seafloor-spreading isochron; the 190 Ma age partly relies on salt-province reasoning (Sahabi et al. 2004). An 'alternative' model - other models put onset ~195-185 Ma."
+ },
+ {
+  "id": "gap-kpg-iridium-anomaly",
+  "event_ids": [
+   "k-pg-impact"
+  ],
+  "method": "geochemistry",
+  "title_th": "ธาตุอิริเดียมสูงผิดปกติที่ขอบเขตการสูญพันธุ์ (ธรณีเคมี)",
+  "title_en": "Iridium anomaly (geochemistry) at extinction horizon",
+  "finding_th": "หินปูนทะเลลึกในอิตาลี เดนมาร์ก และนิวซีแลนด์มีปริมาณอิริเดียม (iridium) สูงกว่าระดับพื้นหลังราว 30, 160 และ 20 เท่า ตรงชั้นที่ซากดึกดำบรรพ์บ่งการสูญพันธุ์ปลายครีเทเชียส จึงเสนอว่าเกิดจากอุกกาบาตขนาดราว 10 ± 4 กิโลเมตรพุ่งชนโลก",
+  "finding_en": "Deep-sea limestones in Italy, Denmark and New Zealand show iridium increases of about 30, 160 and 20 times background exactly at the fossil-defined Cretaceous-Tertiary extinction level, leading to the hypothesis of an asteroid impact of 10 ± 4 km diameter.",
+  "value": "Ir ×30 (Italy), ×160 (Denmark), ×20 (New Zealand); asteroid 10 ± 4 km",
+  "paleolat": null,
+  "site": {
+   "name_th": "กุบบิโอ อิตาลี (โดยประมาณ)",
+   "name_en": "Gubbio, Italy (approximate)",
+   "lat": 43.35,
+   "lon": 12.58
+  },
+  "citation": {
+   "text": "Alvarez, Alvarez, Asaro & Michel 1980, Extraterrestrial cause for the Cretaceous-Tertiary extinction, Science 208:1095-1108",
+   "url": "https://doi.org/10.1126/science.208.4448.1095"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'Deep-sea limestones exposed in Italy, Denmark, and New Zealand show iridium increases of about 30, 160, and 20 times, respectively, above the background level at precisely the time of the Cretaceous-Tertiary extinctions, 65 million years ago ... Four different independent estimates of the diameter of the asteroid give values that lie in the range 10 ± 4 kilometers.' The abstract says only 'Italy'; that the Italian section is Gubbio is well-known background, coordinates approximate (town centre). METHOD DOUBTFUL: the actual method is geochemistry (neutron activation analysis of Ir); tagged 'biostratigraphy' only because the anomaly is tied to the fossil extinction horizon - title names geochemistry. | Main session re-tagged method biostratigraphy → geochemistry (closest honest category)."
+ },
+ {
+  "id": "gap-chicxulub-gravity-magnetic",
+  "event_ids": [
+   "k-pg-impact"
+  ],
+  "method": "gravity",
+  "title_th": "ความผิดปกติแรงโน้มถ่วงและแม่เหล็กเผยหลุมชิกซูลุบ",
+  "title_en": "Gravity and magnetic anomalies reveal Chicxulub crater",
+  "finding_th": "ความผิดปกติของสนามแรงโน้มถ่วง (gravity anomaly) และสนามแม่เหล็กเป็นวงกลม ร่วมกับหลุมเจาะน้ำมัน เผยโครงสร้างที่ถูกฝังขนาดเส้นผ่านศูนย์กลาง 180 กิโลเมตรใต้คาบสมุทรยูกาตัง ซึ่งมีหินกรวดเหลี่ยมที่มีร่องรอยการแปรสภาพจากแรงกระแทก (shock metamorphism)",
+  "finding_en": "Circular gravity and magnetic-field anomalies, plus oil wells, revealed a buried 180-km-diameter structure on the Yucatán Peninsula containing shock-metamorphosed breccias and andesitic melt rocks chemically similar to K/T tektites - proposed as the K/T impact crater.",
+  "value": "~180 km diameter",
+  "paleolat": null,
+  "site": {
+   "name_th": "หลุมอุกกาบาตชิกซูลุบ คาบสมุทรยูกาตัง เม็กซิโก (ศูนย์กลางโดยประมาณ)",
+   "name_en": "Chicxulub crater, Yucatán, Mexico (approximate centre)",
+   "lat": 21.3,
+   "lon": -89.5
+  },
+  "citation": {
+   "text": "Hildebrand et al. 1991, Chicxulub Crater: A possible Cretaceous/Tertiary boundary impact crater on the Yucatán Peninsula, Mexico, Geology 19:867-871",
+   "url": "https://doi.org/10.1130/0091-7613(1991)019<0867:CCAPCT>2.3.CO;2"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Hildebrand, Penfield, Kring, Pilkington, Camargo Z., Jacobsen, Boynton; Geology 19, 867). Abstract NOT read directly; content from a search-engine summary of the ADS abstract: 'a buried 180-km-diameter circular structure on the Yucatán Peninsula ... Its size and shape are revealed by magnetic and gravity-field anomalies, as well as by oil wells drilled inside and near the structure ... breccias that contain evidence of shock metamorphism ... andesitic rocks have chemical and isotopic compositions similar to those of tektites found in K/T ejecta.' Crater-centre coordinates are approximate general knowledge (near Chicxulub Puerto), not from the paper. Diameter estimates vary in later work."
+ },
+ {
+  "id": "gap-kpg-ar-ar-synchrony",
+  "event_ids": [
+   "k-pg-impact"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ 40Ar/39Ar ยืนยันการชนและการสูญพันธุ์เกิดพร้อมกัน",
+  "title_en": "Ar-Ar dates tie impact to extinction",
+  "finding_th": "การหาอายุด้วยวิธี 40Ar/39Ar ที่แม่นยำสูงของชั้นเถ้าภูเขาไฟรอบขอบเขตครีเทเชียส–พาลีโอจีน (K–Pg) และลูกแก้วจากการชน (impact spherules) แสดงว่าการพุ่งชนของชิกซูลุบและการสูญพันธุ์เกิดห่างกันไม่เกิน 32,000 ปี",
+  "finding_en": "High-precision 40Ar/39Ar data establish synchrony between the Cretaceous-Paleogene boundary, its mass extinctions and the Chicxulub impact to within 32,000 years; the carbon-cycle perturbation lasted under 5000 years.",
+  "value": "synchronous within 32,000 years",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Renne et al. 2013, Time scales of critical events around the Cretaceous-Paleogene boundary, Science 339:684-687",
+   "url": "https://doi.org/10.1126/science.1230492"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read via PubMed (PMID 23393261): '40Ar/39Ar data that establish synchrony between the Cretaceous-Paleogene boundary and associated mass extinctions with the Chicxulub bolide impact to within 32,000 years. Perturbation of the atmospheric carbon cycle at the boundary likely lasted less than 5000 years'. The specific ages (66.043 ± 0.043 Ma for the boundary, 66.038 ± 0.025 Ma for Haiti spherules) come only from a search-engine snippet, not from text I read - the timeline's 66.043 Ma matches but treat as unverified. The Science editor summary on Crossref says 'within 33,000 years' vs abstract '32,000' - abstract value used."
+ },
+ {
+  "id": "gap-qinan-loess-magnetostratigraphy",
+  "event_ids": [
+   "asian-monsoon"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ชั้นดินลมหอบเฉินอานอายุ 22 ล้านปีจากแม่เหล็กโบราณ",
+  "title_en": "Loess magnetostratigraphy shows monsoon winds by 22 Ma",
+  "finding_th": "การวัดแม่เหล็กโบราณ (magnetostratigraphy) ร่วมกับซากดึกดำบรรพ์ในตะกอนลมหอบ (loess) ที่สลับกับชั้นดินโบราณสีแดง 231 ชั้นทางตะวันตกของที่ราบสูงดินเหลือง จีน แสดงว่าทะเลทรายและลมมรสุมฤดูหนาวที่แรงพอจะพัดฝุ่นมีอยู่แล้วตั้งแต่ 22 ล้านปีก่อน เร็วกว่าที่เคยคิดอย่างน้อย 14 ล้านปี",
+  "finding_en": "Palaeomagnetic measurements and fossils date a nearly continuous aeolian sequence of 231 loess-soil layers from 22 to 6.2 Ma, showing that dust source areas and energetic winter monsoon winds existed in interior Asia by the early Miocene, at least 14 Myr earlier than previously thought.",
+  "value": "22 to 6.2 Ma; 231 aeolian layers",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Guo et al. 2002, Onset of Asian desertification by 22 Myr ago inferred from loess deposits in China, Nature 416:159-163",
+   "url": "https://doi.org/10.1038/416159a"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from the Nature article page meta description: 'nearly continuous aeolian deposits covering the interval from 22 to 6.2 million years ago, on the basis of palaeomagnetic measurements and fossil evidence. A total of 231 visually definable aeolian layers occur as brownish loesses interbedded with reddish soils ... energetic winter monsoon winds ... by the early Miocene epoch, at least 14 million years earlier than previously thought'. Section is the Qinan (Qin'an) section, western Chinese Loess Plateau - name from search results, not the abstract; coordinates not confidently known, site null. Note this is evidence for the WINTER monsoon/aridification, not directly for summer-monsoon rainfall."
+ },
+ {
+  "id": "gap-monsoon-weathering-south-china-sea",
+  "event_ids": [
+   "asian-monsoon",
+   "india-asia-collision"
+  ],
+  "method": "geochemistry",
+  "title_th": "บันทึกการผุพังเคมีในทะเลจีนใต้ติดตามมรสุม 23 ล้านปี",
+  "title_en": "Weathering records track monsoon over 23 Myr",
+  "finding_th": "บันทึกการผุพังทางเคมี (chemical weathering) ในตะกอนทะเลจีนใต้ อ่าวเบงกอล และทะเลอาหรับ ช่วยย้อนสร้างความแรงของมรสุมเอเชียได้ถึงต้นยุคนีโอจีน และมีสหสัมพันธ์กับอัตราการยกตัวและกร่อนของหิมาลัยที่ได้จากข้อมูลเทอร์โมโครโนเมตรี (thermochronometry) ตลอด 23 ล้านปีที่ผ่านมา",
+  "finding_en": "Chemical weathering records from the South China Sea, Bay of Bengal and Arabian Sea reconstruct Asian monsoon intensity back to the earliest Neogene and correlate with Himalayan exhumation rates (from thermochronometric data) over the past 23 Myr.",
+  "value": "past 23 Myr",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Clift et al. 2008, Correlation of Himalayan exhumation rates and Asian monsoon intensity, Nature Geoscience 1:875-880",
+   "url": "https://doi.org/10.1038/ngeo351"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from the Nature page: 'Here we present weathering records from the South China Sea, Bay of Bengal and Arabian Sea that permit Asian monsoon climate to be reconstructed back to the earliest Neogene. These indicate a correlation between the rate of Himalayan exhumation - as inferred from published thermochronometric data - and monsoon intensity over the past 23 Myr ... major deformation and exhumation of the Himalaya did not begin until the early Neogene (~23 Myr ago). This coincides with the increased intensity of the Asian monsoons'. Specific ODP site numbers (e.g. 1148) NOT confirmed from the abstract - not named in item. METHOD DOUBTFUL: the primary evidence is weathering geochemistry; 'geochronology' chosen as closest (thermochronology/age models). | Main session re-tagged method geochronology → geochemistry (closest honest category)."
+ },
+ {
+  "id": "gap-lr04-benthic-d18o-stack",
+  "event_ids": [
+   "quaternary-ice-ages"
+  ],
+  "method": "geochemistry",
+  "title_th": "กราฟซ้อน δ18O จากฟอรามหน้าดิน 57 แหล่ง (LR04)",
+  "title_en": "LR04 benthic δ18O stack of 57 sites",
+  "finding_th": "การซ้อนข้อมูลไอโซโทปออกซิเจน (δ18O) ของฟอแรมินิเฟอราหน้าดิน (benthic foraminifera) จากแกนตะกอนทะเลลึก 57 แหล่งทั่วโลก ครอบคลุม 5.3 ล้านปี และปรับอายุด้วยวัฏจักรวงโคจรโลก (orbital tuning) แสดงวงรอบยุคน้ำแข็ง–อบอุ่นที่ทำให้ระดับน้ำทะเลขึ้นลงและเปิดเผยหิ้งซุนดา",
+  "finding_en": "A 5.3-Myr stack of benthic δ18O records from 57 globally distributed sites, with an age model tuned to 65°N summer insolation, records the glacial-interglacial ice-volume cycles of the Plio-Pleistocene and identifies 24 new early-Pliocene marine isotope stages.",
+  "value": "57 sites; 5.3 Myr",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Lisiecki & Raymo 2005, A Pliocene-Pleistocene stack of 57 globally distributed benthic δ18O records, Paleoceanography 20:PA1003",
+   "url": "https://doi.org/10.1029/2004PA001071"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'a 5.3-Myr stack (the LR04 stack) of benthic δ18O records from 57 globally distributed sites aligned by an automated graphic correlation algorithm ... identify 24 new marine isotope stages in the early Pliocene ... age model ... derived from tuning the δ18O stack to a simple ice model based on 21 June insolation at 65°N'. Article number PA1003 from general knowledge (Crossref record shows no page) - check. Link to Sundaland exposure is my framing, not stated in this paper. Method: isotope stratigraphy/orbital tuning -> 'geochronology' as it provides the age model. | Main session re-tagged method geochronology → geochemistry (closest honest category)."
+ },
+ {
+  "id": "gap-sunda-shelf-flooding-radiocarbon",
+  "event_ids": [
+   "quaternary-ice-ages"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุคาร์บอน-14 บันทึกน้ำท่วมหิ้งซุนดาอย่างรวดเร็ว",
+  "title_en": "Radiocarbon record of rapid Sunda Shelf flooding",
+  "finding_th": "ตะกอนจากหิ้งทวีปซุนดา (Sunda Shelf) ซึ่งมีเสถียรภาพทางธรณีแปรสัณฐาน ถูกหาอายุและใช้สร้างกราฟระดับน้ำทะเลช่วง 21,000–14,000 ปีก่อน พบว่าระหว่างการละลายของน้ำแข็งครั้งใหญ่ (meltwater pulse 1A) ระดับน้ำทะเลสูงขึ้นถึง 16 เมตรภายใน 300 ปี",
+  "finding_en": "A sea-level record from the tectonically stable Sunda Shelf covers 21 to 14 thousand calendar years ago and shows sea level rose by as much as 16 m within 300 years during meltwater pulse 1A (14.6-14.3 ka).",
+  "value": "up to 16 m in 300 years (14.6-14.3 ka)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Hanebuth, Stattegger & Grootes 2000, Rapid flooding of the Sunda Shelf: a late-glacial sea-level record, Science 288:1033-1035",
+   "url": "https://doi.org/10.1126/science.288.5468.1033"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'The increase in sea level from the last glacial maximum has been derived from a siliciclastic system on the tectonically stable Sunda Shelf ... The time from 21 to 14 thousand calendar years before the present ... The rise of sea level during meltwater pulse 1A was as much as 16 meters within 300 years (14.6 to 14.3 thousand years ago).' The abstract does not say 'radiocarbon'; that the chronology is AMS 14C (Grootes is a radiocarbon lab leader; 'calendar years') is my inference - verify in full text."
+ },
+ {
+  "id": "gap-sunda-incised-valley-3d-seismic",
+  "event_ids": [
+   "quaternary-ice-ages"
+  ],
+  "method": "seismic",
+  "title_th": "ภาพไหวสะเทือนสามมิติเผยหุบเขาแม่น้ำจมน้ำบนหิ้งซุนดา",
+  "title_en": "3D seismic images drowned Sunda Shelf valley",
+  "finding_th": "ข้อมูลการสำรวจคลื่นไหวสะเทือนสามมิติระดับตื้น (shallow 3D seismic) ครอบคลุม 11,500 ตารางกิโลเมตรในแอ่งมาเลย์ เผยหุบเขาที่ถูกกัดเซาะโดยแม่น้ำ (incised valley) ยุคไพลสโตซีนตอนปลาย กว้างถึง 18 กม. ลึก 80 ม. ยาวอย่างน้อย 180 กม. ซึ่งเกิดขณะหิ้งทวีปโผล่พ้นน้ำ และถูกปิดทับด้วยดินเหนียวทะเลยุคโฮโลซีนหนาราว 16 ม.",
+  "finding_en": "Shallow 3D seismic data (11,500 km2 survey) in the Malay Basin image a Late Pleistocene incised valley up to 18 km wide and 80 m deep, traceable for at least 180 km, capped by ~16 m of shell-bearing Holocene clay - a river system cut when the shelf was exposed.",
+  "value": "up to 18 km wide, 80 m deep, ≥180 km long",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Alqahtani, Johnson, Jackson & Som 2015, Nature, origin and evolution of a Late Pleistocene incised valley-fill, Sunda Shelf, Southeast Asia, Sedimentology 62:1198-1232",
+   "url": "https://doi.org/10.1111/sed.12185"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'a large (up to 18 km wide by 80 m deep) and exceptionally well-imaged Late Pleistocene incised valley from the Sunda Shelf (South China Sea) based on shallow three-dimensional seismic data from a large (11 500 km2), merge survey ... traced for at least 180 km ... located in the axial part of the Malay Basin ... a ca 16 m thick, shell-bearing, Holocene clay caps the valley-fill.' Abstract truncated in Crossref after this point; the paper's conclusion about which lowstand cut the valley was not read. Malay Basin lies in the Gulf of Thailand/South China Sea - close to Thailand."
+ },
+ {
+  "id": "gap-toba-ar-ar-lenggong",
+  "event_ids": [
+   "toba-eruption"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ 40Ar/39Ar ของเถ้าโทบาจากหุบเขาเล็งกง มาเลเซีย",
+  "title_en": "Ar-Ar age of Toba ash, Lenggong",
+  "finding_th": "การหาอายุ 40Ar/39Ar ที่ปรับเทียบกับวัฏจักรดาราศาสตร์ (astronomically calibrated) ของผลึกซานิดีน (sanidine) จากเถ้าภูเขาไฟโทบาในหุบเขาเล็งกง มาเลเซีย ห่างจากแหล่งปะทุ 350 กม. ได้อายุ 73.88 ± 0.32 พันปี แม่นยำกว่าค่าก่อนหน้าราว 10 เท่า",
+  "finding_en": "An astronomically calibrated 40Ar/39Ar age of 73.88 ± 0.32 ka (1σ) on sanidine from Toba deposits in the Lenggong Valley, Malaysia, 350 km from the source, dates the supereruption an order of magnitude more precisely than before.",
+  "value": "73.88 ± 0.32 ka (1σ, full external errors)",
+  "paleolat": null,
+  "site": {
+   "name_th": "หุบเขาเล็งกง รัฐเประ มาเลเซีย (โดยประมาณ)",
+   "name_en": "Lenggong Valley, Perak, Malaysia (approximate)",
+   "lat": 5.1,
+   "lon": 100.97
+  },
+  "citation": {
+   "text": "Storey, Roberts & Saidin 2012, Astronomically calibrated 40Ar/39Ar age for the Toba supereruption and global synchronization of late Quaternary records, PNAS 109:18684-18688",
+   "url": "https://doi.org/10.1073/pnas.1208178109"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; FULL ABSTRACT read from Crossref: 'We report an astronomically calibrated 40Ar/39Ar age of 73.88 ± 0.32 ka (1σ, full external errors) for sanidine crystals extracted from Toba deposits in the Lenggong Valley, Malaysia, 350 km from the eruption source and 6 km from an archaeological site with stone artifacts buried by ash ... order-of-magnitude more precise than previous estimates ... middle of the cold interval between Dansgaard-Oeschger events 20 and 19'. Matches the timeline age 0.07388 Ma. Site coordinates are approximate for the Lenggong Valley (general knowledge), not the sampling point."
+ },
+ {
+  "id": "gap-toba-ash-south-china-sea",
+  "event_ids": [
+   "toba-eruption"
+  ],
+  "method": "geochemistry",
+  "title_th": "ชั้นเถ้าโทบาในแกนตะกอนทะเลจีนใต้",
+  "title_en": "Toba ash layers in South China Sea cores",
+  "finding_th": "ชั้นเถ้าภูเขาไฟในแกนตะกอนทะเลจีนใต้ซึ่งมีองค์ประกอบเคมีตรงกับการปะทุครั้งล่าสุดของโทบา (Youngest Toba Tuff) และมีอายุราว 74,000 ปี ขยายเขตเถ้าตกที่รู้จักออกไปทางตะวันออกกว่า 1,800 กม. แสดงว่าเถ้าถูกลมพัดไปทั้งทางตะวันตกและตะวันออก",
+  "finding_en": "Ash layers in South China Sea cores, chemically matched to the youngest Toba eruption and dated to ca. 74 ka, extend the known ash-fall zone more than 1800 km eastward, implying contrasting wind directions during the eruption.",
+  "value": ">1800 km eastward extension of ash-fall zone",
+  "paleolat": null,
+  "site": {
+   "name_th": "แกนตะกอน GIK17961-2 ทะเลจีนใต้ตอนใต้",
+   "name_en": "Core GIK17961-2, southern South China Sea",
+   "lat": 8.5067,
+   "lon": 112.3317
+  },
+  "citation": {
+   "text": "Bühring, Sarnthein & Leg 184 Shipboard Scientific Party 2000, Toba ash layers in the South China Sea: Evidence of contrasting wind directions during eruption ca. 74 ka, Geology 28:275-278",
+   "url": "https://doi.org/10.1130/0091-7613(2000)028<0275:TALITS>2.3.CO;2"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Geology 28, 275-278, 2000). Abstract NOT read directly (GSW 403; no abstract on Crossref/OpenAlex). Content from search-engine snippets ('The youngest Toba ash layers in the South China Sea expand the previously known ash-fall zone over more than 1800 km to the east'; dispersal 'in both western and eastern directions indicating two contrasting wind directions') and from the PANGAEA dataset page linked to this paper (doi:10.1594/PANGAEA.736631, 'Chemistry of particles from the Toba ash layer'), which lists cores GIK17961-2 (8.506667N, 112.331667E, 1795 m) and GIK17962-4 (7.181667N, 112.081667E, 1969 m) and summarises the ~74 ka chemically matched ash. Snippets also mentioned ODP Site 1143 with three tephra layers (YTT/OTT/HDT) - that appears to come from a different paper (Song et al., 'Records of Toba eruptions in the South China Sea') and is NOT used. 'Chemically matched' is from the PANGAEA summary; the dating method (likely δ18O stratigraphy, MIS 4/5 transition) not confirmed. Method tagged 'geochronology' (tephrochronology) as closest. | Main session re-tagged method geochronology → geochemistry (closest honest category)."
  }
 ]

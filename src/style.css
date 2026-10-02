@@ -98,7 +98,8 @@ dialog#about ol, dialog#about ul { padding-left: 20px; font-size: .85em; }
 .ev-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .88em; }
 .ev-chip { font-size: .72em; padding: 1px 8px; border-radius: 999px; color: var(--ev-chip-text); background: var(--ev-geophys); }
 .ev-paleomagnetism { background: var(--ev-paleomag); }
-.ev-geochronology, .ev-biostratigraphy { background: var(--ev-dating); }
+.ev-geochronology, .ev-biostratigraphy, .ev-geochemistry { background: var(--ev-dating); }
+.ev-mapping { background: var(--ev-field); }
 .ev-field-survey { background: var(--ev-field); }
 #card .ev-item p { margin: 2px 0; font-size: .85em; }
 #card .ev-data { font-variant-numeric: tabular-nums; color: var(--text); font-weight: 600; }
