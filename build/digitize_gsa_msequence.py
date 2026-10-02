@@ -9,10 +9,16 @@ import sys
 import tempfile
 from pathlib import Path
 
-from polarity import mseq_from_blocks
+from polarity import check_digitization, mseq_from_blocks, recalibrate
 
 COLUMN_X = (249.5, 261.0)   # polarity column of the Mesozoic panel, in PDF points
 TICKS = range(100, 170, 10)
+
+# Stage-boundary ages printed on the GSA v6.0 chart (Aptian … Bajocian bases) paired with the same
+# boundaries in ICS v2024/12 (GTS2020). Stage boundaries are tied to chrons (e.g. Aptian base = base of
+# M0r), so mapping through them puts the chart's chrons on the time scale used by the rest of the page.
+GSA_TO_ICS2024 = [(125.0, 121.4), (129.4, 125.77), (132.6, 132.6), (139.8, 137.05), (145.0, 143.1),
+                  (152.1, 149.2), (157.3, 154.8), (163.5, 161.5), (166.1, 165.3), (168.3, 168.2), (170.3, 170.9)]
 
 
 def _words(pdf):
@@ -49,7 +55,9 @@ def digitize(pdf):
         a = b = 1.0
         e = f = 0.0
         if t:
-            a, _, _, b, e, f = [float(x) for x in t.group(1).replace(",", " ").split()]
+            a, rot1, rot2, b, e, f = [float(x) for x in t.group(1).replace(",", " ").split()]
+            if rot1 or rot2 or abs(abs(b) - 1) > 1e-6 or abs(abs(a) - 1) > 1e-6:
+                raise ValueError("unexpected scaled or rotated drawing transform; the chart layout has changed")
         line = re.search(r' d="M ([-\d.]+) ([-\d.]+) L ([-\d.]+) ([-\d.]+) "', p)
         if line and "stroke-width" in p and 'fill="none"' in p:
             x0, x1 = a * float(line.group(1)) + e, a * float(line.group(3)) + e
@@ -76,15 +84,23 @@ def digitize(pdf):
                 cns = base                      # Cretaceous Normal Superchron block: its base starts the M-sequence
             elif dark and 115 < top < 170:
                 normals.append((top, base))
-            elif not dark and 115 < top < 170:
-                mixed.append((top, base))
-    normals = [(t, bse) for t, bse in normals if cns and t >= cns - 1e-6 and t < 170]
+            elif 40 <= float(fill.group(1)) <= 80 and 115 < top < 175:
+                mixed.append((top, base))           # grey = poorly known
+    normals = [(t, bse) for t, bse in normals if cns and t >= cns - 1e-6 and t < 175]
+    check_digitization(nticks, resid, cns, len(normals), len(labels))
     base_ma = max(b for _, b in normals + mixed)
-    label_ages = [(w[4], fit((w[1] + w[3]) / 2)) for w in labels]
-    out = mseq_from_blocks(cns, normals, mixed, label_ages, base_ma)
+    # The Aptian base is defined at the base of M0r: tie it to the drawn M0r base rather than the
+    # chart's rounded "~125" label.
+    m0r_base = min(a for a, _ in normals)
+    ties = [(m0r_base, 121.4)] + GSA_TO_ICS2024[1:]
+    rc = lambda x: recalibrate(x, ties)  # noqa: E731
+    out = mseq_from_blocks(rc(cns), [(rc(a), rc(b)) for a, b in normals], [(rc(a), rc(b)) for a, b in mixed],
+                           [(w[4], rc(fit((w[1] + w[3]) / 2))) for w in labels], rc(base_ma))
     out["calibration"] = {"ticks_used": nticks, "max_tick_residual_myr": round(resid, 3),
-                          "note": "Ages are the GSA v6.0 chart's own calibration, read from vector geometry; "
-                                  "approximate to about ±0.2 Myr. GTS2020 puts the CNS base at 121.4 Ma."}
+                          "chart_cns_base_ma": round(cns, 3), "ties_gsa_to_ics2024": [[round(a, 3), b] for a, b in ties],
+                          "note": "Chron pattern read from the GSA v6.0 chart's vector geometry, then rescaled "
+                                  "piecewise-linearly from the chart's printed stage-boundary ages to ICS v2024/12 "
+                                  "(GTS2020) ones. Ages are approximate."}
     return out
 
 

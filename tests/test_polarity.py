@@ -76,3 +76,33 @@ def test_digitized_strokes_become_contiguous_segments():
     assert (154.3, 164.8, "mixed", "M-sequence (poorly known)") in names
     assert names[-1][1] == 165.2
     assert all(a["base_ma"] == b["top_ma"] for a, b in zip(out["segments"], out["segments"][1:]))
+
+
+def test_recalibrate_maps_chart_ages_through_stage_ties():
+    from polarity import recalibrate
+    ties = [(125.0, 121.4), (129.4, 125.77), (145.0, 143.1)]
+    assert recalibrate(125.0, ties) == 121.4
+    assert abs(recalibrate(127.2, ties) - (121.4 + 2.2 * (125.77 - 121.4) / 4.4)) < 1e-9
+    assert abs(recalibrate(124.0, ties) - (121.4 - 1.0 * (125.77 - 121.4) / 4.4)) < 1e-9
+    assert recalibrate(146.0, ties) > 143.1
+    ages = [recalibrate(a, ties) for a in (120, 124, 126, 130, 140, 150)]
+    assert ages == sorted(ages)
+
+
+def test_labels_go_to_segments_of_matching_polarity():
+    from polarity import mseq_from_blocks
+    out = mseq_from_blocks(cns_base=130.0, normals=[(131.0, 132.0), (133.0, 134.0)], mixed=[],
+                           labels=[("M12", 132.4), ("M12r", 131.2)], base_ma=135.0)
+    named = {s["name"]: (s["top_ma"], s["polarity"]) for s in out["segments"] if "≈" in s["name"]}
+    assert named["M-sequence (≈M12)"] == (131.0, "normal")
+    assert named["M-sequence (≈M12r)"][1] == "reversed"
+
+
+def test_digitization_sanity_checks_fail_loudly():
+    from polarity import check_digitization
+    good = dict(nticks=7, resid=0.05, cns=124.1, n_normals=27, n_labels=13)
+    check_digitization(**good)
+    for bad, msg in [({"nticks": 5}, "ticks"), ({"resid": 0.6}, "residual"), ({"cns": None}, "Cretaceous Normal"),
+                     ({"cns": 140}, "Cretaceous Normal"), ({"n_normals": 3}, "normal chrons"), ({"n_labels": 0}, "labels")]:
+        with pytest.raises(ValueError, match=msg):
+            check_digitization(**{**good, **bad})

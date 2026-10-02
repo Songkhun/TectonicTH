@@ -21,11 +21,36 @@ SOURCES = {
                 "url": "https://doi.org/10.1016/B978-0-12-824360-2.00005-X"},
     "kiaman": {"text": "Opdyke et al. 2000, Base of the Kiaman (318 Ma), GSA Bulletin 112:1315; Isozaki 2009, Illawarra Reversal (~265 Ma), Gondwana Research 15:421",
                "url": "https://doi.org/10.1130/0016-7606(2000)112<1315:BOTKID>2.0.CO;2"},
-    "gsa_v6": {"text": "Walker & Geissman (compilers) 2022, GSA Geologic Time Scale v6.0 — M-sequence and CNS base digitized from the chart (its own calibration, ≈±0.2 Myr; GTS2020 places the CNS base at 121.4 Ma)",
+    "gsa_v6": {"text": "Walker & Geissman (compilers) 2022, GSA Geologic Time Scale v6.0 — M-sequence pattern digitized from the chart, then rescaled to ICS v2024/12 (GTS2020) stage-boundary ages, piecewise linear; ages approximate",
                "url": "https://doi.org/10.1130/2022.CTS006C"},
     "moyero": {"text": "Pavlov & Gallet 2005, A third superchron during the Early Paleozoic, Episodes 28:78–84 (~20 Myr, Lower–Middle Ordovician; boundaries approximate)",
                "url": "https://doi.org/10.18814/epiiugs/2005/v28i2/001"},
 }
+
+
+def recalibrate(age, ties):
+    """Piecewise-linear map from one time-scale calibration to another through (old, new) tie ages;
+    beyond the outermost ties the nearest segment's slope is extended."""
+    ties = sorted(ties)
+    i = 0
+    while i < len(ties) - 2 and age > ties[i + 1][0]:
+        i += 1
+    (a0, b0), (a1, b1) = ties[i], ties[i + 1]
+    return b0 + (age - a0) * (b1 - b0) / (a1 - a0)
+
+
+def check_digitization(nticks, resid, cns, n_normals, n_labels):
+    """Fail loudly when a different chart layout would otherwise give silent garbage."""
+    if nticks != 7:
+        raise ValueError(f"expected 7 age ticks (100–160 Ma) next to the polarity column, found {nticks}")
+    if resid > 0.3:
+        raise ValueError(f"age-axis fit residual {resid:.2f} Myr is too large; the tick labels were not read correctly")
+    if cns is None or not 118 <= cns <= 128:
+        raise ValueError(f"Cretaceous Normal Superchron block not found where expected (got {cns})")
+    if n_normals < 20:
+        raise ValueError(f"only {n_normals} normal chrons found; the polarity column was not read correctly")
+    if n_labels < 1:
+        raise ValueError("no M-chron labels found next to the polarity column")
 
 
 def mseq_from_blocks(cns_base, normals, mixed, labels, base_ma, source="gsa_v6"):
@@ -46,15 +71,19 @@ def mseq_from_blocks(cns_base, normals, mixed, labels, base_ma, source="gsa_v6")
             segs.append((a, b, kind))
         cursor = max(cursor, b)
 
-    def name(top, base, polarity):
-        if polarity == "mixed":
-            return "M-sequence (poorly known)"
-        inside = [n for n, age in labels if top <= age < base]
-        return f"M-sequence (≈{inside[0]})" if inside else "M-sequence"
-
+    segs = [(t, b, pol) for t, b, pol in segs if b > t]
+    names = ["M-sequence (poorly known)" if pol == "mixed" else "M-sequence" for _, _, pol in segs]
+    # Chart labels sit beside the column; give "M12" to the nearest normal segment and "M12r" to the
+    # nearest reversed one, so a normal-chron name never lands on a reversed interval.
+    for label, age in labels:
+        want = "reversed" if label.endswith("r") else "normal"
+        cands = [(0 if t <= age < b else min(abs(age - t), abs(age - b)), i)
+                 for i, (t, b, pol) in enumerate(segs) if pol == want and names[i] == "M-sequence"]
+        if cands:
+            names[min(cands)[1]] = f"M-sequence (≈{label})"
     return {"source": source, "segments": [
-        {"top_ma": round(t, 3), "base_ma": round(b, 3), "polarity": pol, "name": name(t, b, pol),
-         "source": source, "approx": True} for t, b, pol in segs if b > t]}
+        {"top_ma": round(t, 3), "base_ma": round(b, 3), "polarity": pol, "name": n, "source": source, "approx": True}
+        for (t, b, pol), n in zip(segs, names)]}
 
 
 def build_segments(ts, labels, superchrons, oldest_ma, mseq=None):
@@ -68,7 +97,7 @@ def build_segments(ts, labels, superchrons, oldest_ma, mseq=None):
     cursor = ts[-1]
     for sc in superchrons:
         if mseq and sc["name"].startswith("Cretaceous Normal"):
-            sc = {**sc, "base_ma": mseq["segments"][0]["top_ma"], "source": mseq["source"], "approx": True}
+            sc = {**sc, "base_ma": mseq["segments"][0]["top_ma"], "approx": True}
             segs.append({**sc, "top_ma": cursor})
             segs.extend(mseq["segments"])
             cursor = mseq["segments"][-1]["base_ma"]
