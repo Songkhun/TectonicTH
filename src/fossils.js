@@ -22,6 +22,7 @@ export const FOSSIL_GROUPS = {
   mammal: { icon: '🐘', th: 'สัตว์เลี้ยงลูกด้วยนม', en: 'Mammal' },
   primate: { icon: '🐒', th: 'ไพรเมต', en: 'Primate' },
   plant: { icon: '🌳', th: 'พืช', en: 'Plant' },
+  amphibian: { icon: '🐸', th: 'สัตว์สะเทินน้ำสะเทินบก', en: 'Amphibian' },
   other: { icon: '🦴', th: 'อื่น ๆ', en: 'Other' },
 };
 
@@ -51,7 +52,7 @@ export function placeFossils(bands, fossils, { size = 18, columns = 2, gap = 2 }
 
 export function localityText(loc, lang) {
   if (lang === 'th') {
-    return [loc.name_th, loc.tambon_th && `ต.${loc.tambon_th}`, loc.amphoe_th && `อ.${loc.amphoe_th}`, `จ.${loc.province_th}`]
+    return [loc.name_th || loc.name_en, loc.tambon_th && `ต.${loc.tambon_th}`, loc.amphoe_th && `อ.${loc.amphoe_th}`, `จ.${loc.province_th}`]
       .filter(Boolean).join(' ');
   }
   return [loc.name_en, loc.tambon_th && `Tambon ${loc.tambon_th}`, loc.amphoe_th && `Amphoe ${loc.amphoe_th}`, `${loc.province_en} Province`]
@@ -96,4 +97,16 @@ export function fossilCardHtml(f) {
     + `<p><strong>${esc(t('fossil_locality'))}:</strong> ${esc(localityText(l, lang))}</p>`
     + `<p><a href="https://www.google.com/maps?q=${esc(l.lat)},${esc(l.lon)}" target="_blank" rel="noopener">${esc(l.lat)}, ${esc(l.lon)}</a> <span class="card-cite">(${esc(precision)})</span></p>`
     + `<p class="card-cite"><strong>${esc(t('source'))}:</strong> <a href="${esc(f.citation.url)}" target="_blank" rel="noopener">${esc(f.citation.text)}</a></p>`;
+}
+
+// "Wernette S.J., Hughes N.C., … 2020, Title…" → "Wernette et al. 2020" for compact table cells.
+export function shortCitation(text) {
+  const m = text.match(/\b(1[89]\d{2}|20\d{2})\b/);
+  if (!m) return text;
+  const authors = text.slice(0, m.index).trim().replace(/,$/, '');
+  const surname = s => s.trim().split(/\s+/)[0].replace(/,$/, '');
+  const parts = authors.split(/\s*&\s*|\s+and\s+/);
+  if (parts.length === 2 && !parts[0].includes(',')) return `${surname(parts[0])} & ${surname(parts[1])} ${m[0]}`;
+  const many = authors.includes(',') || authors.includes('&') || /\bet al\b/.test(authors);
+  return `${surname(authors)}${many ? ' et al.' : ''} ${m[0]}`;
 }

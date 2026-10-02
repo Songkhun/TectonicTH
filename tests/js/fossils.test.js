@@ -74,3 +74,19 @@ test('fossil card escapes text and shows locality, coordinates and map link', ()
   assert.ok(html.includes('449–459 Ma'));
   setLang('th');
 });
+
+test('amphibians have a group', () => {
+  assert.ok(FOSSIL_GROUPS.amphibian && FOSSIL_GROUPS.amphibian.th);
+});
+
+test('locality falls back to the English place name when the Thai one is unknown', () => {
+  assert.equal(localityText({ ...loc, name_th: null }, 'th'), 'Ban Tha Kradan ต.ท่ากระดาน อ.ศรีสวัสดิ์ จ.กาญจนบุรี');
+});
+
+test('shortCitation gives first author, et al. and year', async () => {
+  const { shortCitation } = await import('../../src/fossils.js');
+  assert.equal(shortCitation('Wernette S.J., Hughes N.C., Myrow P.M., Sardsud A. 2020, Satunarcus, a new genus, J Paleont 94:867-880'), 'Wernette et al. 2020');
+  assert.equal(shortCitation('Archbold 1999, Neochonetes, Proc Roy Soc Vic'), 'Archbold 1999');
+  assert.equal(shortCitation('Filoux A. & Suteethorn V. 2018, A late Pleistocene skeleton, Geobios 51:31-49'), 'Filoux & Suteethorn 2018');
+  assert.equal(shortCitation('No year here'), 'No year here');
+});

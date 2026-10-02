@@ -40,6 +40,16 @@ report.landFill = await ev(`(() => { const c = document.getElementById('globe');
   for (let i = 0; i < d.length; i += 4) { if (d[i + 3] > 0) { px++; if (Math.abs(d[i] - r) < 6 && Math.abs(d[i + 1] - g) < 6 && Math.abs(d[i + 2] - b) < 6) land++; } }
   return +(land / px).toFixed(3); })()`);
 await shot('01-desktop-start.png');
+// fossils
+report.fossil_icons = await ev("document.querySelectorAll('.tl-fossil').length");
+report.fossil_card = await ev("(() => { const b = document.querySelector('.tl-fossil'); if (!b) return null; b.click(); return document.querySelector('#card h2')?.innerText; })()");
+await ev("document.getElementById('btn-fossils').click()"); await sleep(400);
+report.fossil_rows_all = await ev("document.querySelectorAll('#fos-rows tr').length");
+await shot('09-fossil-table.png');
+report.fossil_rows_kan = await ev("(() => { const s = document.getElementById('fos-province'); s.value = 'Kanchanaburi'; s.dispatchEvent(new Event('input')); return document.querySelectorAll('#fos-rows tr').length; })()");
+report.fossil_rows_search = await ev("(() => { const s = document.getElementById('fos-province'); s.value = ''; s.dispatchEvent(new Event('input')); const q = document.getElementById('fos-q'); q.value = 'จ.'; q.dispatchEvent(new Event('input')); return document.querySelectorAll('#fos-rows tr').length; })()");
+report.fossil_jump = await ev("(async () => { const q = document.getElementById('fos-q'); q.value = ''; q.dispatchEvent(new Event('input')); const tl = document.getElementById('timeline'); tl.scrollTop = 0; document.querySelector('#fos-rows tr:last-child td').click(); await new Promise(r => setTimeout(r, 400)); return { dialogOpen: document.getElementById('fossils').open, scrolled: tl.scrollTop > 0, card: document.querySelector('#card h2')?.innerText }; })()");
+await shot('10-fossil-card.png');
 // polarity strip
 report.pol_strips_on = await ev("document.querySelectorAll('.tl-pol').length");
 await ev("document.getElementById('timeline').scrollTop = document.getElementById('timeline').scrollHeight"); await sleep(900);

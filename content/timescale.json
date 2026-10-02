@@ -1,4 +1,5 @@
 [
+  {"id": "cambrian", "name_th": "ยุคแคมเบรียน", "name_en": "Cambrian", "start_ma": 538.8, "end_ma": 486.85, "color": "#7FA056"},
   {"id": "ordovician", "name_th": "ยุคออร์โดวิเชียน", "name_en": "Ordovician", "start_ma": 486.85, "end_ma": 443.1, "color": "#009270"},
   {"id": "silurian", "name_th": "ยุคไซลูเรียน", "name_en": "Silurian", "start_ma": 443.1, "end_ma": 419.62, "color": "#B3E1B6"},
   {"id": "devonian", "name_th": "ยุคดีโวเนียน", "name_en": "Devonian", "start_ma": 419.62, "end_ma": 358.86, "color": "#CB8C37"},

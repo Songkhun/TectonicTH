@@ -11,7 +11,8 @@ test('periodOf boundaries: base age belongs to the older period', () => {
   assert.equal(periodOf(251.902, periods).id, 'permian');
   assert.equal(periodOf(251.9, periods).id, 'triassic');
   assert.equal(periodOf(0, periods).id, 'quaternary');
-  assert.equal(periodOf(500, periods), null);
+  assert.equal(periodOf(500, periods).id, 'cambrian');
+  assert.equal(periodOf(600, periods), null);
 });
 
 test('layout orders oldest first and never overlaps', () => {

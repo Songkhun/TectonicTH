@@ -3,11 +3,13 @@ import { activeIndex, scrollPads } from './select.js';
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
 import { polarityRects, polarityLabel } from './polarity.js';
+import { placeFossils, FOSSIL_GROUPS } from './fossils.js';
+import { ageToY } from './layout.js';
 
 const ROW_H = 64;
 const MIN_PERIOD_H = 140;
 
-export function createTimeline(container, events, periods, { onActive, onSelect, onPolarity, polarity = null, showPolarity = false }) {
+export function createTimeline(container, events, periods, { onActive, onSelect, onPolarity, onFossil, fossils = [], polarity = null, showPolarity = false }) {
   const layout = layoutTimeline(events, periods, { rowH: ROW_H, minPeriodH: MIN_PERIOD_H });
   const inner = document.createElement('div');
   inner.className = 'tl-inner';
@@ -53,6 +55,22 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
       }
     }
     inner.classList.toggle('with-pol', polarityOn);
+    const columns = container.clientWidth < 600 ? 1 : 2;
+    const bandsPx = layout.bands.map(b => ({ period: b.period, y: pad + b.y, h: b.h - 4 }));
+    for (const p of placeFossils(bandsPx, fossils, { size: 18, columns })) {
+      const f = p.fossil;
+      const g = FOSSIL_GROUPS[f.group] || FOSSIL_GROUPS.other;
+      const el = document.createElement('button');
+      el.type = 'button';
+      el.className = `tl-fossil${f.locality.province_en === 'Kanchanaburi' ? ' is-kan' : ''}`;
+      el.style.top = `${p.y}px`;
+      el.style.left = `calc(100% - var(--fossil-col) + ${p.x}px)`;
+      el.title = `${f.taxon} · ${f.locality.province_th}`;
+      el.setAttribute('aria-label', el.title);
+      el.textContent = g.icon;
+      el.addEventListener('click', () => onFossil && onFossil(f));
+      inner.appendChild(el);
+    }
     rowEls = layout.rows.map(r => {
       const el = document.createElement('button');
       el.type = 'button';
@@ -106,11 +124,16 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
     container.scrollTo({ top: r.y + ROW_H / 2, behavior: smooth ? 'smooth' : 'auto' });
   }
 
+  function scrollToAge(age) {
+    const y = ageToY(age, layout.bands);
+    if (y !== null) container.scrollTo({ top: y, behavior: 'auto' });
+  }
+
   function setPolarity(on) {
     polarityOn = on && !!polarity;
     render();
   }
 
   render();
-  return { scrollToEvent, refresh: render, setPolarity };
+  return { scrollToEvent, scrollToAge, refresh: render, setPolarity };
 }

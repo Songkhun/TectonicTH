@@ -6,7 +6,7 @@ from validate import ID_RE, URL_RE, _num, _text
 
 GROUPS = ("trilobite", "nautiloid", "graptolite", "conodont", "tentaculitid", "brachiopod", "fusulinid", "coral",
           "ammonoid", "bivalve", "gastropod", "radiolarian", "crinoid", "fish", "reptile", "dinosaur", "mammal",
-          "primate", "plant", "other")
+          "primate", "plant", "amphibian", "other")
 PRECISIONS = ("site", "area", "district")
 SOURCE_TYPES = ("peer-reviewed", "government-report", "thesis", "conference", "preprint")
 
@@ -57,7 +57,9 @@ def validate_fossils(items, oldest_ma):
         if not isinstance(loc, dict):
             err("locality is required")
         else:
-            for key in ("name_en", "name_th", "province_th", "province_en"):
+            if not _optional_text(loc.get("name_th")):
+                err("locality name_th must be null or text")
+            for key in ("name_en", "province_th", "province_en"):
                 if not _text(loc.get(key)):
                     err(f"locality {key} is empty (province is required)")
             for key in ("tambon_th", "amphoe_th"):

@@ -11,6 +11,7 @@
 <header class="topbar">
   <h1><span data-i18n="app_title"></span><span class="sub" data-i18n="app_subtitle"></span></h1>
   <button type="button" id="btn-lecture" aria-pressed="false" data-i18n="btn_lecture"></button>
+  <button type="button" id="btn-fossils" data-i18n="fossils_button"></button>
   <button type="button" id="btn-about" data-i18n="btn_about"></button>
   <button type="button" id="btn-lang" data-i18n="btn_lang"></button>
 </header>
@@ -21,13 +22,27 @@
   </section>
   <section class="tl-pane">
     <div class="lanes">
-      <span class="lane-period"><span data-i18n="lane_period"></span><label class="pol-toggle"><input type="checkbox" id="chk-polarity"><span data-i18n="polarity_short"></span></label></span><span data-i18n="lane_local"></span><span data-i18n="lane_world"></span><span data-i18n="lane_life"></span>
+      <span class="lane-period"><span data-i18n="lane_period"></span><label class="pol-toggle"><input type="checkbox" id="chk-polarity"><span data-i18n="polarity_short"></span></label></span><span data-i18n="lane_local"></span><span data-i18n="lane_world"></span><span data-i18n="fossils_lane"></span><span data-i18n="lane_life"></span>
     </div>
     <div id="timeline" tabindex="0"></div>
     <div id="poltip" hidden></div>
     <article id="card" hidden></article>
   </section>
 </main>
+<dialog id="fossils">
+  <div class="fos-head"><h2 data-i18n="fossils_title"></h2><form method="dialog"><button data-i18n="close"></button></form></div>
+  <div class="fos-filters">
+    <input type="search" id="fos-q">
+    <select id="fos-period"></select>
+    <select id="fos-province"></select>
+    <select id="fos-group"></select>
+    <span id="fos-count"></span>
+  </div>
+  <div class="fos-table-wrap"><table class="fos-table"><thead><tr>
+    <th data-i18n="fossil_taxon"></th><th data-i18n="fossil_group"></th><th data-i18n="fossil_age"></th>
+    <th data-i18n="fossil_formation"></th><th data-i18n="fossil_locality"></th><th data-i18n="fossil_coords"></th><th data-i18n="source"></th>
+  </tr></thead><tbody id="fos-rows"></tbody></table></div>
+</dialog>
 <dialog id="about">
   <div id="about-body"></div>
   <form method="dialog"><button data-i18n="close"></button></form>

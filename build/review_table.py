@@ -90,7 +90,7 @@ FOSSIL_COLUMNS = ["id", "taxon", "group", "age", "stage", "formation", "locality
 
 def _fossil_row(f):
     loc, cite = f["locality"], f.get("citation")
-    parts = [loc["name_th"]]
+    parts = [loc.get("name_th") or loc["name_en"]]
     if loc.get("tambon_th"):
         parts.append(f"ต.{loc['tambon_th']}")
     if loc.get("amphoe_th"):

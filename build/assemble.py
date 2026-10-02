@@ -12,7 +12,7 @@ from polarity import load_polarity, validate_polarity
 from fossils import load_fossils, validate_fossils
 from validate import load_json, validate_events, validate_timescale
 
-MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js",
+MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js", "fossils.js",
                 "globe.js", "timeline.js", "card.js", "main.js"]
 MAX_HTML_BYTES = 3_000_000
 IMPORT_RE = re.compile(r"^import\s+\{[\w\s,$]*\}\s+from\s+'\./[\w-]+\.js';\s*$")

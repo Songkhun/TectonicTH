@@ -1,5 +1,6 @@
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
+import { fossilCardHtml } from './fossils.js';
 
 export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
   let shown = null;
@@ -12,6 +13,12 @@ export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
 
   function render() {
     if (!shown) { el.hidden = true; return; }
+    if (shown.__fossil) {
+      el.innerHTML = fossilCardHtml(shown.__fossil);
+      el.hidden = false;
+      el.querySelector('.card-close').addEventListener('click', () => { hide(); if (onClose) onClose(); });
+      return;
+    }
     const e = shown;
     const badge = e.verified ? '' : `<span class="badge">${esc(t('draft'))}</span>`;
     const body = field(e, 'body') ? `<p>${esc(field(e, 'body'))}</p>` : '';
@@ -36,7 +43,8 @@ export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
   }
 
   function show(e) { shown = e; render(); }
+  function showFossil(f) { shown = { __fossil: f }; render(); }
   function lectureMode(on) { lecture = on; render(); }
 
-  return { show, hide, refresh: render, lectureMode };
+  return { show, showFossil, hide, refresh: render, lectureMode };
 }

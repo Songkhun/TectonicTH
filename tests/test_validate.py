@@ -59,7 +59,7 @@ def test_real_starter_content_is_valid():
     ({"id": "Bad Id"}, "kebab-case"),
     ({"lane": "ocean"}, "lane"),
     ({"age_ma": -1}, "age_ma"),
-    ({"age_ma": 500}, "age_ma"),
+    ({"age_ma": 600}, "age_ma"),
     ({"age_uncertainty_ma": -2}, "age_uncertainty_ma"),
     ({"title_th": " "}, "title_th"),
     ({"body_en": ""}, "body_en"),

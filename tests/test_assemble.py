@@ -202,7 +202,7 @@ def test_build_rejects_wrong_present_day_position(tmp_path):
 def test_build_embeds_polarity_when_present(tmp_path):
     from polarity import SUPERCHRONS, build_segments
     root = make_root(tmp_path)
-    segs = build_segments([0.0, 0.773, 82.875], [["C1n", 0.0], ["C1r", 0.773]], SUPERCHRONS, 486.85)
+    segs = build_segments([0.0, 0.773, 82.875], [["C1n", 0.0], ["C1r", 0.773]], SUPERCHRONS, 538.8)
     (root / "content/polarity.json").write_text(json.dumps({"sources": {"gts2020": {"text": "Ogg 2020", "url": "https://doi.org/10.1/x"}}, "segments": segs}), encoding="utf-8")
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
     data = json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])

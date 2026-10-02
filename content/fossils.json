@@ -1,0 +1,1622 @@
+[
+ {
+  "id": "fos-eosaukia-buravasi-ko-tarutao",
+  "taxon": "Eosaukia buravasi",
+  "group": "trilobite",
+  "age_top_ma": 486.85,
+  "age_base_ma": 491.0,
+  "stage": "late Cambrian (Furongian, Cambrian Stage 10)",
+  "formation_en": "Ao Mo Lae Formation, Tarutao Group",
+  "formation_th": "หมวดหินอ่าวโมลาย กลุ่มหินตะรุเตา",
+  "locality": {
+   "name_en": "Ao Molae section, Ko Tarutao",
+   "name_th": "แนวลำดับชั้นหินอ่าวโมลาย เกาะตะรุเตา",
+   "tambon_th": "เกาะสาหร่าย",
+   "amphoe_th": "เมืองสตูล",
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.6705,
+   "lon": 99.6337,
+   "precision": "site"
+  },
+  "significance_th": "Eosaukia buravasi เป็นไทรโลไบต์ (trilobite) ชนิดชื่อของ Eosaukia buravasi Zone ซึ่งครอบคลุมแนวชั้นหินแคมเบรียนทั้งหมดบนเกาะตะรุเตา บ่งชี้อายุแคมเบรียนตอนปลาย (Stage 10) และเทียบสัมพันธ์ได้กับออสเตรเลียและจีนตอนเหนือ เป็นซากดึกดำบรรพ์ที่เก่าแก่ที่สุดกลุ่มหนึ่งของไทยในอุทยานธรณีโลกสตูล",
+  "significance_en": "Eosaukia buravasi names the Eosaukia buravasi Zone, which covers all Cambrian sections on Ko Tarutao; it dates the Ao Mo Lae Formation to late Cambrian Stage 10 and correlates it with Australia and North China. These are among Thailand's oldest fossils, in the Satun UNESCO Global Geopark.",
+  "citation": {
+   "text": "Wernette S.J., Hughes N.C., Myrow P.M., Sardsud A. 2020, Satunarcus, a new late Cambrian trilobite genus from southernmost Thailand and a reevaluation of the subfamily Mansuyiinae Hupé, 1955, Journal of Paleontology 94:867-880",
+   "url": "https://doi.org/10.1017/jpa.2020.23"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read (open access). Ao Molae 06°40'13.68\"N, 099°38'1.38\"E (published); E. buravasi co-occurs with Thailandium solum, Quadraticephalus planulatus and Satunarcus molaensis; correlated with the Sinosaukia impages–Changia zones, ~489 Ma, Cambrian Stage 10. The Eosaukia buravasi Zone itself is erected in Wernette et al. 2023 (Papers in Palaeontology 9, doi:10.1002/spp2.1516; abstract read). E. buravasi was first described by Kobayashi 1957; the classic Tarutao trilobite monograph is Shergold, Burrett, Akerman & Stait 1988 (New Mexico Bureau of Mines & Mineral Resources Memoir 44:303-320; no DOI, not read). Tambon Ko Sarai / Amphoe Mueang Satun for Ko Tarutao from Thai Wikipedia (เกาะตะรุเตา). Stage 10 base ~491.0 Ma is approximate on the ICS chart. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-asaphellus-charoenmiti-ko-tarutao",
+  "taxon": "Asaphellus charoenmiti",
+  "group": "trilobite",
+  "age_top_ma": 477.1,
+  "age_base_ma": 486.85,
+  "stage": "Early Ordovician (lower–middle Tremadocian)",
+  "formation_en": "Upper Tarutao Group",
+  "formation_th": "กลุ่มหินตะรุเตาตอนบน",
+  "locality": {
+   "name_en": "Ko Tarutao (Tremadocian sections)",
+   "name_th": "เกาะตะรุเตา (แนวชั้นหินช่วง Tremadocian)",
+   "tambon_th": "เกาะสาหร่าย",
+   "amphoe_th": "เมืองสตูล",
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.6167,
+   "lon": 99.65,
+   "precision": "area"
+  },
+  "significance_th": "Asaphellus charoenmiti เป็นไทรโลไบต์ชนิดใหม่ที่ใช้ตั้ง Asaphellus charoenmiti Zone สำหรับซีบูมาสุ ระบุอายุ Tremadocian ตอนล่างถึงตอนกลาง (ออร์โดวิเชียนตอนต้น) ทำให้เกาะตะรุเตาเป็นแหล่งสำคัญในการศึกษารอยต่อแคมเบรียน–ออร์โดวิเชียนในไทย",
+  "significance_en": "Asaphellus charoenmiti is the new species naming the Asaphellus charoenmiti Zone for Sibumasu, marking the lower–middle Tremadocian (Early Ordovician); with the underlying Eosaukia buravasi Zone it makes Ko Tarutao Thailand's key Cambrian–Ordovician boundary succession.",
+  "citation": {
+   "text": "Wernette S.J., Hughes N.C., Myrow P.M., Sardsud A. 2023, Trilobites of Thailand's Cambrian–Ordovician Tarutao Group and their geological setting, Papers in Palaeontology 9:e1516",
+   "url": "https://doi.org/10.1002/spp2.1516"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract only (Wiley full text blocked). Abstract: upper two formations of the Tarutao Group are middle Cambrian Stage 10 and lower–middle Tremadocian; zones Eosaukia buravasi (Cambrian) and Asaphellus charoenmiti (Tremadocian). The specific section and formation yielding A. charoenmiti were NOT seen (likely the Talo Wao Formation, unconfirmed), so formation given as 'Upper Tarutao Group' and coordinate = Ko Tarutao island (Thai Wikipedia 6.6167, 99.65). Article number e1516 confirmed on Crossref. Age bounds = whole Tremadocian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 477.08 → 477.1 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-rossodus-manitouensis-ko-tarutao",
+  "taxon": "Rossodus manitouensis",
+  "group": "conodont",
+  "age_top_ma": 477.1,
+  "age_base_ma": 486.85,
+  "stage": "Early Ordovician (early Tremadocian; Rossodus manitouensis Zone)",
+  "formation_en": "Thung Song Formation (S1–S3 members)",
+  "formation_th": "หมวดหินทุ่งสง",
+  "locality": {
+   "name_en": "Ko Tarutao",
+   "name_th": "เกาะตะรุเตา",
+   "tambon_th": "เกาะสาหร่าย",
+   "amphoe_th": "เมืองสตูล",
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.6167,
+   "lon": 99.65,
+   "precision": "area"
+  },
+  "significance_th": "Rossodus manitouensis เป็นโคโนดอนต์ดัชนีของ Tremadocian ตอนต้นที่ใช้ในมาตรฐานอเมริกาเหนือ (Midcontinent) โซนนี้เป็นโซนล่างสุดของหินปูนทุ่งสงบนเกาะตะรุเตา ช่วยเทียบอายุหินปูนไหล่ทวีปออร์โดวิเชียนตอนต้นของไทยกับมาตรฐานสากล",
+  "significance_en": "Rossodus manitouensis is an early Tremadocian zonal conodont of the North American Midcontinent standard; its zone is the lowest of three defined in the Thung Song limestones of Ko Tarutao, tying Thai Early Ordovician shelf carbonates to the global scheme.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Salyapongse S., Sardsud A. 2008, Early Ordovician conodonts from Tarutao Island, southern peninsular Thailand, Palaeontology 51:1435-1453",
+   "url": "https://doi.org/10.1111/j.1475-4983.2008.00810.x"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex). Zones: R. manitouensis, Utahconus tarutaoensis, Filodontus tenuis; formation early Tremadocian–middle Arenig; members S1–S3 sampled. Section positions on the island not seen: coordinate = Ko Tarutao (Thai Wikipedia). Age bounds = whole Tremadocian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 477.08 → 477.1 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-triangulodus-larapintinensis-thong-pha-phum",
+  "taxon": "Triangulodus larapintinensis",
+  "group": "conodont",
+  "age_top_ma": 471.3,
+  "age_base_ma": 477.1,
+  "stage": "Early Ordovician (Floian; Triangulodus larapintinensis Zone)",
+  "formation_en": "Thung Song Group (Tha Manao Formation per later authors)",
+  "formation_th": "กลุ่มหินทุ่งสง (หมวดหินท่ามะนาว)",
+  "locality": {
+   "name_en": "Thong Pha Phum section",
+   "name_th": "แนวลำดับชั้นหินทองผาภูมิ",
+   "tambon_th": null,
+   "amphoe_th": "ทองผาภูมิ",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.7458,
+   "lon": 98.625,
+   "precision": "district"
+  },
+  "significance_th": "Triangulodus larapintinensis เป็นโคโนดอนต์ที่ใช้กำหนดโซนแรกของแนวลำดับชั้นหินทองผาภูมิ มีอายุ Floian (ออร์โดวิเชียนตอนต้น) และมีชนิดร่วมกับออสเตรเลีย จึงใช้เทียบสัมพันธ์หินปูนออร์โดวิเชียนของกาญจนบุรีกับกอนด์วานาตะวันออก",
+  "significance_en": "Triangulodus larapintinensis defines the lower conodont zone of the Thong Pha Phum section (Floian, Early Ordovician); the species is shared with Australia, so it ties Kanchanaburi Ordovician limestones to East Gondwana zonation.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Sardsud A. 2008, Reinterpretation of Early and Middle Ordovician conodonts from the Thong Pha Phum area, western Thailand, in the context of new material from western and northern Thailand, Paleontological Research 12:181-194",
+   "url": "https://doi.org/10.2517/1342-8144(2008)12[181:ROEAMO]2.0.CO;2"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex). Source establishes the T. larapintinensis and Aurilobodus leptosomatus zones in the Thong Pha Phum section; the abstract does not give the age of each zone - 'Floian' for T. larapintinensis Range Zone is stated by Chen et al. 2023 (Estonian J. Earth Sci. abstract). Section location not given in abstract: coordinate = Thong Pha Phum district (en.wikipedia infobox 14°44'45\"N 98°37'30\"E). Age bounds = whole Floian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 471.26 → 471.3 Ma (ICS v2024/12 chart). | Main session: age_base_ma 477.08 → 477.1 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-eoplacognathus-suecicus-thong-pha-phum",
+  "taxon": "Eoplacognathus suecicus",
+  "group": "conodont",
+  "age_top_ma": 458.2,
+  "age_base_ma": 469.4,
+  "stage": "Middle Ordovician (Darriwilian, Eoplacognathus suecicus Zone)",
+  "formation_en": "Thung Song Group limestone (formation not named in abstract)",
+  "formation_th": "หินปูนกลุ่มหินทุ่งสง",
+  "locality": {
+   "name_en": "Roadside cliff along the Khwae Noi River, c. 1 km north of Thong Pha Phum town",
+   "name_th": "หน้าผาริมถนนริมแม่น้ำแควน้อย ห่างจากตัวเมืองทองผาภูมิไปทางเหนือประมาณ 1 กม.",
+   "tambon_th": null,
+   "amphoe_th": "ทองผาภูมิ",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.752,
+   "lon": 98.632,
+   "precision": "area"
+  },
+  "significance_th": "Eoplacognathus suecicus เป็นโคโนดอนต์ดัชนีระดับสากลของช่วง Darriwilian (ออร์โดวิเชียนตอนกลาง) การพบครั้งแรกในไทยบ่งชี้การอพยพเข้ามาของสัตว์น้ำเย็นแบบแอตแลนติกเหนือในช่วงที่ระดับน้ำทะเลสูงขึ้น",
+  "significance_en": "Eoplacognathus suecicus is a global zonal conodont of the Darriwilian (Middle Ordovician). Its first Thai record at Thong Pha Phum marks the arrival of cool-water North Atlantic-type faunas during a Dapingian–Darriwilian sea-level rise.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Sardsud A. 2013, A new Middle Ordovician conodont fauna from the Thong Pha Phum area of western Thailand, Paleontological Research 17(2):179-188",
+   "url": "https://doi.org/10.2517/1342-8144-17.2.179"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "BioOne abstract/summary read. Source: 32 m limestone on a roadside cliff along the Khwae Noi River about 1 km north of Thong Pha Phum city; E. suecicus Zone, Darriwilian; nine species incl. Pygodus lunnensis. No coordinate published: lat/lon = Thong Pha Phum town (OSM Nominatim 14.7430, 98.6319) shifted ~1 km north. The town lies in Tambon Tha Khanun (OSM), but the site's tambon is not confirmed, so tambon = null. Age bounds = whole Darriwilian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 458.18 → 458.2 Ma (ICS v2024/12 chart). | Main session: age_base_ma 469.42 → 469.4 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-pygodus-anserinus-satun",
+  "taxon": "Pygodus anserinus",
+  "group": "conodont",
+  "age_top_ma": 452.8,
+  "age_base_ma": 469.4,
+  "stage": "Middle–Late Ordovician (Pygodus anserinus Zone, late Darriwilian–early Sandbian)",
+  "formation_en": "Micritic (nodular) limestone below the graptolitic shale; Pa Kae Formation by later usage",
+  "formation_th": "หินปูนมิไครต์ใต้ชั้นหินดินดานแกรปโตไลต์ (หมวดหินป่าแก่)",
+  "locality": {
+   "name_en": "Road 4078 section north of La-ngu, about 30 km north of Satun town",
+   "name_th": "แนวชั้นหินริมทางหลวง 4078 เหนืออำเภอละงู ห่างจากเมืองสตูลขึ้นไปทางเหนือประมาณ 30 กม.",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.8818,
+   "lon": 99.7846,
+   "precision": "district"
+  },
+  "significance_th": "Pygodus anserinus เป็นโคโนดอนต์ดัชนีระดับโลกของรอยต่อ Darriwilian–Sandbian ชุดโคโนดอนต์ในหินปูนสตูลมีลักษณะแบบแอตแลนติกเหนือ ใช้แบ่งโซนได้ 3 โซน (P. anserinus, Baltoniodus cf. variabilis, Hamarodus europaeus) ตั้งแต่ออร์โดวิเชียนตอนกลางถึงตอนปลาย",
+  "significance_en": "Pygodus anserinus is a global zonal conodont around the Darriwilian–Sandbian boundary. The North Atlantic-type conodonts in the Satun limestone define three zones (P. anserinus, Baltoniodus cf. variabilis, Hamarodus europaeus) from the Middle to Late Ordovician.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Salyapongse S., Sardsud A. 2007, Ordovician conodonts from the Satun area, southern peninsular Thailand, Journal of Paleontology 81:19-37",
+   "url": "https://doi.org/10.1666/0022-3360(2007)81[19:OCFTSA]2.0.CO;2"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex). Locality inferred: Agematsu et al. 2006 (Paleontol. Res. 10:207, full text) say the nodular limestone underlying their graptolite shale 'contains abundant conodonts ... (Agematsu et al., in press)' = this paper; their route map shows the section on Highway 4078 with 'to Langu' to the south, 'about 30 km north of Satun'. Coordinate = La-ngu town (OSM Nominatim) as nearest named place, NOT the site; tambon/amphoe not stated -> null (likely Amphoe La-ngu, unconfirmed). Age bounds wide (whole Darriwilian+Sandbian) because zone ages are not numeric in the abstract. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 452.75 → 452.8 Ma (ICS v2024/12 chart). | Main session: age_base_ma 469.42 → 469.4 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-baltoniodus-alobatus-tha-kradan",
+  "taxon": "Baltoniodus cf. alobatus",
+  "group": "conodont",
+  "age_top_ma": 445.2,
+  "age_base_ma": 458.2,
+  "stage": "Late Ordovician (Sandbian–early Katian)",
+  "formation_en": "Pa Kae Formation (revised), Thung Song Group",
+  "formation_th": "หมวดหินป่าแก่ กลุ่มหินทุ่งสง",
+  "locality": {
+   "name_en": "Nautiloid Site Geosite (NSG) section, Ban Tha Kradan",
+   "name_th": "แนวลำดับชั้นหินแหล่งนอติลอยด์ บ้านท่ากระดาน",
+   "tambon_th": "ท่ากระดาน",
+   "amphoe_th": "ศรีสวัสดิ์",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4483,
+   "lon": 99.1097,
+   "precision": "area"
+  },
+  "significance_th": "โคโนดอนต์ (conodont) Baltoniodus cf. alobatus ร่วมกับ Sinoceras chinense และการเปลี่ยนแปลงไอโซโทปคาร์บอน GICE ใช้กำหนดอายุหมวดหินป่าแก่ในกาญจนบุรีเป็น Sandbian ถึง Katian ตอนต้น และเทียบสัมพันธ์กับหมวดหินป่าแก่ที่จังหวัดสตูลได้",
+  "significance_en": "Baltoniodus cf. alobatus, together with Sinoceras chinense and the Guttenberg carbon-isotope excursion (GICE), dates the revised Pa Kae Formation in Kanchanaburi as Sandbian–early Katian and correlates it with the Pa Kae Formation of Satun.",
+  "citation": {
+   "text": "Chen Z.-Y., Li W., Fang X., Li C., Burrett C., Udchachon M., Zhang Y. 2024, Ordovician conodonts from the Ban Tha Kradan area, western Thailand, Palaeoworld 33:546-558",
+   "url": "https://doi.org/10.1016/j.palwor.2022.12.004"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Palaeoworld abstract not accessible; content taken from the same authors' conference abstract (Estonian J. Earth Sci. 72:125, 2023, doi:10.3176/earth.2023.30), read in full. It lists 11 species from the WMK (Wat Mong Krathae) and NSG sections; the Tha Manao Fm (WMK) yields the Scolopodus striatus Assemblage Zone (upper Floian–Darriwilian), and B. cf. alobatus comes from the revised Pa Kae Fm in the NSG section. Coordinate reused from the DMR nautiloid-site UTM point (the NSG section is the nautiloid geosite, but the exact sampling point is not published) -> precision 'area'. Tambon/amphoe from the DMR plan. Age top set to Katian top (445.21) because 'lower Katian' has no numeric bound. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 445.21 → 445.2 Ma (ICS v2024/12 chart). | Main session: age_base_ma 458.18 → 458.2 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-sinoceras-chinense-tha-kradan",
+  "taxon": "Sinoceras chinense",
+  "group": "nautiloid",
+  "age_top_ma": 445.2,
+  "age_base_ma": 452.8,
+  "stage": "Late Ordovician (early Katian)",
+  "formation_en": "Upper Tha Manao Formation (revised as Pa Kae Formation by Chen et al. 2023/2024), Thung Song Group",
+  "formation_th": "หมวดหินท่ามะนาวตอนบน (ภายหลังปรับเป็นหมวดหินป่าแก่) กลุ่มหินทุ่งสง",
+  "locality": {
+   "name_en": "Nautiloid fossil site, Tha Kradan community forest (Khao Noen Daeng), Ban Tha Kradan",
+   "name_th": "แหล่งซากดึกดำบรรพ์นอติลอยด์ ป่าชุมชนท่ากระดาน (เขาเนินแดง) บ้านท่ากระดาน",
+   "tambon_th": "ท่ากระดาน",
+   "amphoe_th": "ศรีสวัสดิ์",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4483,
+   "lon": 99.1097,
+   "precision": "site"
+  },
+  "significance_th": "Sinoceras chinense เป็นนอติลอยด์ (nautiloid) ดัชนีของหมวดหินเจดีย์ (Pagoda Formation) ในจีนตอนใต้ การพบที่ท่ากระดานเป็นรายงานแรกนอกประเทศจีน ช่วยกำหนดอายุหินปูนส่วนบนเป็นยุคออร์โดวิเชียนตอนปลาย ช่วงต้นของ Katian และยืนยันว่าแผ่นซีบูมาสุ (Sibumasu) อยู่ใกล้จีนตอนใต้ในขณะนั้น",
+  "significance_en": "Sinoceras chinense is the index nautiloid of the Pagoda Formation of South China. Its first record outside China, at Tha Kradan, dates the upper limestone as early Katian (Late Ordovician) and supports a close Sibumasu–South China palaeogeographic link.",
+  "citation": {
+   "text": "Fang X., Li C., Li W., Burrett C., Udchachon M., Zhang Y. 2021, Sinoceras chinense (Foord, 1888) in western Thailand: first identification outside China, Palaeoworld 30:278-285",
+   "url": "https://doi.org/10.1016/j.palwor.2020.06.004"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (Semantic Scholar/phys.org). Source: S. chinense from upper Tha Manao Fm, Kanchanaburi area; 'Nautiloid Site', Si Sawat; early Katian. Chen et al. (2023 abstract, Estonian J. Earth Sci. 72:125) later reassigned the nautiloid-bearing beds of the Nautiloid Site Geosite (NSG) section to the revised Pa Kae Fm (Sandbian–lower Katian). Coordinate = DMR fossil-site management plan (data.dmr.go.th, fig. 2.14) UTM 47P 511826E 1597310N, converted assuming WGS84 (datum not stated), for the nautiloid site in Tha Kradan community forest, Moo 2 Ban Tha Kradan, Tambon Tha Kradan, Amphoe Si Sawat (tambon/amphoe stated in the DMR document). That DMR plan lists 'Sinocerus sp.' among the site's nautiloids. Age bounds given as whole Katian (452.75–445.21 Ma) because only 'early Katian' is stated. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 445.21 → 445.2 Ma (ICS v2024/12 chart). | Main session: age_base_ma 452.75 → 452.8 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-normalograptus-pseudovenustus-satun",
+  "taxon": "Normalograptus pseudovenustus pseudovenustus",
+  "group": "graptolite",
+  "age_top_ma": 443.1,
+  "age_base_ma": 445.2,
+  "stage": "latest Ordovician (Hirnantian; N. persculptus Zone interval)",
+  "formation_en": "Graptolitic black shale above Upper Ordovician limestone (Wang Tong Formation of Wongwanich et al. 1990, upper member equivalent)",
+  "formation_th": "หินดินดานสีดำมีแกรปโตไลต์ (หมวดหินวังตง)",
+  "locality": {
+   "name_en": "Road 4078 section north of La-ngu, about 30 km north of Satun town",
+   "name_th": "แนวชั้นหินริมทางหลวง 4078 เหนืออำเภอละงู ห่างจากเมืองสตูลขึ้นไปทางเหนือประมาณ 30 กม.",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.8818,
+   "lon": 99.7846,
+   "precision": "district"
+  },
+  "significance_th": "Normalograptus pseudovenustus เป็นแกรปโตไลต์ดัชนีที่เชื่อถือได้ของช่วงที่ครอบรอยต่อออร์โดวิเชียน–ซิลูเรียน ชั้นหินดินดานดำที่สตูลจึงบันทึกช่วงยุคน้ำแข็ง Hirnantian และการสูญพันธุ์ครั้งใหญ่ปลายออร์โดวิเชียน",
+  "significance_en": "Normalograptus pseudovenustus is a reliable index of the interval containing the Ordovician–Silurian boundary, so the Satun black shale records the Hirnantian glaciation and end-Ordovician mass extinction interval.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Salyapongse S., Sardsud A. 2006, Ordovician-Silurian boundary graptolites of the Satun area, southern peninsular Thailand, Paleontological Research 10:207-214",
+   "url": "https://doi.org/10.2517/prpsj.10.207"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read (J-STAGE). Source: 'about 30 km north of Satun'; route map (Fig. 2) shows Highway 4078 with 'to Langu' to the south; N. p. pseudovenustus limited to the N. persculptus Zone (or down to N. extraordinarius Zone) -> uppermost Ordovician; nearby section of Wongwanich et al. 1990 has Dalmanitina sp. and Llandovery graptolites (Parakidograptus acuminatus etc.). No coordinates published; lat/lon = La-ngu town (OSM) as nearest named place; tambon/amphoe null. Age = Hirnantian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 443.07 → 443.1 Ma (ICS v2024/12 chart). | Main session: age_base_ma 445.21 → 445.2 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-hirnantia-wang-tong-satun",
+  "taxon": "Hirnantia sp.",
+  "group": "brachiopod",
+  "age_top_ma": 443.1,
+  "age_base_ma": 445.2,
+  "stage": "latest Ordovician (Hirnantian, latest Ashgill)",
+  "formation_en": "Wang Tong Formation (middle member)",
+  "formation_th": "หมวดหินวังตง (ส่วนกลาง)",
+  "locality": {
+   "name_en": "Wang Tong Formation outcrop near the Malaysian border (locality 8 of Cocks & Fortey)",
+   "name_th": "แหล่งหินโผล่หมวดหินวังตง ใกล้ชายแดนมาเลเซีย",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 7.0367,
+   "lon": 99.9615,
+   "precision": "district"
+  },
+  "significance_th": "ชุดบราคิโอพอด (brachiopod) Hirnantia fauna เป็นกลุ่มสัตว์น้ำเย็นที่แพร่กระจายทั่วโลกในช่วงยุคน้ำแข็ง Hirnantian ปลายออร์โดวิเชียน การพบในหมวดหินวังตงของสตูลใช้กำหนดอายุและเทียบสัมพันธ์กับเมียนมาร์ (รัฐฉาน) และยูนนานบนแผ่นซีบูมาสุ",
+  "significance_en": "The Hirnantia brachiopod fauna is the cool-water assemblage that spread worldwide during the end-Ordovician (Hirnantian) glaciation; its occurrence in the Wang Tong Formation of Satun dates the bed and links it with Shan State (Myanmar) and Yunnan on Sibumasu.",
+  "citation": {
+   "text": "Cocks L.R.M., Fortey R.A. 1997, A new Hirnantia fauna from Thailand and the biogeography of the latest Ordovician of south-east Asia, Geobios 30:117-126",
+   "url": "https://doi.org/10.1016/S0016-6995(97)80017-4"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract snippets only (publisher blocked). Source: Hirnantian Hirnantia shelly fauna from the Wang Tong Formation, Satun Province; essentially identical to the Panghsa-pye Beds fauna, N Shan States; secondary source places it in the middle member of the Wang Tong Fm at 'locality 8', close to the Malaysian border. Species list NOT seen, so taxon given only at genus level (the genus that names the fauna) - check the paper before naming a species. No amphoe/tambon; coordinate = Satun province centroid (OSM Nominatim), i.e. a placeholder. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 443.07 → 443.1 Ma (ICS v2024/12 chart). | Main session: age_base_ma 445.21 → 445.2 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-monograptus-tha-kradan",
+  "taxon": "Monograptus sp.",
+  "group": "graptolite",
+  "age_top_ma": 393.47,
+  "age_base_ma": 443.1,
+  "stage": "Silurian? to Lower Devonian (as stated)",
+  "formation_en": "Lower Thong Pha Phum Group",
+  "formation_th": "กลุ่มหินทองผาภูมิตอนล่าง",
+  "locality": {
+   "name_en": "Quarry outcrop KB 11, Ban Tha Kradan area",
+   "name_th": "หน้าเหมืองหิน KB 11 บริเวณบ้านท่ากระดาน",
+   "tambon_th": "ท่ากระดาน",
+   "amphoe_th": "ศรีสวัสดิ์",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4593,
+   "lon": 99.135,
+   "precision": "area"
+  },
+  "significance_th": "แกรปโตไลต์ (graptolite) สกุล Monograptus เป็นแพลงก์ตอนดัชนีของยุคซิลูเรียนถึงดีโวเนียนตอนต้น การพบในหินดินดานสีดำชั้นล่างสุดของกลุ่มหินทองผาภูมิบ่งชี้ทะเลลึกที่ขาดออกซิเจนบริเวณพื้นทะเลทับอยู่บนหินปูนออร์โดวิเชียน",
+  "significance_en": "Monograptid graptolites are planktonic index fossils of the Silurian to Early Devonian. In black shale at the base of the Thong Pha Phum Group they record a deep, poorly oxygenated sea floor above the Ordovician limestones.",
+  "citation": {
+   "text": "Maneerat W., Jitmahantakul S., Charoentitirat T. 2022, Devonian tentaculite of the Thong Pha Phum Group in Si Sawat District, Kanchanaburi Province, Bulletin of Earth Sciences of Thailand 14(1):35-49",
+   "url": "https://ph01.tci-thaijo.org/index.php/bestjournal/article/view/248779"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read. DOUBTFUL identification: abstract says 'Monograptus sp. and Diplograptus sp.' but the text writes 'Monograptus? and Diplograptus?' from highly weathered siliceous shale at KB 11, 'probably Silurian? to Lower Devonian'. Use as an example of the graptolite shale only, not as a precise zonal index. Coordinate = centre of the published study-area box. Age bounds = Silurian base to end of Early Devonian (Emsian top 393.47). Older Kanchanaburi graptolite records (Hamada et al. 1975; Hahn & Siebenhüner 1982) were not accessed. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_base_ma 443.07 → 443.1 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-pterospathodus-amorphognathoides-kroeng-krawia",
+  "taxon": "Pterospathodus amorphognathoides amorphognathoides",
+  "group": "conodont",
+  "age_top_ma": 432.9,
+  "age_base_ma": 438.6,
+  "stage": "early Silurian (upper Telychian, Llandovery; Lower Ps. a. amorphognathoides Subzone)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Kroeng Kravia Forest Park area",
+   "name_th": "บริเวณวนอุทยานเกริงกระเวีย",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.9823,
+   "lon": 98.6329,
+   "precision": "area"
+  },
+  "significance_th": "Pterospathodus amorphognathoides amorphognathoides เป็นโคโนดอนต์ดัชนีของ Telychian ตอนบน (ซิลูเรียนตอนต้น) นับเป็นการรายงานโคโนดอนต์ซิลูเรียนตอนต้นครั้งแรกของภาคตะวันตก บ่งชี้สภาพทะเลค่อนข้างลึกที่เชื่อมต่อกับยูนนานตะวันตกและออสเตรเลีย",
+  "significance_en": "Pterospathodus amorphognathoides amorphognathoides is the zonal conodont of the upper Telychian (Llandovery, early Silurian). This first early Silurian conodont record from western Thailand indicates a deeper-marine setting connected to West Yunnan and Australia.",
+  "citation": {
+   "text": "Chen Z.-Y., Thassanapak H., Li W., Wu X.-J., Udchachon M., Fang X., Burrett C. 2025, First documentation of early Silurian conodonts from western Thailand and its geological implications, Journal of Palaeogeography 14:157-171",
+   "url": "https://doi.org/10.1016/j.jop.2024.08.010"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract text read via search snippet + NIGPAS news (2025-03-04); full text (gold OA) blocked by publisher. Source: samples from the 'Kroeng Kravia Forest Park area'; upper Telychian Lower Ps. a. amorphognathoides Subzone; stromatolite–thrombolite, nodular and red limestone lithofacies. (The NIGPAS Chinese news item says 'Rhuddanian', contradicting the paper's own 'Telychian'; Telychian used.) Coordinate = Kroeng Krawia waterfall (OSM Nominatim 14.9823, 98.6329) as a proxy; the actual section location in the paper was not seen. Admin unit DOUBTFUL: Thai tourism pages put the waterfall in Tambon Chalae, Amphoe Thong Pha Phum, while OSM places it inside Amphoe Sangkhla Buri, so tambon/amphoe left null. Formation not stated in what was read. Age bounds = whole Telychian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_top_ma 432.93 → 432.9 Ma (ICS v2024/12 chart). | Main session: age_base_ma 438.59 → 438.6 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-scyphocrinitid-loboliths-tha-kradan",
+  "taxon": "Scyphocrinitidae indet. (plate loboliths)",
+  "group": "crinoid",
+  "age_top_ma": 419.62,
+  "age_base_ma": 425.0,
+  "stage": "late Silurian (upper Ludlow–Přídolí), near the Silurian–Devonian boundary",
+  "formation_en": "Siluro-Devonian limestone formation of the Thong Pha Phum Group",
+  "formation_th": "หินปูนซิลูเรียน–ดีโวเนียน กลุ่มหินทองผาภูมิ",
+  "locality": {
+   "name_en": "Ban Tha Kradan area",
+   "name_th": "บริเวณบ้านท่ากระดาน",
+   "tambon_th": "ท่ากระดาน",
+   "amphoe_th": "ศรีสวัสดิ์",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4594,
+   "lon": 99.1256,
+   "precision": "area"
+  },
+  "significance_th": "โลโบลิธ (lobolith) ของไครนอยด์วงศ์ Scyphocrinitidae เป็นเครื่องหมายชั้นหินที่พบเกือบทั่วโลกใกล้รอยต่อซิลูเรียน–ดีโวเนียน การพบครั้งแรกในไทยร่วมกับโคโนดอนต์ Zieglerodina remscheidensis ช่วยระบุตำแหน่งรอยต่อนี้ในกลุ่มหินทองผาภูมิ",
+  "significance_en": "Scyphocrinitid crinoid loboliths are a near-cosmopolitan marker of strata close to the Silurian–Devonian boundary. Their first Thai occurrence, with the conodont Zieglerodina remscheidensis, helps place that boundary within the Thong Pha Phum Group.",
+  "citation": {
+   "text": "Burrett C., Fang X., Li W., Thassanapak H., Udchachon M. 2024, The first scyphocrinitid loboliths from Thailand, Proceedings of the Geologists' Association 135:131-136",
+   "url": "https://doi.org/10.1016/j.pgeola.2024.01.001"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read via search snippet (ScienceDirect blocked). Source: abundant plate loboliths in a 0.5 m bed, 60 m below the top of an 80 m limestone, Ban Tha Kradan area, Kanchanaburi; associated conodonts incl. upper Ludlow–Přídolí Zieglerodina remscheidensis s.l.; formation included in the Thong Pha Phum Group. No genus/species given in abstract, hence family-level taxon. Coordinate = Ban Tha Kradan village (OSM Nominatim); tambon Tha Kradan / amphoe Si Sawat from Wikipedia (Si Sawat district) and DMR plan. Age = Ludfordian base to Přídolí top. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_base_ma 425.01 → 425.0 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-nowakia-acuaria-satun",
+  "taxon": "Nowakia acuaria",
+  "group": "tentaculitid",
+  "age_top_ma": 393.47,
+  "age_base_ma": 410.62,
+  "stage": "Early Devonian (Emsian)",
+  "formation_en": "Basal part of a 250 m siliciclastic sequence (tentaculite bed)",
+  "formation_th": "ชั้นเทนทาคูไลต์ ส่วนล่างของลำดับหินตะกอนเม็ด",
+  "locality": {
+   "name_en": "Satun area",
+   "name_th": "พื้นที่จังหวัดสตูล",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 7.0367,
+   "lon": 99.9615,
+   "precision": "district"
+  },
+  "significance_th": "Nowakia acuaria เป็นเทนทาคูไลต์ดัชนีของดีโวเนียนตอนต้น ชั้นหินดินดานดำที่มีเทนทาคูไลต์ในสตูลเทียบได้กับชั้นเดียวกันที่ฝาง ศรีสวัสดิ์ ตรัง และมาเลเซีย แสดงว่าแอ่งทะเลลึกยุค Emsian แผ่ต่อเนื่องจากภาคเหนือของไทยถึงมาเลเซียตะวันตกเฉียงเหนือ",
+  "significance_en": "Nowakia acuaria is an Early Devonian index tentaculitid; the Satun tentaculite black shale correlates with similar beds at Fang, Si Sawat, Trang and in Malaysia, showing an Emsian deep-water basin from northern Thailand to NW Malaysia.",
+  "citation": {
+   "text": "Agematsu S., Sashida K., Salyapongse S., Sardsud A. 2006, Lower Devonian tentaculite bed in the Satun area, southern peninsular Thailand, Journal of Asian Earth Sciences 26:605-611",
+   "url": "https://doi.org/10.1016/j.jseaes.2004.12.002"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract snippet read (publisher blocked). Source: Emsian tentaculite fauna incl. N. acuaria (only species identified) in the basal part of a 250 m shale–mudstone–limestone–sandstone sequence, Satun area. Exact locality not seen; coordinate = Satun province centroid (placeholder), tambon/amphoe null. Note: Maneerat et al. 2022 quote a range 'Emsian–Frasnian' for N. acuaria; many workers treat it as Pragian–early Emsian - use the source age (Emsian). Age = Emsian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_base_ma 407.6 → 410.62 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-polygnathus-lahiosus-kuan-tung",
+  "taxon": "Polygnathus lahiosus mawsonae",
+  "group": "conodont",
+  "age_top_ma": 393.47,
+  "age_base_ma": 410.62,
+  "stage": "Early Devonian (Emsian; perbonus–serotinus Zones)",
+  "formation_en": "Kuan Tung Formation (boundary of middle and upper units)",
+  "formation_th": "หมวดหินควนทัง",
+  "locality": {
+   "name_en": "Rubber plantation c. 10 km north of La-ngu",
+   "name_th": "สวนยางพาราห่างจากละงูไปทางเหนือประมาณ 10 กม.",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 6.972,
+   "lon": 99.785,
+   "precision": "area"
+  },
+  "significance_th": "Polygnathus lahiosus mawsonae ร่วมกับ Pandorinellina steinhornensis ระบุอายุ Emsian (ดีโวเนียนตอนต้น) ของหมวดหินควนทัง และการกระจายของโคโนดอนต์กลุ่มนี้ร่วมกับปลาเทโลดอนต์และพลาโคเดิร์มชี้ว่าแผ่นฉาน–ไทยและจีนตอนใต้อยู่ใกล้ขอบตะวันออกของกอนด์วานา",
+  "significance_en": "Polygnathus lahiosus mawsonae, with Pandorinellina steinhornensis, gives an Emsian (Early Devonian) age for the Kuan Tung Formation; together with thelodont and placoderm fish, these conodonts place Shan-Thai and South China near eastern Gondwana.",
+  "citation": {
+   "text": "Long J.A., Burrett C.F. 1989, Early Devonian conodonts from the Kuan Tung Formation, Thailand: systematics and biogeographic considerations, Records of the Australian Museum 41:121-133",
+   "url": "https://doi.org/10.3853/j.0067-1975.41.1989.140"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text PDF read (Australian Museum). Source: limestone at the middle/upper unit boundary of the Kuan Tung Fm, 'pararubber plantation 10 km north of Langu (grid ref. 7000, 8500, Amphoe Langu 1:50,000 sheet)'; Emsian (perbonus–serotinus Zones); new subspecies. Grid reference not converted (datum/sheet grid uncertain). Coordinate = La-ngu town (OSM 6.8818, 99.7846) moved 10 km north - an estimate. 'Amphoe Langu' is the map-sheet name, so amphoe left null. Age = Emsian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_base_ma 407.6 → 410.62 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-plectodonta-forteyi-pa-samed",
+  "taxon": "Plectodonta forteyi",
+  "group": "brachiopod",
+  "age_top_ma": 393.47,
+  "age_base_ma": 410.62,
+  "stage": "Early Devonian (probably early Emsian)",
+  "formation_en": "Pa Samed Formation",
+  "formation_th": "หมวดหินป่าเสม็ด",
+  "locality": {
+   "name_en": "Pa Samed Formation, Satun Province",
+   "name_th": "หมวดหินป่าเสม็ด จังหวัดสตูล",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สตูล",
+   "province_en": "Satun",
+   "lat": 7.0367,
+   "lon": 99.9615,
+   "precision": "district"
+  },
+  "significance_th": "Plectodonta forteyi เป็นหนึ่งใน 12 ชนิดของบราคิโอพอดดีโวเนียนที่ยืนยันได้ชุดแรกของไทย เป็นกลุ่มสัตว์ทะเลค่อนข้างลึก (Benthic Assemblage 4–5) ของอาณาจักรชีวภูมิศาสตร์ Old World Realm ใช้ระบุอายุดีโวเนียนตอนต้นของหมวดหินป่าเสม็ด",
+  "significance_en": "Plectodonta forteyi belongs to Thailand's first undoubted Devonian brachiopod fauna (12 taxa): a deeper-water Benthic Assemblage 4–5, Old World Realm fauna that dates the Pa Samed Formation as Early Devonian (probably early Emsian).",
+  "citation": {
+   "text": "Boucot A.J., Cocks L.R.M., Racheboeuf P.R. 1999, Early Devonian brachiopods from Satun Province, southern Thailand, Journal of Paleontology 73:850-859",
+   "url": "https://doi.org/10.1017/S0022336000040695"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (Crossref). New species in the paper: Quasiprosserella samedensis (new genus), Plectodonta forteyi, Caplinoplia thailandensis, Clorinda wongwanichi. Locality within Satun Province not seen; coordinate = Satun province centroid (placeholder); tambon/amphoe null. Age bounds = whole Emsian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart). | Main session: age_base_ma 407.6 → 410.62 Ma (ICS v2024/12 chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-nowakia-pumilio-tha-kradan",
+  "taxon": "Nowakia (Cepanowakia) pumilio",
+  "group": "tentaculitid",
+  "age_top_ma": 382.31,
+  "age_base_ma": 393.47,
+  "stage": "Middle Devonian (Eifelian–Givetian)",
+  "formation_en": "Thong Pha Phum Group",
+  "formation_th": "กลุ่มหินทองผาภูมิ",
+  "locality": {
+   "name_en": "Ban Tha Kradan area (sample KB 05)",
+   "name_th": "บริเวณบ้านท่ากระดาน (ตัวอย่าง KB 05)",
+   "tambon_th": "ท่ากระดาน",
+   "amphoe_th": "ศรีสวัสดิ์",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4593,
+   "lon": 99.135,
+   "precision": "area"
+  },
+  "significance_th": "เทนทาคูไลต์ (tentaculitid) กลุ่ม Nowakia และ Styliolina เป็นซากดึกดำบรรพ์ดัชนีของทะเลลึกยุคดีโวเนียน Nowakia (C.) pumilio บ่งชี้อายุดีโวเนียนตอนกลาง และชุดซากเทนทาคูไลต์ 7 ชนิดที่ท่ากระดานบ่งชี้ว่ากลุ่มหินทองผาภูมิสะสมตัวบนลาดทวีปถึงแอ่งทะเลลึกพลังงานต่ำ",
+  "significance_en": "Nowakiid and styliolinid tentaculitids are standard pelagic index fossils of the Devonian. Nowakia (C.) pumilio indicates a Middle Devonian age, and the seven-species assemblage at Tha Kradan shows the Thong Pha Phum Group accumulated on a low-energy slope to deep basin.",
+  "citation": {
+   "text": "Maneerat W., Jitmahantakul S., Charoentitirat T. 2022, Devonian tentaculite of the Thong Pha Phum Group in Si Sawat District, Kanchanaburi Province, Bulletin of Earth Sciences of Thailand 14(1):35-49",
+   "url": "https://ph01.tci-thaijo.org/index.php/bestjournal/article/view/248779"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text PDF read (ThaiJO). No DOI found on Crossref - stable ThaiJO URL used. Source: study area Ban Tha Kradan, 14°25'06\"–14°29'59\"N, 99°05'34\"–99°10'34\"E, Si Sawat District; N. (C.) pumilio (2 specimens, KB 05), stratigraphic range given as Middle Devonian (Eifelian–Givetian). Full assemblage: Nowakia acuaria, N. (C.) pumilio, Styliolina fissurella, S. clavulus, Styliolina sp. A, Homoctenus tikhyi, H. arctus = Lower to Upper Devonian. Coordinate = centre of the published study-area box (not the sample point). Tambon Tha Kradan confirmed by Wikipedia list of Si Sawat subdistricts (the paper itself names only Ban Tha Kradan / Si Sawat). Bulletin is a Chulalongkorn departmental journal (TCI-indexed); peer-review status assumed. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-palmatolepis-linguiformis-mae-sariang",
+  "taxon": "Palmatolepis linguiformis",
+  "group": "conodont",
+  "age_top_ma": 372.15,
+  "age_base_ma": 382.31,
+  "stage": "Late Devonian (latest Frasnian, Palmatolepis linguiformis Zone)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Mae Sariang section, near Mae Sariang town",
+   "name_th": "แนวลำดับชั้นหินแม่สะเรียง ใกล้ตัวอำเภอแม่สะเรียง",
+   "tambon_th": null,
+   "amphoe_th": "แม่สะเรียง",
+   "province_th": "แม่ฮ่องสอน",
+   "province_en": "Mae Hong Son",
+   "lat": 18.1596,
+   "lon": 97.9301,
+   "precision": "area"
+  },
+  "significance_th": "Palmatolepis linguiformis เป็นโคโนดอนต์ดัชนีของช่วงท้ายสุดของ Frasnian ก่อนการสูญพันธุ์ครั้งใหญ่ปลายดีโวเนียน แนวชั้นหินแม่สะเรียงแสดงการลดลงอย่างรวดเร็วของโคโนดอนต์ในโซนถัดไป จึงเป็นแหล่งศึกษาเหตุการณ์ Frasnian–Famennian ที่ดีที่สุดของไทย",
+  "significance_en": "Palmatolepis linguiformis is the zonal conodont of the very end of the Frasnian, just before the Late Devonian mass extinction; at Mae Sariang conodont numbers collapse in the overlying zones, making it Thailand's best Frasnian–Famennian event section.",
+  "citation": {
+   "text": "Savage N.M. 2019, Frasnian-Famennian transition in western Thailand: conodonts, biofacies, eustatic changes, extinction, Journal of Paleontology 93:476-495",
+   "url": "https://doi.org/10.1017/jpa.2018.96"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex). Zones Lower/Upper Pa. rhenana, Pa. linguiformis, Pa. subperlobata, Pa. triangularis in the Mae Sariang section, NW Thailand; new taxa Pa. chaemensis, Pa. thamensis. A search snippet of Königshof et al. 2012 (J. Asian Earth Sci. 52:146, doi:10.1016/j.jseaes.2012.03.006) describes it as an ~11 m section 'near the town of Mae Sariang'. Coordinate = Mae Sariang town (OSM); amphoe Mae Sariang, tambon not confirmed -> null. Age bounds = whole Frasnian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-palmatolepis-triangularis-thong-pha-phum",
+  "taxon": "Palmatolepis triangularis",
+  "group": "conodont",
+  "age_top_ma": 358.86,
+  "age_base_ma": 372.15,
+  "stage": "Late Devonian, earliest Famennian (Palmatolepis triangularis Zone), above the Frasnian–Famennian boundary",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "New road section at Thong Pha Phum (bed TPP 40)",
+   "name_th": "แนวตัดถนนสายใหม่ ทองผาภูมิ (ชั้น TPP 40)",
+   "tambon_th": null,
+   "amphoe_th": "ทองผาภูมิ",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.7458,
+   "lon": 98.625,
+   "precision": "district"
+  },
+  "significance_th": "Palmatolepis triangularis เป็นโคโนดอนต์ดัชนีของช่วงแรกสุดของ Famennian ถัดจากเหตุการณ์สูญพันธุ์ครั้งใหญ่ปลาย Frasnian (Kellwasser) แนวชั้นหินที่ทองผาภูมิบันทึกการหายไปของโคโนดอนต์หลายชนิดและการฟื้นตัวหลังรอยต่อ Frasnian–Famennian",
+  "significance_en": "Palmatolepis triangularis is the zonal conodont of the earliest Famennian, immediately after the end-Frasnian (Kellwasser) mass extinction; the Thong Pha Phum section records conodont losses and recovery across the Frasnian–Famennian boundary.",
+  "citation": {
+   "text": "Savage N.M., Sardsud A., Buggisch W. 2006, Late Devonian conodonts and the global Frasnian-Famennian extinction event, Thong Pha Phum, western Thailand, Palaeoworld 15:171-184",
+   "url": "https://doi.org/10.1016/j.palwor.2006.07.005"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Only search snippets of the abstract read (ScienceDirect blocked). Snippet: 'new road section at Thong Pha Phum'; beds TPP 30–31 Late Pa. rhenana Zone, bed TPP 40 with numerous Pa. triangularis = triangularis Zone; section spans the F–F boundary with δ13C excursions. Exact road/section location not seen: coordinate = Thong Pha Phum district (en.wikipedia), tambon null. Formation not stated (Thong Pha Phum Group probable). Age top set to Famennian top because the zone's numeric top is not given; the triangularis Zone is only the lowest part of the Famennian. NOTE: Savage 2019 (J. Paleontol. 93:476) on 'western Thailand' is the Mae Sariang section, not Thong Pha Phum. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-thrinacodus-ferox-mae-sam-laep",
+  "taxon": "Thrinacodus ferox",
+  "group": "fish",
+  "age_top_ma": 358.86,
+  "age_base_ma": 372.15,
+  "stage": "Late Devonian (late Famennian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Limestones near Mae Sam Laep (Mae Sam Lap) on the Salween/Myanmar border",
+   "name_th": "หินปูนใกล้บ้านแม่สามแลบ ริมแม่น้ำสาละวิน ชายแดนเมียนมา",
+   "tambon_th": "แม่สามแลบ",
+   "amphoe_th": "สบเมย",
+   "province_th": "แม่ฮ่องสอน",
+   "province_en": "Mae Hong Son",
+   "lat": 17.9786,
+   "lon": 97.7401,
+   "precision": "area"
+  },
+  "significance_th": "ฟันฉลามโบราณ (chondrichthyan) Thrinacodus ferox ร่วมกับ Phoebodus australiensis และ Siamodus janvieri อายุ Famennian ตอนปลาย ระบุโดยโคโนดอนต์ร่วม เป็นหลักฐานปลายุคดีโวเนียนที่สำคัญของไทย และแสดงความใกล้ชิดของแผ่นฉาน–ไทยกับกอนด์วานาตะวันออกและจีนตอนใต้",
+  "significance_en": "Teeth of the shark-like chondrichthyan Thrinacodus ferox, with Phoebodus australiensis and Siamodus janvieri, dated as late Famennian by associated conodonts, are Thailand's key Devonian fish record and show Shan-Thai affinity with East Gondwana and South China.",
+  "citation": {
+   "text": "Long J.A. 1990, Late Devonian chondrichthyans and other microvertebrate remains from northern Thailand, Journal of Vertebrate Paleontology 10:59-71",
+   "url": "https://doi.org/10.1080/02724634.1990.10011790"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex). Source: 'limestones near the Burmese border town of Mae Sam Lap, northern Thailand', late Famennian by conodonts; new taxa Phoebodus australiensis and Siamodus janvieri. Mae Sam Laep is a tambon of Sop Moei district (en.wikipedia Sop Moei district list); coordinate = Mae Sam Laep village (OSM Nominatim) - the outcrop is 'near' it. Age bounds = whole Famennian. Stage bounds from ICS International Chronostratigraphic Chart v2024/12 (GTS2020-based values; numbers for Cambrian Stage 10 base are approximate on the chart).",
+  "verified": false
+ },
+ {
+  "id": "fos-stigmosphaerostylus-ban-rai",
+  "taxon": "Stigmosphaerostylus variospina",
+  "group": "radiolarian",
+  "age_top_ma": 330.3,
+  "age_base_ma": 358.86,
+  "stage": "Early Carboniferous (Tournaisian–Visean)",
+  "formation_en": "Ban Rai Formation",
+  "formation_th": "หมวดหินบ้านไร่",
+  "locality": {
+   "name_en": "Ban Pha Thang bedded chert, Ban Rai area",
+   "name_th": "หินเชิร์ตบ้านผาทั่ง บริเวณบ้านไร่",
+   "tambon_th": null,
+   "amphoe_th": "บ้านไร่",
+   "province_th": "อุทัยธานี",
+   "province_en": "Uthai Thani",
+   "lat": 15.0839,
+   "lon": 99.5211,
+   "precision": "district"
+  },
+  "significance_th": "เรดิโอลาเรีย Stigmosphaerostylus variospina พร้อม Trilonche palimbola ในหินเชิร์ตชั้นบาง บ่งชี้อายุคาร์บอนิเฟอรัสตอนต้น (ทัวร์เนเซียน–วิเซียน) และการสะสมตัวบริเวณลาดทวีปตอนบนของแผ่นซีบูมาสุในมหาสมุทรพาลีโอเททิส (Paleo-Tethys) ซึ่งเป็นหลักฐานคาร์บอนิเฟอรัสที่หายากในภาคตะวันตก",
+  "significance_en": "Stigmosphaerostylus variospina with Trilonche palimbola dates this bedded chert to the Early Carboniferous (Tournaisian–Visean) and points to deposition on the upper continental rise of Sibumasu in the Palaeo-Tethys. Carboniferous evidence of this kind is rare in western Thailand.",
+  "citation": {
+   "text": "Sashida, Ito, Hong, Fukushima, Agematsu, Salyapongse & Putthapiban 2022, Occurrence of Early Carboniferous radiolarians and Middle Triassic conodonts from Ban Rai, southwestern Uthai Thani, central Thailand and its geological significance, Paleontological Research 26(4):420–439",
+   "url": "https://doi.org/10.2517/pr200056"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Same paper as fos-chiosella-ban-rai. Abstract: chert yielded 'early Carboniferous (Tournaisian to Visean) radiolarians composed of 10 species of five genera'; species from the WebFetch summary of the BioOne full text: Stigmosphaerostylus variospina, Trilonche palimbola, Pylentonema aff. antiqua. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Tournaisian base 358.86 to Visean top 330.3. DOUBT: Ban Pha Thang Thai spelling (บ้านผาทั่ง) is my transliteration, unconfirmed. The coordinate is the district centre. Check the species list against the paper's plates."
+ },
+ {
+  "id": "fos-branneroceras-loei",
+  "taxon": "Branneroceras branneri",
+  "group": "ammonoid",
+  "age_top_ma": 307.0,
+  "age_base_ma": 330.3,
+  "stage": "Middle Carboniferous (Namurian–Moscovian; Branneroceras typical of Bashkirian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "'Barite Mine', northern part of Loei city",
+   "name_th": "เหมืองแบไรต์ ทางเหนือของตัวเมืองเลย",
+   "tambon_th": null,
+   "amphoe_th": "เมืองเลย",
+   "province_th": "เลย",
+   "province_en": "Loei",
+   "lat": 17.485,
+   "lon": 101.73,
+   "precision": "district"
+  },
+  "significance_th": "แอมโมนอยด์ (ammonoid) Branneroceras branneri ที่ถูกแร่แบไรต์แทนที่ เป็นสกุลที่พบทั่วโลกในช่วงคาร์บอนิเฟอรัสตอนกลาง จึงใช้เทียบอายุหินกับอเมริกาเหนือ รัสเซีย จีน และญี่ปุ่นได้ นี่เป็นการพบครั้งแรกในเอเชียตะวันออกเฉียงใต้ และยืนยันทะเลยุคคาร์บอนิเฟอรัสในแนวเลย",
+  "significance_en": "Barite-replaced Branneroceras branneri is a widespread mid-Carboniferous goniatite, which allows correlation with North America, Russia, China and Japan. It is the first Southeast Asian record and confirms Carboniferous seas in the Loei belt.",
+  "citation": {
+   "text": "Fujikawa, Ishibashi & Nakornsri 1999, Middle Carboniferous cephalopods from Loei area, northern Thailand, Bulletin of the Geological Society of Malaysia 43:467–475",
+   "url": "https://doi.org/10.7186/bgsm43199947"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (GSM open PDF). 'The Barite Mine is situated at the top of a hill, northern part of Loei-city'; fauna Branneroceras branneri, Diaboloceras involutum, Syngastrioceras, Neogastrioceras, Bisatoceras + nautiloids; 'indicates from Namurian to Moscovian of the Middle Carboniferous'; fossils replaced by barite. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. 'Namurian–Moscovian' taken as Serpukhovian base 330.3 to Moscovian top 307.0. DOUBT: no coordinates or tambon given. The amphoe Mueang Loei is inferred from 'northern part of Loei city' and the coordinate is the Mueang Loei district centre (Wikipedia). The mine name is in quotes in the source, so it may be informal. Branneroceras is generally a Bashkirian genus, which would narrow the age, but I kept the source's range."
+ },
+ {
+  "id": "fos-komukia-ko-muk",
+  "taxon": "Komukia solita",
+  "group": "brachiopod",
+  "age_top_ma": 293.52,
+  "age_base_ma": 298.9,
+  "stage": "Early Permian (correlated with the late Asselian glacial interval)",
+  "formation_en": "Phuket (Kaeng Krachan) Group, pebbly mudstones",
+  "formation_th": "กลุ่มหินภูเก็ต (แก่งกระจาน) หินโคลนปนกรวด",
+  "locality": {
+   "name_en": "Ko Muk (island)",
+   "name_th": "เกาะมุก",
+   "tambon_th": "เกาะลิบง",
+   "amphoe_th": "กันตัง",
+   "province_th": "ตรัง",
+   "province_en": "Trang",
+   "lat": 7.3733,
+   "lon": 99.2955,
+   "precision": "area"
+  },
+  "significance_th": "แบรคิโอพอดสกุลใหม่ Komukia solita อยู่ในกลุ่มสัตว์น้ำเย็นที่มีสกุลแบบละติจูดสูงของกอนด์วานา พบในหินโคลนปนกรวด (pebbly mudstone) ของกลุ่มหินแก่งกระจาน จึงใช้บ่งชี้ว่าหินชุดนี้สะสมตัวในน้ำเย็นร่วมสมัยกับยุคน้ำแข็งปลายช่วงอัสเซเลียน (Asselian) และว่าแผ่นซีบูมาสุเคยอยู่ใกล้กอนด์วานา",
+  "significance_en": "Komukia solita, a new genus in a cool-water brachiopod fauna of high-latitude Gondwanan genera from Kaeng Krachan pebbly mudstones, indicates cold-water deposition contemporaneous with the late Asselian Gondwanan glaciation and the peri-Gondwanan position of Sibumasu.",
+  "citation": {
+   "text": "Waterhouse 1982, An early Permian cool-water fauna from pebbly mudstones in south Thailand, Geological Magazine 119(4):337–354",
+   "url": "https://doi.org/10.1017/s0016756800026261"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (OpenAlex): fauna 'from pebbly mudstones and sandstones of the Phuket (Kaeng Krachan) Group at the Thai islands of Ko Muk, and Ko Phi Phi'; 'contemporaneous with the late Asselian glacial deposits of Gondwana'; new taxa include Komukia solita gen. nov., sp. nov. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Asselian 298.9–293.52. Archbold (1999) notes some peninsular faunas may be Sakmarian, so the age is open to debate. DOUBT: the genus name implies a Ko Muk type locality, but I have not seen the type-locality statement (full text paywalled). The tambon/amphoe come from Thai Wikipedia (เกาะมุก: ตำบลเกาะลิบง อำเภอกันตัง จังหวัดตรัง). The coordinate is the Wikidata island centroid (Q14221110), not the outcrop."
+ },
+ {
+  "id": "fos-peruvispira-khao-mang-lat",
+  "taxon": "Peruvispira kanchanaburiensis",
+  "group": "gastropod",
+  "age_top_ma": 259.51,
+  "age_base_ma": 283.3,
+  "stage": "upper Lower to Middle Permian (Cisuralian–Guadalupian)",
+  "formation_en": "Ratburi Group",
+  "formation_th": "กลุ่มหินราชบุรี",
+  "locality": {
+   "name_en": "Khao Mang Lat",
+   "name_th": "เขามังลาด",
+   "tambon_th": "บ้านเก่า",
+   "amphoe_th": "เมืองกาญจนบุรี",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 13.8667,
+   "lon": 99.15,
+   "precision": "area"
+  },
+  "significance_th": "หอยฝาเดียว Peruvispira kanchanaburiensis เป็นชนิดใหม่ที่ตั้งชื่อตามจังหวัดกาญจนบุรี กลุ่มสัตว์ที่มีความหลากหลายต่ำมากและเด่นด้วยสกุล Peruvispira (ซึ่งพบมากในแอ่งเขตอบอุ่นถึงหนาวของกอนด์วานา) อาจสะท้อนน้ำทะเลค่อนข้างเย็นของแผ่นซีบูมาสุช่วงต้นถึงกลางยุคเพอร์เมียน",
+  "significance_en": "Peruvispira kanchanaburiensis is a new species named after the province; the very low-diversity, Peruvispira-dominated assemblage may reflect relatively cool water on the Sibumasu block in the late Early to Middle Permian, consistent with its peri-Gondwanan position.",
+  "citation": {
+   "text": "Karapunar, Nützel & Ketwetsuriya 2022, A low-diversity Peruvispira-dominated gastropod assemblage from the Permian Ratburi Group of Central Thailand, Alcheringa 46:147–155",
+   "url": "https://doi.org/10.1080/03115518.2022.2050814"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (OpenAlex/Crossref); full text paywalled. Abstract: 'upper-Lower to Middle Permian Ratburi Group of Khao Mang Lat in the Ban Kao District of Kanchanaburi Province'; ~200 specimens collected in 1967. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Range taken as Kungurian base (283.3) to Capitanian top (259.51) as a reading of 'upper Lower to Middle Permian'. Gastropods are not classic index fossils; included for its Kanchanaburi type locality and palaeoclimate signal. DOUBT: there is no 'Ban Kao District'; I read it as Tambon Ban Kao, Amphoe Mueang Kanchanaburi (Thai Wikipedia: ตำบลบ้านเก่า อำเภอเมืองกาญจนบุรี). Coordinate is the Thai Wikipedia tambon centre (13.8667 N, 99.15 E), not the hill. Khao Mang Lat Thai spelling (เขามังลาด) is my transliteration, unconfirmed."
+ },
+ {
+  "id": "fos-neochonetes-taoni-ratburi",
+  "taxon": "Neochonetes (Nongtaia) taoni",
+  "group": "brachiopod",
+  "age_top_ma": 266.9,
+  "age_base_ma": 274.4,
+  "stage": "Middle Permian (Ufimian = Roadian)",
+  "formation_en": "top of Kaeng Krachan Group siliciclastics, just below Ratburi Limestone",
+  "formation_th": "ส่วนบนสุดของกลุ่มหินแก่งกระจาน ใต้หินปูนราชบุรี",
+  "locality": {
+   "name_en": "Khao Nong Ta On, near Rat Buri",
+   "name_th": "เขาหนองตาอ่อน ใกล้ราชบุรี",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "ราชบุรี",
+   "province_en": "Ratchaburi",
+   "lat": 13.5283,
+   "lon": 99.8117,
+   "precision": "district"
+  },
+  "significance_th": "แบรคิโอพอด (brachiopod) Neochonetes (Nongtaia) taoni เป็นชนิดใหม่ที่พบในชั้นหินทรายควอตซ์ไซต์ใต้หินปูนราชบุรี กลุ่มแบรคิโอพอดนี้ถูกจัดอายุเป็นช่วงโรเดียน (Roadian) จึงช่วยกำหนดอายุรอยต่อระหว่างกลุ่มหินแก่งกระจานกับกลุ่มหินราชบุรีในภาคตะวันตก",
+  "significance_en": "The brachiopod Neochonetes (Nongtaia) taoni, a new species from quartzites just below the Ratburi Limestone, belongs to an assemblage assigned to the Roadian, so it helps date the Kaeng Krachan–Ratburi transition in western Thailand.",
+  "citation": {
+   "text": "Archbold 1999, Additional records of Permian brachiopods from near Rat Buri, Thailand, Proceedings of the Royal Society of Victoria 111(1):71–86",
+   "url": "https://doi.org/10.5281/zenodo.16467638"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (BHL scan via Zenodo, pdftotext). Holotype NMV P120374 from Khao Nong Ta On, from 'a prominent brachiopod rich horizon at the top of the lower siliclastic sequence, just below the Rat Buri Limestone'; assemblages 'referred to the Ufimian (=Roadian) stage'. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Roadian 274.4–266.9. The DOI is a Zenodo/DataCite DOI (resolves, HTTP 200 on DataCite API), not a Crossref DOI; the original article has no DOI. DOUBT: the paper calls the localities only 'near Rat Buri' in 'northern Peninsular Thailand' (collected by A. Baird 1989). Province Ratchaburi is inferred from the title, and the amphoe/tambon are unknown. The coordinate is the Mueang Ratchaburi district centre (Wikipedia) and is only a placeholder. Thai spelling of Khao Nong Ta On is my transliteration."
+ },
+ {
+  "id": "fos-pseudofusulina-wang-nam-won",
+  "taxon": "Pseudofusulina sp.",
+  "group": "fusulinid",
+  "age_top_ma": 259.51,
+  "age_base_ma": 266.9,
+  "stage": "Middle Permian (Murghabian–early Midian; ≈ Wordian–early Capitanian)",
+  "formation_en": "Ratburi Group (Permian unit P2)",
+  "formation_th": "กลุ่มหินราชบุรี (หน่วยหินยุคเพอร์เมียน P2)",
+  "locality": {
+   "name_en": "Hill opposite Wat Wang Nam Won, Ban Wang Nam Won",
+   "name_th": "เนินเขาตรงข้ามวัดวังน้ำวน บ้านวังน้ำวน",
+   "tambon_th": "ท่าเสา",
+   "amphoe_th": "ไทรโยค",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.3644,
+   "lon": 98.9036,
+   "precision": "site"
+  },
+  "significance_th": "คตข้าวสารสกุล Pseudofusulina ในหินปูนแพกสโตน (packstone) ร่วมกับไบรโอซัว Dyscritella และสาหร่าย Tubiphytes บ่งชี้อายุเพอร์เมียนตอนกลางอย่างกว้าง ๆ เป็นหลักฐานว่าหินปูนกลุ่มราชบุรีแถบไทรโยคเป็นตะกอนแท่นคาร์บอเนตทะเลตื้น",
+  "significance_en": "The fusulinid Pseudofusulina in packstone, together with the bryozoan Dyscritella and the alga Tubiphytes, gives a broad Middle Permian age and shows that the Ratburi limestone around Sai Yok formed on a shallow carbonate platform.",
+  "citation": {
+   "text": "Department of Mineral Resources (Geological Resources Office Region 3 / Sirindhorn Museum of Geology, Pathum Thani) 2022, รายงานผลการสำรวจซากดึกดำบรรพ์และสภาพแวดล้อมบรรพกาล ในพื้นที่ปกปักทรัพยากร อพ.สธ.-นทพ. อำเภอไทรโยค จังหวัดกาญจนบุรี, รายงานวิชาการ ฉบับที่ สทข.3 1/2565 (section 4.2.2, Fig. 4.17)",
+   "url": "https://www.dmr.go.th/wp-content/uploads/2023/11/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%8B%E0%B8%B2%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%81%E0%B8%94%E0%B8%B3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%9E%E0%B9%8C-%E0%B8%AD%E0%B8%9E.%E0%B8%AA%E0%B8%98.-%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%84-%E0%B8%9B%E0%B8%B5-65.pdf"
+  },
+  "source_type": "government-report",
+  "verified": false,
+  "_notes": "Full text read. Report: Ban Wang Nam Won, Tambon Tha Sao, Amphoe Sai Yok; packstone with Pseudofusulina sp. (poorly preserved), age 'Middle Permian (Murghabian–early Midian) ~265–260 Ma'. Fig. 4.17 sample 'hill opposite Wat Wang Nam Won', UTM 47P 489602 E 1588025 N, converted to 14.3644 N, 98.9036 E. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Murghabian≈Wordian (base 266.9), early Midian≈early Capitanian; top taken conservatively at Capitanian top 259.51. DOUBT: Pseudofusulina is a long-ranging genus (Late Carboniferous–Permian), so this is a weak index; the age rests on the report authors' comparison. Same coordinate caveat as Tham Thep Nimit (~17 km from Tha Sao centroid). Thin sections identified by MU Kanchanaburi Earth Science."
+ },
+ {
+  "id": "fos-neoschwagerina-saraburi",
+  "taxon": "Neoschwagerina craticulifera",
+  "group": "fusulinid",
+  "age_top_ma": 264.28,
+  "age_base_ma": 266.9,
+  "stage": "Middle Permian (mid-Murgabian; ≈ Wordian)",
+  "formation_en": "Ratburi Limestone (Saraburi Group)",
+  "formation_th": "หินปูนราชบุรี (กลุ่มหินสระบุรี)",
+  "locality": {
+   "name_en": "Highway 21 section north of Saraburi",
+   "name_th": "แนวตัดถนนทางหลวงหมายเลข 21 ทางเหนือของตัวเมืองสระบุรี",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สระบุรี",
+   "province_en": "Saraburi",
+   "lat": 14.7167,
+   "lon": 100.9167,
+   "precision": "site"
+  },
+  "significance_th": "คตข้าวสาร Neoschwagerina craticulifera เป็นชนิดดัชนีของโซน Neoschwagerina craticulifera ช่วงมูร์กาเบียนตอนกลาง (≈ เวิร์เดียน) และเป็นหนึ่งในแปดโซนคตข้าวสารที่ใช้ลำดับชั้นหินปูนยุคเพอร์เมียนบริเวณสระบุรี ซึ่งเป็นแนวแท่นคาร์บอเนตและแนวปะการังขอบแท่น",
+  "significance_en": "Neoschwagerina craticulifera names the mid-Murgabian (≈ Wordian) Neoschwagerina craticulifera Zone, one of eight fusuline assemblage zones used to correlate the Permian platform and reef carbonates of Saraburi.",
+  "citation": {
+   "text": "Dawson 1993, Fusiline foraminiferal biostratigraphy and carbonate facies of the Permian Ratburi Limestone, Saraburi, central Thailand, Journal of Micropalaeontology 12(1):9–33",
+   "url": "https://doi.org/10.1144/jm.12.1.9"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (open-access PDF, pdftotext). Section 'along highway 21, north of Saraburi (latitude 14°41'N to 14°44'N, longitude 100°55'E)'; plate caption: 'Neoschwagerina craticulifera (Schwager)... Middle Murgabian (Neoschwagerina craticulifera Zone)'. The coordinate is the midpoint of the stated range (14.7167 N, 100.9167 E). Precision is 'site' because the source gives coordinates, though the section is about 5 km long. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Murgabian≈Wordian 266.9–264.28. Amphoe/tambon set to null: the section lies along Highway 21 and I did not confirm which district(s) it crosses. The group name 'Saraburi Group' is the modern name for the Indochina-side carbonates; Dawson uses 'Ratburi Limestone'."
+ },
+ {
+  "id": "fos-reichelina-tham-thep-nimit",
+  "taxon": "Reichelina sp.",
+  "group": "fusulinid",
+  "age_top_ma": 254.14,
+  "age_base_ma": 264.28,
+  "stage": "Middle–Late Permian (Midian–Dzhulfian; ≈ Capitanian–Wuchiapingian)",
+  "formation_en": "Ratburi Group (Permian unit P2)",
+  "formation_th": "กลุ่มหินราชบุรี (หน่วยหินยุคเพอร์เมียน P2)",
+  "locality": {
+   "name_en": "Tham Thep Nimit (cave), Khao Wang Khmer",
+   "name_th": "ถ้ำเทพนิมิต เขาวังเขมร",
+   "tambon_th": "ท่าเสา",
+   "amphoe_th": "ไทรโยค",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.4095,
+   "lon": 98.8635,
+   "precision": "site"
+  },
+  "significance_th": "คตข้าวสารขนาดเล็กสกุล Reichelina ในหินปูนแวกสโตน (wackestone) บ่งชี้อายุเพอร์เมียนตอนกลางถึงตอนปลาย (Midian–Dzhulfian) และสภาพทะเลตื้นเขตร้อนบนไหล่ทวีปของแผ่นซีบูมาสุ (Sibumasu) ตัวอย่างนี้ศึกษาด้วยกล้องจุลทรรศน์โดยสาขาวิชาธรณีศาสตร์ มหาวิทยาลัยมหิดล วิทยาเขตกาญจนบุรี",
+  "significance_en": "The small fusulinid Reichelina in wackestone dates this Ratburi limestone to the Middle–Late Permian (Midian–Dzhulfian) and indicates a warm, shallow shelf on the Sibumasu block. The thin sections were identified by the Earth Science programme at Mahidol University Kanchanaburi Campus.",
+  "citation": {
+   "text": "Department of Mineral Resources (Geological Resources Office Region 3 / Sirindhorn Museum of Geology, Pathum Thani) 2022, รายงานผลการสำรวจซากดึกดำบรรพ์และสภาพแวดล้อมบรรพกาล ในพื้นที่ปกปักทรัพยากร อพ.สธ.-นทพ. อำเภอไทรโยค จังหวัดกาญจนบุรี, รายงานวิชาการ ฉบับที่ สทข.3 1/2565 (section 4.2.1, Fig. 4.10)",
+   "url": "https://www.dmr.go.th/wp-content/uploads/2023/11/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AA%E0%B8%B3%E0%B8%A3%E0%B8%A7%E0%B8%88%E0%B8%8B%E0%B8%B2%E0%B8%81%E0%B8%94%E0%B8%B6%E0%B8%81%E0%B8%94%E0%B8%B3%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%9E%E0%B9%8C-%E0%B8%AD%E0%B8%9E.%E0%B8%AA%E0%B8%98.-%E0%B9%84%E0%B8%97%E0%B8%A3%E0%B9%82%E0%B8%A2%E0%B8%84-%E0%B8%9B%E0%B8%B5-65.pdf"
+  },
+  "source_type": "government-report",
+  "verified": false,
+  "_notes": "Full text read (pdftotext). Report states: Tham Thep Nimit, Tambon Tha Sao, Amphoe Sai Yok; wackestone of Permian unit P2 with Reichelina sp., Midiella sp., Pachyphloia sp., Rectostipulina quadrata/pentamerata; age 'Midian-Dzhulfian ~251-270 Ma'. Fig. 4.10 coordinate: UTM zone 47P 485288 E 1593019 N (WGS84, map sheet 4837 III), converted with pyproj to 14.4095 N, 98.8635 E. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Midian≈Capitanian, Dzhulfian≈Wuchiapingian, so 264.28–254.14 Ma (the report's own 251–270 Ma is broader). DOUBT: the converted point lies ~25 km NW of the Wikidata centroid of Tambon Tha Sao (14.22 N, 99.08 E); the tambon is large and the coordinate is as printed, but check it on the 1:50,000 sheet. Genus-level ID only; Reichelina is a short-ranging late Middle–Late Permian genus, a reasonable but not zone-level index."
+ },
+ {
+  "id": "fos-paratirolites-doi-pha-phlung",
+  "taxon": "Paratirolites nakornsrii",
+  "group": "ammonoid",
+  "age_top_ma": 251.902,
+  "age_base_ma": 254.14,
+  "stage": "Late Permian (Dorashamian ≈ Changhsingian)",
+  "formation_en": "Huai Thak Formation (Ngao Group)",
+  "formation_th": "หมวดหินห้วยทาก (กลุ่มหินงาว)",
+  "locality": {
+   "name_en": "Doi Pha Phlung (Locality 7)",
+   "name_th": "ดอยผาพลึง",
+   "tambon_th": null,
+   "amphoe_th": "งาว",
+   "province_th": "ลำปาง",
+   "province_en": "Lampang",
+   "lat": 18.7767,
+   "lon": 99.97,
+   "precision": "district"
+  },
+  "significance_th": "แอมโมนอยด์ Paratirolites nakornsrii จากชั้นหินดินดานบนสุดของหมวดหินห้วยทาก ประมาณ 10 เมตรใต้รอยต่อเพอร์เมียน–ไทรแอสซิก บ่งชี้อายุดอราชาเมียน (≈ ช่างซิงเกียน) ซึ่งเป็นช่วงสุดท้ายของยุคเพอร์เมียน ทำให้ดอยผาพลึงเป็นหนึ่งในแหล่งศึกษารอยต่อการสูญพันธุ์ใหญ่ที่สุดของโลกในประเทศไทย",
+  "significance_en": "Paratirolites nakornsrii, from the uppermost Huai Thak shale about 10 m below the Permian–Triassic boundary, indicates the Dorashamian (≈ Changhsingian), the last stage of the Permian. This makes Doi Pha Phlung a Thai section across the end-Permian mass extinction.",
+  "citation": {
+   "text": "Ishibashi, Nakornsri & Nagai 1994, Permian–Triassic boundary and fauna at Doi Pha Phlung, northern Thailand, Memoirs of the Faculty of Science, Kyushu University, Series D 28(2):23–40",
+   "url": "https://doi.org/10.5109/1543642"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read via Kyushu repository PDF, but the text layer is badly garbled OCR. Recoverable: the uppermost Huai Thak shale ~10 m below the P/T boundary yields Paratirolites, Tapashanites, Pseudogastrioceras etc. ('Paratirolites–Tapashanites' fauna, Dorashamian, Upper Permian); 'Paratirolites nakornsrii Ishibashi et Chonglakmani' from Locality 7 (first described by Ishibashi & Chonglakmani 1990, J. SE Asian Earth Sci. 4:163–170, doi 10.1016/S0743-9547(05)80010-8). Lower Triassic ophiceratids and Claraia lie above the boundary in the Phra That Fm. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Changhsingian 254.14–251.902. Amphoe Ngao comes from Thai Wikipedia ('เชิงดอยผาพลึง อำเภองาว จังหวัดลำปาง', article นอติลอยด์). The coordinate is the Ngao district centre (Wikipedia). DOUBT: the boundary locality's position relative to 'Mae Pa' creek could not be read reliably from the OCR, so check the original figure 1."
+ },
+ {
+  "id": "fos-claraia-ngao",
+  "taxon": "Claraia stachei",
+  "group": "bivalve",
+  "age_top_ma": 249.9,
+  "age_base_ma": 251.902,
+  "stage": "Early Triassic (late Griesbachian; Induan)",
+  "formation_en": "Hong Hoi Formation (Lampang Group) – Phra That Fm of earlier usage",
+  "formation_th": "หมวดหินฮ่องหอย (กลุ่มหินลำปาง)",
+  "locality": {
+   "name_en": "Ban Huat, west of Ngao",
+   "name_th": "บ้านหวด ทางตะวันตกของอำเภองาว",
+   "tambon_th": null,
+   "amphoe_th": "งาว",
+   "province_th": "ลำปาง",
+   "province_en": "Lampang",
+   "lat": 18.7767,
+   "lon": 99.97,
+   "precision": "district"
+  },
+  "significance_th": "หอยสองฝา (bivalve) สกุล Claraia เป็นซากดึกดำบรรพ์ดัชนีของช่วงอินดูเอียน (Induan) ซึ่งเป็นช่วงแรกสุดของยุคไทรแอสซิก หอยกลุ่มนี้แพร่กระจายทั่วโลกหลังการสูญพันธุ์ครั้งใหญ่ปลายยุคเพอร์เมียน การพบ Claraia stachei ร่วมกับแอมโมนอยด์ Ophiceras จึงบ่งชี้ฐานของยุคไทรแอสซิกในกลุ่มหินลำปาง",
+  "significance_en": "Claraia is the classic Induan (earliest Triassic) 'disaster' bivalve that spread worldwide after the end-Permian extinction. Claraia stachei with Ophiceras marks the base of the Triassic in the Lampang Group.",
+  "citation": {
+   "text": "Chaodumrong 1992, Stratigraphy, sedimentology and tectonic setting of the Lampang Group, central north Thailand, PhD thesis, University of Tasmania",
+   "url": "https://doi.org/10.25959/23237726"
+  },
+  "source_type": "thesis",
+  "verified": false,
+  "_notes": "Full text read (UTAS figshare PDF, pdftotext). It says: 'According to Chonglakmani (1981), the Claraia–Ophiceras fauna, such as Claraia stachei, Claraia concentrica, of late Griesbachian age occur in Ban Bon west of Sop Prap, in Ban Huat west of Ngao, and Huai Or Dong west of Mae Wang Dam' (Hong Hoi Formation). Ishibashi et al. 1994 (doi 10.5109/1543642) also list Claraia spp. above the P/T boundary at Doi Pha Phlung, Ngao. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Induan 251.902–249.9. The DOI 10.25959/23237726 is a DataCite (figshare) DOI, not Crossref; it resolves. DOUBT: second-hand report (the primary source is Chonglakmani 1981 PhD thesis, Auckland, not seen). The source says 'west of Ngao', so it is unclear whether Ban Huat is inside Amphoe Ngao; amphoe งาว is a reasonable but unconfirmed reading. The coordinate is the Ngao district centre. The Thai spelling บ้านหวด is my transliteration."
+ },
+ {
+  "id": "fos-marcouxia-phatthalung",
+  "taxon": "Marcouxia chaiburiensis",
+  "group": "ammonoid",
+  "age_top_ma": 246.7,
+  "age_base_ma": 249.9,
+  "stage": "Early Triassic (early Spathian, Columbites parisianus Subzone; Olenekian)",
+  "formation_en": "Chaiburi Formation, Phukhaothong Dolomite Member",
+  "formation_th": "หมวดหินไชยบุรี ส่วนหินโดโลไมต์ภูเขาทอง",
+  "locality": {
+   "name_en": "Khao Thong section, 17 km north of Phatthalung city",
+   "name_th": "แนวลำดับชั้นหินเขาทอง 17 กม. ทางเหนือของตัวเมืองพัทลุง",
+   "tambon_th": null,
+   "amphoe_th": "ควนขนุน",
+   "province_th": "พัทลุง",
+   "province_en": "Phatthalung",
+   "lat": 7.7379,
+   "lon": 100.0666,
+   "precision": "site"
+  },
+  "significance_th": "แอมโมนอยด์ Marcouxia chaiburiensis ใช้เทียบกับโซนย่อย Columbites parisianus ของช่วงสปาเธียนตอนต้น (Olenekian) ที่ทราบดีในสหรัฐอเมริกาตะวันตก และพบใต้ระดับที่ค้นพบอิกทิโอซอร์ยุคแรก Thaisaurus chonglakmanii เพียง 2.4 เมตร จึงชี้ว่า Thaisaurus เป็นอิกทิโอเทอริเจียน (ichthyopterygian) ที่เก่าแก่ที่สุดกลุ่มหนึ่งของโลก",
+  "significance_en": "Marcouxia chaiburiensis correlates with the early Spathian Columbites parisianus Subzone of the western USA. It lies 2.4 m below the holotype of the early ichthyopterygian Thaisaurus chonglakmanii, which makes Thaisaurus one of the oldest known ichthyopterygians.",
+  "citation": {
+   "text": "Tongtherm, Shigeta, Sardsud, Sashida & Agematsu 2020, Age of the Early Triassic ichthyopterygian Thaisaurus inferred from ammonoid biostratigraphy, Paleontological Research 24(4):276–284",
+   "url": "https://doi.org/10.2517/2019pr022"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract (OpenAlex) plus BioOne full-text page summarised by WebFetch: 'Khao Thong section, 17 km north of Phatthalung City, Khuan Khanun District, Phatthalung Province (7°44′16.4″N, 100°03′59.8″E)'; Phukhaothong Dolomite Member, Chaiburi Formation; early Spathian. Coordinate converted to decimal: 7.7379 N, 100.0666 E. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Olenekian 249.9–246.7 (no substage ages). Tambon not stated, so null. Thai member/section spellings are my transliterations."
+ },
+ {
+  "id": "fos-chiosella-ban-rai",
+  "taxon": "Chiosella timorensis",
+  "group": "conodont",
+  "age_top_ma": 241.464,
+  "age_base_ma": 246.7,
+  "stage": "Middle Triassic (early Anisian)",
+  "formation_en": "Ban Rai Formation",
+  "formation_th": "หมวดหินบ้านไร่",
+  "locality": {
+   "name_en": "Thab Luang limestone block, Ban Rai area",
+   "name_th": "ก้อนหินปูนทับหลวง บริเวณบ้านไร่",
+   "tambon_th": null,
+   "amphoe_th": "บ้านไร่",
+   "province_th": "อุทัยธานี",
+   "province_en": "Uthai Thani",
+   "lat": 15.0839,
+   "lon": 99.5211,
+   "precision": "district"
+  },
+  "significance_th": "โคโนดอนต์ (conodont) Chiosella timorensis เป็นซากดึกดำบรรพ์ดัชนีสากลที่ใช้กำหนดขอบเขตระหว่างช่วงอายุโอเลเนเกียน–อะนิเซียน (Olenekian–Anisian) ในหินปูนก้อนนี้มันบ่งชี้อายุอะนิเซียนตอนต้นของยุคไทรแอสซิกตอนกลาง และชี้ว่าหินปูนสะสมตัวบนไหล่ทวีปด้านตะวันออกของแผ่นซีบูมาสุ",
+  "significance_en": "Chiosella timorensis is the international marker conodont for the Olenekian–Anisian boundary. In this limestone block it gives an early Anisian (Middle Triassic) age for shelf carbonates on the eastern margin of the Sibumasu block.",
+  "citation": {
+   "text": "Sashida, Ito, Hong, Fukushima, Agematsu, Salyapongse & Putthapiban 2022, Occurrence of Early Carboniferous radiolarians and Middle Triassic conodonts from Ban Rai, southwestern Uthai Thani, central Thailand and its geological significance, Paleontological Research 26(4):420–439",
+   "url": "https://doi.org/10.2517/pr200056"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract (OpenAlex) plus BioOne full-text page summarised by WebFetch: 'Chiosella timorensis dominates', with Magnigondolella nebuchadnezzari and 'Cratognathodus kochi'; early Anisian. Sites: Ban Pha Thang (chert) and Thab Luang (limestone block), within a 1 km × 3 km area of Ban Rai, SW Uthai Thani. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Anisian 246.7–241.464 Ma. DOUBT: no coordinates retrieved. Coordinate is the Ban Rai district centre (Wikipedia/Wikidata Q475170), and the district is very large (>50% of the province). 'Thab Luang' may be Tambon Thap Luang (ทับหลวง) of Ban Rai, but this is not confirmed, so the tambon is null."
+ },
+ {
+  "id": "fos-daonella-indica-ko-kha",
+  "taxon": "Daonella indica",
+  "group": "bivalve",
+  "age_top_ma": 237.0,
+  "age_base_ma": 241.464,
+  "stage": "Middle Triassic (late Ladinian; Daonella indica Zone)",
+  "formation_en": "Hong Hoi Formation (Lampang Group)",
+  "formation_th": "หมวดหินฮ่องหอย (กลุ่มหินลำปาง)",
+  "locality": {
+   "name_en": "Ban Pang La and Huai Khok Chang",
+   "name_th": "บ้านปางละ และห้วยคอกช้าง",
+   "tambon_th": null,
+   "amphoe_th": "เกาะคา",
+   "province_th": "ลำปาง",
+   "province_en": "Lampang",
+   "lat": 18.1917,
+   "lon": 99.3956,
+   "precision": "district"
+  },
+  "significance_th": "หอยสองฝาเปลือกบาง Daonella เป็นซากดึกดำบรรพ์ดัชนีสำคัญของยุคไทรแอสซิกตอนกลางในทะเลเททิส โซน Daonella indica ในกลุ่มหินลำปางบ่งชี้อายุลาดิเนียนตอนปลาย (late Ladinian) และสภาพพื้นทะเลลึกที่มีออกซิเจนต่ำในแอ่งลำปาง",
+  "significance_en": "The thin-shelled bivalve Daonella is a key Middle Triassic Tethyan index; the Daonella indica Zone in the Lampang Group indicates a late Ladinian age and dysoxic basinal muds in the Lampang sub-basin.",
+  "citation": {
+   "text": "Chaodumrong 1992, Stratigraphy, sedimentology and tectonic setting of the Lampang Group, central north Thailand, PhD thesis, University of Tasmania",
+   "url": "https://doi.org/10.25959/23237726"
+  },
+  "source_type": "thesis",
+  "verified": false,
+  "_notes": "Full text read (pdftotext). It says: 'The Daonella indica zone of late Ladinian age occurs in Ban Pang La, and Huai Khok Chang of Ko Kha District' (citing Chonglakmani 1981). Section A is '1.5 km east of Ban Pang La, grid reference 916504, sheet 4946-II Ban Pong, 1:50,000', but I could not convert it without the 100-km square letters. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Ladinian 241.464–~237. The coordinate is the Ko Kha district centre (Wikipedia). DOUBT: second-hand (the primary source is Chonglakmani 1981, not seen). Thai spellings of Ban Pang La and Huai Khok Chang are my transliterations. NOTE: the Phrae sub-basin Halobia styriaca Zone (middle Carnian, km 45+350 on the Rong Kwang–Ngao highway) is in the same thesis but was not included because its province/amphoe could not be confirmed."
+ },
+ {
+  "id": "fos-cyclotosaurus-chulabhorn",
+  "taxon": "Cyclotosaurus cf. posthumus",
+  "group": "amphibian",
+  "age_top_ma": 205.7,
+  "age_base_ma": 237.0,
+  "stage": "Late Triassic (Carnian–Norian)",
+  "formation_en": "Huai Hin Lat Formation",
+  "formation_th": "หมวดหินห้วยหินลาด",
+  "locality": {
+   "name_en": "Near Chulabhorn Dam",
+   "name_th": "ใกล้เขื่อนจุฬาภรณ์",
+   "tambon_th": "ทุ่งลุยลาย",
+   "amphoe_th": "คอนสาร",
+   "province_th": "ชัยภูมิ",
+   "province_en": "Chaiyaphum",
+   "lat": 16.5363,
+   "lon": 101.65,
+   "precision": "area"
+  },
+  "significance_th": "สัตว์สะเทินน้ำสะเทินบกเทมโนสปอนดิล (temnospondyl) Cyclotosaurus เป็นสกุลที่พบในหินยุคไทรแอสซิกตอนปลายของยุโรป การพบในหมวดหินห้วยหินลาดจึงช่วยเทียบอายุชั้นหินบกยุคไทรแอสซิกตอนปลาย (Carnian–Norian) และบ่งชี้แอ่งทะเลสาบและแม่น้ำบนแผ่นอินโดไชนา",
+  "significance_en": "Cyclotosaurus is a Late Triassic capitosauroid temnospondyl best known from Europe; its presence in the Huai Hin Lat Formation supports a Carnian–Norian age for these continental beds and indicates lake–river basins on the Indochina block.",
+  "citation": {
+   "text": "Ingavat & Janvier 1981, Cyclotosaurus cf. posthumus Fraas (Capitosauridae, Stereospondyli) from the Huai Hin Lat Formation (Upper Triassic), northeastern Thailand, Geobios 14(6):711–725",
+   "url": "https://doi.org/10.1016/s0016-6995(81)80149-0"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Original paywalled; locality and age taken from the open-access review Nonsrirach, Manitkoon & Lauprasert 2021, Fossil Record 24:33–47 (doi 10.5194/fr-24-33-2021), read via WebFetch: 'near Chulabhorn Dam, Khon San District, Chaiyaphum Province', 'Carnian–Norian', specimen DMR Ch.D 001. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Carnian base ~237 to Norian top ~205.7. Tambon Thung Lui Lai and the coordinate (16.5363 N, 101.65 E) are those of Chulabhorn Dam on English Wikipedia; the fossil site is 'near' the dam, not at it. Group set to 'other' (amphibian); the schema has no amphibian category. Phytosaur remains (Buffetaut & Ingavat 1982, Geobios 15:7–17) come from the same outcrop but no taxon name could be confirmed, so they are not included. | Main session: group other → amphibian."
+ },
+ {
+  "id": "fos-capnodoce-tha-sao",
+  "taxon": "Capnodoce sarisa",
+  "group": "radiolarian",
+  "age_top_ma": 205.7,
+  "age_base_ma": 227.3,
+  "stage": "Late Triassic (late early to early middle Norian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Limestone sections NW of Ban Phu Ong Ka, Tha Sao area",
+   "name_th": "หินปูนทางตะวันตกเฉียงเหนือของบ้านภูองค์กา บริเวณท่าเสา",
+   "tambon_th": null,
+   "amphoe_th": "ไทรโยค",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.2197,
+   "lon": 99.0757,
+   "precision": "area"
+  },
+  "significance_th": "เรดิโอลาเรีย (radiolarian) Capnodoce sarisa ร่วมกับ Capnodoce crystallina และ Xiphosphaera fistulata ระบุว่าหินปูนบริเวณท่าเสาซึ่งเคยถูกจัดเป็นยุคเพอร์เมียนนั้นที่จริงมีอายุไทรแอสซิกตอนปลาย (นอเรียน) กลุ่มฟอสซิลนี้เป็นแบบเขตร้อนละติจูดต่ำของมหาสมุทรเททิส (Tethys) ช่วงที่แผ่นซีบูมาสุชนกับอินโดไชนา",
+  "significance_en": "The radiolarian Capnodoce sarisa, with C. crystallina and Xiphosphaera fistulata, re-dates limestone at Tha Sao, previously mapped as Permian, to the Late Triassic (Norian); the assemblage is a low-latitude Tethyan fauna deposited as the Sibumasu and Indochina blocks collided.",
+  "citation": {
+   "text": "Sashida, Hong, Ito, Salyapongse & Putthapiban 2023, Late Triassic (late early to early middle Norian) and Late Triassic or Early Jurassic radiolarians from limestone in the Tha Sao area, Kanchanaburi Province, western Thailand, Paleontological Research 28(1):37–67",
+   "url": "https://doi.org/10.2517/pr220007"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract (OpenAlex) plus BioOne full-text page summarised by WebFetch. Sections are 'located at the northwestern part of Ban Phu Ong Ka' near the Lum Sum–Kanchanaburi–Sangkhla Buri road; no coordinates given. Age-diagnostic species reported: Capnodoce sarisa (upper lower–lower upper Norian), C. crystallina, Icrioma tetracistrum, Palaeosaturnalis karnicus, Xiphosphaera fistulata; there is no formal zone. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Norian bounds 227.3–205.7 used because ICS has no substage ages. DOUBT: tambon set to null because the paper says only 'Tha Sao area' and the village may lie in Tambon Tha Sao or Lum Sum. The amphoe (Sai Yok) follows because both tambons are in Sai Yok. The coordinate is the Wikidata centroid of Tambon Tha Sao (Q16295624), not the outcrop. The Thai village spelling บ้านภูองค์กา is my transliteration, unconfirmed. Species list comes from a WebFetch summary; check it against the paper's range chart."
+ },
+ {
+  "id": "fos-thaichelys-si-chomphu",
+  "taxon": "Thaichelys ruchae",
+  "group": "reptile",
+  "age_top_ma": 205.7,
+  "age_base_ma": 227.3,
+  "stage": "Late Triassic (Norian)",
+  "formation_en": "Huai Hin Lat Formation",
+  "formation_th": "หมวดหินห้วยหินลาด",
+  "locality": {
+   "name_en": "Ban Suan Sawan banana farm",
+   "name_th": "สวนกล้วยบ้านสวนสวรรค์",
+   "tambon_th": null,
+   "amphoe_th": "สีชมพู",
+   "province_th": "ขอนแก่น",
+   "province_en": "Khon Kaen",
+   "lat": 16.8003,
+   "lon": 102.1878,
+   "precision": "district"
+  },
+  "significance_th": "เต่ายุคแรก Thaichelys ruchae (เดิมชื่อ Proganochelys ruchae) เป็นหนึ่งในเต่าแท้ที่เก่าแก่ที่สุดของเอเชีย จากชั้นหินช่วงนอเรียน (Norian) ร่วมกับพืช Equisetites, Neocalamites และ Clathropteris การจัดใหม่ไว้ในวงศ์ Proterochersidae ชี้ว่าเต่าอาจเริ่มแตกแขนงในเอเชียก่อนกระจายไปทางตะวันตกของแพนเจีย",
+  "significance_en": "Thaichelys ruchae (formerly Proganochelys ruchae) is one of Asia's oldest true turtles, from Norian beds dated by the plants Equisetites, Neocalamites and Clathropteris. Its placement in Proterochersidae suggests an early Asian radiation before turtles spread across western Pangaea.",
+  "citation": {
+   "text": "Szczygielski, Dróżdż, Chanthasit, Manitkoon & Ditbanjong 2025, The Triassic turtle of Thailand – revision of 'Proganochelys' ruchae, PLOS ONE 20(3):e0316338",
+   "url": "https://doi.org/10.1371/journal.pone.0316338"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Open-access full text read via WebFetch: holotype SM2015-1-001 (ex TF 1440-6), 'Ban Suan Sawan Banana Farm, Si Chomphu, Khon Kaen'; 'Huai Hin Lat Formation, Late Triassic (Norian)'; other material from Ban Huai Sanam Sai, Nam Nao, Phetchabun. Ages converted with the ICS International Chronostratigraphic Chart v2024/12. Norian ~227.3–~205.7. A turtle is a palaeobiogeographic marker rather than a strict index fossil; the Norian age rests on the plants. The coordinate is the Si Chomphu district centre (Wikipedia); no coordinates in the paper. The Thai farm name is my rendering."
+ },
+ {
+  "id": "fos-bosniella-fontainei-thong-pha-phum",
+  "taxon": "Bosniella fontainei",
+  "group": "other",
+  "age_top_ma": 168.2,
+  "age_base_ma": 174.7,
+  "stage": "Middle Jurassic (Aalenian–Bajocian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Thong Pha Phum area (Middle Jurassic platform limestone)",
+   "name_th": "พื้นที่อำเภอทองผาภูมิ",
+   "tambon_th": null,
+   "amphoe_th": "ทองผาภูมิ",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 14.7458,
+   "lon": 98.625,
+   "precision": "district"
+  },
+  "significance_th": "ฟอรามินิเฟอราหน้าดินขนาดใหญ่ (larger benthic foraminifera) วงศ์ Biokovinidae ที่ได้รับการตั้งชื่อจากหินปูนแพลตฟอร์ม (platform limestone) ทะเลตื้นยุคจูแรสซิกตอนกลางของไทย สกุล Bosniella มีช่วงอายุแคบในช่วงอาเลเนียน–บาโจเซียน (Aalenian–Bajocian) จึงใช้เทียบอายุหินปูนจูแรสซิกทะเลทางตะวันตกของไทยกับหินในเขตเทธิส (Tethys) ฝั่งยุโรปได้",
+  "significance_en": "A larger benthic foraminifer (family Biokovinidae) named from Middle Jurassic shallow-marine platform limestone in Thailand. Bosniella has a short Aalenian–Bajocian range in Tethyan carbonate platforms, so it dates and correlates the marine Jurassic limestones of western Thailand with the Tethys (e.g. the Dinarides).",
+  "citation": {
+   "text": "Bassoullet J.-P. 1994, Bosniella fontainei nov. sp., (Foraminifère, Biokovinidae) du Jurassique moyen de Thaïlande, Geobios 27(4):403–411",
+   "url": "https://doi.org/10.1016/s0016-6995(09)90018-3"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "DOUBTFUL LOCALITY. Full text and abstract NOT read (ScienceDirect blocked). Title says only 'Middle Jurassic of Thailand' and a Semantic Scholar TLDR gives the wall-texture/affinity statement. The assignment to the Thong Pha Phum area, Kanchanaburi rests only on a web-search summary of the abstract, so province and amphoe must be checked in the paper before use. Age 'Aalenian–Bajocian of Thailand' is confirmed by Schlagintweit & Velić 2011 (Geologia Croatica 64(2), doi:10.4154/gc.2011.08, full text read). Supporting context (search snippets, likely Meesook & Grant-Mackie 1996, J. SE Asian Earth Sci. 14:377–391, doi:10.1016/s0743-9547(96)00073-6, not read): marine Jurassic strata of the Kanchanaburi area are 200–300 m of grey micritic oncoid limestone with rich foraminifera at localities in Thong Pha Phum District. Coordinates: Wikipedia centre of Thong Pha Phum district. Group 'other' = benthic foraminifer (not a fusulinid). Numeric ages from ICS International Chronostratigraphic Chart v2024/12. Aalenian base 174.7, Bajocian top 168.2 Ma.",
+  "verified": false
+ },
+ {
+  "id": "fos-minimocursor-phunoiensis-phu-noi",
+  "taxon": "Minimocursor phunoiensis",
+  "group": "dinosaur",
+  "age_top_ma": 143.1,
+  "age_base_ma": 161.5,
+  "stage": "Late Jurassic",
+  "formation_en": "Phu Kradung Formation (Khorat Group)",
+  "formation_th": "หมวดหินภูกระดึง (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Noi locality, Ban Din Chi Subdistrict",
+   "name_th": "แหล่งภูน้อย",
+   "tambon_th": "ดินจี่",
+   "amphoe_th": "คำม่วง",
+   "province_th": "กาฬสินธุ์",
+   "province_en": "Kalasin",
+   "lat": 16.9233,
+   "lon": 103.6317,
+   "precision": "district"
+  },
+  "significance_th": "ไดโนเสาร์กลุ่มนีออร์นิธิสเชียนยุคแรก (basal neornithischian) ตัวแรกที่ได้รับการตั้งชื่อจากหมวดหินภูกระดึง และเป็นหนึ่งในโครงกระดูกไดโนเสาร์ที่สมบูรณ์ที่สุดของเอเชียตะวันออกเฉียงใต้ ใช้เป็นตัวแทนสัตว์บกยุคจูแรสซิกตอนปลาย (Late Jurassic) ของที่ราบสูงโคราช ซึ่งมีความคล้ายคลึงกับสัตว์ร่วมยุคในจีน",
+  "significance_en": "The first dinosaur named from the Phu Kradung Formation and one of the best-preserved dinosaurs in Southeast Asia; an articulated basal neornithischian that characterises the Late Jurassic non-marine fauna of the Khorat Plateau and shows close links with Chinese Late Jurassic–Early Cretaceous faunas.",
+  "citation": {
+   "text": "Manitkoon S., Deesri U., Khalloufi B., Nonsrirach T., Suteethorn V., Chanthasit P., Boonla W., Buffetaut E. 2023, A new basal neornithischian dinosaur from the Phu Kradung Formation (Upper Jurassic) of northeastern Thailand, Diversity 15(7):851",
+   "url": "https://doi.org/10.3390/d15070851"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex): articulated skeleton from the Late Jurassic Phu Kradung Formation at the Phu Noi locality, Kalasin Province. Tambon/amphoe 'Ban Din Chi Sub-district, Kham Muang District' come from a web-search summary of the paper and press coverage (novataxa, sci.news); full text not read (MDPI blocked). Coordinates: Wikipedia centre of Kham Muang district (tambon Din Chi centre not geocoded), so precision 'district'. Age: 'Late Jurassic' converted to ICS Oxfordian base 161.5 to Tithonian top 143.1 Ma; the Phu Kradung age is debated (some authors put the upper part in the earliest Cretaceous). Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-lepidotes-buddhabutrensis-phu-nam-jun",
+  "taxon": "Lepidotes buddhabutrensis",
+  "group": "fish",
+  "age_top_ma": 125.77,
+  "age_base_ma": 161.5,
+  "stage": "Late Jurassic–Early Cretaceous (pre-Barremian)",
+  "formation_en": "Phu Kradung Formation (Khorat Group)",
+  "formation_th": "หมวดหินภูกระดึง (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Nam Jun locality",
+   "name_th": "ภูน้ำจั้น",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "กาฬสินธุ์",
+   "province_en": "Kalasin",
+   "lat": 16.4325,
+   "lon": 103.5069,
+   "precision": "district"
+  },
+  "significance_th": "ปลากระดูกแข็งเกล็ดหนา (semionotid) ที่พบเป็นกลุ่มใหญ่จากเหตุการณ์ตายหมู่ (mass mortality) ในชั้นหินภูกระดึง เป็นซากดึกดำบรรพ์เด่นของหมวดหินนี้ บ่งชี้สภาพแวดล้อมแม่น้ำและทะเลสาบน้ำจืดบนที่ราบน้ำท่วมถึง ช่วงปลายยุคจูแรสซิกถึงต้นยุคครีเทเชียส",
+  "significance_en": "A thick-scaled semionotid fish found in large numbers at Phu Nam Jun, probably from a single mass-mortality event. It is the characteristic fish of the Phu Kradung Formation and records freshwater river and lake settings on the latest Jurassic–earliest Cretaceous Khorat floodplain.",
+  "citation": {
+   "text": "Cavin L., Suteethorn V., Khansubha S., Buffetaut E., Tong H. 2003, A new Semionotid (Actinopterygii, Neopterygii) from the Late Jurassic–Early Cretaceous of Thailand, Comptes Rendus Palevol 2(5):291–297",
+   "url": "https://doi.org/10.1016/s1631-0683(03)00062-9"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex): 'Lepidotes buddhabutrensis n. sp. ... from the continental Late Jurassic–Early Cretaceous Phu Kradung Formation, Phu Nam Jun, Kalasin Province'. Deesri et al. 2009 (Geol. Soc. London Spec. Publ. 315:115–124, doi:10.1144/sp315.9, abstract read) interpret the assemblage as a single mass-mortality event. No tambon/amphoe found in any source read, so both are null. Coordinates: Wikipedia centre of Kalasin Province (site not geocoded), so treat as province-level only. Age: source says 'Late Jurassic–Early Cretaceous'. I put the base at the Oxfordian (161.5 Ma) and the top at the base of the Barremian (125.77 Ma), because the overlying Sao Khua Fm is regarded as Barremian (Wongko et al. 2019). This top bound is my own inference. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-phuwiangosaurus-sirindhornae-phu-wiang",
+  "taxon": "Phuwiangosaurus sirindhornae",
+  "group": "dinosaur",
+  "age_top_ma": 121.4,
+  "age_base_ma": 137.05,
+  "stage": "Early Cretaceous (pre-Aptian; Valanginian–Barremian, debated)",
+  "formation_en": "Sao Khua Formation (Khorat Group)",
+  "formation_th": "หมวดหินเสาขัว (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Wiang area, Phu Wiang National Park (type locality Phu Pratu Teema)",
+   "name_th": "อุทยานแห่งชาติภูเวียง (ภูประตูตีหมา)",
+   "tambon_th": null,
+   "amphoe_th": "เวียงเก่า",
+   "province_th": "ขอนแก่น",
+   "province_en": "Khon Kaen",
+   "lat": 16.6783,
+   "lon": 102.3536,
+   "precision": "area"
+  },
+  "significance_th": "ไดโนเสาร์ซอโรพอดกลุ่มไททันโนซอริฟอร์ม (titanosauriform sauropod) ที่พบมากที่สุดในหมวดหินเสาขัว และเป็นไดโนเสาร์ที่เป็นสัญลักษณ์ของไทย ใช้เป็นซากดึกดำบรรพ์ประจำหมวดหินเสาขัวในการเทียบสัมพันธ์ชั้นหินบนที่ราบสูงโคราช และบ่งชี้สภาพที่ราบน้ำท่วมถึงในภูมิอากาศกึ่งร้อนชื้นของยุคครีเทเชียสตอนต้น",
+  "significance_en": "The commonest sauropod of the Sao Khua Formation and Thailand's emblematic dinosaur. Several specimens from the formation make it a practical marker for correlating Sao Khua beds across the Khorat Plateau, within an Early Cretaceous floodplain setting.",
+  "citation": {
+   "text": "Suteethorn S., Le Loeuff J., Buffetaut E., Suteethorn V. 2010, Description of topotypes of Phuwiangosaurus sirindhornae, a sauropod from the Sao Khua Formation (Early Cretaceous) of Thailand, and their phylogenetic implications, Neues Jahrbuch für Geologie und Paläontologie – Abhandlungen 256(1):109–121",
+   "url": "https://doi.org/10.1127/0077-7749/2010/0036"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Original description: Martin, Buffetaut & Suteethorn 1994, C. R. Acad. Sci. Paris (no DOI, not read). The cited 2010 paper is on topotypes and its title was confirmed on Crossref (abstract not available). Wikipedia: type specimen found in Phu Wiang National Park (1982). The type-locality name 'Phu Pratu Teema' and its Thai spelling ภูประตูตีหมา are from Wikipedia's Siamosaurus article and my own transliteration, so check them. Amphoe: Wikipedia 'Wiang Kao district' says the district lies in the Phu Wiang Mountains/National Park and that dinosaur fossils were found there (district split from Phu Wiang district in 2006). Older papers say 'Phu Wiang district', so the amphoe is inferred, not stated in the paper. Coordinates: Wikipedia coordinates for Phu Wiang National Park (16°40′42″N 102°21′13″E), not the quarry. Age: Sao Khua is dated differently by different sources. Wongko et al. 2019 say Barremian (pollen, molluscs, microvertebrates). Wikipedia says Valanginian–Hauterivian. Range here: Valanginian base 137.05 to Barremian top 121.4 Ma. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-siamotyrannus-isanensis-phu-wiang",
+  "taxon": "Siamotyrannus isanensis",
+  "group": "dinosaur",
+  "age_top_ma": 121.4,
+  "age_base_ma": 137.05,
+  "stage": "Early Cretaceous (pre-Aptian; Valanginian–Barremian, debated)",
+  "formation_en": "Sao Khua Formation (Khorat Group)",
+  "formation_th": "หมวดหินเสาขัว (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Wiang site 9 (PW9), Phu Wiang National Park",
+   "name_th": "หลุมขุดค้นที่ 9 อุทยานแห่งชาติภูเวียง",
+   "tambon_th": null,
+   "amphoe_th": "เวียงเก่า",
+   "province_th": "ขอนแก่น",
+   "province_en": "Khon Kaen",
+   "lat": 16.6783,
+   "lon": 102.3536,
+   "precision": "area"
+  },
+  "significance_th": "เทอโรพอดขนาดใหญ่จากหมวดหินเสาขัว เดิมเสนอว่าเป็นไทรันโนซอร์ (tyrannosaur) ที่เก่าแก่ที่สุด แต่ปัจจุบันหลายการศึกษาจัดเป็นคาร์โนซอร์ (carnosaur) หรืออัลโลซอรอยด์ (allosauroid) ฐานราก จึงเป็นกรณีศึกษาที่ดีว่าการจำแนกซากดึกดำบรรพ์เปลี่ยนแปลงได้ตามหลักฐานใหม่",
+  "significance_en": "A large theropod from the Sao Khua Formation, first described as the earliest tyrannosaur but now often regarded as a basal carnosaur/allosauroid. It is a key member of the Sao Khua predator guild and a good teaching case of how a fossil's classification changes with new evidence.",
+  "citation": {
+   "text": "Buffetaut E., Suteethorn V., Tong H. 1996, The earliest known tyrannosaur from the Lower Cretaceous of Thailand, Nature 381:689–691",
+   "url": "https://doi.org/10.1038/381689a0"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Read: Semantic Scholar TLDR and Wikipedia; the Nature full text was not read. Wikipedia: partial skeleton found in 1993 by Somchai Traimwichanon at the 'Phu Wiang 9 site in Khon Kaen'; holotype PW9-1; Sao Khua Fm. Amphoe Wiang Kao is inferred from Wikipedia (see Phuwiangosaurus note); the paper is likely to say 'Phu Wiang'. Coordinates are the national park centre, not site 9. Age as for Phuwiangosaurus. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-siamosaurus-suteethorni-phu-wiang",
+  "taxon": "Siamosaurus suteethorni",
+  "group": "dinosaur",
+  "age_top_ma": 121.4,
+  "age_base_ma": 137.05,
+  "stage": "Early Cretaceous (Barremian per Wongko et al. 2019; pre-Aptian)",
+  "formation_en": "Sao Khua Formation (Khorat Group)",
+  "formation_th": "หมวดหินเสาขัว (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Pratu Teema locality, Phu Wiang",
+   "name_th": "ภูประตูตีหมา ภูเวียง",
+   "tambon_th": null,
+   "amphoe_th": "เวียงเก่า",
+   "province_th": "ขอนแก่น",
+   "province_en": "Khon Kaen",
+   "lat": 16.6783,
+   "lon": 102.3536,
+   "precision": "area"
+  },
+  "significance_th": "ไดโนเสาร์สไปโนซอริด (spinosaurid) ที่รู้จักจากฟันเท่านั้น ฟันรูปกรวยมีสันนูนตามยาวและแทบไม่มีรอยหยัก เหมาะกับการกินปลา ฟันชนิดนี้พบทั่วไปในหมวดหินเสาขัว จึงใช้เป็นซากดึกดำบรรพ์บ่งชี้หมวดหินนี้ในภาคสนาม และบ่งชี้สภาพแวดล้อมแม่น้ำที่มีปลาชุกชุม",
+  "significance_en": "A spinosaurid known only from teeth with tall, ribbed, almost unserrated crowns suited to catching fish. Such teeth are common in the Sao Khua Formation, so they make a practical field marker for these beds and point to fish-rich river environments.",
+  "citation": {
+   "text": "Wongko K., Buffetaut E., Khamha S., Lauprasert K. 2019, Spinosaurid theropod teeth from the Red Beds of the Khok Kruat Formation (Early Cretaceous) in Northeastern Thailand, Tropical Natural History 19(1):8–20",
+   "url": "https://doi.org/10.58837/tnh.19.1.181194"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read (ThaiJO PDF). Wongko et al. 2019 state that Siamosaurus suteethorni Buffetaut & Ingavat 1986 (Revue de Paléobiologie 5:217–220, no DOI, not read) was described from isolated teeth from the Sao Khua Formation, 'referred to the Barremian age based on pollen, molluscs and vertebrate microremains'. They also describe a 'Siamosaurus morphotype' of tooth in the younger Khok Kruat Fm. 'Phu Pratu Teema locality, Phu Wiang area, Khon Kaen' comes from Wikipedia (Siamosaurus). The Thai spelling ภูประตูตีหมา is not confirmed from a gazetteer. Amphoe Wiang Kao is inferred, as for Phuwiangosaurus. Coordinates are the Phu Wiang National Park centre. Age range kept the same as the other Sao Khua entries (137.05–121.4 Ma); a Barremian-only reading gives 125.77–121.4 Ma. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-siamosuchus-phuphokensis-phu-phok",
+  "taxon": "Siamosuchus phuphokensis",
+  "group": "reptile",
+  "age_top_ma": 121.4,
+  "age_base_ma": 137.05,
+  "stage": "Early Cretaceous (ante-Aptian)",
+  "formation_en": "Sao Khua Formation (Khorat Group)",
+  "formation_th": "หมวดหินเสาขัว (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Phu Phok",
+   "name_th": null,
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "สกลนคร",
+   "province_en": "Sakon Nakhon",
+   "lat": 17.1542,
+   "lon": 104.1361,
+   "precision": "district"
+  },
+  "significance_th": "จระเข้กลุ่มโกนิโอโฟลิดิด (goniopholidid) ปากกว้างจากหมวดหินเสาขัว ใกล้ชิดกับ Goniopholis ของยุโรป บ่งชี้สภาพแวดล้อมแม่น้ำและหนองน้ำจืด และสะท้อนความเชื่อมโยงทางภูมิศาสตร์บรรพกาลระหว่างเอเชียกับยุโรปในยุคครีเทเชียสตอนต้นก่อนอายุแอปเชียน (Aptian)",
+  "significance_en": "A broad-snouted goniopholidid crocodyliform from the Sao Khua Formation, closest to European Goniopholis. It indicates freshwater river and swamp settings and Europe–Asia faunal links in the pre-Aptian Early Cretaceous.",
+  "citation": {
+   "text": "Lauprasert K., Cuny G., Buffetaut E., Suteethorn V., Thirakhupt K. 2007, Siamosuchus phuphokensis, a new goniopholidid from the Early Cretaceous (ante-Aptian) of northeastern Thailand, Bulletin de la Société Géologique de France 178(3):201–216",
+   "url": "https://doi.org/10.2113/gssgfbull.178.3.201"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex): new goniopholidid from the Sao Khua Formation (ante-Aptian), NE Thailand; forms a clade with European Goniopholis. 'Phu Phok, Sakon Nakhon' is from the species name and Wikipedia (Siamamia article: Phu Phok, Sakhon Nakhon Province, Sao Khua Fm). No amphoe or tambon in any source read, and I could not confirm the Thai spelling of Phu Phok, so name_th, tambon and amphoe are null. Coordinates: Wikipedia centre of Sakon Nakhon Province (province-level only). Age 'ante-Aptian' bounded here as Valanginian base 137.05 to Aptian base 121.4 Ma. Siamamia naga (Cavin et al. 2007, JVP 27:827–837) comes from the same Phu Phok locality and was left out to avoid duplicating the site. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-psittacosaurus-sattayaraki-chaiyaphum",
+  "taxon": "Psittacosaurus sattayaraki",
+  "group": "dinosaur",
+  "age_top_ma": 100.5,
+  "age_base_ma": 121.4,
+  "stage": "Early Cretaceous (Aptian–Albian)",
+  "formation_en": "Khok Kruat Formation (Khorat Group)",
+  "formation_th": "หมวดหินโคกกรวด (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Ban Dong Bang Noi",
+   "name_th": null,
+   "tambon_th": "ลาดใหญ่",
+   "amphoe_th": "เมืองชัยภูมิ",
+   "province_th": "ชัยภูมิ",
+   "province_en": "Chaiyaphum",
+   "lat": 15.7877,
+   "lon": 102.2088,
+   "precision": "area"
+  },
+  "significance_th": "ไดโนเสาร์เซอราทอปเซียนยุคแรก (basal ceratopsian) สกุล Psittacosaurus ซึ่งในจีนและมองโกเลียพบเฉพาะในช่วงปลายครีเทเชียสตอนต้น (แอปเชียน–แอลเบียน) จึงใช้เป็นหลักฐานกำหนดอายุหมวดหินโคกกรวด และบ่งชี้ว่าแผ่นอินโดไชนาเชื่อมกับแผ่นดินใหญ่เอเชียแล้วในเวลานั้น (แม้ความถูกต้องของชนิดนี้ยังเป็นที่ถกเถียง)",
+  "significance_en": "A basal ceratopsian (dentary and maxilla) of the genus Psittacosaurus, which elsewhere in Asia is restricted to the late Early Cretaceous. It is one of the fossils used to date the Khok Kruat Formation as Aptian–Albian. It also shows that the Indochina Block was already joined to mainland Asia (species validity is disputed).",
+  "citation": {
+   "text": "Buffetaut E., Suteethorn V. 1992, A new species of the ornithischian dinosaur Psittacosaurus from the Early Cretaceous of Thailand, Palaeontology 35(4):801–812",
+   "url": "https://www.palass.org/publications/palaeontology-journal/archive/35/4/article_pp801-812"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (PalAss archive page): remains from the Khok Kruat Formation of NE Thailand (well-preserved dentary and a maxilla fragment) named P. sattayaraki. Khok Kruat referred to Aptian–Albian. 'Occurrence ... supports the hypothesis that ... Psittacosaurus in other parts of Asia are late Early Cretaceous'. No DOI was found on Crossref, so the stable PalAss URL is given. Shibata et al. 2015 (PLoS ONE, full text read) cite Thaiodus ruchae and P. sattayaraki as evidence for the Aptian age. Manitkoon et al. 2022 list it from Chaiyaphum. The village and tambon 'Ban Dong Bang Noi, Lat Yai Subdistrict, Mueang District, Chaiyaphum' come only from a web-search summary (Plazi/ResearchGate snippet; figure caption reads '...Khok Kruat Formation at Ban Dong...'). This is NOT confirmed in a source I read, so check it. Thai village spelling not confirmed, so name_th is null. Coordinates: OSM/Nominatim centre of tambon Lat Yai (ลาดใหญ่), Mueang Chaiyaphum. Wikipedia lists the species as dubious (nomen dubium). Numeric ages from ICS International Chronostratigraphic Chart v2024/12. Aptian base 121.4, Albian top 100.5 Ma.",
+  "verified": false
+ },
+ {
+  "id": "fos-sirindhorna-khoratensis-ban-saphan-hin",
+  "taxon": "Sirindhorna khoratensis",
+  "group": "dinosaur",
+  "age_top_ma": 113.2,
+  "age_base_ma": 121.4,
+  "stage": "Early Cretaceous (Aptian)",
+  "formation_en": "Khok Kruat Formation (Khorat Group)",
+  "formation_th": "หมวดหินโคกกรวด (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Ban Saphan Hin, Suranaree Subdistrict",
+   "name_th": "บ้านสะพานหิน",
+   "tambon_th": "สุรนารี",
+   "amphoe_th": "เมืองนครราชสีมา",
+   "province_th": "นครราชสีมา",
+   "province_en": "Nakhon Ratchasima",
+   "lat": 14.9711,
+   "lon": 102.0997,
+   "precision": "district"
+  },
+  "significance_th": "ไดโนเสาร์ฮาโดรซอรอยด์ยุคแรก (basal hadrosauroid) ที่มีกะโหลกสมบูรณ์ที่สุดในเอเชียตะวันออกเฉียงใต้ เป็นตัวแทนสัตว์กินพืชกลุ่มอิกัวโนดอนเชียน (iguanodontian) ที่ปรากฏในหมวดหินโคกกรวดอายุแอปเชียน แต่ไม่พบในหมวดหินเสาขัวที่เก่ากว่า จึงช่วยแยกสัตว์ประจำแต่ละหมวดหินของกลุ่มหินโคราช",
+  "significance_en": "The best-preserved iguanodontian in Southeast Asia and one of the most basal hadrosauroids. Iguanodontians appear in the Aptian Khok Kruat Formation but are absent from the older Sao Khua Formation, so Sirindhorna helps separate the faunas of the two Khorat Group formations.",
+  "citation": {
+   "text": "Shibata M., Jintasakul P., Azuma Y., You H.-L. 2015, A new basal hadrosauroid dinosaur from the Lower Cretaceous Khok Kruat Formation in Nakhon Ratchasima Province, northeastern Thailand, PLoS ONE 10(12):e0145904",
+   "url": "https://doi.org/10.1371/journal.pone.0145904"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read (PLoS PDF). 'Locality and horizon: In Ban Saphan Hin, Suranaree Subdistrict, Muaeng Nakhon Ratchasima District, Nakhon Ratchasima Province, Thailand. Lower Cretaceous (Aptian) Khok Kruat Formation'. The paper says the Aptian age rests on palynology, Thaiodus ruchae, Psittacosaurus sattayaraki and the overlying Maha Sarakham Fm. One author (PJ) gives the locality as Ban Nong Rangka. Siamraptor suwati (Chokchaloemwong et al. 2019, PLoS ONE e0222489) comes from the same formation and area. No site coordinates in the text, and the Suranaree tambon centroid was not found in OSM/Nominatim, so I used Wikipedia's centre of Mueang Nakhon Ratchasima district (precision 'district'). Numeric ages from ICS International Chronostratigraphic Chart v2024/12. Aptian 121.4–113.2 Ma.",
+  "verified": false
+ },
+ {
+  "id": "fos-thaiodus-ruchae-khok-pha-suam",
+  "taxon": "Thaiodus ruchae",
+  "group": "fish",
+  "age_top_ma": 100.5,
+  "age_base_ma": 121.4,
+  "stage": "Early Cretaceous (Aptian–Albian)",
+  "formation_en": "Khok Kruat Formation (Khorat Group)",
+  "formation_th": "หมวดหินโคกกรวด (กลุ่มหินโคราช)",
+  "locality": {
+   "name_en": "Khok Pha Suam locality (Pha Chan–Sam Phan Bok Geopark)",
+   "name_th": "แหล่งโคกผาสวม",
+   "tambon_th": "นาคำ",
+   "amphoe_th": "ศรีเมืองใหม่",
+   "province_th": "อุบลราชธานี",
+   "province_en": "Ubon Ratchathani",
+   "lat": 15.4953,
+   "lon": 105.2786,
+   "precision": "district"
+  },
+  "significance_th": "ฟันฉลามน้ำจืดกลุ่มไฮโบดอนต์ (hybodont shark) ที่มีฟันไม่สมมาตรและมีรอยหยัก ใช้ตัด สกุลนี้พบเฉพาะในช่วงแอปเชียน–แอลเบียน (Aptian–Albian) จึงเป็นซากดึกดำบรรพ์ดัชนีที่ดีของหมวดหินโคกกรวด และใช้เทียบกับหมวดหิน Grès Supérieurs ของลาวและหมวดหินซินหลง (Xinlong) ของจีนตอนใต้",
+  "significance_en": "Teeth of an endemic freshwater hybodont shark, asymmetric and serrated for cutting. Thaiodus is restricted to the Aptian–Albian, which makes it one of the best index fossils of the Khok Kruat Formation. It is used to correlate these beds with the Grès Supérieurs of Laos and the Xinlong Formation of South China.",
+  "citation": {
+   "text": "Manitkoon S., Deesri U., Lauprasert K., Warapeang P., Nonsrirach T., Nilpanapan A., Wongko K., Chanthasit P. 2022, Fossil assemblage from the Khok Pha Suam locality of northeastern Thailand: an overview of vertebrate diversity from the Early Cretaceous Khok Kruat Formation (Aptian–Albian), Fossil Record 25(1):83–98",
+   "url": "https://doi.org/10.3897/fr.25.83081"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Full text read (Pensoft PDF). Thaiodus ruchae Cappetta, Buffetaut & Suteethorn 1990 is recorded at Khok Pha Suam, and also at Ban Sam Ran (Khon Kaen), Lam Pao Dam (Kalasin), Ban Khok Kruat and Ban Saphan Hin (Nakhon Ratchasima). The paper states that four hybodont genera, including Thaiodus, 'are restricted to the Aptian-Albian interval (Cuny 2012)'. Locality wording: 'Khok Pha Suam is located in the Na Kham Subdistrict, Si Muang Mai District, Ubon Ratchathani Province'. Thai names นาคำ / ศรีเมืองใหม่ are standard. Coordinates: Wikipedia centre of Si Mueang Mai district (the site and tambon were not geocoded). Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-siamopithecus-eocaenus-krabi",
+  "taxon": "Siamopithecus eocaenus",
+  "group": "primate",
+  "age_top_ma": 33.9,
+  "age_base_ma": 37.71,
+  "stage": "Late Eocene (Priabonian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Krabi (Late Eocene lignite locality, Krabi Basin)",
+   "name_th": "แอ่งกระบี่",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "กระบี่",
+   "province_en": "Krabi",
+   "lat": 8.0578,
+   "lon": 98.9169,
+   "precision": "district"
+  },
+  "significance_th": "ไพรเมตกลุ่มแอนโทรพอยด์ (anthropoid) จากชั้นถ่านหินลิกไนต์อายุอีโอซีนตอนปลาย (Late Eocene) ของกระบี่ มีขนาดใกล้เคียงกับ Aegyptopithecus ของอียิปต์ เป็นหลักฐานสำคัญที่สนับสนุนว่าเอเชียตะวันออกเฉียงใต้อาจเป็นศูนย์กลางวิวัฒนาการของลิงและเอปยุคแรก และบ่งชี้ป่าดิบชื้นริมหนองบึงในยุคพาลีโอจีน (Paleogene)",
+  "significance_en": "An anthropoid primate from the Late Eocene lignites of Krabi, about the size of Egypt's Aegyptopithecus. It is key evidence for a Southeast Asian centre of early anthropoid evolution and records humid swamp-forest conditions in the Paleogene of peninsular Thailand.",
+  "citation": {
+   "text": "Chaimanee Y., Suteethorn V., Jaeger J.-J., Ducrocq S. 1997, A new Late Eocene anthropoid primate from Thailand, Nature 385:429–431",
+   "url": "https://doi.org/10.1038/385429a0"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (nature.com meta description): 'a new anthropoid from the Thai Late Eocene locality of Krabi'. The abstract does not name the mine, district or tambon, so they are null. Coordinates: Wikipedia centre of Krabi Province (province-level only). Age 'Late Eocene' converted to ICS Priabonian 37.71–33.9 Ma; some later work places the Krabi fauna in the late Middle–Late Eocene, so check before use. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-khoratpithecus-chiangmuanensis-chiang-muan",
+  "taxon": "Khoratpithecus chiangmuanensis",
+  "group": "primate",
+  "age_top_ma": 11.63,
+  "age_base_ma": 15.98,
+  "stage": "Middle Miocene",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Chiang Muan coal mine",
+   "name_th": "เหมืองถ่านหินเชียงม่วน",
+   "tambon_th": null,
+   "amphoe_th": "เชียงม่วน",
+   "province_th": "พะเยา",
+   "province_en": "Phayao",
+   "lat": 18.8867,
+   "lon": 100.3033,
+   "precision": "district"
+  },
+  "significance_th": "เอปใหญ่ (hominoid) สมัยไมโอซีนตอนกลาง (Middle Miocene) จากเหมืองถ่านหินเชียงม่วน ฟันมีลักษณะใกล้เคียงอุรังอุตังปัจจุบัน ถือเป็นบรรพบุรุษที่เป็นไปได้ของ K. piriyai ที่อายุอ่อนกว่า ส่วนพืชที่พบร่วมกันมีความสัมพันธ์กับแอฟริกา บ่งชี้ว่าเคยมีเส้นทางกระจายพันธุ์ระหว่างเอเชียตะวันออกเฉียงใต้กับแอฟริกา",
+  "significance_en": "A Middle Miocene hominoid from the Chiang Muan coal mine whose teeth closely resemble those of living orangutans. It is probably ancestral to the younger K. piriyai. Its associated flora with African affinities points to a temporary Africa–Southeast Asia dispersal corridor.",
+  "citation": {
+   "text": "Chaimanee Y., Jolly D., Benammi M., Tafforeau P., Duzer D., Moussa I., Jaeger J.-J. 2003, A Middle Miocene hominoid from Thailand and orangutan origins, Nature 422:61–65",
+   "url": "https://doi.org/10.1038/nature01449"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (nature.com): originally named 'cf. Lufengpithecus chiangmuanensis n. sp.' from northern Thailand. The acknowledgements name 'Chiang Muan coal mine'. Transferred to Khoratpithecus by Chaimanee et al. 2004/2006, and the AJPA 2006 abstract (doi:10.1002/ajpa.20437) uses 'The Middle Miocene K. chiangmuanensis'. Kunimatsu et al. 2005 (Primates 46:65–70, doi:10.1007/s10329-004-0096-6) report an additional Chiang Muan specimen. Amphoe is the Chiang Muan district named in the mine name. Coordinates: Wikipedia centre of Chiang Muan district; the mine itself was not geocoded. Age: abstract says only 'Middle Miocene', converted to ICS Langhian base 15.98 to Serravallian top 11.63 Ma. A tighter magnetostratigraphic age probably exists in the full text, which I did not read. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-eotragus-lampangensis-mae-moh",
+  "taxon": "Eotragus lampangensis",
+  "group": "mammal",
+  "age_top_ma": 13.2,
+  "age_base_ma": 13.4,
+  "stage": "Middle Miocene (late Middle Miocene, Serravallian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Mae Moh lignite mine, Mae Moh Basin",
+   "name_th": "เหมืองแม่เมาะ",
+   "tambon_th": null,
+   "amphoe_th": "แม่เมาะ",
+   "province_th": "ลำปาง",
+   "province_en": "Lampang",
+   "lat": 18.3385,
+   "lon": 99.7168,
+   "precision": "area"
+  },
+  "significance_th": "วัวป่าโบราณ (bovid) สกุล Eotragus ที่พบครั้งแรกในเอเชียตะวันออกเฉียงใต้ จากชั้นลิกไนต์อายุ 13.4–13.2 ล้านปีของแอ่งแม่เมาะ ซึ่งหาอายุได้แม่นยำ สกุลนี้พบในยุโรปช่วงไมโอซีนตอนกลาง จึงใช้เทียบอายุและภูมิศาสตร์บรรพกาลระหว่างไทยกับยุโรปได้ และบ่งชี้ถิ่นที่อยู่รอยต่อป่า–ทุ่งหญ้า",
+  "significance_en": "The first Southeast Asian record of the early bovid Eotragus, from precisely dated (13.4–13.2 Ma) lignites of the Mae Moh Basin. Eotragus is a Middle Miocene genus also known from Europe, so it links Thai and European Miocene mammal faunas and indicates forest–grassland ecotone habitats.",
+  "citation": {
+   "text": "Suraprasit K. et al. 2013, Middle Miocene Bovidae from Mae Moh Basin, Northern Thailand: the first record of the genus Eotragus from Southeast Asia, Acta Palaeontologica Polonica",
+   "url": "https://doi.org/10.4202/app.2012.0061"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (APP page and OpenAlex): 'first bovid fossils from the late middle Miocene (13.4–13.2 Ma) of the Mae Moh Basin of Northern Thailand ... Eotragus lampangensis sp. nov.' Crossref lists Suraprasit as the only author and gives no volume or pages, so the co-authors and volume/pages need completing from the journal. The same lignite layer also yielded the primate Siamoadapis maemohensis (Chaimanee et al. 2008, J. Hum. Evol. 54:434–443, doi:10.1016/j.jhevol.2007.10.001) and many carnivorans (Grohé et al. 2020, Am. Mus. Novit. 3952). Amphoe: Wikipedia 'Mae Mo district' places the EGAT Mae Moh lignite mine there. Coordinates: OSM 'เหมืองแม่เมาะ' quarry feature, which covers the whole mine, not the fossil layer. No tambon given. Age stated numerically, so no ICS conversion was needed.",
+  "verified": false
+ },
+ {
+  "id": "fos-khoratpithecus-piriyai-nakhon-ratchasima",
+  "taxon": "Khoratpithecus piriyai",
+  "group": "primate",
+  "age_top_ma": 6.0,
+  "age_base_ma": 9.0,
+  "stage": "Late Miocene",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Fluviatile sand-and-gravel pits (Tha Chang area, per secondary reports)",
+   "name_th": "บ่อทรายท่าช้าง (ตามรายงานทุติยภูมิ)",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "นครราชสีมา",
+   "province_en": "Nakhon Ratchasima",
+   "lat": 14.9756,
+   "lon": 102.3341,
+   "precision": "area"
+  },
+  "significance_th": "ขากรรไกรล่างของเอปใหญ่สมัยไมโอซีนตอนปลาย (Late Miocene) ที่มีลักษณะเฉพาะร่วมกับอุรังอุตัง จึงถือเป็นญาติใกล้ชิดที่สุดของอุรังอุตังที่รู้จัก พบในชั้นทรายและกรวดของแม่น้ำโบราณร่วมกับไม้กลายเป็นหินและสัตว์ใหญ่ บ่งชี้ป่าริมน้ำเขตร้อนสลับทุ่งหญ้าเมื่อประมาณ 9–6 ล้านปีก่อน",
+  "significance_en": "A Late Miocene hominoid lower jaw that shares unique derived characters with orangutans, making it their closest known fossil relative. It comes from river sands and gravels with fossil tree trunks and large mammals, which record riverine tropical forest and grassland about 9–6 Ma.",
+  "citation": {
+   "text": "Chaimanee Y., Yamee C., Tian P., Khaowiset K., Marandat B., Tafforeau P., Nemoz C., Jaeger J.-J. 2006, Khoratpithecus piriyai, a Late Miocene hominoid of Thailand, American Journal of Physical Anthropology 131(3):311–323",
+   "url": "https://doi.org/10.1002/ajpa.20437"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex): fluviatile sand and gravel deposits of a large river, northeastern Thailand, associated with fossil tree trunks and large vertebrates. 'Biochronological analysis ... estimated geological age between 9-6 Ma.' Original naming: Chaimanee et al. 2004, Nature 427:439–441 (doi:10.1038/nature02245, abstract read; it says only 'Late Miocene of Thailand'). Province from Chaimanee et al. 2022 title (Palaeontographica A 323:147–186, 'Nakhon Ratchasima Province'). DOUBT: 'Tha Chang sand pits' is well known in secondary literature but was NOT confirmed in any source I read, so tambon and amphoe are null. Coordinates: OSM centre of tambon Tha Chang (Chaloem Phra Kiat), used only as a placeholder. Check against the 2022 paper. Age is stated numerically.",
+  "verified": false
+ },
+ {
+  "id": "fos-koompassioxylon-elegans-ban-tak",
+  "taxon": "Koompassioxylon elegans",
+  "group": "plant",
+  "age_top_ma": 0.129,
+  "age_base_ma": 2.58,
+  "stage": "Pleistocene (Early or Middle Pleistocene; debated)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Ban Tak Petrified Forest Park (trunk BT1, Ban Tak–Sam Ngao Basin)",
+   "name_th": "วนอุทยานไม้กลายเป็นหิน บ้านตาก",
+   "tambon_th": "ทุ่งกระเชาะ",
+   "amphoe_th": "บ้านตาก",
+   "province_th": "ตาก",
+   "province_en": "Tak",
+   "lat": 17.0718,
+   "lon": 99.0946,
+   "precision": "area"
+  },
+  "significance_th": "ไม้กลายเป็นหิน (petrified wood) ที่ยาวที่สุดในโลก (ประมาณ 72 เมตร) เทียบได้กับไม้สกุลยวน (Koompassia) ในปัจจุบัน พบในกรวดทางน้ำโบราณริมแม่น้ำปิง บ่งชี้ว่าสมัยไพลสโตซีน (Pleistocene) บริเวณนี้เป็นป่าดิบชื้นเขตร้อนที่มีต้นไม้สูงกว่า 100 เมตร และใช้สอนเรื่องกระบวนการแทนที่ด้วยซิลิกา (silicification)",
+  "significance_en": "Wood of the world's longest petrified trunk (about 72 m), comparable with living Koompassia. It lies in Ping River channel gravels and shows that Pleistocene northern Thailand carried tall tropical rainforest with trees over 100 m high. It is also a good teaching example of silicification.",
+  "citation": {
+   "text": "Saminpanya S., Ratanasthien B., Jatusan W., Limthong R., Amsamarng T. 2024, Mineralogy, geochemistry, and petrogenesis of the world's longest petrified wood, International Journal of Geoheritage and Parks 12(1):37–62",
+   "url": "https://doi.org/10.1016/j.ijgeop.2023.11.003"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract read (OpenAlex): 'world's longest petrified wood (Koompassioxylon elegans), BT1, located in Tak, Thailand'. Taxonomic identification originally by Songtham, Mildenhall et al. ('Petrified tree trunks from a gravel deposit, Ban Tak Petrified Forest Park, Ban Tak–Sam Ngao Basin', c. 2012–2013). Journal, volume and DOI of that paper not confirmed (Semantic Scholar rate-limited); its abstract, read via a search snippet, identifies Koompassioxylon elegans and Pahudioxylon cf. sahnii and tentatively dates the gravels to the Early Pleistocene. Philippe et al. 2013 (Quat. Sci. Rev. 65:1–4, doi:10.1016/j.quascirev.2012.12.002) instead say Middle Pleistocene, with logs up to 72.2 m. Age range 2.58–0.129 Ma (Gelasian base to Chibanian top) therefore covers both readings. Amphoe: Wikipedia 'Ban Tak district' says the park is in that district. Tambon Thung Kracho and coordinates: OSM protected-area feature 'วนอุทยานไม้กลายเป็นหิน', not the trunk itself. This is a palaeoenvironmental rather than biostratigraphic marker. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-pongo-tham-prakai-phet",
+  "taxon": "Pongo sp.",
+  "group": "primate",
+  "age_top_ma": 0.0117,
+  "age_base_ma": 2.58,
+  "stage": "Pleistocene (Late Pleistocene per Filoux & Wattanapituksakul 2019)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Tham Prakai Phet cave",
+   "name_th": "ถ้ำประกายเพชร",
+   "tambon_th": null,
+   "amphoe_th": null,
+   "province_th": "ชัยภูมิ",
+   "province_en": "Chaiyaphum",
+   "lat": 15.8078,
+   "lon": 102.0331,
+   "precision": "district"
+  },
+  "significance_th": "ฟันอุรังอุตัง (Pongo) ที่พบร่วมกับแพนด้ายักษ์ (Ailuropoda) ในตะกอนถ้ำสมัยไพลสโตซีน ทั้งสองชนิดไม่มีในภาคอีสานปัจจุบัน จึงเป็นตัวบ่งชี้กลุ่มสัตว์ Stegodon–Ailuropoda และบ่งชี้ว่าในยุคน้ำแข็งพื้นที่นี้เคยมีป่าทึบและภูมิอากาศต่างจากปัจจุบัน",
+  "significance_en": "Orangutan remains found with giant panda (Ailuropoda) in Pleistocene cave fill. Neither lives in northeast Thailand today, so they mark the Pleistocene Stegodon–Ailuropoda fauna and closed forests with a climate different from the present.",
+  "citation": {
+   "text": "Filoux A., Wattanapituksakul A., Lespes C., Thongcharoenchaikit C. 2015, A Pleistocene mammal assemblage containing Ailuropoda and Pongo from Tham Prakai Phet cave, Chaiyaphum Province, Thailand, Geobios 48(5):341–349",
+   "url": "https://doi.org/10.1016/j.geobios.2015.07.003"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Only the title and Semantic Scholar TLDR were read ('considerably more diverse Pleistocene faunal assemblage ... gnaw marks ... partly accumulated by rodents'); the abstract and full text were not available. Taxon given as 'Pongo sp.' because the title names only the genus; species attribution not checked. Follow-up: Filoux & Wattanapituksakul 2019, 'The Late Pleistocene orangutan from Tham Prakai Phet: new discoveries', Ann. Paléontol. 105:287–293 (doi:10.1016/j.annpal.2019.03.004), title only. Age therefore given broadly as Pleistocene 2.58–0.0117 Ma; the 2019 title suggests Late Pleistocene (0.129–0.0117). Cave amphoe/tambon not found in any source read, so both null. Coordinates: Wikipedia centre of Chaiyaphum Province (province-level only). Gigantopithecus: no Thai record was confirmed in this search, so it is not included. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-stegodon-orientalis-khok-sung",
+  "taxon": "Stegodon cf. orientalis",
+  "group": "mammal",
+  "age_top_ma": 0.129,
+  "age_base_ma": 0.774,
+  "stage": "Middle Pleistocene (late Middle Pleistocene, Chibanian)",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Khok Sung sand pit (fluviatile terrace)",
+   "name_th": "บ่อทรายโคกสูง",
+   "tambon_th": "โคกสูง",
+   "amphoe_th": "เมืองนครราชสีมา",
+   "province_th": "นครราชสีมา",
+   "province_en": "Nakhon Ratchasima",
+   "lat": 15.0761,
+   "lon": 102.1194,
+   "precision": "area"
+  },
+  "significance_th": "สเตโกดอน (stegodont) ญาติของช้างที่สูญพันธุ์ไปแล้ว ฟันกรามมีสันแบบสเตโกดอนที่วิวัฒน์ก้าวหน้า เทียบได้กับ Stegodon orientalis ของจีน เป็นตัวชี้วัดทางชีวลำดับเวลา (biochronology) ของกลุ่มสัตว์ Stegodon–Ailuropoda ช่วงไพลสโตซีนตอนกลาง และสนับสนุนว่าไทยเป็นเส้นทางอพยพของสัตว์จากจีนตอนใต้ลงสู่เกาะชวา",
+  "significance_en": "An extinct elephant relative whose molars show derived ridge patterns matching Chinese Stegodon orientalis. It is a key biochronological marker of the Middle Pleistocene Stegodon–Ailuropoda fauna and supports Thailand as the Sino-Malayan migration route from South China to Java.",
+  "citation": {
+   "text": "Suraprasit K., Jaeger J.-J., Chaimanee Y., Chavasseau O., Yamee C., Tian P., Panha S. 2016, The Middle Pleistocene vertebrate fauna from Khok Sung (Nakhon Ratchasima, Thailand): biochronological and paleobiogeographical implications, ZooKeys 613:1–157",
+   "url": "https://doi.org/10.3897/zookeys.613.8309"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Abstract and PMC full text read (PMC5027644): fluviatile terrace deposits of Khok Sung, Nakhon Ratchasima, with fossils from sand and gravel 6–8 m below the surface. The fauna is 'tentatively attributed to the late Middle Pleistocene, either 188 ka or 213 ka, based on paleomagnetic data'. Stegodon cf. orientalis material includes DP4s, M2, M3 and a tusk. The full text gives no coordinates or tambon. Tambon Khok Sung is from the site name; Thai Wikipedia says tambon Khok Sung is in Mueang Nakhon Ratchasima, and its coordinates (15.0761, 102.1194) are used here. Crossref lists the authors in a different order; the order given is the one in the paper's figure captions. Range 0.774–0.129 Ma (Chibanian) chosen from 'late Middle Pleistocene'; the 188/213 ka estimates fall inside it. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ },
+ {
+  "id": "fos-rhinoceros-unicornis-yang-muang",
+  "taxon": "Rhinoceros unicornis",
+  "group": "mammal",
+  "age_top_ma": 0.0117,
+  "age_base_ma": 0.129,
+  "stage": "Late Pleistocene",
+  "formation_en": null,
+  "formation_th": null,
+  "locality": {
+   "name_en": "Yang Muang village (excavation site, discovered May 1991)",
+   "name_th": "บ้านยางม่วง",
+   "tambon_th": "ยางม่วง",
+   "amphoe_th": "ท่ามะกา",
+   "province_th": "กาญจนบุรี",
+   "province_en": "Kanchanaburi",
+   "lat": 13.9195,
+   "lon": 99.8245,
+   "precision": "area"
+  },
+  "significance_th": "โครงกระดูกแรดอินเดีย (Rhinoceros unicornis) เกือบสมบูรณ์ที่ยังต่อกันตามธรรมชาติในชั้นดินเหนียวสมัยไพลสโตซีนตอนปลาย (Late Pleistocene) เป็นโครงกระดูกชนิดนี้ชิ้นเดียวที่พบในเอเชียตะวันออกเฉียงใต้ ชี้ว่าในยุคน้ำแข็งครั้งล่าสุดลุ่มน้ำแม่กลองเคยเป็นทุ่งหญ้าชุ่มน้ำและที่ราบน้ำท่วมถึง และแรดชนิดนี้เคยกระจายพันธุ์กว้างกว่าปัจจุบันมาก",
+  "significance_en": "A near-complete, articulated skeleton of the greater one-horned (Indian) rhinoceros from a Late Pleistocene clay, the only such skeleton known from Southeast Asia. It shows that this now South-Asian species ranged into western Thailand during the last glacial period, implying open, wet floodplain-grassland habitats in the Mae Klong lowlands.",
+  "citation": {
+   "text": "Filoux A., Suteethorn V. 2018, A late Pleistocene skeleton of Rhinoceros unicornis (Mammalia, Rhinocerotidae) from western part of Thailand (Kanchanaburi Province), Geobios 51(1):31–49",
+   "url": "https://doi.org/10.1016/j.geobios.2017.12.003"
+  },
+  "source_type": "peer-reviewed",
+  "_notes": "Source (abstract wording, read via search-engine snippet of the ADS/ScienceDirect abstract, full text not read): subcomplete skeleton discovered during excavation works in May 1991 'in the small village of Yang Muang (Tha Maka district), 35 km to the East of Kanchanaburi city', preserved in anatomical connection in a late Pleistocene clay deposit. Tambon: Wikipedia 'Tha Maka district' lists tambon Yang Muang (ยางม่วง) – the paper names the village, so tambon assignment is by name match only. Coordinates: OpenStreetMap/Nominatim centroid of the Yang Muang municipality (เทศบาลตำบลยางม่วง), not the excavation site. Age: 'late Pleistocene' converted to ICS Upper Pleistocene 0.129–0.0117 Ma; no numeric date was seen. This is a Quaternary faunal/biogeographic marker rather than a classic index fossil. Numeric ages from ICS International Chronostratigraphic Chart v2024/12.",
+  "verified": false
+ }
+]

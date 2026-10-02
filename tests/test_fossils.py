@@ -68,3 +68,12 @@ def test_unknown_tambon_and_amphoe_may_be_null():
 def test_duplicate_id_and_non_object_rejected():
     errors = validate_fossils([GOOD, GOOD, "x"], 486.85)
     assert any("duplicate" in e for e in errors) and any("must be an object" in e for e in errors)
+
+
+def test_amphibian_group_is_allowed():
+    assert validate_fossils([fos(group="amphibian")], 486.85) == []
+
+
+def test_locality_thai_name_may_be_null_but_english_is_required():
+    assert validate_fossils([loc(name_th=None)], 486.85) == []
+    assert any("name_en" in e for e in validate_fossils([loc(name_en="")], 486.85))
