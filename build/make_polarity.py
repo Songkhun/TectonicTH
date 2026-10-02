@@ -26,7 +26,9 @@ if __name__ == "__main__":
     root = Path(__file__).resolve().parent.parent
     oldest = max(p["start_ma"] for p in load_json(root / "content/timescale.json"))
     ts, labels = gts2020_from_pmagpy(requests.get(PMAG_URL, timeout=60).text)
-    segs = build_segments(ts, labels, SUPERCHRONS, oldest)
+    mseq_path = root / "content/msequence_gsa_v6.json"
+    mseq = json.loads(mseq_path.read_text(encoding="utf-8")) if mseq_path.exists() else None
+    segs = build_segments(ts, labels, SUPERCHRONS, oldest, mseq=mseq)
     errors = validate_polarity(segs, oldest)
     if errors:
         raise SystemExit("\n".join(errors))

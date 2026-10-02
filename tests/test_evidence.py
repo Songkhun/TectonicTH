@@ -277,3 +277,7 @@ def test_add_model_paleolat_skips_items_whose_event_was_removed():
 @pytest.mark.parametrize("method", ["geochemistry", "mapping"])
 def test_geochemistry_and_mapping_methods_are_allowed(method):
     assert validate_evidence([item(id="g", method=method, paleolat=None)], EVENTS) == []
+
+
+def test_thermochronology_method_is_allowed():
+    assert validate_evidence([item(id="aft", method="thermochronology", paleolat=None)], EVENTS) == []

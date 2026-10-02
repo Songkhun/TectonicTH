@@ -8,6 +8,10 @@
    "text": "Opdyke et al. 2000, Base of the Kiaman (318 Ma), GSA Bulletin 112:1315; Isozaki 2009, Illawarra Reversal (~265 Ma), Gondwana Research 15:421",
    "url": "https://doi.org/10.1130/0016-7606(2000)112<1315:BOTKID>2.0.CO;2"
   },
+  "gsa_v6": {
+   "text": "Walker & Geissman (compilers) 2022, GSA Geologic Time Scale v6.0 — M-sequence and CNS base digitized from the chart (its own calibration, ≈±0.2 Myr; GTS2020 places the CNS base at 121.4 Ma)",
+   "url": "https://doi.org/10.1130/2022.CTS006C"
+  },
   "moyero": {
    "text": "Pavlov & Gallet 2005, A third superchron during the Early Paleozoic, Episodes 28:78–84 (~20 Myr, Lower–Middle Ordovician; boundaries approximate)",
    "url": "https://doi.org/10.18814/epiiugs/2005/v28i2/001"
@@ -1521,14 +1525,502 @@
   },
   {
    "top_ma": 82.875,
-   "base_ma": 121.4,
+   "base_ma": 124.086,
    "polarity": "normal",
    "name": "Cretaceous Normal Superchron (C34n)",
-   "source": "gts2020",
-   "approx": false
+   "source": "gsa_v6",
+   "approx": true
   },
   {
-   "top_ma": 121.4,
+   "top_ma": 124.086,
+   "base_ma": 124.807,
+   "polarity": "reversed",
+   "name": "M-sequence (≈M0r)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 124.807,
+   "base_ma": 127.019,
+   "polarity": "normal",
+   "name": "M-sequence (≈M1)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 127.019,
+   "base_ma": 127.735,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 127.735,
+   "base_ma": 128.183,
+   "polarity": "normal",
+   "name": "M-sequence (≈M3)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 128.183,
+   "base_ma": 129.669,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 129.669,
+   "base_ma": 130.677,
+   "polarity": "normal",
+   "name": "M-sequence (≈M5)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 130.677,
+   "base_ma": 130.943,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 130.943,
+   "base_ma": 131.283,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 131.283,
+   "base_ma": 131.442,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 131.442,
+   "base_ma": 131.666,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 131.666,
+   "base_ma": 132.105,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 132.105,
+   "base_ma": 132.445,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 132.445,
+   "base_ma": 132.603,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 132.603,
+   "base_ma": 132.943,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 132.943,
+   "base_ma": 133.341,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 133.341,
+   "base_ma": 133.565,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 133.565,
+   "base_ma": 133.649,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 133.649,
+   "base_ma": 134.992,
+   "polarity": "normal",
+   "name": "M-sequence (≈M10)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 134.992,
+   "base_ma": 135.698,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 135.698,
+   "base_ma": 136.594,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 136.594,
+   "base_ma": 136.641,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 136.641,
+   "base_ma": 137.089,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 137.089,
+   "base_ma": 137.415,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 137.415,
+   "base_ma": 137.863,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 137.863,
+   "base_ma": 138.319,
+   "polarity": "reversed",
+   "name": "M-sequence (≈M12)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 138.319,
+   "base_ma": 138.543,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 138.543,
+   "base_ma": 138.762,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 138.762,
+   "base_ma": 138.986,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 138.986,
+   "base_ma": 139.259,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 139.259,
+   "base_ma": 139.483,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 139.483,
+   "base_ma": 139.865,
+   "polarity": "reversed",
+   "name": "M-sequence (≈M14)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 139.865,
+   "base_ma": 140.205,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 140.205,
+   "base_ma": 140.728,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 140.728,
+   "base_ma": 142.677,
+   "polarity": "normal",
+   "name": "M-sequence (≈M16)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 142.677,
+   "base_ma": 143.665,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 143.665,
+   "base_ma": 144.449,
+   "polarity": "normal",
+   "name": "M-sequence (≈M18)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 144.449,
+   "base_ma": 144.742,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 144.742,
+   "base_ma": 145.526,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 145.526,
+   "base_ma": 145.763,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 145.763,
+   "base_ma": 146.995,
+   "polarity": "normal",
+   "name": "M-sequence (≈M20)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 146.995,
+   "base_ma": 147.646,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 147.646,
+   "base_ma": 148.654,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 148.654,
+   "base_ma": 148.861,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 148.861,
+   "base_ma": 149.981,
+   "polarity": "normal",
+   "name": "M-sequence (≈M22)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 149.981,
+   "base_ma": 150.579,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 150.579,
+   "base_ma": 151.139,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 151.139,
+   "base_ma": 152.017,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 152.017,
+   "base_ma": 152.357,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 152.357,
+   "base_ma": 153.017,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 153.017,
+   "base_ma": 153.129,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 153.129,
+   "base_ma": 153.455,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 153.455,
+   "base_ma": 154.015,
+   "polarity": "normal",
+   "name": "M-sequence (≈M25)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 154.015,
+   "base_ma": 154.19,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 154.19,
+   "base_ma": 154.366,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 154.366,
+   "base_ma": 164.839,
+   "polarity": "mixed",
+   "name": "M-sequence (poorly known)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 164.839,
+   "base_ma": 164.849,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 164.849,
+   "base_ma": 165.189,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 165.189,
+   "base_ma": 166.098,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 166.098,
+   "base_ma": 166.355,
+   "polarity": "normal",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 166.355,
+   "base_ma": 167.506,
+   "polarity": "reversed",
+   "name": "M-sequence",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 167.506,
+   "base_ma": 171.14,
+   "polarity": "mixed",
+   "name": "M-sequence (poorly known)",
+   "source": "gsa_v6",
+   "approx": true
+  },
+  {
+   "top_ma": 171.14,
    "base_ma": 265.0,
    "polarity": "mixed",
    "name": "Frequent reversals / poorly known",

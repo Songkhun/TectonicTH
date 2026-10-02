@@ -1,7 +1,7 @@
 import { t, field, getLang } from './i18n.js';
 import { esc, formatLat } from './format.js';
 
-export const EVIDENCE_METHODS = ['paleomagnetism', 'geochronology', 'biostratigraphy', 'geochemistry', 'mapping', 'seismic', 'gravity',
+export const EVIDENCE_METHODS = ['paleomagnetism', 'geochronology', 'thermochronology', 'biostratigraphy', 'geochemistry', 'mapping', 'seismic', 'gravity',
   'magnetic', 'electrical', 'seismicity', 'geodesy', 'field-survey'];
 
 export function evidenceFor(eventId, items) {

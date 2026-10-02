@@ -5,7 +5,7 @@ from pathlib import Path
 
 from validate import ID_RE, URL_RE, _num, _text
 
-METHODS = ("paleomagnetism", "geochronology", "biostratigraphy", "geochemistry", "mapping", "seismic", "gravity",
+METHODS = ("paleomagnetism", "geochronology", "thermochronology", "biostratigraphy", "geochemistry", "mapping", "seismic", "gravity",
            "magnetic", "electrical", "seismicity", "geodesy", "field-survey")
 SOURCE_TYPES = ("peer-reviewed", "government-report", "thesis", "conference", "preprint", "own-survey")
 

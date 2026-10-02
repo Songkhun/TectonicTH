@@ -76,3 +76,7 @@ test('site coordinates are escaped in the map link', () => {
 test('geochemistry and mapping are methods with labels', () => {
   assert.ok(EVIDENCE_METHODS.includes('geochemistry') && EVIDENCE_METHODS.includes('mapping'));
 });
+
+test('thermochronology is a method with labels', () => {
+  assert.ok(EVIDENCE_METHODS.includes('thermochronology'));
+});
