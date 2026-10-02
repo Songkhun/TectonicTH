@@ -291,16 +291,21 @@
   "title_en": "Thai Tertiary basins: local fault-zone rotations",
   "finding_th": "ข้อมูลแม่เหล็กบรรพกาลจากแอ่งระหว่างภูเขา (intermontane basins) ยุคเทอร์เชียรีที่กระบี่ เพชรบุรี และแม่เมาะ แสดงการหมุนทั้งตามและทวนเข็มนาฬิกา ผู้วิจัยตีความว่าการหมุนถูกควบคุมโดยการเคลื่อนตัวเฉพาะที่ในแนวรอยเลื่อน ทิศและขนาดของการเลื่อนตามรอยเลื่อนกำหนดทิศและขนาดของการหมุน",
   "finding_en": "Paleomagnetic data from the Krabi, Phetchaburi and Mae Moh Tertiary intermontane basins show rotations of both senses, interpreted as local rotations in discrete fault zones whose slip sense and amount control the rotation.",
-  "value": "rotations of both senses (CW and CCW) in Tertiary basins; Kalaw redbeds ~40° CW",
+  "value": "Oligocene–Miocene intermontane basins (palynological ages): Phetchaburi composite D = 22.4°, I = 10.8° (α95 = 24.5°, tilt-corrected) and Krabi up to 33° CW in situ; Mae Moh D = 164°, I = −12.8° (α95 = 9.9°, tilt-corrected, reversed polarity) read by the authors as CCW. Kalaw redbeds (Myanmar) D = 39.9°, I = 22.7° (α95 = 10.85°) after bedding correction, positive fold test → ~40° CW",
   "paleolat": null,
-  "site": null,
+  "site": {
+   "name_th": "แอ่งเพชรบุรี (หนึ่งในสามแอ่งที่เก็บตัวอย่าง)",
+   "name_en": "Phetchaburi Basin (one of three basins sampled)",
+   "lat": 13.1562,
+   "lon": 99.6752
+  },
   "citation": {
    "text": "Richter, Fuller, Schmidtke, Tin Myint, Mya Win & Bunopas 1993, Paleomagnetic results from Thailand and Myanmar: implications for the interpretation of tectonic rotations in Southeast Asia, Journal of Southeast Asian Earth Sciences 8:247-255",
    "url": "https://doi.org/10.1016/0743-9547(93)90026-L"
   },
   "source_type": "peer-reviewed",
   "verified": false,
-  "_notes": "DOI confirmed on Crossref (authors Richter, Fuller, Schmidtke, Tin Myint, Mya Win, Bunopas; J SE Asian Earth Sci 8, 247-255, 1993). Abstract NOT read directly (ScienceDirect 403); from search-engine snippet of abstract: 'data collected from the Mesozoic Kalaw redbeds of the Shan Hills in Myanmar show 40° of clockwise rotation ... Paleomagnetic data collected from the Krabi, Phetchaburi, and Mae Moh intermontane basins of Thailand display rotations of both senses, interpreted to indicate that observed Tertiary deflections in these basins are controlled primarily by local rotations in discrete fault zones, with the sense and amount of motion along faults controlling the sense and amount of rotation.' No per-basin numbers seen. Linking to the Three Pagodas/Mae Ping slip reversal is my interpretive bridge (rotation controlled by fault slip sense), not stated in snippet. Note 40° CW here vs 25-30° in Richter & Fuller 1996 (refined)."
+  "_notes": "DOI confirmed on Crossref (authors Richter, Fuller, Schmidtke, Tin Myint, Mya Win, Bunopas; J SE Asian Earth Sci 8, 247-255, 1993). Abstract NOT read directly (ScienceDirect 403); from search-engine snippet of abstract: 'data collected from the Mesozoic Kalaw redbeds of the Shan Hills in Myanmar show 40° of clockwise rotation ... Paleomagnetic data collected from the Krabi, Phetchaburi, and Mae Moh intermontane basins of Thailand display rotations of both senses, interpreted to indicate that observed Tertiary deflections in these basins are controlled primarily by local rotations in discrete fault zones, with the sense and amount of motion along faults controlling the sense and amount of rotation.' No per-basin numbers seen. Linking to the Three Pagodas/Mae Ping slip reversal is my interpretive bridge (rotation controlled by fault slip sense), not stated in snippet. Note 40° CW here vs 25-30° in Richter & Fuller 1996 (refined). | Full-text check 2026-10-02 (instructor-supplied PDF): Read from local full-text PDF. Table 1 (p. 250): 'Oligo--Miocene Composite mean N13° 9.37' E99° 40.51' T90-34,35,36' in situ I 14.7 D 18.1; corrected 'Composite mean 10.8 22.4 24.48 26.4 16 N71.3 E205.6 N66.6 E206.8'; Krabi T91-36 'N8° 00.15' E99° 2.57''; 'Mae Moh Composite N18° 19.13' E99° 44.28'' corrected '-12.8 164 9.91 28 9'; Kalaw 'B91-8 to 20 Composite mean 22.7 39.9 10.85 23.5 47'. p. 249: 'There is up to 33° of CW declination deflection in most of these samples (Table 1) but the inclinations are somewhat anomalous and the scatter large'; 'Tectonically corrected vectors are -12.8° and 164° ... These data show clear CCW rotations and are inconsistent with the Krabi and Phetchaburi data.' p. 253: 'dextral shear dominant in Peninsular Thailand and sinistral shear dominant in northern Thailand'. p. 251: fold test, 'Hutchison (1989) places the age of folding in this region at 80 Myr ... Late Cretaceous'. Abstract: 'Kalaw redbeds ... show 40° of clockwise rotation'. Previous note's abstract quote is confirmed verbatim. Author list in PDF includes U. Tin Ngwe (omitted by Crossref); Crossref confirms JSAES 8:247-255, 1993. Site = Phetchaburi DMS converted (13°9.37'N, 99°40.51'E), chosen as the sampled basin nearest Kanchanaburi; paper gives no paleolatitude. Fault-reversal link remains my interpretive bridge (paper: 'The sense and amount of motion along that fault controls the sense and amount of rotation')."
  },
  {
   "id": "pmag-thailand-remagnetization",
@@ -1520,5 +1525,362 @@
   "source_type": "peer-reviewed",
   "verified": false,
   "_notes": "DOI confirmed on Crossref (Geology 28, 275-278, 2000). Abstract NOT read directly (GSW 403; no abstract on Crossref/OpenAlex). Content from search-engine snippets ('The youngest Toba ash layers in the South China Sea expand the previously known ash-fall zone over more than 1800 km to the east'; dispersal 'in both western and eastern directions indicating two contrasting wind directions') and from the PANGAEA dataset page linked to this paper (doi:10.1594/PANGAEA.736631, 'Chemistry of particles from the Toba ash layer'), which lists cores GIK17961-2 (8.506667N, 112.331667E, 1795 m) and GIK17962-4 (7.181667N, 112.081667E, 1969 m) and summarises the ~74 ka chemically matched ash. Snippets also mentioned ODP Site 1143 with three tephra layers (YTT/OTT/HDT) - that appears to come from a different paper (Song et al., 'Records of Toba eruptions in the South China Sea') and is NOT used. 'Chemically matched' is from the PANGAEA summary; the dating method (likely δ18O stratigraphy, MIS 4/5 transition) not confirmed. Method tagged 'geochronology' (tephrochronology) as closest. | Main session re-tagged method geochronology → geochemistry (closest honest category)."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-kanchanaburi-redbeds-t91-2",
+  "event_ids": [
+   "india-asia-faults",
+   "india-asia-collision"
+  ],
+  "title_th": "หินชั้นสีแดงกาญจนบุรี: เดคลิเนชันเบนตามเข็มนาฬิกา",
+  "title_en": "Kanchanaburi redbeds: clockwise-deflected declination",
+  "finding_th": "Richter และคณะ (1993) เก็บตัวอย่างหินตะกอนสีแดง (redbeds) อายุจูแรสซิก–ครีเทเชียสจากกาญจนบุรีหนึ่งจุด (site T91-2) หลังแก้ค่าการเอียงของชั้นหิน (tectonic/bedding correction) ได้ทิศเดคลิเนชัน (declination) 23.7° และอินคลิเนชัน (inclination) 29° คือทิศแม่เหล็กโบราณเบนไปทางตะวันออกของทิศเหนือ สอดคล้องกับการหมุนตามเข็มนาฬิกา (clockwise rotation) ที่พบทั่วไปในหินมีโซโซอิกของไทย ข้อมูลนี้มาจากตัวอย่างเพียง 4 ชิ้น มีความไม่แน่นอนสูง (α95 ≈ 12.8°) และผู้วิจัยไม่ได้อภิปรายจุดนี้แยกต่างหาก จึงควรถือเป็นข้อมูลเบื้องต้นของแผ่นธรณีชาน-ไทย/ซิบูมาสุ (Sibumasu) ฝั่งกาญจนบุรี",
+  "finding_en": "Richter et al. (1993) sampled one site (T91-2) in Jurassic–Cretaceous redbeds at Kanchanaburi. After tilt correction the mean direction is D = 23.7°, I = 29°, i.e. the ancient field points east of north, consistent with the clockwise rotation widely recorded in Thai Mesozoic rocks. It rests on only 4 samples with a large α95 (~12.8°), and the paper does not discuss this site in its text, so treat it as a preliminary Sibumasu-side datum from Kanchanaburi itself.",
+  "value": "Juro-Cretaceous Kanchanaburi Redbeds, site T91-2: in situ I = −40.7°, D = 23.1°; tilt-corrected I = 29°, D = 23.7°, α95 = 12.76°, k = 52.9, N = 4; corrected VGP 67.1°N, 182.9°E",
+  "paleolat": null,
+  "site": {
+   "name_th": "หินชั้นสีแดง กาญจนบุรี (site T91-2)",
+   "name_en": "Kanchanaburi Redbeds (site T91-2)",
+   "lat": 14.2752,
+   "lon": 98.9727
+  },
+  "citation": {
+   "text": "Richter, Fuller, Schmidtke, Tin Myint, Tin Ngwe, Mya Win & Bunopas 1993, Paleomagnetic results from Thailand and Myanmar: implications for the interpretation of tectonic rotations in Southeast Asia, Journal of Southeast Asian Earth Sciences 8:247-255",
+   "url": "https://doi.org/10.1016/0743-9547(93)90026-L"
+  },
+  "_notes": "Read from local full-text PDF. Table 1 (p. 250), Mesozoic data: 'Juro-Cretaceous Kanchanaburi Redbeds N14° 16.51' E98° 58.36' T91-2 -40.7 23.1 12.77 52.7' and 'T91-2 Kanchanaburi Redbeds 29 23.7 12.76 52.9 4 N46.2 E247.5 N67.1 E182.9' (corrected I, D, α95, K, N, in situ VGP, corrected VGP). DMS converted: 14+16.51/60 = 14.2752°N, 98+58.36/60 = 98.9727°E. Site is not discussed in the text (grep for 'Kanchanaburi' hits only the two table rows). No paleolatitude stated in paper, so paleolat left null. Rotation amount is not stated by the authors; 'clockwise' wording relies on the paper's general statement that Thai Mesozoic VGPs 'are all rotated CW with respect to the European reference curves' (p. 252)."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-khorat-cw-37",
+  "event_ids": [
+   "india-asia-collision"
+  ],
+  "title_th": "กลุ่มหินโคราช: หมุนตามเข็มนาฬิกา 37±7°",
+  "title_en": "Khorat Group: 37 ± 7° clockwise rotation",
+  "finding_th": "Maranate และ Vella (1986) สรุปข้อมูลแม่เหล็กโบราณ (paleomagnetism) ของกลุ่มหินโคราช (Khorat Group) ในภาคตะวันออกเฉียงเหนือของไทย พบว่าเดคลิเนชันของทุกหมวดหินเบนตามเข็มนาฬิกาประมาณ 37±7° โดยไม่ต่างกันตามลำดับชั้นหิน แสดงว่าการหมุนเกิดขึ้นภายในราว 100 ล้านปีที่ผ่านมา และ Achache กับ Courtillot ตีความว่าเป็นผลจากการชนกันของอนุทวีปอินเดียกับเอเชีย (India–Asia collision) สำคัญ: ข้อมูลนี้เป็นของแผ่นอินโดไชนา (Indochina block) ไม่ใช่แผ่นชาน-ไทย/ซิบูมาสุ (Sibumasu) ที่กาญจนบุรีตั้งอยู่",
+  "finding_en": "Maranate & Vella (1986) synthesised Khorat Group paleomagnetism from NE Thailand: declinations of all formations are rotated clockwise by an estimated 37 ± 7°, with no stratigraphic difference down to the Nam Phong Formation, so the rotation happened within the last ~100 Myr; Achache & Courtillot attribute it to the India–Asia collision. Note: this is the Indochina block (Khorat Plateau), not Sibumasu, on which Kanchanaburi sits.",
+  "value": "Clockwise declination rotation 37 ± 7° (post-mid-Cretaceous, within last 100 Myr); Khorat Group mean (uppermost Triassic–mid Cretaceous, excl. Lom Sak) D = 037°, I = 32°, k = 63, A95 = 9°; pole 54°N, 186°E (dP/dM = 5°/10°)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Maranate & Vella 1986, Paleomagnetism of the Khorat Group, Mesozoic, Northeast Thailand, Journal of Southeast Asian Earth Sciences 1:23-31",
+   "url": "https://doi.org/10.1016/0743-9547(86)90004-8"
+  },
+  "_notes": "Read from local full-text PDF. Abstract (p. 23): 'All authors have reported a clockwise rotation of the paleomagnetic declinations, which we estimate to be 37 ± 7 degrees, and which occurred at some time in the last 100 My.' p. 29: 'Maranate estimated it to be 37 + 7 degrees with no stratigraphically significant difference between Khorat Formations down to Nam Phong (lower Jurassic) (Table 1; Fig. 6). In other words that rotation has occurred within the last 100 My.' p. 29-30: rotation 'happened after middle Cretaceous (Maranate 1982b) and is considered by Achache and Courtillot (1985) to have been caused by the collision of peninsula India against Asia in the Cenozoic Era'. Table 1 (p. 26): 'Mean for Khorat Group excluding Lom Sak Formation (uppermost Triassic - mid Cretaceous): 037 32 63 9 54 186 5 10'. Sampling sections shown only on map Fig. 1 (no coordinates), so site null. Authors also argue (p. 31) for dextral Red River displacement, contrary to the extrusion model's sinistral sense."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-khorat-stable-latitude",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "title_th": "อินโดไชนาอยู่ละติจูดเดิมตั้งแต่ไทรแอสซิก",
+  "title_en": "Indochina near present latitude since Triassic",
+  "finding_th": "ค่าอินคลิเนชันของหมวดหินต่าง ๆ ในกลุ่มหินโคราชให้ละติจูดโบราณ (paleolatitude) ต่างจากละติจูดปัจจุบันเพียง +7.5 ถึง −7.9° โดยเฉลี่ย 0.6±4° แปลว่าภาคอีสานของไทยซึ่งเป็นส่วนหนึ่งของแผ่นอินโดไชนา (Indochina block) อยู่ใกล้ละติจูดเดิมมาตลอดจูแรสซิกและครีเทเชียส และน่าจะตั้งแต่ปลายไทรแอสซิก หมวดหินห้วยหินลาด (Huai Hin Lat, Norian) ให้ละติจูดโบราณราว 24.9°N ผู้วิจัยยังอ้างหลักฐานลำดับชั้นหินว่าทะเลระหว่างชาน-ไทย อินโดไชนา และจีนใต้ปิดลงและการชนแบบทวีปต่อทวีปเสร็จสิ้นภายในปลายไทรแอสซิก นี่คือหลักฐานจากฝั่งอินโดไชนา ไม่ใช่ซิบูมาสุ",
+  "finding_en": "Khorat Group inclinations give paleolatitudes that differ from present latitude by only +7.5 to −7.9° (mean 0.6 ± 4°): NE Thailand, part of the Indochina block, stayed near its present latitude through the Jurassic and Cretaceous and probably since the late Triassic; the Norian Huai Hin Lat Formation gives ~24.9°N. Citing stratigraphy, the authors state that continent–continent collision of Shan-Thai, Indochina and South China was complete by the late Triassic. This is the Indochina side of the suture, not Sibumasu.",
+  "value": "Paleolatitudes of Khorat formations differ from present by +7.5 to −7.9°, mean 0.6 ± 4°; Huai Hin Lat (Norian) I = 43°, paleolatitude 24.9°N; Khok Kruat (Early–mid Cretaceous) I = 29°, paleolatitude 15.5°N",
+  "paleolat": {
+   "deg": 24.9,
+   "err": null
+  },
+  "site": null,
+  "citation": {
+   "text": "Maranate & Vella 1986, Paleomagnetism of the Khorat Group, Mesozoic, Northeast Thailand, Journal of Southeast Asian Earth Sciences 1:23-31",
+   "url": "https://doi.org/10.1016/0743-9547(86)90004-8"
+  },
+  "_notes": "Read from local full-text PDF. Table 3 (p. 30): 'hhl Tu 37.0 43 24.9 -7.9' (PDI, I, P1 paleolatitude, delta-l). The PDI '37.0' looks like a text-extraction/print artefact: delta-l = PDI - P1 = -7.9 implies PDI = 17.0°N, consistent with the other rows (16.5-17.3) - check the printed page. 'kk Kl-m 17.3 29 15.5 +1.8'. p. 29: 'Paleolatitudes of individual formations of the Khorat Group (Table 3) differ from present day latitude by +7.5 to -7.9 degrees ... and have a mean difference from present day latitude of 0.6 ± 4 degrees.' p. 30: 'It is concluded that Northeast Thailand was at nearly the same latitude as now throughout the Jurassic and Cretaceous, and probably also during the late Triassic, although it might have been slightly farther north then'. p. 29: 'sea had disappeared from between Shan Thai, Indochina and South China and continent-continent collision was complete by late Triassic (Bunopas 1981).' Paleolat given = Huai Hin Lat (Norian, ~227-208 Ma, younger than the 242 Ma event) - closest Khorat datum to the Indosinian collision; err not stated per formation."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-indochina-cretaceous-pole-achache",
+  "event_ids": [
+   "india-asia-collision"
+  ],
+  "title_th": "ขั้วแม่เหล็กครีเทเชียสอินโดไชนา: หมุน 24±12°",
+  "title_en": "Indochina Cretaceous pole: 24 ± 12° clockwise",
+  "finding_th": "Achache และคณะ (1983) เปรียบเทียบขั้วแม่เหล็กโบราณ (paleopole) ของที่ราบสูงโคราชกับเส้นทางขั้วแม่เหล็กเคลื่อนปรากฏ (APWP) ของยูเรเซีย พบว่าแผ่นอินโดไชนา (Indochina block) หมุนตามเข็มนาฬิกาเทียบกับยูเรเซีย 19±5° (จากขั้วจูแรสซิก) และ 29±16° (จากขั้วครีเทเชียส) เฉลี่ย 24±12° โดยแทบไม่มีการเลื่อนตามละติจูด ละติจูดโบราณช่วงอัลเบียน–แอปเชียนอยู่ที่ 15.5±9°N ผู้วิจัยเห็นว่ามีเพียงเหตุการณ์ภายในทวีปขนาดใหญ่อย่างการชนของอินเดียกับเอเชียที่ทำให้หมุนได้มากเช่นนี้ สอดคล้องกับแบบจำลองการบีบอัดเคลื่อนออกด้านข้าง (extrusion tectonics) ข้อมูลนี้เป็นของอินโดไชนา ไม่ใช่ซิบูมาสุ",
+  "finding_en": "Achache et al. (1983) compared Khorat Plateau poles with a new Eurasian APWP: Indochina is rotated clockwise relative to Eurasia by 19 ± 5° (Jurassic poles) and 29 ± 16° (Cretaceous poles), mean 24 ± 12°, with no significant latitudinal displacement; the Albian–Aptian paleolatitude is 15.5 ± 9°N. They argue only a major intracontinental event such as the India–Asia collision could produce so large a rotation, as predicted by the extrusion model. Indochina block data, not Sibumasu.",
+  "value": "Indochina (Khorat, 13–17°N, 100–104°E) Albian–Aptian pole 45°N, 189°E (α95 = 14°); paleolatitude 15.5 ± 9.0°N, D = 47 ± 14.5°; CW rotation vs Eurasia 29 ± 16.2° (Cretaceous), 19 ± 5.0° (Upper Jurassic), Tertiary mean 24 ± 12.0°; latitudinal motion −4.6 ± 7.6°",
+  "paleolat": {
+   "deg": 15.5,
+   "err": 9.0
+  },
+  "site": null,
+  "citation": {
+   "text": "Achache, Courtillot & Besse 1983, Paleomagnetic constraints on the late Cretaceous and Cenozoic tectonics of southeastern Asia, Earth and Planetary Science Letters 63:123-136",
+   "url": "https://doi.org/10.1016/0012-821X(83)90028-6"
+  },
+  "_notes": "Read from local full-text PDF. Table 2 (p. 128): 'Indochina (13-17°N, 100-104°E) Albian Aptian 45, 189 14 15.5 9.0 47 14.5' with expected Eurasia '21 4.7 18 7.3' and relative motion '-5.5±10.2 29 ±16.2'. Table 3 (p. 130): 'Upper Jurassic 57.5, 179.5 3.3 420 22 ±2.4 34±3.6 ... -3.8±3.4 19±5.0'; 'Tertiary relative motion between Indochina and Eurasia (mean value) -4.6±7.6 24±12.0'. p. 129: 'Mesozoic poles from Indochina suggest a large clockwise rotation with respect to Eurasia since middle Cretaceous: the declination difference is 19 ± 5° when computed from Jurassic poles, 29 ± 16° when computed from Cretaceous poles ... a mean value of 24 ± 12°'; 'Only a major intracontinental tectonic event, such as a consequence of the India-Asia collision can have produced such a large rotation.' Indochina pole is from Bunopas et al. [17]. Sampling region given only as a box (13-17°N, 100-104°E), so site null."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-lhasa-15n-asia-margin",
+  "event_ids": [
+   "india-asia-collision"
+  ],
+  "title_th": "ขอบใต้ของเอเชียอยู่ราว 15°N ในครีเทเชียสตอนปลาย",
+  "title_en": "Asia's southern margin near 15°N, Late Cretaceous",
+  "finding_th": "จากหินตะกอนสีแดงของบล็อกลาซา (Lhasa block) ทิเบตตอนใต้ Achache และคณะ (1983) สรุปละติจูดโบราณช่วงอัลเบียน–แอปเชียนไว้ที่ 14±3.5°N ดังนั้นขอบใต้ของเอเชียในครีเทเชียสตอนปลายจึงอยู่ราว 15°N และต้องมีการหดสั้นของเปลือกโลก (crustal shortening) อย่างน้อย 1800±800 กม. บล็อกนี้จึงมาอยู่ตำแหน่งปัจจุบันได้ นอกจากนี้ทิเบตตอนใต้ยังหมุนทวนเข็มนาฬิกา 35.5±10° ไปพร้อมกับอินเดีย ข้อมูลนี้บอกตำแหน่งของ 'กำแพง' ที่อินเดียพุ่งเข้าชน ไม่ใช่ข้อมูลของประเทศไทยโดยตรง",
+  "finding_en": "From Lhasa-block (southern Tibet) redbeds, Achache et al. (1983) adopt an Albian–Aptian paleolatitude of 14 ± 3.5°N: the southern margin of Asia lay at about 15°N in the Late Cretaceous, requiring at least 1800 ± 800 km of crustal shortening to bring the Lhasa block to its present position. Southern Tibet also rotated 35.5 ± 10° counterclockwise relative to Eurasia, in sympathy with India. This locates the margin India hit; it is not a Thai datum.",
+  "value": "Southern Tibet (30–32°N, 91–92°E) Albian–Aptian pole 68°N, 313°E (α95 = 6.4°); paleolatitude 14 ± 3.5°N; southward displacement −16.5 ± 7.0°, rotation −35.5 ± 10.3° (CCW) relative to Eurasia; ≥1800 ± 800 km crustal shortening",
+  "paleolat": {
+   "deg": 14.0,
+   "err": 3.5
+  },
+  "site": null,
+  "citation": {
+   "text": "Achache, Courtillot & Besse 1983, Paleomagnetic constraints on the late Cretaceous and Cenozoic tectonics of southeastern Asia, Earth and Planetary Science Letters 63:123-136",
+   "url": "https://doi.org/10.1016/0012-821X(83)90028-6"
+  },
+  "_notes": "Read from local full-text PDF. Table 2 (p. 128-129): 'Southern Tibet (30-32°N, 91-92°E) Albian Aptian 68, 313 6.4 14 3.5 -15 6.6'; relative motion '-16.5± 7.0 -35.5±10.3'. p. 132: 'Further study of the same formation over the entire latitudinal extent of the Lhasa block suggests a lower and better constrained paleolatitude of 14° ± 3.5° ... Thus, the southern margin of Asia was, in the upper Cretaceous, at about 15°N and the Lhasa block achieved its present position with respect to Eurasia by at least 1800 ± 800 km of crustal shortening'; '35.5 ± 10° of relative counterclockwise rotation'. Abstract: 'active subduction of oceanic (Indian plate) crust taking place to the south at subtropical latitudes'. Site box only, so site null."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-denchai-basalt-reversed-5ma",
+  "event_ids": [
+   "bo-phloi-basalt"
+  ],
+  "title_th": "บะซอลต์เด่นชัย: เจ็ดลาวาขั้วกลับ อายุ 5.64 ล้านปี",
+  "title_en": "Denchai basalt: seven reversed flows, 5.64 Ma",
+  "finding_th": "บะซอลต์เด่นชัย (Denchai Basalt) จังหวัดแพร่ เป็นส่วนหนึ่งของกลุ่มบะซอลต์แอลคาไลน์ภาคพื้นทวีปยุคซีโนโซอิกตอนปลาย (Late Cenozoic alkali basalt province) เดียวกับบะซอลต์บ่อพลอย Barr และ Macdonald (1979) พบว่าลาวาทั้ง 7 ชั้นมีสภาพขั้วแม่เหล็กกลับ (reversed polarity) ลาวาชั้นบนสุดมีอายุ K-Ar 5.64±0.28 ล้านปี จึงน่าจะปะทุในช่วงขั้วกลับ 6.06–5.62 ล้านปี ลาวาชั้นบนสุดเป็นหินบาซาไนต์ (basanite) ที่มีเซโนลิธ (xenolith) สปิเนลเลอร์โซไลต์จากความลึกราว 50 กม. และน่าจะเป็นแหล่งของแซปไฟร์และเพทายในลานแร่ บทความยังระบุว่าที่บ่อพลอย หินเนฟีลีนฮาวายไอต์ (nepheline hawaiite) เป็นแหล่งของเพทายและสปิเนลเป็นหลัก",
+  "finding_en": "The Denchai Basalt (Phrae, northern Thailand) belongs to the same Late Cenozoic continental alkali-basalt province as Bo Phloi. Barr & Macdonald (1979) found all seven flows reversely magnetised; the uppermost flow gave K-Ar 5.64 ± 0.28 Ma, suggesting eruption in the 6.06–5.62 Ma reversed interval. That uppermost basanite carries spinel-lherzolite nodules from ~50 km depth and is the probable source of placer sapphire and zircon. The paper notes that at Bo Phloi, nepheline hawaiite is the source of mainly zircon and spinel.",
+  "value": "7 reversed-polarity flows; mean cleaned direction D = 200°, I = −30° (k = 148, α95 = 5°); uppermost flow K-Ar 5.64 ± 0.28 Ma; pole later quoted as 71°N, 192°E (Achache et al. 1983)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Barr & Macdonald 1979, Palaeomagnetism, age, and geochemistry of the Denchai Basalt, northern Thailand, Earth and Planetary Science Letters 46:113-124",
+   "url": "https://doi.org/10.1016/0012-821X(79)90069-4"
+  },
+  "_notes": "Read from local full-text PDF. Abstract (p. 113): 'consists of seven flows, all with reversed magnetic polarity. The uppermost flow has yielded an age of 5.64 ±0.28 Ma by the K-Ar method ... The basanite is the probable source of gem-quality zircon and sapphire'. p. 116-118: 'The mean cleaned direction of NRM giving unit weight to each lava is: declination, 200°; inclination, -30° (k = 148, α95 = 5°). This probably does not differ significantly from the present magnetic field direction (reversed declination, 180°; reversed inclination, -20°) when effects of secular variation are considered.' p. 118: 'This age may correspond to the period of reversed polarity which occurred between 6.06 and 5.62 Ma'. p. 122: 'at Bo Phloi, nepheline hawaiite is the source of primarily zircon and spinel [1]'; 'carrying spinel lherzolite nodules from depths in the order of 50 km'. Pole 71°N 192°E is not in Barr & Macdonald's text that I found; it is quoted by Achache et al. 1983 p. 131 ('lat. = 71°N, long. = 192°E; α95 = 5°, K = 148'). Paleolatitude not stated. Fig. 2 map grid spans ~17°50'-17°55'N, 100°05'E but no sampling coordinates are tabulated, so site null. Bo Phloi link: same province, explicitly compared in paper, but Denchai is not Bo Phloi (Bo Phloi ~3 Ma)."
+ },
+ {
+  "method": "paleomagnetism",
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "id": "pmag-indochina-late-tertiary-cw10",
+  "event_ids": [
+   "fault-reversal"
+  ],
+  "title_th": "อินโดไชนาและจีนใต้หมุนราว 10° ในเทอร์เชียรีตอนปลาย",
+  "title_en": "Indochina–South China ~10° CW, late Tertiary",
+  "finding_th": "Achache และคณะ (1983) แย้งการตีความเดิมของ Barr และ Macdonald (1979) ที่ว่าทิศแม่เหล็กของบะซอลต์เด่นชัย (ประมาณ 6 ล้านปี) เบนจากสนามปัจจุบันเพราะการแปรผันทุติยภูมิ (secular variation) โดยเห็นว่าลาวา 7–8 ชั้นที่ต่างกันทางเคมีน่าจะเฉลี่ยผลนั้นออกไปแล้ว เมื่อรวมกับบะซอลต์ไพลโอซีนในจีนตอนใต้ จึงสรุปว่าอินโดไชนาและจีนใต้หมุนตามเข็มนาฬิการ่วมกันราว 10° เทียบกับยูเรเซียในเทอร์เชียรีตอนปลาย โดยไม่เลื่อนตามละติจูด ตรงกับระยะที่สองของการเคลื่อนออกด้านข้าง (extrusion) เมื่อรอยเลื่อนอัลทินทาก (Altyn Tagh) เริ่มทำงาน การเชื่อมโยงกับการกลับทิศของรอยเลื่อนในไทยเป็นการตีความของเรา ไม่ใช่ของผู้วิจัย",
+  "finding_en": "Achache et al. (1983) dispute Barr & Macdonald's view that the ~6 Ma Denchai direction differs from the present field only through secular variation, arguing that 7–8 chemically distinct flows should average it out. Together with Pliocene basalts from southern China, they read ~10° of joint clockwise rotation of Indochina and South China relative to Eurasia in the late Tertiary, without latitudinal displacement, matching the extrusion model's second phase (activation of the Altyn Tagh fault system). Linking this to the Thai fault-slip reversal is our inference, not the authors'.",
+  "value": "Indochina late Miocene (6 m.y.) pole 71°N, 192°E (α95 = 5°, K = 148) and South China Pliocene pole 77°N, 193°E (α95 = 14°) → ~10° CW rotation of both blocks relative to Eurasia in the late Tertiary",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Achache, Courtillot & Besse 1983, Paleomagnetic constraints on the late Cretaceous and Cenozoic tectonics of southeastern Asia, Earth and Planetary Science Letters 63:123-136",
+   "url": "https://doi.org/10.1016/0012-821X(83)90028-6"
+  },
+  "_notes": "Read from local full-text PDF. p. 131: 'Barr and McDonald [27] published a late Miocene (6 m.y.) pole from 7 (or 8) basaltic flows in northwestern Thailand (lat. = 71°N, long. = 192°E; α95 = 5°, K = 148) (Fig. 4). We might question the conclusion of the authors who attribute the discrepancy between observed and expected field directions to the secular variation'. p. 132: 'Liu Chun et al. [28] obtained a very similar direction from Pliocene basalts in the Lin Yuen Mountains; southern China (lat. = 77°N, long. = 193°E; α95 14°) (Fig. 4). These two results are consistent with South China and Indochina rotating together by about 10° clockwise in the late Tertiary with respect to Eurasia, with no latitudinal displacement (see Fig. 4), as predicted by the model of Tapponnier et al. [7] for the second phase of extrusion which corresponds to the activation of the left-lateral Altyn Tagh-Gansu-Weihe Fault system'. Note Achache calls Denchai 'northwestern Thailand'; it is in Phrae (north). Event tag fault-reversal is interpretive; alternative tag india-asia-faults."
+ },
+ {
+  "id": "thermo-se-thailand-eocene-oligocene-exhumation",
+  "event_ids": [
+   "india-asia-faults"
+  ],
+  "method": "thermochronology",
+  "title_th": "หินฐานภาคตะวันออกถูกยกตัวช่วงอีโอซีน–โอลิโกซีน",
+  "title_en": "Eocene–Oligocene exhumation of southeastern Thailand basement",
+  "finding_th": "การหาอายุด้วยร่องรอยการแบ่งแยกนิวเคลียสในอะพาไทต์ (apatite fission-track, AFT) และวิธี (U–Th)/He ในอะพาไทต์ (AHe) จากหินแกรนิตและหินแปรฐาน 14 ตัวอย่างในภาคตะวันออกเฉียงใต้ของไทย ให้อายุการเย็นตัวทั้งหมดอยู่ในมหายุคซีโนโซอิก ระหว่าง 48 ถึง 24 ล้านปี โดยส่วนใหญ่รวมกลุ่มที่ 36–24 ล้านปี (ปลายอีโอซีนถึงโอลิโกซีน) และอายุศูนย์กลาง (central age) ส่วนมากอยู่ใกล้รอยต่ออีโอซีน–โอลิโกซีนราว 33 ล้านปี ความยาวร่องเฉลี่ย (mean track length) ราว 13–14 ไมโครเมตรบ่งชี้การเย็นตัวอย่างรวดเร็ว ผู้วิจัยตีความว่าการยกตัวและการกร่อนเปิดหินฐาน (exhumation) เกิดเป็นบริเวณกว้างและเกิดพร้อมกับการเลื่อนตัวแบบซ้ายเข้า (sinistral) ของรอยเลื่อนแม่ปิงและรอยเลื่อนเจดีย์สามองค์ ซึ่งเป็นรอยเลื่อนกลุ่มเดียวกับที่ผ่านกาญจนบุรี และเกิดพร้อมกับช่วงการแยกตัวของแอ่ง (synrift) ในอ่าวไทยฝั่งตะวันออก",
+  "finding_en": "Apatite fission-track (AFT) and apatite (U–Th)/He (AHe) dating of 14 granitic and metamorphic basement samples from southeastern Thailand gave exclusively Cenozoic cooling ages of 48–24 Ma, most clustering at 36–24 Ma (late Eocene–Oligocene), with the majority of AFT central ages near the Eocene–Oligocene transition (c. 33 Ma). Mean confined track lengths of about 13–14 µm indicate rapidly cooled basement. The authors interpret regional exhumation contemporaneous with late Eocene–early Oligocene sinistral motion on the Mae Ping and Three Pagodas fault zones — the same fault system that crosses Kanchanaburi — and coeval with the synrift phase of basins in the eastern Gulf of Thailand.",
+  "value": "AFT and AHe ages 48–24 Ma (AFT central ages 48.3 ± 3.7 to 23.9 ± 2.2 Ma); most ages 36–24 Ma; majority of AFT central ages c. 33 Ma; mean track lengths 12.7–14.6 µm",
+  "paleolat": null,
+  "site": {
+   "name_th": "ภาคตะวันออกเฉียงใต้ของไทย (ชลบุรี ระยอง จันทบุรี สระแก้ว)",
+   "name_en": "Southeastern Thailand (Chonburi, Rayong, Chanthaburi, Sa Kaeo)",
+   "lat": 12.971,
+   "lon": 101.815
+  },
+  "citation": {
+   "text": "Nachtergaele, Glorie, Morley, Charusiri, Kanjanapayont, Vermeesch, Carter, Van Ranst & De Grave 2020, Cenozoic tectonic evolution of southeastern Thailand derived from low-temperature thermochronology, Journal of the Geological Society 177(2):395-411",
+   "url": "https://doi.org/10.1144/jgs2018-167"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (8641855.pdf, 'Published Online First' version, unpaginated; page numbers below are PDF pages 1-17). Citation metadata from Crossref (doi 10.1144/jgs2018-167): issue print 2020-03, vol 177 issue 2, pp. 395-411; published online 2019-10-23. Site = arithmetic mean of the 14 sample coordinates in Table 1 (p. 6), converted from deg-min(-sec) to decimal; KM-14A and KM-14B share one locality and are both counted. Abstract p. 1 ('Ages obtained range from 48 to 24 Ma, with most of the samples clustering between 36 and 24 Ma'); Results p. 9 says AFT ages 'range from 48 to 23 Ma' with central ages concentrated c. 33 Ma; Discussion p. 10 restates 48–24 Ma and 36–24 Ma; Table 3 (p. 11) gives central ages KM-05 48.3 ± 3.7 Ma (oldest) to KM-07 23.9 ± 2.2 Ma (youngest); track-length range 12.7–14.6 µm from Results p. 9 and Table 3; Conclusion (1) p. 15. Note the paper itself states both 48–24 and 48–23 Ma."
+ },
+ {
+  "id": "thermo-klaeng-mae-ping-33ma-cooling",
+  "event_ids": [
+   "india-asia-faults"
+  ],
+  "method": "thermochronology",
+  "title_th": "หินในแนวรอยเลื่อนเย็นตัวเร็วราว 33 ล้านปี",
+  "title_en": "Rapid fault-zone cooling around 33 Ma",
+  "finding_th": "แบบจำลองประวัติความร้อน (thermal history model) ด้วยโปรแกรม QTQt ของตัวอย่างหินไนส์ NT-02 จากเขตรอยเลื่อนแกลง (Klaeng Fault zone) บริเวณเขาเชา ซึ่งวัดความยาวร่องได้ 99 ร่อง แสดงการเย็นตัวสองช่วง คือเย็นตัวเร็วจนถึงราว 33 ล้านปี แล้วจึงเย็นตัวช้าลงจนถึงอุณหภูมิผิวโลกปัจจุบัน อายุ AFT 33.7 ± 1.8 ล้านปี และอายุ AHe เฉลี่ยถ่วงน้ำหนัก 27.6 ± 1.5 ล้านปีสอดคล้องกับแบบจำลองนี้ ส่วนหินแกรนิตไมก์มาไทต์ KM-15 ซึ่งอยู่บนแนวหลักของรอยเลื่อนแม่ปิงให้อายุ AFT 33.0 ± 2.5 ล้านปี ผลนี้สอดคล้องกับอายุ 40Ar/39Ar ของแร่ไมกาที่บันทึกการเลื่อนตัวแบบซ้ายเข้าครั้งสุดท้ายของรอยเลื่อนเจดีย์สามองค์ (36–33 ล้านปี) และรอยเลื่อนแม่ปิง (33–30 ล้านปี) ทางภาคตะวันตก",
+  "finding_en": "A QTQt thermal history model for gneiss NT-02 from the Klaeng Fault zone at Khao Chao (99 confined track lengths) shows two-stage cooling: rapid cooling until about 33 Ma, then slow cooling to present surface temperatures. Its AFT central age of 33.7 ± 1.8 Ma and weighted mean AHe age of 27.6 ± 1.5 Ma agree with the model. Migmatized granite KM-15, on the main trace of the Mae Ping Fault, gives an AFT age of 33.0 ± 2.5 Ma. The authors link this fast cooling to the 40Ar/39Ar mica ages recording the last sinistral movement on the Three Pagodas Fault (36–33 Ma) and Mae Ping Fault (33–30 Ma) in western Thailand.",
+  "value": "NT-02: AFT 33.7 ± 1.8 Ma, MTL 13.4 µm (n = 99), AHe weighted mean 27.6 ± 1.5 Ma, rapid cooling until c. 33 Ma; KM-15: AFT 33.0 ± 2.5 Ma, MTL 13.2 µm (n = 71); comparison 40Ar/39Ar: Three Pagodas Fault 36–33 Ma, Mae Ping Fault 33–30 Ma",
+  "paleolat": null,
+  "site": {
+   "name_th": "เขาเชา เขตรอยเลื่อนแกลง จังหวัดระยอง",
+   "name_en": "Khao Chao, Klaeng Fault zone, Rayong",
+   "lat": 13.181,
+   "lon": 101.405
+  },
+  "citation": {
+   "text": "Nachtergaele, Glorie, Morley, Charusiri, Kanjanapayont, Vermeesch, Carter, Van Ranst & De Grave 2020, Cenozoic tectonic evolution of southeastern Thailand derived from low-temperature thermochronology, Journal of the Geological Society 177(2):395-411",
+   "url": "https://doi.org/10.1144/jgs2018-167"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (8641855.pdf, 'Published Online First' version, unpaginated; page numbers below are PDF pages 1-17). Citation metadata from Crossref (doi 10.1144/jgs2018-167): issue print 2020-03, vol 177 issue 2, pp. 395-411; published online 2019-10-23. Site = stated coordinates of sample NT-02 in Table 1 (p. 6): 13°10'50.7\"N, 101°24'17.0\"E, converted to decimal. The paper says NT-02 is from Khao Chao along the Klaeng Fault zone (p. 6) and its pluton column in Table 1 reads 'Ban Na Cham'; province name 'Rayong' is my inference from the coordinates, please check. Thermal history modelling text p. 10 ('A rapid cooling phase is predicted to last until about 33 Ma'; 'mean weighted AHe age of 27.6 ± 1.5 Ma'); Fig. 7 (p. 12); Discussion p. 10 (NT-02 33.7 ± 1.8 Ma; KM-15 33.0 ± 2.5 Ma, 71 lengths; 40Ar/39Ar 36–33 and 33–30 Ma from Lacassin et al. 1997, Nantasin et al. 2012); Table 3 (p. 11); Table 4 (p. 11). No cooling rate in °C/Myr is stated numerically in the text, so none is given."
+ },
+ {
+  "id": "thermo-chanthaburi-late-oligocene-dextral",
+  "event_ids": [
+   "fault-reversal"
+  ],
+  "method": "thermochronology",
+  "title_th": "เย็นตัวปลายโอลิโกซีนเมื่อรอยเลื่อนกลับทิศ",
+  "title_en": "Late Oligocene cooling during dextral fault motion",
+  "finding_th": "หินแกรนิตจากมวลหินอัคนีเหนือเมืองจันทบุรี (ตัวอย่าง KM-07, KM-08, KM-09) ให้อายุ AFT ช่วงปลายสมัยโอลิโกซีนราว 26–24 ล้านปี และอายุ AHe เฉลี่ยถ่วงน้ำหนักราว 25–27 ล้านปี ซึ่งอ่อนกว่าตัวอย่างอื่น ๆ ผู้วิจัยตีความว่าเป็นการเย็นตัวต่อเนื่องจากการเคลื่อนตัวของรอยเลื่อนท่าใหม่ (Tha Mai Fault) ซึ่งอยู่ในเขตที่แขนงของรอยเลื่อนเจดีย์สามองค์และรอยเลื่อนแม่ปิงซ้อนทับกัน ในช่วงเวลาที่ทิศการเลื่อนของรอยเลื่อนทั้งสองเปลี่ยนเป็นแบบขวาเข้า (dextral) สอดคล้องกับการเลื่อนแบบขวาเข้าในแนวชัยนาท (Chainat Duplex) และในแอ่งกู๋ลอง (Cuu Long) ทางใต้ของเวียดนามช่วง 31–25 ล้านปี",
+  "finding_en": "Granites from the plutons north of Chanthaburi town (KM-07, KM-08, KM-09) yield late Oligocene AFT ages of about 26–24 Ma and AHe weighted means of about 25–27 Ma, younger than the other samples. The authors suggest continued late Oligocene cooling through movement on the Tha Mai Fault, in the overlap zone between branches of the Three Pagodas and Mae Ping faults, when shear sense on these faults switched to dextral — comparable to dextral motion in the Chainat Duplex and the 31–25 Ma dextral phase recorded in the Cuu Long basin of south Vietnam.",
+  "value": "AFT central ages (Table 3): KM-07 23.9 ± 2.2 Ma, KM-08 25.6 ± 1.9 Ma, KM-09 26.1 ± 2.6 Ma; AHe weighted means: KM-07 25.0 ± 4.2 Ma, KM-09 26.8 ± 2.4 Ma; dextral phase in Cuu Long basin 31–25 Ma (cited)",
+  "paleolat": null,
+  "site": {
+   "name_th": "มวลหินแกรนิตเหนือเมืองจันทบุรี",
+   "name_en": "Granite plutons north of Chanthaburi",
+   "lat": 12.853,
+   "lon": 101.93
+  },
+  "citation": {
+   "text": "Nachtergaele, Glorie, Morley, Charusiri, Kanjanapayont, Vermeesch, Carter, Van Ranst & De Grave 2020, Cenozoic tectonic evolution of southeastern Thailand derived from low-temperature thermochronology, Journal of the Geological Society 177(2):395-411",
+   "url": "https://doi.org/10.1144/jgs2018-167"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (8641855.pdf, 'Published Online First' version, unpaginated; page numbers below are PDF pages 1-17). Citation metadata from Crossref (doi 10.1144/jgs2018-167): issue print 2020-03, vol 177 issue 2, pp. 395-411; published online 2019-10-23. Site = mean of the stated Table 1 (p. 6) coordinates of KM-07, KM-08 and KM-09, converted to decimal. Discussion p. 12 ('late Oligocene AFT ages of KM-07 (23.9 ± 2.2 Ma), KM-08 (25.7 ± 1.9 Ma) and KM-09 (25.3 ± 2.5 Ma) ... could indicate continued cooling in the late Oligocene through movement along the Tha Mai Fault'); p. 10 (shear senses shifted to dextral, Lacassin et al. 1997); Conclusion (1) p. 15 (final cooling from minor dextral motion). DISCREPANCY: the Discussion gives KM-08 25.7 ± 1.9 and KM-09 25.3 ± 2.5 Ma, but Table 3 lists central ages 25.6 ± 1.9 and 26.1 ± 2.6 Ma (zeta ages 26.8 and 29.7 Ma); the value field uses Table 3. AHe from Table 4 (25.02 ± 4.19 Ma, n = 3; 26.8 ± 2.4 Ma, n = 3)."
+ },
+ {
+  "id": "thermo-23ma-end-of-exhumation-inversion",
+  "event_ids": [
+   "fault-reversal",
+   "india-asia-collision"
+  ],
+  "method": "thermochronology",
+  "title_th": "การยกตัวยุติราว 23 ล้านปีเมื่อแรงเค้นเปลี่ยน",
+  "title_en": "Exhumation wanes after 23 Ma stress change",
+  "finding_th": "หลังรอยต่อสมัยโอลิโกซีน–ไมโอซีน (ราว 23 ล้านปี) การยกตัวของหินฐานในภาคตะวันออกเฉียงใต้ของไทยลดลงอย่างชัดเจน ในช่วงเดียวกันนั้นแอ่งในอ่าวไทยฝั่งตะวันออกหยุดการแยกตัว (rifting) และเข้าสู่ช่วงการทรุดตัวจากความร้อนลดลง (thermal subsidence) ขณะที่แอ่งใหญ่หลายแห่งในอ่าวไทยเกิดการพลิกกลับของแอ่ง (basin inversion) ราว 23 ล้านปี ผู้วิจัยอธิบายว่าเกิดจากการเปลี่ยนรูปแบบแรงเค้นระดับภูมิภาคในซุนดาแลนด์ จากการถอยกลับของแผ่นมุดตัว (subduction rollback) และการยุบตัวของเปลือกโลกที่หนาตัว ไปเป็นการยืดเฉือน (transtension) อันเนื่องจากการเคลื่อนขึ้นเหนือของอนุทวีปอินเดียเข้าหายูเรเชียและการยึดเกาะของแผ่นอินเดียกับเมียนมา ซึ่งยังทำให้รอยเลื่อนสะกายเลื่อนแบบขวาเข้าตั้งแต่ราว 28–27 ล้านปี",
+  "finding_en": "Basement exhumation in southeastern Thailand decreased after the Oligocene–Miocene transition (c. 23 Ma). At about the same time rifting ceased and thermal subsidence began in the eastern Gulf of Thailand, and basin inversion at c. 23 Ma is reported in the large Gulf of Thailand basins. The authors attribute this to a changing regional stress field in Sundaland: a switch from subduction rollback and extensional collapse of thickened lithosphere to transtension driven by India's northward migration towards Eurasia and India–Myanmar coupling, which also drove dextral motion on the Sagaing Fault since the late Oligocene (28–27 Ma).",
+  "value": "Exhumation decreased after c. 23 Ma; rifting cessation and basin inversion c. 23 Ma; Sagaing Fault dextral since 28–27 Ma (cited); eastern Gulf rift-to-thermal-subsidence transition c. 23–10 Ma",
+  "paleolat": null,
+  "site": {
+   "name_th": "ภาคตะวันออกเฉียงใต้ของไทย (ชลบุรี ระยอง จันทบุรี สระแก้ว)",
+   "name_en": "Southeastern Thailand (Chonburi, Rayong, Chanthaburi, Sa Kaeo)",
+   "lat": 12.971,
+   "lon": 101.815
+  },
+  "citation": {
+   "text": "Nachtergaele, Glorie, Morley, Charusiri, Kanjanapayont, Vermeesch, Carter, Van Ranst & De Grave 2020, Cenozoic tectonic evolution of southeastern Thailand derived from low-temperature thermochronology, Journal of the Geological Society 177(2):395-411",
+   "url": "https://doi.org/10.1144/jgs2018-167"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (8641855.pdf, 'Published Online First' version, unpaginated; page numbers below are PDF pages 1-17). Citation metadata from Crossref (doi 10.1144/jgs2018-167): issue print 2020-03, vol 177 issue 2, pp. 395-411; published online 2019-10-23. Site = arithmetic mean of the 14 sample coordinates in Table 1 (p. 6), converted from deg-min(-sec) to decimal; KM-14A and KM-14B share one locality and are both counted. Abstract p. 1 ('The phase of exhumation ended in the early Miocene'); Discussion p. 14 (basin inversion in Chumphon basin c. 23 Ma; DMF 2018 report of inversion c. 23 Ma in all large Gulf basins; 'After 23 Ma ... little onshore exhumation occurred'; cessation of rifting and onset of thermal subsidence 'between about 23 and 10 Ma'; switch to transtension caused by India's northward migration and India–Myanmar coupling, citing Morley 2017; Sagaing dextral since 28–27 Ma, citing Morley & Arboit 2019); Fig. 8 (p. 13); Conclusion (2) p. 15. The India link is the authors' interpretation drawing on cited work, not a direct result of their data."
+ },
+ {
+  "id": "thermo-thailand-aft-compilation",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "thermochronology",
+  "title_th": "ฐานข้อมูลอายุ AFT ทั่วประเทศไทย",
+  "title_en": "Compiled apatite fission-track ages across Thailand",
+  "finding_th": "ข้อมูลเสริมของงานวิจัยนี้รวบรวมอายุ AFT ที่เคยตีพิมพ์ในประเทศไทย (ส่วนใหญ่จากวิทยานิพนธ์ของ Upton ปี 1997, 1999 และจาก Racey 1997, Morley และคณะ 2007, Putthapiban 1984) จำนวน 87 ตัวอย่าง ครอบคลุมพื้นที่ละติจูด 7.86–20.11 องศาเหนือ และลองจิจูด 98.01–104.48 องศาตะวันออก แบ่งเป็นหินฐาน (basement) 51 ตัวอย่างและตะกอน (detrital) 36 ตัวอย่าง อายุอยู่ระหว่าง 7 ถึง 84 ล้านปี (หินฐาน 13–80 ล้านปี ค่ามัธยฐานของหินฐาน 22.4 ล้านปี) และ 83 จาก 87 ตัวอย่างอ่อนกว่า 66 ล้านปี แสดงว่าการเย็นตัวผ่านอุณหภูมิราว 60–120 องศาเซลเซียสของหินในประเทศไทยแทบทั้งหมดเกิดในมหายุคซีโนโซอิก ตัวอย่างหินฐานที่ใกล้กาญจนบุรีที่สุดในชุดข้อมูล (THI9547 ที่ 13.37°N 99.44°E) ให้อายุ 21 ± 3 ล้านปี",
+  "finding_en": "The paper's supplementary compilation of published AFT ages from Thailand (mostly Upton 1997, 1999, plus Racey 1997, Morley et al. 2007 and Putthapiban 1984) contains 87 samples spanning 7.86–20.11°N and 98.01–104.48°E: 51 basement and 36 detrital samples. Ages range from 7 to 84 Ma (basement 13–80 Ma, basement median 22.4 Ma), and 83 of 87 are younger than 66 Ma, showing that cooling of Thai rocks through the c. 60–120 °C apatite annealing window was overwhelmingly Cenozoic. The basement sample nearest Kanchanaburi in the dataset (THI9547, 13.37°N 99.44°E) gives 21 ± 3 Ma.",
+  "value": "n = 87 (51 basement, 36 detrital); AFT ages 7–84 Ma (basement 13–80 Ma; basement median 22.4 Ma; all-sample median 35.6 Ma); 83/87 < 66 Ma; bounding box 7.86–20.11°N, 98.01–104.48°E; THI9547 21 ± 3 Ma",
+  "paleolat": null,
+  "site": {
+   "name_th": "ประเทศไทย (จุดศูนย์กลางของตัวอย่างที่รวบรวม)",
+   "name_en": "Thailand (centroid of compiled AFT samples)",
+   "lat": 16.014,
+   "lon": 100.253
+  },
+  "citation": {
+   "text": "Nachtergaele, Glorie, Morley, Charusiri, Kanjanapayont, Vermeesch, Carter, Van Ranst & De Grave 2020, Cenozoic tectonic evolution of southeastern Thailand derived from low-temperature thermochronology, Journal of the Geological Society 177(2):395-411",
+   "url": "https://doi.org/10.1144/jgs2018-167"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (8641855.pdf, 'Published Online First' version, unpaginated; page numbers below are PDF pages 1-17). Citation metadata from Crossref (doi 10.1144/jgs2018-167): issue print 2020-03, vol 177 issue 2, pp. 395-411; published online 2019-10-23. ALL STATISTICS COMPUTED BY ME from jgs2018-167_si_001.csv (semicolon-separated, latin-1; = supplementary Appendix 1), not stated in the paper. Parsed 87 data rows with numeric lat/lon and AFT age (the leading number of the 'age ± error' field; trailing reference-list rows excluded). Rock type counts: Basement 51, Detrital 36. Reference counts: Upton (1997, 1999) 64, Racey (1997) 12, Morley et al. 2007 6, Phutthapiban (1984) 5. Youngest: AP13 7 ± 7.1 Ma (detrital, Racey 1997); oldest: THI9020 84 ± 8 Ma (detrital, Upton). Site = arithmetic mean of the 87 sample coordinates (a centroid only, not a field locality). Five Putthapiban (Phuket) ages are listed as '± ?' (no error). The 60–120 °C window is from the paper's methods (p. 5). The paper's text (p. 1) summarises Upton (1999): exhumation mostly Cenozoic, older in the east (Paleogene), younger in the west (Neogene). The note on THI9547 being 'nearest Kanchanaburi' is from a lat/lon filter I ran (13.0–15.5°N, 98–100°E returned only THI9547 basement 21 ± 3 and THI9546 detrital 31 ± 3)."
+ },
+ {
+  "id": "date-phang-nga-li-pegmatite-cassiterite",
+  "event_ids": [
+   "western-granites"
+  ],
+  "method": "geochronology",
+  "title_th": "เพกมาไทต์ลิเทียมพังงาอายุครีเทเชียสตอนปลาย",
+  "title_en": "Late Cretaceous lithium pegmatites of Phang Nga",
+  "finding_th": "การหาอายุด้วยวิธียูเรเนียม–ตะกั่ว (U–Pb) ในแร่แคสซิเทอไรต์ (cassiterite) จากเพกมาไทต์ที่มีลิเทียม (Li-pegmatite) ซึ่งเก็บจากแท่งตัวอย่างหลุมเจาะในเหมืองดีบุกร้างเรืองเกียรติและบางอิตำ จังหวัดพังงา ให้อายุ 80.7 ± 3.5 และ 69.2 ± 1.7 ล้านปี (ครีเทเชียสตอนปลาย) ใกล้เคียงกับอายุซิรคอน U–Pb ของหินแกรนิตทัวร์มาลีน (tourmaline granite) ที่เขานกฮูก 82.4 ± 0.3 ล้านปี ประกอบกับธรณีเคมีที่คล้ายกัน ผู้วิจัยสรุปว่าเพกมาไทต์ลิเทียมเกิดจากการตกผลึกลำดับส่วน (fractional crystallization) ในระดับสูงของหินหนืดแกรนิตทัวร์มาลีนชนิด S-type ในแนวหินแกรนิตด้านตะวันตก (Western Granitoid Belt) และการพบแคสซิเทอไรต์ในเพกมาไทต์แสดงความเชื่อมโยงกับการเกิดแร่ดีบุก",
+  "finding_en": "Cassiterite U–Pb dating of lithium pegmatites from drill core at the abandoned Reung Kiet and Bang I Tum tin mines, Phang Nga, gave lower-intercept ages of 80.7 ± 3.5 and 69.2 ± 1.7 Ma (Late Cretaceous). These overlap the zircon U–Pb age of tourmaline granite at Khao Nok Hook (82.4 ± 0.3 Ma), and with similar trace-element patterns the authors conclude the Li-pegmatites formed by extreme fractional crystallization of S-type tourmaline granite melt of the Western Granitoid Belt. Cassiterite in the pegmatites shows a clear association with tin mineralization.",
+  "value": "Cassiterite U–Pb lower intercepts: D29-8 80.7 ± 3.5 Ma (n = 20, MSWD = 0.8); D33-30 69.2 ± 1.7 Ma (n = 16, MSWD = 1.2); tourmaline granite PNG19 zircon 82.4 ± 0.3 Ma (n = 15, MSWD = 1.7)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Phrairoj, Fukuyama & Tangwattananukul 2026, Geochemical and geochronological constraints on the petrogenesis and tectonic evolution of Li-pegmatites and granites in Phang Nga and Phuket, Southern Thailand, Resource Geology 76(1):e70024",
+   "url": "https://doi.org/10.1111/rge.70024"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (Resource Geology 2026, 76:e70024; page numbers are the article's 'x of 20'). Citation metadata from Crossref (doi 10.1111/rge.70024): vol 76 issue 1, article e70024, published online 2025-12-23, issue 2026-01; Crossref has no page range, so the article number is given. Site null: the text gives no sample coordinates (only the Fig. 1c map); sample-location table, if any, is in supplementary material not available locally. Results 5.3 p. 12 and Fig. 10 (Tera-Wasserburg diagrams, 1σ errors); zircon PNG19 p. 11 and Fig. 9g; Discussion 6.1 p. 14 (81–69 Ma mineralization timing; consistent with 85–60 Ma cassiterite ages of Sn-W deposits in southern Myanmar; 'clear association with tin mineralization'); 6.2 p. 15 (pegmatites evolved from tourmaline granite melt); mine names from Section 3.4 p. 6. Abstract and Conclusions round to 81 and 69 Ma. The paper lists Kanchanaburi among Western Granitoid Belt localities with Late Cretaceous granites (p. 14) but does NOT mention Pilok, so pilok-tin-tungsten is not tagged."
+ },
+ {
+  "id": "date-phang-nga-cretaceous-paleocene-granites",
+  "event_ids": [
+   "western-granites"
+  ],
+  "method": "geochronology",
+  "title_th": "แกรนิตพังงา–ภูเก็ตอายุ 83–81 และ 60–58 ล้านปี",
+  "title_en": "Cretaceous and Paleocene granite pulses, Phang Nga",
+  "finding_th": "อายุซิรคอน U–Pb ของหินแกรนิตไบโอไทต์–มัสโคไวต์ (biotite–muscovite granite) ตามชายฝั่งทะเลอันดามันคือ 82.9 ± 0.5 และ 81.1 ± 0.4 ล้านปี และหินแกรนิตไบโอไทต์ (biotite granite) ชนิด I-type บางมวลมีอายุ 58.6 ± 0.5 และ 59.6 ± 0.3 ล้านปี (พาลีโอซีน) ผู้วิจัยตีความว่าหินแกรนิตครีเทเชียสตอนปลาย (ราว 83–80 ล้านปี) และเพกมาไทต์ลิเทียมเกิดจากการมุดตัวในมุมต่ำของแผ่นมหาสมุทรนีโอเททิส (Neo-Tethys) ใต้ขอบด้านตะวันตกของแผ่นซีบูมาสุ (Sibumasu) ภายหลังการชนกันของแผ่นพม่าตะวันตก (West Burma) กับซีบูมาสุ ส่วนหินแกรนิตพาลีโอซีนเกิดจากการลอยตัวขึ้นของชั้นแอสทีโนสเฟียร์ (asthenospheric upwelling) เมื่อแผ่นนีโอเททิสถอยกลับ (slab rollback) หินแกรนิตกลุ่มนี้เป็นส่วนหนึ่งของแนวหินแกรนิตด้านตะวันตก (อายุราว 87–54 ล้านปี) ซึ่งงานวิจัยระบุว่าพบตั้งแต่กาญจนบุรีลงไปถึงภูเก็ต",
+  "finding_en": "Zircon U–Pb ages of biotite–muscovite granites along the Andaman Sea coast are 82.9 ± 0.5 and 81.1 ± 0.4 Ma, and some I-type biotite granites are Paleocene, 58.6 ± 0.5 and 59.6 ± 0.3 Ma. The authors interpret the Late Cretaceous (~83–80 Ma) granites and associated Li-pegmatites as products of low-angle subduction of Neo-Tethys oceanic lithosphere beneath western Sibumasu following West Burma–Sibumasu collision, and the Paleocene granites as melts from asthenospheric upwelling during Neo-Tethys slab rollback. These belong to the Western Granitoid Belt (ca. 87–54 Ma), whose Late Cretaceous granites the paper lists from Kanchanaburi south to Phuket.",
+  "value": "Zircon U–Pb weighted mean 206Pb/238U: biotite–muscovite granite 82.9 ± 0.5 Ma (n = 14, MSWD = 0.9) and 81.1 ± 0.4 Ma (n = 12, MSWD = 1.5); biotite granite PNG05 58.6 ± 0.5 Ma (n = 14, MSWD = 1.7), PNG17 59.6 ± 0.3 Ma (n = 17, MSWD = 0.7); Western Granitoid Belt ca. 87–54 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Phrairoj, Fukuyama & Tangwattananukul 2026, Geochemical and geochronological constraints on the petrogenesis and tectonic evolution of Li-pegmatites and granites in Phang Nga and Phuket, Southern Thailand, Resource Geology 76(1):e70024",
+   "url": "https://doi.org/10.1111/rge.70024"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (Resource Geology 2026, 76:e70024; page numbers are the article's 'x of 20'). Citation metadata from Crossref (doi 10.1111/rge.70024): vol 76 issue 1, article e70024, published online 2025-12-23, issue 2026-01; Crossref has no page range, so the article number is given. Site null: no sample coordinates in the text. Results 5.2 p. 11 and Fig. 9b–e (the biotite–muscovite granite samples are PNG02 and PNG16 but the text does not say which age belongs to which); Introduction p. 1–2 (Western Granitoid Belt ca. 87–54 Ma); Discussion 6.1 p. 14 (Kanchanaburi, Prachuap Khiri Khan, Ranong, Phang Nga and Phuket listed for Late Cretaceous granites; Paleocene granites coeval with southern Thailand and southern Myanmar); 6.3 p. 16 and Fig. 13c–d (tectonic model, largely adopting Li et al. 2018, 2019 and Zhang et al. 2022)."
+ },
+ {
+  "id": "date-phuket-phang-nga-triassic-granites",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "geochronology",
+  "title_th": "พบแกรนิตไทรแอสซิกตอนปลายในแนวแกรนิตตะวันตก",
+  "title_en": "Late Triassic granites found in western belt",
+  "finding_th": "งานวิจัยพบหินแกรนิตอายุไทรแอสซิกตอนปลายในแนวหินแกรนิตด้านตะวันตกเป็นครั้งแรก ได้แก่ หินแกรนิตไบโอไทต์ที่เขาโพธิ์ จังหวัดพังงา (อายุซิรคอน U–Pb 214.0 ± 1.5 ล้านปี) และหินแกรนิตทัวร์มาลีนที่เขารัง จังหวัดภูเก็ต (214.8 ± 1.7 ล้านปี) ก่อนหน้านี้เชื่อกันว่าแนวนี้มีเพียงหินแกรนิตครีเทเชียส–พาลีโอจีน ผู้วิจัยเสนอว่าหินหนืดแกรนิตยุคไทรแอสซิกของแนวหินแกรนิตตอนกลาง (Central Granitoid Belt) อาจแผ่ลงมาทางใต้ของไทยไกลกว่าที่เคยทราบ และสัมพันธ์กับการชนกันของแผ่นซีบูมาสุกับอินโดไชนาหลังการปิดตัวของมหาสมุทรพาลีโอเททิส (Paleo-Tethys)",
+  "finding_en": "The study reports Late Triassic granites within the Western Granitoid Belt: biotite granite at Khao Po, Phang Nga (zircon U–Pb 214.0 ± 1.5 Ma) and tourmaline granite at Khao Rang, Phuket (214.8 ± 1.7 Ma), in a belt previously regarded as Late Cretaceous–Paleogene. The authors suggest Triassic magmatism of the Central Granitoid Belt extends further into southern Thailand than recognized, and relate it to Sibumasu–Indochina collision after closure of the Paleo-Tethys Ocean.",
+  "value": "Zircon U–Pb weighted mean 206Pb/238U: PNG04 biotite granite 214.0 ± 1.5 Ma (n = 18, MSWD = 0.7); PNG10 tourmaline granite 214.8 ± 1.7 Ma (n = 13, MSWD = 1.7); summarised as 216–214 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Phrairoj, Fukuyama & Tangwattananukul 2026, Geochemical and geochronological constraints on the petrogenesis and tectonic evolution of Li-pegmatites and granites in Phang Nga and Phuket, Southern Thailand, Resource Geology 76(1):e70024",
+   "url": "https://doi.org/10.1111/rge.70024"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read from local full text (Resource Geology 2026, 76:e70024; page numbers are the article's 'x of 20'). Citation metadata from Crossref (doi 10.1111/rge.70024): vol 76 issue 1, article e70024, published online 2025-12-23, issue 2026-01; Crossref has no page range, so the article number is given. Site null: no sample coordinates in the text. Results 5.2 p. 11 and Fig. 9a, 9f; Discussion 6.1 p. 14 (names Khao Po, Phang Nga '216 Ma' and Khao Rang, Phuket '214 Ma'; Charusiri et al. 1993 belt ages 88–65 and 60–50 Ma). INCONSISTENCY: the paper repeatedly gives '216–214 Ma' and calls Khao Po '216 Ma', but the only Late Triassic weighted means reported are 214.0 ± 1.5 and 214.8 ± 1.7 Ma; that PNG04 is the Khao Po sample is my inference from 'biotite granite ... 216 Ma' at Khao Po — please check against Fig. 11. Tectonic link: Abstract p. 1 and Section 6.3 p. 16. Tagged indosinian-collision rather than western-granites because the paper attributes these granites to the Sibumasu–Indochina collision, not to Western Belt magmatism."
  }
 ]
