@@ -214,3 +214,37 @@ def test_build_without_polarity_file_embeds_null(tmp_path):
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
     data = json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])
     assert data["polarity"] is None
+
+
+FOS = {"id": "fos-a", "taxon": "Sinoceras chinense", "group": "nautiloid", "age_top_ma": 260.0, "age_base_ma": 270.0,
+       "stage": "Permian", "formation_en": None, "formation_th": None,
+       "locality": {"name_en": "A", "name_th": "ก", "tambon_th": None, "amphoe_th": None, "province_th": "กาญจนบุรี",
+                    "province_en": "Kanchanaburi", "lat": 14.0, "lon": 99.5, "precision": "district"},
+       "significance_th": "ก", "significance_en": "A", "citation": {"text": "S", "url": "https://doi.org/10.1/x"},
+       "source_type": "peer-reviewed", "verified": False, "_notes": "secret fossil note"}
+
+
+def test_build_embeds_fossils_without_private_fields(tmp_path):
+    root = make_root(tmp_path)
+    (root / "content/fossils.json").write_text(json.dumps([FOS], ensure_ascii=False), encoding="utf-8")
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    data = json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])
+    assert data["fossils"][0]["taxon"] == "Sinoceras chinense"
+    assert "secret fossil note" not in html
+
+
+def test_strict_refuses_unverified_fossils(tmp_path):
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
+    for e in starter:
+        e["verified"] = True
+    root = make_root(tmp_path, starter)
+    (root / "content/fossils.json").write_text(json.dumps([FOS], ensure_ascii=False), encoding="utf-8")
+    with pytest.raises(BuildError, match="unverified fossils: fos-a"):
+        build(root, strict=True, module_order=["a.js", "b.js"])
+
+
+def test_build_without_fossils_embeds_empty_list(tmp_path):
+    root = make_root(tmp_path)
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    data = json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])
+    assert data["fossils"] == []

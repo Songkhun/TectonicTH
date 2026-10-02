@@ -9,6 +9,7 @@ from pathlib import Path
 from evidence import EvidenceFileError, load_evidence, validate_evidence
 from paleo import MODEL, check_present, load_slices
 from polarity import load_polarity, validate_polarity
+from fossils import load_fossils, validate_fossils
 from validate import load_json, validate_events, validate_timescale
 
 MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js",
@@ -55,9 +56,11 @@ def build(root, strict=False, module_order=MODULE_ORDER):
         raise BuildError(f"content/{exc}") from exc
 
     polarity = load_polarity(root / "content/polarity.json")
+    fossils = load_fossils(root / "content/fossils.json")
     errors = (validate_timescale(periods) + validate_events(events, periods, slice_ages)
               + validate_evidence(evidence, {e.get("id") for e in events},
                                   {e.get("id"): e.get("age_ma") for e in events}))
+    errors += validate_fossils(fossils, max(p["start_ma"] for p in periods))
     if polarity is not None:
         errors += validate_polarity(polarity.get("segments", []), max(p["start_ma"] for p in periods))
     if "0" not in slices:
@@ -78,6 +81,9 @@ def build(root, strict=False, module_order=MODULE_ORDER):
         unverified_ev = [it["id"] for it in evidence if not it["verified"]]
         if unverified_ev:
             raise BuildError("--strict: unverified evidence: " + ", ".join(unverified_ev))
+        unverified_fos = [f["id"] for f in fossils if not f["verified"]]
+        if unverified_fos:
+            raise BuildError("--strict: unverified fossils: " + ", ".join(unverified_fos))
 
     js_parts, seen = [], {}
     for name in module_order:
@@ -95,7 +101,8 @@ def build(root, strict=False, module_order=MODULE_ORDER):
 
     public_events = [{k: v for k, v in e.items() if not k.startswith("_")} for e in events]
     public_evidence = [{k: v for k, v in it.items() if not k.startswith("_")} for it in evidence]
-    data = json.dumps({"events": public_events, "evidence": public_evidence, "polarity": polarity, "periods": periods, "slices": slices, "model": MODEL,
+    public_fossils = [{k: v for k, v in f.items() if not k.startswith("_")} for f in fossils]
+    data = json.dumps({"events": public_events, "fossils": public_fossils, "evidence": public_evidence, "polarity": polarity, "periods": periods, "slices": slices, "model": MODEL,
                        "built": dt.date.today().isoformat()},
                       ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
 

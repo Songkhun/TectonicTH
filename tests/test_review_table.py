@@ -47,3 +47,21 @@ def test_evidence_review_csv(tmp_path):
     assert list(rows[0].keys()) == EVIDENCE_COLUMNS
     assert rows[0]["event_ids"] == "a; b" and rows[0]["paleolat"] == "-32 ± 6" and rows[0]["notes"] == "n"
     assert md_path.name == "evidence_review.md"
+
+
+from review_table import FOSSIL_COLUMNS, write_fossil_review
+
+
+def test_fossil_review_csv(tmp_path):
+    f = {"id": "fos-a", "taxon": "Sinoceras chinense", "group": "nautiloid", "age_top_ma": 449.0, "age_base_ma": 458.0,
+         "stage": "Sandbian", "formation_en": "Pa Kae Fm", "formation_th": "หมวดหินป่าแก่",
+         "locality": {"name_en": "Ban Tha Kradan", "name_th": "บ้านท่ากระดาน", "tambon_th": "ท่ากระดาน", "amphoe_th": "ศรีสวัสดิ์",
+                      "province_th": "กาญจนบุรี", "province_en": "Kanchanaburi", "lat": 14.6, "lon": 99.1, "precision": "area"},
+         "significance_th": "ก", "significance_en": "A", "citation": {"text": "F 2021", "url": "https://doi.org/10.1/x"},
+         "source_type": "peer-reviewed", "verified": False, "_notes": "n"}
+    csv_path, md_path = write_fossil_review([f], tmp_path)
+    rows = list(csv.DictReader(csv_path.open(encoding="utf-8-sig")))
+    assert list(rows[0].keys()) == FOSSIL_COLUMNS
+    assert rows[0]["locality"] == "บ้านท่ากระดาน ต.ท่ากระดาน อ.ศรีสวัสดิ์ จ.กาญจนบุรี"
+    assert rows[0]["lat_lon"] == "14.6, 99.1 (area)" and rows[0]["age"] == "449–458 Ma"
+    assert md_path.name == "fossil_review.md"

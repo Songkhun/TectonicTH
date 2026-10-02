@@ -4,6 +4,7 @@ import sys
 from pathlib import Path
 
 from evidence import load_evidence
+from fossils import load_fossils
 from validate import load_json
 
 COLUMNS = ["id", "lane", "age_ma", "age_uncertainty_ma", "title_th", "title_en", "body_th", "body_en",
@@ -83,9 +84,50 @@ def write_evidence_review(items, out_dir):
     return csv_path, md_path
 
 
+FOSSIL_COLUMNS = ["id", "taxon", "group", "age", "stage", "formation", "locality", "lat_lon", "significance_th",
+                  "significance_en", "citation", "source_type", "verified", "notes", "corrections"]
+
+
+def _fossil_row(f):
+    loc, cite = f["locality"], f.get("citation")
+    parts = [loc["name_th"]]
+    if loc.get("tambon_th"):
+        parts.append(f"ต.{loc['tambon_th']}")
+    if loc.get("amphoe_th"):
+        parts.append(f"อ.{loc['amphoe_th']}")
+    parts.append(f"จ.{loc['province_th']}")
+    formation = " / ".join(x for x in (f.get("formation_en"), f.get("formation_th")) if x)
+    return {
+        "id": f["id"], "taxon": f["taxon"], "group": f["group"],
+        "age": f"{f['age_top_ma']:g}–{f['age_base_ma']:g} Ma", "stage": f["stage"], "formation": formation,
+        "locality": " ".join(parts), "lat_lon": f"{loc['lat']}, {loc['lon']} ({loc['precision']})",
+        "significance_th": f["significance_th"], "significance_en": f["significance_en"],
+        "citation": f"{cite['text']} — {cite['url']}" if cite else "", "source_type": f["source_type"],
+        "verified": "yes" if f["verified"] else "no", "notes": f.get("_notes", ""), "corrections": "",
+    }
+
+
+def write_fossil_review(items, out_dir):
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rows = [_fossil_row(f) for f in sorted(items, key=lambda f: -f["age_base_ma"])]
+    csv_path = out_dir / "fossil_review.csv"
+    with csv_path.open("w", encoding="utf-8-sig", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=FOSSIL_COLUMNS)
+        w.writeheader()
+        w.writerows(rows)
+    md_path = out_dir / "fossil_review.md"
+    cell = lambda v: str(v).replace("|", "\\|").replace("\n", " ")  # noqa: E731
+    lines = ["| " + " | ".join(FOSSIL_COLUMNS) + " |", "|" + "---|" * len(FOSSIL_COLUMNS)]
+    lines += ["| " + " | ".join(cell(r[c]) for c in FOSSIL_COLUMNS) + " |" for r in rows]
+    md_path.write_text("# Deep Time Kanchanaburi — fossil review\n\n" + "\n".join(lines) + "\n", encoding="utf-8")
+    return csv_path, md_path
+
+
 if __name__ == "__main__":
     root = Path(__file__).resolve().parent.parent
     paths = write_review(load_json(root / "content/events.json"), root / "review")
     paths += write_evidence_review(load_evidence(root / "content/evidence.json"), root / "review")
+    paths += write_fossil_review(load_fossils(root / "content/fossils.json"), root / "review")
     print("\n".join(str(p) for p in paths))
     sys.exit(0)
