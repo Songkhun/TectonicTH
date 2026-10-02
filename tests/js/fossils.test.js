@@ -90,3 +90,29 @@ test('shortCitation gives first author, et al. and year', async () => {
   assert.equal(shortCitation('Filoux A. & Suteethorn V. 2018, A late Pleistocene skeleton, Geobios 51:31-49'), 'Filoux & Suteethorn 2018');
   assert.equal(shortCitation('No year here'), 'No year here');
 });
+
+test('pushed icons stay inside their own period band', () => {
+  const nearBottom = [mk('p1', 252, 253), mk('p2', 252, 253), mk('p3', 252, 253)];
+  const placed = placeFossils(bands, nearBottom, { size: 18, columns: 1 });
+  for (const p of placed) assert.ok(p.y >= 200 && p.y <= 300 - 18, `${p.fossil.id} y=${p.y}`);
+});
+
+test('a crowded band compresses spacing instead of spilling over', () => {
+  const crowd = Array.from({ length: 12 }, (_, i) => mk(`c${i}`, 270, 271));
+  const placed = placeFossils(bands, crowd, { size: 18, columns: 1 });
+  assert.equal(placed.length, 12);
+  for (const p of placed) assert.ok(p.y >= 200 && p.y <= 282, `${p.fossil.id} y=${p.y}`);
+  const ys = placed.map(p => p.y).sort((a, b) => a - b);
+  for (let i = 1; i < ys.length; i++) assert.ok(ys[i] > ys[i - 1]);
+});
+
+test('icons near the top of a band are not lifted into the older band', () => {
+  const placed = placeFossils(bands, [mk('t', 298.5, 298.8)], { size: 18, columns: 1 });
+  assert.ok(placed[0].y >= 200);
+});
+
+test('search finds localities typed the way they are displayed', () => {
+  const list = [mk('a', 449, 459)];
+  assert.equal(filterFossils(list, { q: 'อ.ศรีสวัสดิ์' }, periods).length, 1);
+  assert.equal(filterFossils(list, { q: 'Kanchanaburi Province' }, periods).length, 1);
+});

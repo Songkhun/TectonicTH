@@ -28,7 +28,7 @@ def loc(**changes):
 
 
 def test_good_fossil_passes():
-    assert validate_fossils([GOOD], 486.85) == []
+    assert validate_fossils([GOOD], 538.8) == []
 
 
 def test_groups_include_classic_index_fossils():
@@ -41,7 +41,7 @@ def test_groups_include_classic_index_fossils():
     (fos(taxon=""), "taxon"),
     (fos(group="unicorn"), "group"),
     (fos(age_top_ma=460), "age_base_ma"),
-    (fos(age_base_ma=500), "age range"),
+    (fos(age_base_ma=600), "age range"),
     (fos(age_top_ma=-1), "age range"),
     (fos(stage=""), "stage"),
     (fos(formation_en=5), "formation_en"),
@@ -57,23 +57,23 @@ def test_groups_include_classic_index_fossils():
     (fos(verified=1), "verified"),
 ])
 def test_bad_fossils_rejected(f, fragment):
-    errors = validate_fossils([f], 486.85)
+    errors = validate_fossils([f], 538.8)
     assert any(fragment in e for e in errors), errors
 
 
 def test_unknown_tambon_and_amphoe_may_be_null():
-    assert validate_fossils([loc(tambon_th=None, amphoe_th=None, precision="district")], 486.85) == []
+    assert validate_fossils([loc(tambon_th=None, amphoe_th=None, precision="district")], 538.8) == []
 
 
 def test_duplicate_id_and_non_object_rejected():
-    errors = validate_fossils([GOOD, GOOD, "x"], 486.85)
+    errors = validate_fossils([GOOD, GOOD, "x"], 538.8)
     assert any("duplicate" in e for e in errors) and any("must be an object" in e for e in errors)
 
 
 def test_amphibian_group_is_allowed():
-    assert validate_fossils([fos(group="amphibian")], 486.85) == []
+    assert validate_fossils([fos(group="amphibian")], 538.8) == []
 
 
 def test_locality_thai_name_may_be_null_but_english_is_required():
-    assert validate_fossils([loc(name_th=None)], 486.85) == []
-    assert any("name_en" in e for e in validate_fossils([loc(name_en="")], 486.85))
+    assert validate_fossils([loc(name_th=None)], 538.8) == []
+    assert any("name_en" in e for e in validate_fossils([loc(name_en="")], 538.8))

@@ -23,6 +23,7 @@ function start() {
   let stopIndex = -1;
   let lecture = false;
   let lastInfo = null;
+  let keepTimer = null;
   let keepCardOnce = false; // a jump from the fossil table must not close the card it just opened
 
   function showReadout(info) {
@@ -148,7 +149,7 @@ function start() {
       const l = f.locality;
       const formation = (lang === 'th' ? f.formation_th : f.formation_en) || f.formation_en || f.formation_th || '';
       return `<tr data-id="${esc(f.id)}"${l.province_en === 'Kanchanaburi' ? ' class="is-kan"' : ''}>`
-        + `<td><em>${esc(f.taxon)}</em>${f.verified ? '' : ` <span class="badge">${esc(t('draft'))}</span>`}</td>`
+        + `<td><button type="button" class="fos-jump"><em>${esc(f.taxon)}</em></button>${f.verified ? '' : ` <span class="badge">${esc(t('draft'))}</span>`}</td>`
         + `<td>${g.icon} ${esc(lang === 'th' ? g.th : g.en)}</td>`
         + `<td><span class="num">${esc(fossilAgeText(f, lang))}</span><br><span class="muted">${esc(f.stage)}</span></td>`
         + `<td>${esc(formation)}</td><td>${esc(localityText(l, lang))}</td>`
@@ -164,7 +165,8 @@ function start() {
     const f = fossils.find(x => x.id === row.dataset.id);
     fosDialog.close();
     keepCardOnce = true;
-    setTimeout(() => { keepCardOnce = false; }, 1500);
+    clearTimeout(keepTimer);
+    keepTimer = setTimeout(() => { keepCardOnce = false; }, 300);
     timeline.scrollToAge(fossilMidAge(f));
     card.showFossil(f);
   });

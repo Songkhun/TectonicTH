@@ -30,24 +30,42 @@ export function fossilMidAge(f) {
   return (f.age_top_ma + f.age_base_ma) / 2;
 }
 
+// Icons sit at their mid-age, linear inside the band of their period. Overlaps move to the next
+// column, then down; every icon is clamped to its own band so it never reads as the wrong period,
+// and a crowded band compresses the spacing instead of spilling into the next one.
 export function placeFossils(bands, fossils, { size = 18, columns = 2, gap = 2 } = {}) {
-  const items = [];
-  for (const f of fossils) {
-    const y = ageToY(fossilMidAge(f), bands);
-    if (y !== null) items.push({ fossil: f, y0: y - size / 2 });
-  }
-  items.sort((a, b) => a.y0 - b.y0);
-  const bottom = new Array(columns).fill(-Infinity);
-  return items.map(({ fossil, y0 }) => {
-    let col = bottom.findIndex(b => y0 >= b);
-    let y = y0;
-    if (col < 0) {
-      col = bottom.indexOf(Math.min(...bottom));
-      y = bottom[col];
+  const out = [];
+  for (const band of bands) {
+    const p = band.period;
+    const top = band.y;
+    const bottom = band.y + band.h - size;
+    const items = fossils
+      .filter(f => { const m = fossilMidAge(f); return m <= p.start_ma && m >= p.end_ma; })
+      .map(f => ({ fossil: f, y0: Math.min(bottom, Math.max(top, ageToY(fossilMidAge(f), [band]) - size / 2)) }))
+      .sort((a, b) => a.y0 - b.y0);
+    const cols = Array.from({ length: columns }, () => []);
+    const ends = new Array(columns).fill(-Infinity);
+    for (const it of items) {
+      let col = ends.findIndex(e => it.y0 >= e);
+      let y = it.y0;
+      if (col < 0) {
+        col = ends.indexOf(Math.min(...ends));
+        y = ends[col];
+      }
+      ends[col] = y + size;
+      cols[col].push({ fossil: it.fossil, y });
     }
-    bottom[col] = y + size;
-    return { x: col * (size + gap), y, fossil };
-  });
+    cols.forEach((list, col) => {
+      const last = list[list.length - 1];
+      if (list.length > 1 && last.y > bottom) {
+        const first = Math.min(list[0].y, bottom);
+        const step = (bottom - first) / (list.length - 1);
+        list.forEach((it, i) => { it.y = first + i * step; });
+      }
+      list.forEach(it => out.push({ x: col * (size + gap), y: Math.min(bottom, it.y), fossil: it.fossil }));
+    });
+  }
+  return out;
 }
 
 export function localityText(loc, lang) {
@@ -63,7 +81,7 @@ function haystack(f) {
   const l = f.locality;
   const g = FOSSIL_GROUPS[f.group] || {};
   return [f.taxon, f.stage, f.formation_en, f.formation_th, g.th, g.en, l.name_en, l.name_th, l.tambon_th, l.amphoe_th,
-    l.province_th, l.province_en].filter(Boolean).join(' ').toLowerCase();
+    l.province_th, l.province_en, localityText(l, 'th'), localityText(l, 'en')].filter(Boolean).join(' ').toLowerCase();
 }
 
 export function filterFossils(list, { q = '', period = '', province = '', group = '' } = {}, periods = []) {

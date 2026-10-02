@@ -47,7 +47,8 @@ await ev("document.getElementById('btn-fossils').click()"); await sleep(400);
 report.fossil_rows_all = await ev("document.querySelectorAll('#fos-rows tr').length");
 await shot('09-fossil-table.png');
 report.fossil_rows_kan = await ev("(() => { const s = document.getElementById('fos-province'); s.value = 'Kanchanaburi'; s.dispatchEvent(new Event('input')); return document.querySelectorAll('#fos-rows tr').length; })()");
-report.fossil_rows_search = await ev("(() => { const s = document.getElementById('fos-province'); s.value = ''; s.dispatchEvent(new Event('input')); const q = document.getElementById('fos-q'); q.value = 'จ.'; q.dispatchEvent(new Event('input')); return document.querySelectorAll('#fos-rows tr').length; })()");
+report.fossil_rows_search = await ev("(() => { const s = document.getElementById('fos-province'); s.value = ''; s.dispatchEvent(new Event('input')); const q = document.getElementById('fos-q'); q.value = 'อ.ศรีสวัสดิ์'; q.dispatchEvent(new Event('input')); return document.querySelectorAll('#fos-rows tr').length; })()");
+report.fossil_row_buttons = await ev("document.querySelectorAll('#fos-rows button.fos-jump').length");
 report.fossil_jump = await ev("(async () => { const q = document.getElementById('fos-q'); q.value = ''; q.dispatchEvent(new Event('input')); const tl = document.getElementById('timeline'); tl.scrollTop = 0; document.querySelector('#fos-rows tr:last-child td').click(); await new Promise(r => setTimeout(r, 400)); return { dialogOpen: document.getElementById('fossils').open, scrolled: tl.scrollTop > 0, card: document.querySelector('#card h2')?.innerText }; })()");
 await shot('10-fossil-card.png');
 // polarity strip
@@ -107,6 +108,8 @@ await shot('05-about.png'); await ev("document.getElementById('about').close()")
 // phone
 await view(375, 812, true); await sleep(500); await ev("window.dispatchEvent(new Event('resize'))"); await sleep(600);
 report.phone_hscroll = await ev("document.documentElement.scrollWidth > window.innerWidth");
+report.phone_title_h = await ev("Math.round(document.querySelector('.topbar h1').getBoundingClientRect().width)");
+report.phone_fossils_in_band = await ev("(() => { const bands = [...document.querySelectorAll('.tl-band')].map(b => [parseFloat(b.style.top), parseFloat(b.style.top) + parseFloat(b.style.height)]); return [...document.querySelectorAll('.tl-fossil')].every(f => { const y = parseFloat(f.style.top); return bands.some(([a, b]) => y >= a - 0.5 && y + 18 <= b + 0.5); }); })()");
 report.phone_globe_h = await ev("Math.round(document.getElementById('globe').getBoundingClientRect().height)");
 await ev("document.getElementById('timeline').scrollTop = 600"); await sleep(900);
 await shot('06-phone.png');

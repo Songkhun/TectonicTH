@@ -55,7 +55,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
       }
     }
     inner.classList.toggle('with-pol', polarityOn);
-    const columns = container.clientWidth < 600 ? 1 : 2;
+    const columns = matchMedia('(max-width: 767px)').matches ? 1 : 2; // same breakpoint as --fossil-col
     const bandsPx = layout.bands.map(b => ({ period: b.period, y: pad + b.y, h: b.h - 4 }));
     for (const p of placeFossils(bandsPx, fossils, { size: 18, columns })) {
       const f = p.fossil;
