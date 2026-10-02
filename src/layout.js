@@ -25,3 +25,14 @@ export function layoutTimeline(events, periods, { rowH = 64, minPeriodH = 140 } 
   }
   return { rows, bands, height: y };
 }
+
+// y position of an age inside the band of the period that contains it (linear within the band).
+export function ageToY(age, bands) {
+  for (const b of bands) {
+    const p = b.period;
+    if (age <= p.start_ma && age >= p.end_ma) {
+      return b.y + ((p.start_ma - age) / (p.start_ma - p.end_ma)) * b.h;
+    }
+  }
+  return null;
+}
