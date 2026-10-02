@@ -1,0 +1,1571 @@
+{
+ "sources": {
+  "gts2020": {
+   "text": "Ogg 2020, Geomagnetic Polarity Time Scale, Geologic Time Scale 2020 ch. 5 (chron table via PmagPy, Tauxe et al. 2016)",
+   "url": "https://doi.org/10.1016/B978-0-12-824360-2.00005-X"
+  },
+  "kiaman": {
+   "text": "Opdyke et al. 2000, Base of the Kiaman (318 Ma), GSA Bulletin 112:1315; Isozaki 2009, Illawarra Reversal (~265 Ma), Gondwana Research 15:421",
+   "url": "https://doi.org/10.1130/0016-7606(2000)112<1315:BOTKID>2.0.CO;2"
+  },
+  "moyero": {
+   "text": "Pavlov & Gallet 2005, A third superchron during the Early Paleozoic, Episodes 28:78–84 (~20 Myr, Lower–Middle Ordovician; boundaries approximate)",
+   "url": "https://doi.org/10.18814/epiiugs/2005/v28i2/001"
+  }
+ },
+ "pmagpy_commit": "3264d53d5475f94c051c7eb1c4209d42653b7fb9",
+ "segments": [
+  {
+   "top_ma": 0.0,
+   "base_ma": 0.773,
+   "polarity": "normal",
+   "name": "C1n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 0.773,
+   "base_ma": 0.99,
+   "polarity": "reversed",
+   "name": "C1r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 0.99,
+   "base_ma": 1.07,
+   "polarity": "normal",
+   "name": "C1r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 1.07,
+   "base_ma": 1.18,
+   "polarity": "reversed",
+   "name": "C1r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 1.18,
+   "base_ma": 1.215,
+   "polarity": "normal",
+   "name": "C1r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 1.215,
+   "base_ma": 1.775,
+   "polarity": "reversed",
+   "name": "C1r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 1.775,
+   "base_ma": 1.934,
+   "polarity": "normal",
+   "name": "C2n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 1.934,
+   "base_ma": 2.116,
+   "polarity": "reversed",
+   "name": "C2r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 2.116,
+   "base_ma": 2.14,
+   "polarity": "normal",
+   "name": "C2r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 2.14,
+   "base_ma": 2.595,
+   "polarity": "reversed",
+   "name": "C2r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 2.595,
+   "base_ma": 3.032,
+   "polarity": "normal",
+   "name": "C2An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 3.032,
+   "base_ma": 3.116,
+   "polarity": "reversed",
+   "name": "C2An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 3.116,
+   "base_ma": 3.207,
+   "polarity": "normal",
+   "name": "C2An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 3.207,
+   "base_ma": 3.33,
+   "polarity": "reversed",
+   "name": "C2An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 3.33,
+   "base_ma": 3.596,
+   "polarity": "normal",
+   "name": "C2An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 3.596,
+   "base_ma": 4.187,
+   "polarity": "reversed",
+   "name": "C2Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.187,
+   "base_ma": 4.3,
+   "polarity": "normal",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.3,
+   "base_ma": 4.493,
+   "polarity": "reversed",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.493,
+   "base_ma": 4.631,
+   "polarity": "normal",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.631,
+   "base_ma": 4.799,
+   "polarity": "reversed",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.799,
+   "base_ma": 4.896,
+   "polarity": "normal",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.896,
+   "base_ma": 4.997,
+   "polarity": "reversed",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 4.997,
+   "base_ma": 5.235,
+   "polarity": "normal",
+   "name": "C3n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 5.235,
+   "base_ma": 6.023,
+   "polarity": "reversed",
+   "name": "C3r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 6.023,
+   "base_ma": 6.272,
+   "polarity": "normal",
+   "name": "C3An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 6.272,
+   "base_ma": 6.386,
+   "polarity": "reversed",
+   "name": "C3An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 6.386,
+   "base_ma": 6.727,
+   "polarity": "normal",
+   "name": "C3An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 6.727,
+   "base_ma": 7.104,
+   "polarity": "reversed",
+   "name": "C3Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.104,
+   "base_ma": 7.214,
+   "polarity": "normal",
+   "name": "C3Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.214,
+   "base_ma": 7.262,
+   "polarity": "reversed",
+   "name": "C3Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.262,
+   "base_ma": 7.305,
+   "polarity": "normal",
+   "name": "C3Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.305,
+   "base_ma": 7.456,
+   "polarity": "reversed",
+   "name": "C3Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.456,
+   "base_ma": 7.499,
+   "polarity": "normal",
+   "name": "C3Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.499,
+   "base_ma": 7.537,
+   "polarity": "reversed",
+   "name": "C3Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.537,
+   "base_ma": 7.65,
+   "polarity": "normal",
+   "name": "C4n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.65,
+   "base_ma": 7.701,
+   "polarity": "reversed",
+   "name": "C4n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 7.701,
+   "base_ma": 8.125,
+   "polarity": "normal",
+   "name": "C4n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 8.125,
+   "base_ma": 8.257,
+   "polarity": "reversed",
+   "name": "C4r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 8.257,
+   "base_ma": 8.3,
+   "polarity": "normal",
+   "name": "C4r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 8.3,
+   "base_ma": 8.771,
+   "polarity": "reversed",
+   "name": "C4r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 8.771,
+   "base_ma": 9.105,
+   "polarity": "normal",
+   "name": "C4An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.105,
+   "base_ma": 9.311,
+   "polarity": "reversed",
+   "name": "C4Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.311,
+   "base_ma": 9.426,
+   "polarity": "normal",
+   "name": "C4Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.426,
+   "base_ma": 9.647,
+   "polarity": "reversed",
+   "name": "C4Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.647,
+   "base_ma": 9.721,
+   "polarity": "normal",
+   "name": "C4Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.721,
+   "base_ma": 9.786,
+   "polarity": "reversed",
+   "name": "C4Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.786,
+   "base_ma": 9.937,
+   "polarity": "normal",
+   "name": "C5n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.937,
+   "base_ma": 9.984,
+   "polarity": "reversed",
+   "name": "C5n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 9.984,
+   "base_ma": 11.056,
+   "polarity": "normal",
+   "name": "C5n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 11.056,
+   "base_ma": 11.146,
+   "polarity": "reversed",
+   "name": "C5r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 11.146,
+   "base_ma": 11.188,
+   "polarity": "normal",
+   "name": "C5r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 11.188,
+   "base_ma": 11.592,
+   "polarity": "reversed",
+   "name": "C5r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 11.592,
+   "base_ma": 11.657,
+   "polarity": "normal",
+   "name": "C5r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 11.657,
+   "base_ma": 12.049,
+   "polarity": "reversed",
+   "name": "C5r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.049,
+   "base_ma": 12.174,
+   "polarity": "normal",
+   "name": "C5An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.174,
+   "base_ma": 12.272,
+   "polarity": "reversed",
+   "name": "C5An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.272,
+   "base_ma": 12.474,
+   "polarity": "normal",
+   "name": "C5An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.474,
+   "base_ma": 12.735,
+   "polarity": "reversed",
+   "name": "C5Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.735,
+   "base_ma": 12.77,
+   "polarity": "normal",
+   "name": "C5Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.77,
+   "base_ma": 12.829,
+   "polarity": "reversed",
+   "name": "C5Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.829,
+   "base_ma": 12.887,
+   "polarity": "normal",
+   "name": "C5Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 12.887,
+   "base_ma": 13.032,
+   "polarity": "reversed",
+   "name": "C5Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 13.032,
+   "base_ma": 13.183,
+   "polarity": "normal",
+   "name": "C5AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 13.183,
+   "base_ma": 13.363,
+   "polarity": "reversed",
+   "name": "C5AAr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 13.363,
+   "base_ma": 13.608,
+   "polarity": "normal",
+   "name": "C5ABn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 13.608,
+   "base_ma": 13.739,
+   "polarity": "reversed",
+   "name": "C5ABr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 13.739,
+   "base_ma": 14.07,
+   "polarity": "normal",
+   "name": "C5ACn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 14.07,
+   "base_ma": 14.163,
+   "polarity": "reversed",
+   "name": "C5ACr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 14.163,
+   "base_ma": 14.609,
+   "polarity": "normal",
+   "name": "C5ADn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 14.609,
+   "base_ma": 14.775,
+   "polarity": "reversed",
+   "name": "C5ADr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 14.775,
+   "base_ma": 14.87,
+   "polarity": "normal",
+   "name": "C5Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 14.87,
+   "base_ma": 15.032,
+   "polarity": "reversed",
+   "name": "C5Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 15.032,
+   "base_ma": 15.16,
+   "polarity": "normal",
+   "name": "C5Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 15.16,
+   "base_ma": 15.974,
+   "polarity": "reversed",
+   "name": "C5Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 15.974,
+   "base_ma": 16.268,
+   "polarity": "normal",
+   "name": "C5Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 16.268,
+   "base_ma": 16.303,
+   "polarity": "reversed",
+   "name": "C5Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 16.303,
+   "base_ma": 16.472,
+   "polarity": "normal",
+   "name": "C5Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 16.472,
+   "base_ma": 16.543,
+   "polarity": "reversed",
+   "name": "C5Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 16.543,
+   "base_ma": 16.721,
+   "polarity": "normal",
+   "name": "C5Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 16.721,
+   "base_ma": 17.235,
+   "polarity": "reversed",
+   "name": "C5Cr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 17.235,
+   "base_ma": 17.533,
+   "polarity": "normal",
+   "name": "C5Dn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 17.533,
+   "base_ma": 17.717,
+   "polarity": "reversed",
+   "name": "C5Dn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 17.717,
+   "base_ma": 17.74,
+   "polarity": "normal",
+   "name": "C5Dn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 17.74,
+   "base_ma": 18.007,
+   "polarity": "reversed",
+   "name": "C5Dn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 18.007,
+   "base_ma": 18.497,
+   "polarity": "normal",
+   "name": "C5En",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 18.497,
+   "base_ma": 18.636,
+   "polarity": "reversed",
+   "name": "C5Er",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 18.636,
+   "base_ma": 19.535,
+   "polarity": "normal",
+   "name": "C6n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 19.535,
+   "base_ma": 19.979,
+   "polarity": "reversed",
+   "name": "C6r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 19.979,
+   "base_ma": 20.182,
+   "polarity": "normal",
+   "name": "C6An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 20.182,
+   "base_ma": 20.448,
+   "polarity": "reversed",
+   "name": "C6An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 20.448,
+   "base_ma": 20.765,
+   "polarity": "normal",
+   "name": "C6An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 20.765,
+   "base_ma": 21.13,
+   "polarity": "reversed",
+   "name": "C6Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.13,
+   "base_ma": 21.204,
+   "polarity": "normal",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.204,
+   "base_ma": 21.441,
+   "polarity": "reversed",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.441,
+   "base_ma": 21.519,
+   "polarity": "normal",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.519,
+   "base_ma": 21.691,
+   "polarity": "reversed",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.691,
+   "base_ma": 21.722,
+   "polarity": "normal",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.722,
+   "base_ma": 21.806,
+   "polarity": "reversed",
+   "name": "C6AAn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.806,
+   "base_ma": 21.985,
+   "polarity": "normal",
+   "name": "C6Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 21.985,
+   "base_ma": 22.042,
+   "polarity": "reversed",
+   "name": "C6Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 22.042,
+   "base_ma": 22.342,
+   "polarity": "normal",
+   "name": "C6Bn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 22.342,
+   "base_ma": 22.621,
+   "polarity": "reversed",
+   "name": "C6Br",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 22.621,
+   "base_ma": 22.792,
+   "polarity": "normal",
+   "name": "C6Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 22.792,
+   "base_ma": 22.973,
+   "polarity": "reversed",
+   "name": "C6Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 22.973,
+   "base_ma": 23.04,
+   "polarity": "normal",
+   "name": "C6Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 23.04,
+   "base_ma": 23.212,
+   "polarity": "reversed",
+   "name": "C6Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 23.212,
+   "base_ma": 23.318,
+   "polarity": "normal",
+   "name": "C6Cn",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 23.318,
+   "base_ma": 24.025,
+   "polarity": "reversed",
+   "name": "C6Cr",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.025,
+   "base_ma": 24.061,
+   "polarity": "normal",
+   "name": "C7n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.061,
+   "base_ma": 24.124,
+   "polarity": "reversed",
+   "name": "C7n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.124,
+   "base_ma": 24.459,
+   "polarity": "normal",
+   "name": "C7n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.459,
+   "base_ma": 24.654,
+   "polarity": "reversed",
+   "name": "C7r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.654,
+   "base_ma": 24.766,
+   "polarity": "normal",
+   "name": "C7An",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 24.766,
+   "base_ma": 25.099,
+   "polarity": "reversed",
+   "name": "C7Ar",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 25.099,
+   "base_ma": 25.264,
+   "polarity": "normal",
+   "name": "C8n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 25.264,
+   "base_ma": 25.304,
+   "polarity": "reversed",
+   "name": "C8n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 25.304,
+   "base_ma": 25.987,
+   "polarity": "normal",
+   "name": "C8n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 25.987,
+   "base_ma": 26.42,
+   "polarity": "reversed",
+   "name": "C8r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 26.42,
+   "base_ma": 27.439,
+   "polarity": "normal",
+   "name": "C9n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 27.439,
+   "base_ma": 27.859,
+   "polarity": "reversed",
+   "name": "C9r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 27.859,
+   "base_ma": 28.087,
+   "polarity": "normal",
+   "name": "C10n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 28.087,
+   "base_ma": 28.141,
+   "polarity": "reversed",
+   "name": "C10n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 28.141,
+   "base_ma": 28.278,
+   "polarity": "normal",
+   "name": "C10n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 28.278,
+   "base_ma": 29.183,
+   "polarity": "reversed",
+   "name": "C10r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 29.183,
+   "base_ma": 29.477,
+   "polarity": "normal",
+   "name": "C11n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 29.477,
+   "base_ma": 29.527,
+   "polarity": "reversed",
+   "name": "C11n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 29.527,
+   "base_ma": 29.97,
+   "polarity": "normal",
+   "name": "C11n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 29.97,
+   "base_ma": 30.591,
+   "polarity": "reversed",
+   "name": "C11r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 30.591,
+   "base_ma": 30.977,
+   "polarity": "normal",
+   "name": "C12n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 30.977,
+   "base_ma": 33.214,
+   "polarity": "reversed",
+   "name": "C12r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 33.214,
+   "base_ma": 33.726,
+   "polarity": "normal",
+   "name": "C13n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 33.726,
+   "base_ma": 35.102,
+   "polarity": "reversed",
+   "name": "C13r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 35.102,
+   "base_ma": 35.336,
+   "polarity": "normal",
+   "name": "C15n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 35.336,
+   "base_ma": 35.58,
+   "polarity": "reversed",
+   "name": "C15r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 35.58,
+   "base_ma": 35.718,
+   "polarity": "normal",
+   "name": "C16n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 35.718,
+   "base_ma": 35.774,
+   "polarity": "reversed",
+   "name": "C16n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 35.774,
+   "base_ma": 36.351,
+   "polarity": "normal",
+   "name": "C16n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 36.351,
+   "base_ma": 36.573,
+   "polarity": "reversed",
+   "name": "C16r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 36.573,
+   "base_ma": 37.385,
+   "polarity": "normal",
+   "name": "C17n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 37.385,
+   "base_ma": 37.53,
+   "polarity": "reversed",
+   "name": "C17n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 37.53,
+   "base_ma": 37.781,
+   "polarity": "normal",
+   "name": "C17n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 37.781,
+   "base_ma": 37.858,
+   "polarity": "reversed",
+   "name": "C17n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 37.858,
+   "base_ma": 38.081,
+   "polarity": "normal",
+   "name": "C17n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 38.081,
+   "base_ma": 38.398,
+   "polarity": "reversed",
+   "name": "C17r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 38.398,
+   "base_ma": 39.582,
+   "polarity": "normal",
+   "name": "C18n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 39.582,
+   "base_ma": 39.666,
+   "polarity": "reversed",
+   "name": "C18n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 39.666,
+   "base_ma": 40.073,
+   "polarity": "normal",
+   "name": "C18n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 40.073,
+   "base_ma": 41.03,
+   "polarity": "reversed",
+   "name": "C18r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 41.03,
+   "base_ma": 41.18,
+   "polarity": "normal",
+   "name": "C19n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 41.18,
+   "base_ma": 42.196,
+   "polarity": "reversed",
+   "name": "C19r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 42.196,
+   "base_ma": 43.45,
+   "polarity": "normal",
+   "name": "C20n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 43.45,
+   "base_ma": 46.235,
+   "polarity": "reversed",
+   "name": "C20r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 46.235,
+   "base_ma": 47.76,
+   "polarity": "normal",
+   "name": "C21n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 47.76,
+   "base_ma": 48.878,
+   "polarity": "reversed",
+   "name": "C21r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 48.878,
+   "base_ma": 49.666,
+   "polarity": "normal",
+   "name": "C22n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 49.666,
+   "base_ma": 50.767,
+   "polarity": "reversed",
+   "name": "C22r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 50.767,
+   "base_ma": 50.996,
+   "polarity": "normal",
+   "name": "C23n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 50.996,
+   "base_ma": 51.047,
+   "polarity": "reversed",
+   "name": "C23n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 51.047,
+   "base_ma": 51.724,
+   "polarity": "normal",
+   "name": "C23n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 51.724,
+   "base_ma": 52.54,
+   "polarity": "reversed",
+   "name": "C23r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 52.54,
+   "base_ma": 52.93,
+   "polarity": "normal",
+   "name": "C24n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 52.93,
+   "base_ma": 53.02,
+   "polarity": "reversed",
+   "name": "C24n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 53.02,
+   "base_ma": 53.12,
+   "polarity": "normal",
+   "name": "C24n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 53.12,
+   "base_ma": 53.25,
+   "polarity": "reversed",
+   "name": "C24n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 53.25,
+   "base_ma": 53.9,
+   "polarity": "normal",
+   "name": "C24n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 53.9,
+   "base_ma": 57.101,
+   "polarity": "reversed",
+   "name": "C24r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 57.101,
+   "base_ma": 57.656,
+   "polarity": "normal",
+   "name": "C25n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 57.656,
+   "base_ma": 58.959,
+   "polarity": "reversed",
+   "name": "C25r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 58.959,
+   "base_ma": 59.237,
+   "polarity": "normal",
+   "name": "C26n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 59.237,
+   "base_ma": 62.278,
+   "polarity": "reversed",
+   "name": "C26r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 62.278,
+   "base_ma": 62.53,
+   "polarity": "normal",
+   "name": "C27n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 62.53,
+   "base_ma": 63.537,
+   "polarity": "reversed",
+   "name": "C27r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 63.537,
+   "base_ma": 64.645,
+   "polarity": "normal",
+   "name": "C28n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 64.645,
+   "base_ma": 64.862,
+   "polarity": "reversed",
+   "name": "C28r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 64.862,
+   "base_ma": 65.7,
+   "polarity": "normal",
+   "name": "C29n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 65.7,
+   "base_ma": 66.38,
+   "polarity": "reversed",
+   "name": "C29r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 66.38,
+   "base_ma": 68.178,
+   "polarity": "normal",
+   "name": "C30n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 68.178,
+   "base_ma": 68.351,
+   "polarity": "reversed",
+   "name": "C30r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 68.351,
+   "base_ma": 69.271,
+   "polarity": "normal",
+   "name": "C31n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 69.271,
+   "base_ma": 71.451,
+   "polarity": "reversed",
+   "name": "C31r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 71.451,
+   "base_ma": 71.691,
+   "polarity": "normal",
+   "name": "C32n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 71.691,
+   "base_ma": 71.851,
+   "polarity": "reversed",
+   "name": "C32n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 71.851,
+   "base_ma": 73.651,
+   "polarity": "normal",
+   "name": "C32n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 73.651,
+   "base_ma": 73.951,
+   "polarity": "reversed",
+   "name": "C32r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 73.951,
+   "base_ma": 74.051,
+   "polarity": "normal",
+   "name": "C32r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 74.051,
+   "base_ma": 74.201,
+   "polarity": "reversed",
+   "name": "C32r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 74.201,
+   "base_ma": 79.9,
+   "polarity": "normal",
+   "name": "C33n",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 79.9,
+   "base_ma": 82.875,
+   "polarity": "reversed",
+   "name": "C33r",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 82.875,
+   "base_ma": 121.4,
+   "polarity": "normal",
+   "name": "Cretaceous Normal Superchron (C34n)",
+   "source": "gts2020",
+   "approx": false
+  },
+  {
+   "top_ma": 121.4,
+   "base_ma": 265.0,
+   "polarity": "mixed",
+   "name": "Frequent reversals / poorly known",
+   "source": null,
+   "approx": false
+  },
+  {
+   "top_ma": 265.0,
+   "base_ma": 318.0,
+   "polarity": "reversed",
+   "name": "Kiaman Reverse Superchron",
+   "source": "kiaman",
+   "approx": false
+  },
+  {
+   "top_ma": 318.0,
+   "base_ma": 462.0,
+   "polarity": "mixed",
+   "name": "Frequent reversals / poorly known",
+   "source": null,
+   "approx": false
+  },
+  {
+   "top_ma": 462.0,
+   "base_ma": 482.0,
+   "polarity": "reversed",
+   "name": "Moyero Reverse Superchron",
+   "source": "moyero",
+   "approx": true
+  },
+  {
+   "top_ma": 482.0,
+   "base_ma": 486.85,
+   "polarity": "mixed",
+   "name": "Frequent reversals / poorly known",
+   "source": null,
+   "approx": false
+  }
+ ]
+}

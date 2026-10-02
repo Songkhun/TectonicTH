@@ -6,6 +6,7 @@
   --font: "Noto Sans Thai", "Thonburi", "Leelawadee UI", system-ui, -apple-system, "Segoe UI", sans-serif;
   --scale: 1;
   --ev-paleomag: #6a3fb5; --ev-dating: #a5531a; --ev-geophys: #1f6f8b; --ev-field: #2f7d32; --ev-chip-text: #ffffff;
+  --pol-normal: #1d1b18; --pol-reversed: #ffffff; --pol-edge: #8a857c;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -13,7 +14,7 @@
     --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
     --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
     --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
-    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a;
+    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; --pol-normal: #ece8e1; --pol-reversed: #15171a; --pol-edge: #6b665d;
   }
 }
 :root[data-theme="dark"] {
@@ -21,7 +22,7 @@
   --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
   --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
   --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
-  --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a;
+  --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; --pol-normal: #ece8e1; --pol-reversed: #15171a; --pol-edge: #6b665d;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -104,3 +105,16 @@ dialog#about ol, dialog#about ul { padding-left: 20px; font-size: .85em; }
 #card .ev-item p { margin: 2px 0; font-size: .85em; }
 #card .ev-data { font-variant-numeric: tabular-nums; color: var(--text); font-weight: 600; }
 #card .ev-cite { font-size: .76em; color: var(--muted); }
+.lane-period { display: flex; flex-direction: column; gap: 2px; }
+.pol-toggle { display: inline-flex; align-items: center; gap: 3px; cursor: pointer; font-size: .92em; }
+.pol-toggle input { margin: 0; accent-color: var(--accent); }
+.tl-inner { --band-w: 72px; }
+.tl-pol { position: absolute; left: calc(var(--band-w) - 12px); width: 12px; cursor: help;
+  border-left: 1px solid var(--pol-edge); border-right: 1px solid var(--pol-edge); }
+.pol-normal { background: var(--pol-normal); }
+.pol-reversed { background: var(--pol-reversed); }
+.pol-mixed { background: repeating-linear-gradient(45deg, var(--pol-normal) 0 2px, var(--pol-reversed) 2px 5px); }
+.tl-inner.with-pol .tl-band span { padding-right: 14px; }
+#poltip { position: absolute; left: 16px; right: 16px; top: 44px; z-index: 6; background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: .8em; box-shadow: 0 4px 14px rgba(0, 0, 0, .15); }
+@media (max-width: 767px) { .tl-inner { --band-w: 48px; } }

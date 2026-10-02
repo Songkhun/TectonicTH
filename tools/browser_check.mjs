@@ -40,6 +40,17 @@ report.landFill = await ev(`(() => { const c = document.getElementById('globe');
   for (let i = 0; i < d.length; i += 4) { if (d[i + 3] > 0) { px++; if (Math.abs(d[i] - r) < 6 && Math.abs(d[i + 1] - g) < 6 && Math.abs(d[i + 2] - b) < 6) land++; } }
   return +(land / px).toFixed(3); })()`);
 await shot('01-desktop-start.png');
+// polarity strip
+report.pol_strips_on = await ev("document.querySelectorAll('.tl-pol').length");
+await ev("document.getElementById('timeline').scrollTop = document.getElementById('timeline').scrollHeight"); await sleep(900);
+await shot('01b-polarity-recent.png');
+report.pol_tip = await ev("(() => { const s = [...document.querySelectorAll('.tl-pol')].pop(); s.click(); return document.getElementById('poltip').textContent; })()");
+await ev("document.getElementById('chk-polarity').click()"); await sleep(300);
+report.pol_strips_off = await ev("document.querySelectorAll('.tl-pol').length");
+await send('Page.reload'); await sleep(1500);
+report.pol_off_after_reload = await ev("!document.getElementById('chk-polarity').checked && document.querySelectorAll('.tl-pol').length === 0");
+await ev("document.getElementById('chk-polarity').click()"); await sleep(300);
+await ev("document.getElementById('timeline').scrollTop = 0"); await sleep(900);
 // scroll through every row; collect distinct readouts
 report.readouts = await ev(`(async () => { const tl = document.getElementById('timeline'); const seen = [];
   for (let y = 0; y <= tl.scrollHeight; y += 40) { tl.scrollTop = y; await new Promise(r => setTimeout(r, 60));

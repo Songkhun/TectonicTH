@@ -2,11 +2,12 @@ import { layoutTimeline } from './layout.js';
 import { activeIndex, scrollPads } from './select.js';
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
+import { polarityRects, polarityLabel } from './polarity.js';
 
 const ROW_H = 64;
 const MIN_PERIOD_H = 140;
 
-export function createTimeline(container, events, periods, { onActive, onSelect }) {
+export function createTimeline(container, events, periods, { onActive, onSelect, onPolarity, polarity = null, showPolarity = false }) {
   const layout = layoutTimeline(events, periods, { rowH: ROW_H, minPeriodH: MIN_PERIOD_H });
   const inner = document.createElement('div');
   inner.className = 'tl-inner';
@@ -15,6 +16,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
   let padBottom = 0;
   let active = -1;
   let rowEls = [];
+  let polarityOn = showPolarity && !!polarity;
   let jumping = false;
   let jumpTimer = null;
 
@@ -38,7 +40,19 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
       el.style.background = b.period.color;
       el.innerHTML = `<span>${esc(field(b.period, 'name').replace(/^ยุค/, ''))}</span>`;
       inner.appendChild(el);
+      if (polarityOn) {
+        for (const r of polarityRects(b.period, { y: pad + b.y, h: b.h - 4 }, polarity.segments)) {
+          const s = document.createElement('div');
+          s.className = `tl-pol pol-${r.polarity}`;
+          s.style.top = `${r.y}px`;
+          s.style.height = `${r.h}px`;
+          s.title = polarityLabel(r.seg, getLang());
+          s.addEventListener('click', () => onPolarity && onPolarity(r.seg));
+          inner.appendChild(s);
+        }
+      }
     }
+    inner.classList.toggle('with-pol', polarityOn);
     rowEls = layout.rows.map(r => {
       const el = document.createElement('button');
       el.type = 'button';
@@ -92,6 +106,11 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
     container.scrollTo({ top: r.y + ROW_H / 2, behavior: smooth ? 'smooth' : 'auto' });
   }
 
+  function setPolarity(on) {
+    polarityOn = on && !!polarity;
+    render();
+  }
+
   render();
-  return { scrollToEvent, refresh: render };
+  return { scrollToEvent, refresh: render, setPolarity };
 }

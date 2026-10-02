@@ -4,6 +4,7 @@ import { createGlobe } from './globe.js';
 import { createTimeline } from './timeline.js';
 import { createCard } from './card.js';
 import { nearestStopIndex, lectureKeyAction } from './select.js';
+import { polarityLabel } from './polarity.js';
 import { evidenceHtml } from './evidence.js';
 
 function start() {
@@ -35,7 +36,23 @@ function start() {
     extraHtml: e => evidenceHtml(e.id, evidence),
   });
 
+  const polarityBox = document.getElementById('chk-polarity');
+  const poltip = document.getElementById('poltip');
+  let showPolarity = true;
+  try { showPolarity = storage ? storage.getItem('dt-polarity') !== '0' : true; } catch (_) { showPolarity = true; }
+  if (!data.polarity) polarityBox.closest('label').hidden = true;
+  polarityBox.checked = showPolarity;
+  let tipTimer = null;
+  const showPolarityTip = seg => {
+    poltip.textContent = polarityLabel(seg, getLang());
+    poltip.hidden = false;
+    clearTimeout(tipTimer);
+    tipTimer = setTimeout(() => { poltip.hidden = true; }, 4000);
+  };
   const timeline = createTimeline(document.getElementById('timeline'), data.events, data.periods, {
+    polarity: data.polarity,
+    showPolarity,
+    onPolarity: showPolarityTip,
     onActive: e => {
       showReadout(globe.showSlice(e.paleo_age));
       if (!lecture) card.hide();
@@ -69,6 +86,11 @@ function start() {
     document.getElementById('about-body').innerHTML =
       `<h2>${esc(t('about_title'))}</h2><p>${esc(t('about_intro'))}</p>` +
       `<ul><li>${esc(t('credit_model'))}</li><li>${esc(t('credit_timescale'))}</li><li>${esc(t('credit_inspiration'))}</li></ul>` +
+      (data.polarity
+        ? `<h3>${esc(t('polarity_heading'))}</h3><p>${esc(t('polarity_legend'))}</p><ul>`
+          + Object.values(data.polarity.sources).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a></li>`).join('')
+          + '</ul>'
+        : '') +
       `<h3>${esc(t('citations_heading'))}</h3><ol>${cites}</ol>`;
   }
 
@@ -76,8 +98,14 @@ function start() {
     document.documentElement.lang = getLang();
     document.querySelectorAll('[data-i18n]').forEach(el => { el.textContent = t(el.dataset.i18n); });
     globeEl.setAttribute('aria-label', t('globe_label'));
+    polarityBox.setAttribute('aria-label', t('polarity_toggle'));
+    polarityBox.closest('label').title = t('polarity_toggle');
   }
 
+  polarityBox.addEventListener('change', () => {
+    try { if (storage) storage.setItem('dt-polarity', polarityBox.checked ? '1' : '0'); } catch (_) { /* storage blocked */ }
+    timeline.setPolarity(polarityBox.checked);
+  });
   lectureBtn.addEventListener('click', () => setLecture(!lecture));
   document.getElementById('btn-lang').addEventListener('click', () => setLang(getLang() === 'th' ? 'en' : 'th'));
   document.getElementById('btn-about').addEventListener('click', () => document.getElementById('about').showModal());

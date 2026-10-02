@@ -20,10 +20,11 @@
     <div id="readout"></div>
   </section>
   <section class="tl-pane">
-    <div class="lanes" aria-hidden="true">
-      <span data-i18n="lane_period"></span><span data-i18n="lane_local"></span><span data-i18n="lane_world"></span><span data-i18n="lane_life"></span>
+    <div class="lanes">
+      <span class="lane-period"><span data-i18n="lane_period"></span><label class="pol-toggle"><input type="checkbox" id="chk-polarity"><span data-i18n="polarity_short"></span></label></span><span data-i18n="lane_local"></span><span data-i18n="lane_world"></span><span data-i18n="lane_life"></span>
     </div>
     <div id="timeline" tabindex="0"></div>
+    <div id="poltip" hidden></div>
     <article id="card" hidden></article>
   </section>
 </main>
