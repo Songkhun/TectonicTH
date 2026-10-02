@@ -7,7 +7,7 @@ from validate import ID_RE, URL_RE, _num, _text
 
 METHODS = ("paleomagnetism", "geochronology", "biostratigraphy", "seismic", "gravity",
            "magnetic", "electrical", "seismicity", "geodesy", "field-survey")
-SOURCE_TYPES = ("peer-reviewed", "government-report", "thesis", "conference", "own-survey")
+SOURCE_TYPES = ("peer-reviewed", "government-report", "thesis", "conference", "preprint", "own-survey")
 
 
 def load_evidence(path):
@@ -71,6 +71,14 @@ def validate_evidence(items, event_ids):
                       and (pl.get("err") is None or (_num(pl["err"]) and pl["err"] >= 0))):
                 err("paleolat needs deg in [-90, 90] and err null or >= 0")
 
+        mp = it.get("model_paleolat")
+        if mp is not None:
+            if it.get("method") != "paleomagnetism" or it.get("site") is None:
+                err("model_paleolat needs a paleomagnetism item with a site")
+            elif not (isinstance(mp, dict) and _num(mp.get("deg")) and -90 <= mp["deg"] <= 90
+                      and _num(mp.get("age_ma")) and _text(mp.get("model"))):
+                err("model_paleolat needs deg in [-90, 90], age_ma and model")
+
         if not isinstance(it.get("verified"), bool):
             err("verified must be true or false")
     return errors
@@ -119,3 +127,23 @@ def import_rows(csv_path, evidence_path, event_ids):
         return errors
     Path(evidence_path).write_text(json.dumps(existing + new, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     return []
+
+
+def add_model_paleolat(items, event_ages, session):
+    """For paleomagnetism items with a measured paleolatitude and a sampling site, store the plate
+    model's latitude of that site at the age of the item's first event (the fair data-vs-model test)."""
+    from paleo import GWS_URL, MODEL
+    out = []
+    for it in items:
+        it = dict(it)
+        if it.get("method") == "paleomagnetism" and it.get("paleolat") and it.get("site"):
+            age = event_ages[it["event_ids"][0]]
+            r = session.get(f"{GWS_URL}/reconstruct/reconstruct_points/",
+                            params={"points": f"{it['site']['lon']},{it['site']['lat']}", "time": age, "model": MODEL},
+                            timeout=90)
+            r.raise_for_status()
+            lon, lat = r.json()["coordinates"][0]
+            if abs(lat) <= 90:
+                it["model_paleolat"] = {"deg": round(lat, 2), "age_ma": age, "model": MODEL}
+        out.append(it)
+    return out

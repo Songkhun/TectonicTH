@@ -147,3 +147,44 @@ def test_paleolat_without_stated_error_is_allowed():
 
 def test_electrical_method_is_allowed():
     assert validate_evidence([item(id="mt", method="electrical", paleolat=None)], EVENTS) == []
+
+
+def test_preprint_source_type_is_allowed():
+    assert validate_evidence([item(source_type="preprint")], EVENTS) == []
+
+
+def test_model_paleolat_is_validated():
+    ok = {"deg": -35.6, "age_ma": 270, "model": "TorsvikCocks2017"}
+    assert validate_evidence([item(model_paleolat=ok)], EVENTS) == []
+    assert any("model_paleolat" in e for e in validate_evidence([item(model_paleolat={**ok, "deg": 99})], EVENTS))
+    assert any("model_paleolat" in e for e in validate_evidence([item(model_paleolat=ok, site=None)], EVENTS))
+
+
+class _Resp:
+    def __init__(self, payload):
+        self.payload = payload
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return self.payload
+
+
+class _Session:
+    def __init__(self):
+        self.calls = []
+
+    def get(self, url, params=None, timeout=None):
+        self.calls.append(params)
+        return _Resp({"type": "MultiPoint", "coordinates": [[88.0, -36.42]]})
+
+
+def test_add_model_paleolat_queries_site_at_event_age():
+    from evidence import add_model_paleolat
+    items = [item(), item(id="nosite", site=None), item(id="seis", method="seismic", paleolat=None)]
+    session = _Session()
+    out = add_model_paleolat(items, {"ratburi-limestone": 270.0}, session)
+    assert out[0]["model_paleolat"] == {"deg": -36.42, "age_ma": 270.0, "model": "TorsvikCocks2017"}
+    assert session.calls == [{"points": "99.1,14.2", "time": 270.0, "model": "TorsvikCocks2017"}]
+    assert "model_paleolat" not in out[1] and "model_paleolat" not in out[2]

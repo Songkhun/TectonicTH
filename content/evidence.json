@@ -1,0 +1,1070 @@
+[
+ {
+  "id": "pmag-langkawi-setul-ordovician",
+  "event_ids": [
+   "ordovician-limestone",
+   "gobe"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "แม่เหล็กบรรพกาลหินปูนเซตูล ลังกาวี",
+  "title_en": "Setul Limestone paleomagnetism, Langkawi",
+  "finding_th": "วัดสภาพแม่เหล็กบรรพกาล (paleomagnetism) ของหินปูนเซตูล (Setul Limestone) ยุคออร์โดวิเชียน–ไซลูเรียน บนหมู่เกาะลังกาวี ซึ่งเทียบได้กับหินปูนออร์โดวิเชียนในกาญจนบุรี ได้ค่ามุมเอียงแม่เหล็ก (inclination) ราว 62° ซึ่งเทียบเท่าละติจูดบรรพกาล (paleolatitude) ประมาณ 43° แต่ข้อมูลเพียงอย่างเดียวบอกไม่ได้ว่าอยู่ซีกโลกเหนือหรือใต้",
+  "finding_en": "Remanent magnetization of the Ordovician–Silurian Setul Limestone on Langkawi (the Malaysian equivalent of the Kanchanaburi Ordovician carbonates) gave an inclination of about 62°, equal to a paleolatitude of about 43°; the data alone cannot say whether this was north or south of the equator.",
+  "value": "D = 338°, I = 62°; paleolatitude 43° (N or S); pole 46°N, 76°E",
+  "paleolat": null,
+  "site": {
+   "name_th": "หมู่เกาะลังกาวี มาเลเซีย (ตำแหน่งโดยประมาณ)",
+   "name_en": "Langkawi Islands, Malaysia (approximate)",
+   "lat": 6.35,
+   "lon": 99.8
+  },
+  "citation": {
+   "text": "Haile 1980, Palaeomagnetic evidence from the Ordovician and Silurian of northwest Peninsular Malaysia, Earth and Planetary Science Letters 48:233-236",
+   "url": "https://doi.org/10.1016/0012-821X(80)90185-5"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Haile, EPSL 48, 233-236, 1980). Abstract NOT read directly (ScienceDirect returned 403); content taken from a search-engine snippet of the abstract: 'mean magnetic vector of D = 338°, I = 62° after cleaning and correction for tilt. This is equivalent to a palaeolatitude of 43°, and a palaeomagnetic pole at 46°N, 76°E ... The Ordovician results are equivalent to a palaeolatitude of 43°, N or S.' Haile favoured a northern-hemisphere reading based on 1980 reconstructions, which is NOT the modern Gondwana-margin view; paleolat left null because hemisphere is ambiguous. Old (1980) study, likely superseded/possibly remagnetized (Richter et al. 1999 found widespread remagnetization in Malaysian Palaeozoic carbonates) - treat as historical. Site coordinates are the approximate centre of Langkawi, not sampling sites. Present as 'how the method works and its ambiguity', not as a firm position."
+ },
+ {
+  "id": "pmag-baoshan-silurian-equatorial",
+  "event_ids": [
+   "kanchanaburi-group"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินปูนสีแดงไซลูเรียน เป่าซาน: ใกล้เส้นศูนย์สูตร",
+  "title_en": "Silurian Baoshan limestone: near-equatorial Sibumasu",
+  "finding_th": "เก็บตัวอย่าง 77 ชิ้นจากหินปูนและหินมาร์ลสีแดงยุคไซลูเรียนตอนปลายใกล้เมืองเป่าซาน (ส่วนเหนือของชาน-ไทย) พบสภาพแม่เหล็กก่อนการคดโค้ง (pre-folding remanence) ที่มีมุมเอียงเกือบศูนย์ แสดงว่าแผ่นทวีปอยู่บริเวณเส้นศูนย์สูตร ใกล้ขอบเหนือของกอนด์วานา",
+  "finding_en": "77 samples of Upper Silurian red limestone and marl near Baoshan (northern Shan-Thai) carry a pre-folding magnetization with near-zero inclination, placing the block at equatorial latitude, probably beside northern Gondwana.",
+  "value": "D = 49.6°, I = −3.2° (α95 = 5.5°); pole 207.0°E, 36.8°N; 'equatorial latitude'",
+  "paleolat": null,
+  "site": {
+   "name_th": "เป่าซาน มณฑลยูนนาน จีน",
+   "name_en": "Baoshan, western Yunnan, China",
+   "lat": 24.8,
+   "lon": 99.1
+  },
+  "citation": {
+   "text": "Chen, Zhong, Heller & Dobson 1996, Paleomagnetic results from the Upper Silurian of the Shan-Thai-Malay Block, southwest Yunnan, China, Geophysical Research Letters 23:3405-3408",
+   "url": "https://doi.org/10.1029/96GL03154"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; full abstract read from the Crossref record: '77 paleomagnetic samples from the Upper Silurian reddish limestone and marlstone of the Shan-Thai-Malay block near Baoshan (99.1°E, 24.8°N) ... reveal a pre-folding remnant magnetization, with a mean direction of D=49.6°, I=-3.2°, k=9.7, a95=5.5°, corresponding a paleopole at 207.0°E, 36.8°N. These results, unlike the upper Paleozoic data with steeper inclinations published earlier, suggest that the block was located at equatorial latitude during late Silurian time, probably adjacent to the northern margin of Gondwanaland.' No numeric paleolatitude stated, so paleolat = null (not computed). Note this conflicts with the ~42° Devonian result of Fang et al. 1989 (see pmag-yunnan-devonian) - a useful teaching contrast, but the instructor should decide how to present the disagreement. Site is Baoshan (northern continuation of Sibumasu), not Thailand."
+ },
+ {
+  "id": "pmag-yunnan-devonian-42",
+  "event_ids": [
+   "kanchanaburi-group"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินตะกอนดีโวเนียน ยูนนานตะวันตก: ละติจูดราว 42°",
+  "title_en": "Devonian western Yunnan: ~42° paleolatitude",
+  "finding_th": "ศึกษาหินตะกอนยุคดีโวเนียนทั้งสองฝั่งรอยตะเข็บชาน-ไทย–จีนใต้ พบว่ายูนนานตะวันออก (จีนใต้) อยู่แถบเส้นศูนย์สูตร แต่ยูนนานตะวันตก (แผ่นชาน-ไทย) อยู่ที่ละติจูดบรรพกาลราว 42° ผ่านการทดสอบการคดโค้ง (fold test) จึงสนับสนุนว่าชาน-ไทยเป็นส่วนหนึ่งของกอนด์วานา",
+  "finding_en": "Devonian sediments on both sides of the Shan-Thai–South China suture gave an equatorial position for eastern Yunnan (South China) but a paleolatitude of about 42° for western Yunnan (Shan-Thai), passing a fold test and supporting a Gondwana position for Shan-Thai.",
+  "value": "western Yunnan: D/I = 18.0°/+62.0° (α95 = 5.8°), pole 66.5°N, 133.8°E, paleolatitude 42°",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Fang, Van der Voo & Liang 1989, Devonian paleomagnetism of Yunnan Province across the Shan Thai-South China suture, Tectonics 8:939-952",
+   "url": "https://doi.org/10.1029/TC008i005p00939"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; abstract read from the Crossref record: '...a paleolatitude of about 40° for western Yunnan as part of the Shan State (or Shan-Thai) Block, which probably was part of the Gondwana supercontinent ... The paleopole from western Yunnan is located at 66.5°N, 133.8°E (declination/inclination = 18.0°/+62.0°, k = 21, alpha 95 = 5.8°, N = 31 samples from 7 sites), yielding a paleolatitude of 42°.' The abstract does not state the hemisphere explicitly, so paleolat = null (a southern-hemisphere Gondwana reading is implied but not written). Sampling coordinates not given in the abstract (site = null). Kanchanaburi Group spans Silurian-Devonian; this is a regional (Yunnan) constraint, not from Thailand. Conflicts with the Silurian equatorial result of Chen et al. 1996; many later workers suspect some steep Palaeozoic results are overprints - flag for instructor."
+ },
+ {
+  "id": "pmag-baoshan-carboniferous-basalt",
+  "event_ids": [
+   "late-paleozoic-ice-age",
+   "kaeng-krachan-diamictite"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "บะซอลต์คาร์บอนิเฟอรัส เป่าซาน: ละติจูดกลางใกล้กอนด์วานา",
+  "title_en": "Carboniferous Baoshan basalts: mid-latitude Gondwana margin",
+  "finding_th": "วัดสภาพแม่เหล็กของหินบะซอลต์หมวดหินวั่วหนิวซื่อ (Woniusi Formation) ที่ 21 จุดใกล้เมืองเป่าซานและหย่งเต๋อ ได้มุมเอียงคล้ายกับหินดีโวเนียนในพื้นที่เดียวกัน บ่งชี้ละติจูดบรรพกาลราว 42° ในช่วงดีโวเนียน–คาร์บอนิเฟอรัส สอดคล้องกับสภาพอากาศหนาวที่ทำให้เกิดหินกรวดมนปนโคลนจากธารน้ำแข็ง",
+  "finding_en": "Basalts of the Woniusi Formation sampled at 21 sites near Baoshan and Yongde gave inclinations like those of local Devonian rocks, indicating a paleolatitude of about 42° in Devono-Carboniferous time — a cool, mid-latitude setting consistent with glacial pebbly mudstones.",
+  "value": "paleolatitude about 42° (Devono-Carboniferous)",
+  "paleolat": null,
+  "site": {
+   "name_th": "เป่าซาน มณฑลยูนนาน จีน",
+   "name_en": "Baoshan, western Yunnan, China",
+   "lat": 25.2,
+   "lon": 99.3
+  },
+  "citation": {
+   "text": "Huang & Opdyke 1991, Paleomagnetic results from the Upper Carboniferous of the Shan-Thai-Malay block of western Yunnan, China, Tectonophysics 192:333-344",
+   "url": "https://doi.org/10.1016/0040-1951(91)90107-4"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Huang & Opdyke, Tectonophysics 192, 333-344, 1991). Abstract NOT read directly (ScienceDirect 403; abstract elided in Semantic Scholar/OpenAlex). From a search-engine snippet of the abstract: 'The Upper Carboniferous basaltic Woniusi Formation was sampled at 21 sites from two limbs of a syncline near Baoshan city (25.2°N, 99.3°E), and from a monocline near Yongde county (23.9°N, 99.2°E) ... indicating a paleolatitude of about 42° for the Baoshan area during the Devono-Carboniferous time.' Hemisphere not stated in snippet -> paleolat null. Note: the Woniusi basalts are dated Upper Carboniferous here but Early Permian in later work (Ali et al. 2013; Xu et al. 2015). The link to Kaeng Krachan diamictites is my interpretive bridge (both imply cool, high-mid latitude), not a claim of the paper - instructor to check wording."
+ },
+ {
+  "id": "pmag-baoshan-permian-rift-basalt",
+  "event_ids": [
+   "sibumasu-rifting",
+   "kaeng-krachan-diamictite"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "บะซอลต์ริฟต์เพอร์เมียนตอนต้น: จุดแยกจากกอนด์วานาที่ ~42°S",
+  "title_en": "Early Permian rift basalts: breakup at ~42°S",
+  "finding_th": "วัดสภาพแม่เหล็กของหินบะซอลต์ริฟต์ (rift basalts) หมวดหินวั่วหนิวซื่อ ยุคเพอร์เมียนตอนต้นในแผ่นเป่าซาน จาก 28 หน่วยการเย็นตัว (cooling units) รวมกับข้อมูลเดิม พบว่าแผ่นทวีปเริ่มแยกตัวจากกอนด์วานาตะวันออกที่ละติจูด 41.9°S โดยไซบูมาสุน่าจะอยู่นอกชายฝั่งออสเตรเลียตะวันตกเฉียงเหนือ",
+  "finding_en": "Early Permian rift basalts (Woniusi Formation) of the Baoshan block, from 28 cooling units combined with earlier data, show that breakup from eastern Gondwana occurred at 41.9°S, with Sibumasu probably lying offshore NW Australia.",
+  "value": "breakup paleolatitude 41.9°S (range 34.2–51.2°S)",
+  "paleolat": {
+   "deg": -41.9,
+   "err": null
+  },
+  "site": null,
+  "citation": {
+   "text": "Ali, Cheung, Aitchison & Sun 2013, Palaeomagnetic re-investigation of Early Permian rift basalts from the Baoshan Block, SW China, Geophysical Journal International 193:650-663",
+   "url": "https://doi.org/10.1093/gji/ggt012"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; abstract read in full via OpenAlex: 'Reliable data were obtained from four locations/28 individual cooling units, and when combined with the findings of an earlier study (three locations/19 sites) indicate that breakup occurred at 41.9°S (with errors, 34.2-51.2°S) ... we suggest that Sibumasu ... lay directly to the east, offshore of Australia.' Error is asymmetric (34.2-51.2°S), so paleolat.err is set to null rather than invented as a ± value; the instructor may display the range from 'value'. Sampling coordinates not in abstract. Related: Xu et al. 2015 (JAES 104:99-114, doi 10.1016/j.jseaes.2014.10.029) report 38°S ± 3.7° for the same basalts (from search snippet only) - not included as a separate item."
+ },
+ {
+  "id": "pmag-shan-middle-permian",
+  "event_ids": [
+   "ratburi-limestone",
+   "sibumasu-rifting"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินปูนเพอร์เมียนกลาง รัฐฉาน: ~13°S",
+  "title_en": "Middle Permian Shan limestones: ~13°S",
+  "finding_th": "วัดสภาพแม่เหล็กของหินปูนยุคเพอร์เมียนกลางในรัฐฉาน (Shan State) เมียนมา ซึ่งเป็นหินร่วมยุคกับหินปูนราชบุรี องค์ประกอบแม่เหล็กลักษณะเฉพาะ (characteristic remanent magnetization) ผ่านการทดสอบการคดโค้ง บ่งชี้ว่าไซบูมาสุอยู่ที่ละติจูดราว 13°S คือเคลื่อนขึ้นเหนือมาถึงเขตร้อนแล้ว เหมาะกับการสะสมตัวของหินปูนแนวปะการัง",
+  "finding_en": "Middle Permian limestones of Shan State, Myanmar (age-equivalent to the Ratburi Limestone) carry a pre-folding characteristic magnetization placing Sibumasu at about 13°S — already drifted into the tropics where thick carbonate platforms could grow.",
+  "value": "D = 13.7°, I = −25.3° (α95 = 2.8°) tilt-corrected; pole 254.1°E, 53.2°N (A95 = 1.7°); paleolatitude ~13.0°S",
+  "paleolat": {
+   "deg": -13.0,
+   "err": null
+  },
+  "site": null,
+  "citation": {
+   "text": "Zhao, Huang, Yan, Bai, Dong, Win, Aung & Yang 2019, A palaeomagnetic study of the Middle Permian and Middle Triassic limestones from Shan State, Myanmar, Geological Journal 55:1179-1194",
+   "url": "https://doi.org/10.1002/gj.3482"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (published online 2019, issue vol 55, 2020); abstract read in full from Crossref: 'The characteristic Component C of the Middle Permian limestone passed the fold test at 95% confidence level ... D = 13.7°, I = -25.3° (κ = 1894.9, α95 = 2.8°) after tilt correction, corresponding to a palaeomagnetic pole at 254.1°E, 53.2°N (A95 = 1.7°). This suggests that the Sibumasu Terrane was placed at a palaeolatitude of ~13.0°S during the Middle Permian.' No ± on paleolatitude stated in abstract -> err null (not computed). Sampling localities in Shan State not given in abstract (site null). Doubt: ~13°S in Middle Permian is much further north than many reconstructions (and than the ~42°S Early Permian Baoshan values) - implies very fast drift; Geological Journal is a lower-tier venue; instructor may want to flag as one study. Year: Crossref lists 2019 issued date; cite as 2019 (online) / 2020 (vol 55)."
+ },
+ {
+  "id": "pmag-shan-middle-triassic",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินปูนไทรแอสซิกกลาง รัฐฉาน: ข้ามเส้นศูนย์สูตรสู่ ~18°N",
+  "title_en": "Middle Triassic Shan limestones: ~18°N",
+  "finding_th": "หินปูนยุคไทรแอสซิกกลางจากรัฐฉานให้องค์ประกอบแม่เหล็กที่ผ่านการทดสอบการคดโค้ง บ่งชี้ว่าไซบูมาสุอยู่ที่ละติจูดราว 18°N แล้ว แสดงว่าแผ่นทวีปเคลื่อนข้ามเส้นศูนย์สูตรขึ้นเหนือ และชนกับแผ่นอินโดไชนาในช่วงหรือก่อนไทรแอสซิกกลาง–ปลาย",
+  "finding_en": "Middle Triassic limestones from Shan State give a fold-test-passing magnetization placing Sibumasu at about 18°N, showing it had crossed the equator and collided with Indochina during or before Middle–Late Triassic time.",
+  "value": "D = 205.6°, I = −33.5° (α95 = 4.2°) tilt-corrected; pole 187.3°E, 65.8°N (dp/dm = 2.7°/4.8°); paleolatitude ~18.3°N",
+  "paleolat": {
+   "deg": 18.3,
+   "err": null
+  },
+  "site": null,
+  "citation": {
+   "text": "Zhao, Huang, Yan, Bai, Dong, Win, Aung & Yang 2019, A palaeomagnetic study of the Middle Permian and Middle Triassic limestones from Shan State, Myanmar, Geological Journal 55:1179-1194",
+   "url": "https://doi.org/10.1002/gj.3482"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Same paper as pmag-shan-middle-permian; abstract read from Crossref: 'The Component C separated from the Middle Triassic samples also passed the fold test with a mean direction of ... D = 205.6°, I = -33.5° (κ = 27.1, α95 = 4.2°) after tilt correction, corresponding to a palaeomagnetic pole at 187.3°E, 65.8°N (dp/dm = 2.7°/4.8°). This implies that the Sibumasu Terrane was located at a palaeolatitude of ~18.3°N during the Middle Triassic ... supports the view that the collision of the Sibumasu Terrane and Indochina Terrance occurred during or before the Middle-Late Triassic times.' err null (not stated). Related, not included: Zhao et al. 2015 JAES 111:350-364 (doi 10.1016/j.jseaes.2015.06.033) give Baoshan at ~15°N in the Late Triassic (search snippet only)."
+ },
+ {
+  "id": "pmag-lancangjiang-triassic-volcanics",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินภูเขาไฟไทรแอสซิกบนรอยตะเข็บพาลีโอเทธิส",
+  "title_en": "Triassic suture volcanics date Paleo-Tethys closure",
+  "finding_th": "หินภูเขาไฟที่ปะทุขณะการชนกัน (syn-collisional) ในแนวภูเขาไฟหลานชางเจียงตอนใต้ ยูนนาน 21 จุด ผ่านการทดสอบการคดโค้ง การกลับขั้ว (reversal test) และหินกรวดมน จึงเป็นแม่เหล็กปฐมภูมิ ให้ละติจูดบรรพกาล 26.0 ± 4.8°N แสดงว่ามหาสมุทรพาลีโอเทธิสสาขาเหนือปิดตัวไม่ช้ากว่ายุคคาร์เนียน (ไทรแอสซิกตอนปลาย)",
+  "finding_en": "Syn-collisional volcanics from 21 sites in the southern Lancangjiang belt (western Yunnan) pass fold, reversal and conglomerate tests and give a paleolatitude of 26.0 ± 4.8°N, showing the northern Paleo-Tethys branch had closed by the Carnian (Late Triassic).",
+  "value": "pole 46.1°N/176.2°E (A95 = 4.8°); paleolatitude 26.0 ± 4.8°N",
+  "paleolat": {
+   "deg": 26.0,
+   "err": 4.8
+  },
+  "site": {
+   "name_th": "แนวภูเขาไฟหลานชางเจียงตอนใต้ ยูนนาน (จุดอ้างอิง)",
+   "name_en": "Southern Lancangjiang volcanic belt, Yunnan (reference site)",
+   "lat": 23.0,
+   "lon": 100.4
+  },
+  "citation": {
+   "text": "Yan, Zhao, Zhang, Huang, Zheng & Zhang 2019, Direct paleomagnetic constraint on the closure of Paleo-Tethys and its implications for linking the Tibetan and Southeast Asian blocks, Geophysical Research Letters 46:14368-14376",
+   "url": "https://doi.org/10.1029/2019GL085473"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; abstract read in full from Crossref: 'The new paleomagnetic pole (46.1°N/176.2°E, K=44.9, A95=4.8°, N=21) yields a paleolatitude of 26.0 ± 4.8°N at the reference site (23.0°N/100.4°E) in the southern Lancangjiang area ... indicates that the north branch of the Paleo-Tethys Ocean closed no later than the Carnian Age of Late Triassic, and confirms a geographic linkage between the North Qiangtang and Indochina Blocks.' Caveat: these volcanics sit on the Indochina side of the Changning-Menglian/Paleo-Tethys suture zone (paper links them to Indochina/North Qiangtang), so this constrains the suture/Indochina margin, not Sibumasu itself. Site coordinates are the paper's reference site. | Model check 2026-10-02: TorsvikCocks2017 puts this site at 11.99°S at 242.1 Ma vs measured 26.0 ± 4.8°N — a 38° mismatch. Possibly the model assigns the site to a different plate (Lancangjiang belt lies near the Sibumasu–Indochina suture) or the Triassic reconstruction differs; instructor to decide whether to keep the comparison.",
+  "model_paleolat": {
+   "deg": -11.99,
+   "age_ma": 242.1,
+   "model": "TorsvikCocks2017"
+  }
+ },
+ {
+  "id": "pmag-ratchaburi-umphang-jurassic",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินทรายแดงจูแรสซิก ราชบุรี: ไซบูมาสุหมุนทวนเข็ม",
+  "title_en": "Ratchaburi Jurassic red beds: Sibumasu counter-clockwise rotation",
+  "finding_th": "เก็บตัวอย่างหินทรายสีแดงกลุ่มหินอุ้มผาง (Umphang Group) ยุคจูแรสซิกตอนต้น–กลาง 21 จุดในพื้นที่ราชบุรี ใกล้กาญจนบุรี การล้างแม่เหล็กด้วยความร้อน (thermal demagnetization) ถึง 680 °C แยกแม่เหล็กก่อนการคดโค้งได้ ผลชี้ว่าไซบูมาสุหมุนทวนเข็มนาฬิกา (counter-clockwise) ราว 15° อันเป็นผลจากการดันขึ้นเหนือของแผ่นออสเตรเลีย และค่ามุมบ่ายเบน (declination) ต่างกันมากระหว่างพื้นที่ (348.5°–44.7°)",
+  "finding_en": "Lower–Middle Jurassic red sandstones of the Umphang Group at 21 sites in the Ratchaburi area, next to Kanchanaburi, yield a pre-folding magnetization (unblocked by 680 °C) indicating about 15° counter-clockwise rotation of Sibumasu, attributed to northward indentation of the Australian Plate; declinations vary widely between localities (348.5°–44.7°).",
+  "value": "counter-clockwise rotation ~15°",
+  "paleolat": null,
+  "site": {
+   "name_th": "พื้นที่ราชบุรี",
+   "name_en": "Ratchaburi area, western Thailand",
+   "lat": 13.6,
+   "lon": 99.6
+  },
+  "citation": {
+   "text": "Fujiwara, Zaman, Surinkum, Chaiwong, Fujihara, Ahn & Otofuji 2014, New insights into regional tectonics of the Indochina Peninsula inferred from Lower-Middle Jurassic paleomagnetic data of the Sibumasu Terrane, Journal of Asian Earth Sciences 94:126-138",
+   "url": "https://doi.org/10.1016/j.jseaes.2014.08.020"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref. Abstract NOT read directly (ScienceDirect 403; abstract elided by publisher in Semantic Scholar/OpenAlex). From search-engine snippets of the abstract: 'Lower to middle Jurassic red sandstones of the Umphang Group in the Sibumasu Terrane were sampled at 21 sites in the Ratchaburi area (13.6°E, 99.6°E)' [sic - first value obviously 13.6°N]; 'Stepwise thermal demagnetization by 680 °C unblocked a pre-folding characteristic remanent magnetization'; 'A counterclockwise rotation of 15° is estimated for the Sibumasu Terrane, as a result of continuous northward indentation of the Australian Plate into South Sundaland Block'; 'variable declinations (between 348.5° and 44.7°)'. No ± error seen. Event linkage is mine: the paper attributes rotation to Australian-plate indentation (Cenozoic), which overlaps the time of strike-slip reversal; the paper does not (in the snippet) discuss the Three Pagodas Fault. Closest paleomag study to Kanchanaburi found - high priority to check full text."
+ },
+ {
+  "id": "pmag-kalaw-redbeds-rotation",
+  "event_ids": [
+   "india-asia-collision",
+   "india-asia-faults"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินตะกอนแดงกะลอ รัฐฉาน: หมุนตามเข็ม 25–30°",
+  "title_en": "Kalaw red beds: 25–30° clockwise rotation",
+  "finding_th": "หินตะกอนสีแดงกะลอ (Kalaw redbeds) ยุคจูแรสซิก–ครีเทเชียสบนที่ราบสูงฉาน เมียนมา บันทึกแม่เหล็กก่อนการคดโค้งอายุครีเทเชียสตอนปลาย–พาลีโอจีนตอนต้น ที่หมุนตามเข็มนาฬิกา (clockwise) ราว 25–30° เทียบกับแผ่นจีนใต้ และหินปูนพาลีโอโซอิกในคาบสมุทรไทยและลังกาวีก็หมุนในลักษณะเดียวกัน การหมุนนี้น่าเกิดระหว่างครีเทเชียสตอนปลายถึงโอลิโกซีนตอนปลาย",
+  "finding_en": "Jurassic–Cretaceous Kalaw red beds of the Shan Plateau carry a pre-folding Late Cretaceous–Early Palaeogene magnetization showing ~25–30° clockwise rotation relative to South China; remagnetized Palaeozoic carbonates in Peninsular Thailand and Langkawi rotated similarly, most likely between the Late Cretaceous and Late Oligocene.",
+  "value": "clockwise rotation c. 25–30° relative to South China (10–15° relative to Khorat Lower Cretaceous VGP)",
+  "paleolat": null,
+  "site": {
+   "name_th": "กะลอ รัฐฉาน เมียนมา (ตำแหน่งเมืองโดยประมาณ)",
+   "name_en": "Kalaw, Shan State, Myanmar (approximate town location)",
+   "lat": 20.63,
+   "lon": 96.56
+  },
+  "citation": {
+   "text": "Richter & Fuller 1996, Palaeomagnetism of the Sibumasu and Indochina blocks: implications for the extrusion tectonic model, Geological Society London Special Publications 106:203-224",
+   "url": "https://doi.org/10.1144/GSL.SP.1996.106.01.13"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (note: DOI ends .13, not .14). Abstract read in full from Crossref: 'The Jurassic-Cretaceous Kalaw redbeds of Myanmar yield a prefolding Late Cretaceous to Early Palaeogene magnetization which records c. 25-30° of clockwise (CW) rotation relative to the South China block. This corresponds to 10-15° CW relative to the Lower Cretaceous Khorat Plateau VGP ... Similar CW rotations are measured in remagnetized Palaeozoic carbonates in Peninsular Thailand and Langkawi Island, Malaysia. These block motions most likely took place between the Late Cretaceous and the Late Oligocene ... deformation of the Sibumasu block is dominated by the oblique subduction of the Indian Ocean Plate while deformation of the Indochina block is dominated by extrusion.' Site coordinates = Kalaw town (approximate, my location, not from paper). The authors attribute Sibumasu deformation mainly to oblique Indian Ocean subduction, not directly to India indentation - word the event link carefully."
+ },
+ {
+  "id": "pmag-thai-basins-local-rotations",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "แอ่งเทอร์เชียรีไทย: การหมุนเฉพาะที่ในแนวรอยเลื่อน",
+  "title_en": "Thai Tertiary basins: local fault-zone rotations",
+  "finding_th": "ข้อมูลแม่เหล็กบรรพกาลจากแอ่งระหว่างภูเขา (intermontane basins) ยุคเทอร์เชียรีที่กระบี่ เพชรบุรี และแม่เมาะ แสดงการหมุนทั้งตามและทวนเข็มนาฬิกา ผู้วิจัยตีความว่าการหมุนถูกควบคุมโดยการเคลื่อนตัวเฉพาะที่ในแนวรอยเลื่อน ทิศและขนาดของการเลื่อนตามรอยเลื่อนกำหนดทิศและขนาดของการหมุน",
+  "finding_en": "Paleomagnetic data from the Krabi, Phetchaburi and Mae Moh Tertiary intermontane basins show rotations of both senses, interpreted as local rotations in discrete fault zones whose slip sense and amount control the rotation.",
+  "value": "rotations of both senses (CW and CCW) in Tertiary basins; Kalaw redbeds ~40° CW",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Richter, Fuller, Schmidtke, Tin Myint, Mya Win & Bunopas 1993, Paleomagnetic results from Thailand and Myanmar: implications for the interpretation of tectonic rotations in Southeast Asia, Journal of Southeast Asian Earth Sciences 8:247-255",
+   "url": "https://doi.org/10.1016/0743-9547(93)90026-L"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (authors Richter, Fuller, Schmidtke, Tin Myint, Mya Win, Bunopas; J SE Asian Earth Sci 8, 247-255, 1993). Abstract NOT read directly (ScienceDirect 403); from search-engine snippet of abstract: 'data collected from the Mesozoic Kalaw redbeds of the Shan Hills in Myanmar show 40° of clockwise rotation ... Paleomagnetic data collected from the Krabi, Phetchaburi, and Mae Moh intermontane basins of Thailand display rotations of both senses, interpreted to indicate that observed Tertiary deflections in these basins are controlled primarily by local rotations in discrete fault zones, with the sense and amount of motion along faults controlling the sense and amount of rotation.' No per-basin numbers seen. Linking to the Three Pagodas/Mae Ping slip reversal is my interpretive bridge (rotation controlled by fault slip sense), not stated in snippet. Note 40° CW here vs 25-30° in Richter & Fuller 1996 (refined)."
+ },
+ {
+  "id": "pmag-thailand-remagnetization",
+  "event_ids": [
+   "india-asia-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "การเกิดแม่เหล็กซ้ำทั่วประเทศไทยยุคซีโนโซอิก",
+  "title_en": "Widespread Cenozoic remagnetization in Thailand",
+  "finding_th": "ศึกษา 13 จุดบนที่ราบสูงโคราช อายุตั้งแต่ดีโวเนียนถึงจูแรสซิก ร่วมกับทบทวนข้อมูลเดิม พบว่าหินส่วนใหญ่ของแผ่นอินโดไชนาถูกทำให้เกิดแม่เหล็กซ้ำ (remagnetization) ทั้งหมดหลังไทรแอสซิก น่าจะในช่วงการชนของอินเดียกับยูเรเซีย และทิศแม่เหล็กนี้บ่งว่าประเทศไทยหมุนตามเข็มนาฬิการาว 20° หลังจากนั้น — บทเรียนสำคัญว่าหินเก่าไม่จำเป็นต้องเก็บแม่เหล็กเดิม",
+  "finding_en": "Thirteen Devonian–Jurassic sites on the Khorat Plateau, plus reappraised published data, show that most of the Indochina block was completely remagnetized after the Triassic, most likely during the India–Eurasia collision, and has since rotated about 20° clockwise — a warning that old rocks do not always keep their original magnetization.",
+  "value": "~20° clockwise rotation since remagnetization",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Chen & Courtillot 1989, Widespread Cenozoic (?) remagnetization in Thailand and its implications for the India-Asia collision, Earth and Planetary Science Letters 93:113-122",
+   "url": "https://doi.org/10.1016/0012-821X(89)90189-1"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Crossref lists authors as 'Yan, Courtillot' - first author is Chen Yan; cite as Chen & Courtillot). Abstract NOT read directly (ScienceDirect 403); from search-engine snippet: 'a paleomagnetic study of 13 sites from the Khorat plateau in Thailand spanning ages from the Devonian to the Jurassic, and reappraisal of published results from the Triassic to the Cretaceous, show that most of the Indochina block suffered complete remagnetization after the Triassic and possibly after the Cretaceous, most likely at the time of the collision of India and Eurasia. The paleodirection associated with this remagnetization is consistent with the contention that Thailand was a part of Eurasia at that time and that it has suffered some 20° of clockwise rotation subsequently.' This is Indochina (Khorat), not Sibumasu; included because the task allows Indochina where it bears on collision and because it teaches the remagnetization pitfall."
+ },
+ {
+  "id": "pmag-indochina-shanthai-cw10",
+  "event_ids": [
+   "india-asia-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ชาน-ไทยและอินโดไชนาหมุนตามเข็ม ~10° พร้อมกัน",
+  "title_en": "Shan-Thai and Indochina rotated ~10° together",
+  "finding_th": "หินทรายแดงจูแรสซิกตอนต้น–ครีเทเชียสตอนต้นจากสามพื้นที่ในลาว (ชาน-ไทยและอินโดไชนา) ให้แม่เหล็กลักษณะเฉพาะที่ถูกปลดปล่อยถึง 680 °C เมื่อรวมกับฐานข้อมูลเดิม ชี้ว่าทั้งสองแผ่นหมุนตามเข็มนาฬิการาว 10° เป็นหน่วยเดียวในระยะแรกของการชนอินเดีย–เอเชีย จากนั้นชาน-ไทยเกิดการเปลี่ยนรูปภายใน ขณะที่อินโดไชนาแข็งแกร่งกว่า",
+  "finding_en": "Early Jurassic–Early Cretaceous red sandstones from three Lao localities (Shan-Thai and Indochina), combined with a regional database, show both blocks rotated ~10° clockwise as one unit early in the India–Asia collision; afterwards Shan-Thai deformed internally while Indochina stayed rigid.",
+  "value": "clockwise rotation about 10° (composite Shan-Thai + Indochina)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Takemoto et al. 2009, Tectonic deformation of the Indochina Peninsula recorded in the Mesozoic palaeomagnetic results, Geophysical Journal International 179:97-111",
+   "url": "https://doi.org/10.1111/j.1365-246X.2009.04274.x"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Takemoto, Sato, Chanthavichith, Inthavong, Inokuchi, Fujihara, Zaman, Yang, Yokoyama, Iwamoto, Otofuji). Summary (abstract) read in full via OpenAlex: localities Phong Saly (21.6°N, 101.9°E), Borikhanxay (18.5°N, 103.8°E), Muang Phin (16.5°N, 106.1°E); '(1) the Shan-Thai and Indochina blocks experienced a clockwise rotation of about 10° as a composite unit in the early stage of India-Asia collision and (2) following this, the Shan-Thai Block underwent an internal tectonic deformation, whereas the Indochina Block behaved as a rigid tectonic unit'. Site left null because there are three localities, all in Laos (none in western Thailand). Phong Saly is the Shan-Thai locality."
+ },
+ {
+  "id": "pmag-trang-redbeds-two-rotations",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "หินแดงตรัง: หมุนตามเข็มแล้วกลับหมุนทวนเข็ม",
+  "title_en": "Trang red beds: clockwise, then counter-clockwise",
+  "finding_th": "หินทรายแดงหมวดหินคลองมีนและลำมีน (จูแรสซิก–ครีเทเชียส) 33 จุดในซิงไคลน์ตรัง (Trang Syncline) มีแร่ฮีมาไทต์ (hematite) เป็นตัวพาแม่เหล็ก บันทึกการหมุนสองทิศ คือหมุนตามเข็มนาฬิกาหลังจูแรสซิก แล้วหมุนทวนเข็มนาฬิกาได้ถึง 24.5 ± 11.5° ระหว่างครีเทเชียสตอนปลายถึงไมโอซีนกลาง สัมพันธ์กับการชนของแผ่นออสเตรเลีย",
+  "finding_en": "Jurassic–Cretaceous red sandstones (Khlong Min and Lam Min formations) at 33 sites in the Trang Syncline, with hematite as remanence carrier, record clockwise rotation after the Jurassic followed by up to 24.5 ± 11.5° counter-clockwise rotation between the Late Cretaceous and Middle Miocene, linked to Australian Plate collision.",
+  "value": "counter-clockwise rotation up to 24.5 ± 11.5° (Late Cretaceous–Middle Miocene), after earlier clockwise rotation",
+  "paleolat": null,
+  "site": {
+   "name_th": "ซิงไคลน์ตรัง จังหวัดตรัง (ตำแหน่งโดยประมาณ)",
+   "name_en": "Trang Syncline, Trang Province (approximate)",
+   "lat": 7.56,
+   "lon": 99.61
+  },
+  "citation": {
+   "text": "Yamashita, Surinkum, Wada, Fujihara, Yokoyama, Zaman & Otofuji 2011, Paleomagnetism of the Middle-Late Jurassic to Cretaceous red beds from the Peninsular Thailand: implications for collision tectonics, Journal of Asian Earth Sciences 40:784-796",
+   "url": "https://doi.org/10.1016/j.jseaes.2010.11.001"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (JAES 40, 784-796, 2011). Abstract NOT read directly (ScienceDirect 403; abstract elided in Semantic Scholar/OpenAlex); from search-engine snippet: 'red sandstones sampled from 33 sites in the Khlong Min and Lam Min formations of the Trang Syncline ... hematite as the primary carrier ... two opposite tectonic rotations in the Trang area: clockwise rotation after the Jurassic, and then up to 24.5° ± 11.5° counter-clockwise rotation between the Late Cretaceous and Middle Miocene as part of the Sundaland Block's response to Australian Plate collision.' Magnitude of the earlier clockwise rotation not seen. Site coordinates = Trang town (approximate, mine). Peninsular Thailand, ~800 km south of Kanchanaburi - use as regional analogue."
+ },
+ {
+  "id": "pmag-baoshan-80-cw",
+  "event_ids": [
+   "india-asia-faults"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ไซบูมาสุตอนเหนือหมุนตามเข็ม ~80° ตั้งแต่พาลีโอซีน",
+  "title_en": "Northern Sibumasu rotated ~80° clockwise since Paleocene",
+  "finding_th": "หินยุคจูแรสซิกกลางและพาลีโอซีนในพื้นที่เป่าซาน (ไซบูมาสุตอนเหนือ) ผ่านการทดสอบการกลับขั้ว และฮีมาไทต์มีกำเนิดจากเศษตะกอน (detrital) จึงน่าเป็นแม่เหล็กปฐมภูมิ แสดงการหมุนตามเข็มนาฬิการาว 80° ตั้งแต่พาลีโอซีน เกิดจากการไหลของเปลือกโลกทิเบตไปรอบปลายด้านตะวันออกของหิมาลัยหลังอินเดียชนเอเชีย",
+  "finding_en": "Middle Jurassic and Paleocene red beds from Baoshan (northern Sibumasu) pass a reversal test and carry detrital hematite, so are likely primary; they show ~80° clockwise rotation since the Paleocene as Tibetan crust flowed around the eastern Himalayan syntaxis after India–Asia collision.",
+  "value": "~80° clockwise rotation since Paleocene (regional ~60–80°)",
+  "paleolat": null,
+  "site": {
+   "name_th": "เป่าซาน มณฑลยูนนาน จีน (ตำแหน่งโดยประมาณ)",
+   "name_en": "Baoshan area, Yunnan, China (approximate)",
+   "lat": 25.1,
+   "lon": 99.2
+  },
+  "citation": {
+   "text": "Li, van Hinsbergen, Deng, Advokaat & Zhu 2018, Paleomagnetic constraints from the Baoshan area on the deformation of the Qiangtang-Sibumasu Terrane around the Eastern Himalayan Syntaxis, Journal of Geophysical Research: Solid Earth 123:977-997",
+   "url": "https://doi.org/10.1002/2017JB015112"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; abstract read in full from Crossref: '...the magnetizations obtained from the Jurassic and Paleocene rocks are most likely primary, showing an ~80° clockwise rotation since Paleocene. These results, together with previously published paleomagnetic data, suggest that the northern Sibumasu and northern Simao elements experienced a ~60-80° clockwise rotation since Paleocene ... a sum of rotation in the Eocene to Middle Miocene time associated with Indochina extrusion and rotation after the Middle Miocene associated with the E-W extension in central Tibet ... the Qiangtang/northern Sibumasu was originally a curved structure with an orientation of N60°W in Tibet and changes to N10°W in southern Sibumasu.' Fold test inconclusive on their own data (stated in abstract). Coordinates = Baoshan city, approximate (mine). Shows that rotations are far larger near the syntaxis than in western Thailand (contrast with ~15° CCW at Ratchaburi)."
+ },
+ {
+  "id": "geo-rf-moho-shan-thai-khorat",
+  "event_ids": [
+   "indosinian-collision",
+   "sibumasu-rifting"
+  ],
+  "method": "seismic",
+  "title_th": "ฟังก์ชันตัวรับบอกความหนาเปลือกโลกไทย",
+  "title_en": "Receiver functions map Thailand's crustal thickness",
+  "finding_th": "การวิเคราะห์ฟังก์ชันตัวรับคลื่นไหวสะเทือนระยะไกล (teleseismic receiver function) จากสถานีตรวจวัด 33 สถานีทั่วประเทศพบว่าเปลือกโลกหนาราว 31 กม. ใต้แผ่นฉาน-ไทย (Shan-Thai/Sibumasu) ทางตะวันตก และหนาขึ้นเป็นราว 38 กม. ใต้ที่ราบสูงโคราชบนแผ่นอินโดไชนา (Indochina) ความต่างนี้รวมถึงอัตราส่วน Vp/Vs ที่เปลี่ยนไป ชี้ว่าเปลือกโลกสองฝั่งรอยตะเข็บเป็นคนละแผ่นที่มาชนกัน",
+  "finding_en": "Teleseismic receiver functions at 33 stations across Thailand show crust about 31 km thick beneath the Shan-Thai (Sibumasu) terrane in the west, thickening to about 38 km beneath the Khorat Plateau on Indochina. Together with changing Vp/Vs ratios, this marks two distinct crustal blocks either side of the Indosinian suture.",
+  "value": "Moho ~31 km (Shan-Thai) to ~38 km (Khorat Plateau)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Noisagool S., Boonchaisuk S., Pornsopin P., Siripunvaraporn W. 2014, Thailand's crustal properties from tele-seismic receiver function studies, Tectonophysics 632:64-75",
+   "url": "https://doi.org/10.1016/j.tecto.2014.06.014"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (title, 4 authors, Tectonophysics 632, 64-75, Sept 2014). Abstract NOT read directly (ScienceDirect/ResearchGate returned 403; Crossref/OpenAlex/Semantic Scholar have no abstract). Numbers come from web-search snippets of the abstract: 'thirty-three seismic stations throughout Thailand' and 'crustal thickness increases from around 31 km in the Shan-Thai terrane (STT) in the west to around 38 km in the Khorat Plateau (KP-ICT) located in the Indochina terrane'. Consistent with Nornin et al. 2019 (30.8 to 38 km). Linking to sibumasu-rifting is my interpretation (thin Sibumasu crust), the paper does not say this; drop that id if unwanted. Note: S. Boonchaisuk (co-author) is likely the instructor."
+ },
+ {
+  "id": "geo-mt-dual-subduction-kanchanaburi",
+  "event_ids": [
+   "indosinian-collision",
+   "india-asia-collision"
+  ],
+  "method": "electrical",
+  "title_th": "แมกนีโตเทลลูริกเผยร่องรอยมุดตัวใต้กาญจนบุรี",
+  "title_en": "Magnetotellurics reveal dual subduction beneath Kanchanaburi",
+  "finding_th": "การสำรวจแมกนีโตเทลลูริก (magnetotelluric, MT) 39 สถานี ระยะห่างราว 15 กม. ครอบคลุมจังหวัดกาญจนบุรี พบว่าเปลือกโลกตอนกลางถึงตอนล่างนำไฟฟ้าได้ดี ตีความว่าเป็นหินแกรนูไลต์มาฟิก (mafic granulite) ที่กักของไหลซึ่งหลุดออกจากแผ่นที่มุดตัว สนับสนุนแบบจำลองการมุดตัวสองทิศ คือมุดไปทางตะวันตกในยุคไทรแอสซิกและมุดไปทางตะวันออกในยุคเทอร์เชียรี",
+  "finding_en": "A 39-station magnetotelluric (MT) survey at ~15 km spacing across Kanchanaburi found a conductive middle and lower crust, interpreted as mafic granulite holding fluid released during past subduction. This supports dual subduction beneath Shan-Thai: westward in the Triassic and eastward in the Tertiary.",
+  "value": "39 MT sites, ~15 km spacing; conductive mid-lower crust (~3% porosity)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Boonchaisuk S., Siripunvaraporn W., Ogawa Y. 2013, Evidence for middle Triassic to Miocene dual subduction zones beneath the Shan-Thai terrane, western Thailand from magnetotelluric data, Gondwana Research 23:1607-1616",
+   "url": "https://doi.org/10.1016/j.gr.2012.08.009"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Gondwana Research 23, 1607-1616, May 2013). Abstract not fetched (ScienceDirect/Academia 403); details are from web-search snippets: '39 MT stations with a spacing of around 15 km to cover most of Kanchanaburi province ... December 2009 to early 2010'; 'mid and lower crusts are conductive ... mafic granulites of 3% porosity in which the remnant dehydrated fluid was accumulated during the subduction'; 'late Triassic westward subduction ... Lampang-Chiang Rai block subducted beneath the Shan-Thai terrane ... early Tertiary, the western Burma terrane subducted underneath the Shan-Thai in the west'. METHOD FIELD: MT is an electromagnetic method and fits none of the five allowed values; I used 'seismic' (the stated fallback for electrical methods). Change it if the schema gets an 'electrical/EM' option. Instructor is first author, so check the numbers against the paper."
+ },
+ {
+  "id": "geo-gravity-crust-density-profiles",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "gravity",
+  "title_th": "แบบจำลองความโน้มถ่วงข้ามแผ่นธรณีของไทย",
+  "title_en": "Gravity models across Thailand's terranes",
+  "finding_th": "แบบจำลองความหนาแน่นสองมิติ (2-D density model) ที่ปรับให้เข้ากับค่าผิดปกติบูเกอร์ (Bouguer anomaly) ตามแนวละติจูด 14°, 16° และ 17° เหนือ โดยใช้ความลึกโมโฮจากฟังก์ชันตัวรับเป็นค่าตั้งต้น พบว่าความหนาแน่นของเปลือกโลกตอนบนเพิ่มจาก 2.60 เป็น 2.64 g/cm³ จากแผ่นซิบูมาสุไปแผ่นอินโดไชนา และมีแถบความหนาแน่นต่ำ (2.55 g/cm³) ของแนวภูเขาไฟสุโขทัยและเขตอินทนนท์คั่นกลาง",
+  "finding_en": "2-D density models fitted to Bouguer gravity along 14°, 16° and 17°N, starting from receiver-function Moho depths, show upper-crust density rising from 2.60 to 2.64 g/cm³ from Sibumasu to Indochina. A low-density (2.55 g/cm³) Sukhothai arc and Inthanon Zone lies between them.",
+  "value": "Moho 30.8 km (Sibumasu) to 38 km (Khorat); upper crust 2.60→2.64 g/cm³",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Nornin N., Noisagool S., Siripunvaraporn W., Amatyakul P. 2019, Crustal density structure across Thailand delineated from 2D density modelling using gravity data and receiver function, Journal of Physics: Conference Series 1380:012158",
+   "url": "https://doi.org/10.1088/1742-6596/1380/1/012158"
+  },
+  "source_type": "conference",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref, which also gave the full abstract (read). Quoted: 'The density of the upper crust increases from 2.60 to 2.64 g/cm3 from west to east, from Sibumasu to Khorat Plateau - Indochina terrane. Between these two main terranes, the obtained model reveals the back-arc island, Sukhothai arc and Inthanon Zone, with a density of 2.55 g/cm3' and 'derived mantle boundary from RF, ranging from 30.8 km of Sibumasu in the western to 38 km in the Khorat Plateau'. Bouguer data from the Royal Thai Survey Department. Conference proceedings (J. Phys. Conf. Ser.), not a full journal paper; the authors themselves say more gravity data are needed."
+ },
+ {
+  "id": "geo-aeromag-three-pagodas-path",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "magnetic",
+  "title_th": "แผนที่แม่เหล็กทางอากาศติดตามรอยเลื่อนเจดีย์สามองค์",
+  "title_en": "Airborne magnetics trace the Three Pagodas Fault",
+  "finding_th": "ข้อมูลแม่เหล็กทางอากาศ (aeromagnetic survey) ของกรมทรัพยากรธรณี บินช่วง พ.ศ. 2527–2532 ด้วยระยะห่างแนวบิน 1 กม. ติดตามแนวเขตรอยเลื่อนเจดีย์สามองค์ (Three Pagodas Fault Zone) ใต้ตะกอนที่ราบภาคกลาง จากราว 98°30'E, 15°00'N ผ่านกาญจนบุรีไปถึงสมุทรสาคร ผู้วิจัยตีความว่ารอยเลื่อนแนว NW–SE เคยเลื่อนแบบซ้ายเข้า (sinistral) แล้วกลับเป็นขวาเข้า (dextral) จนเกิดแอ่งเทอร์เชียรี",
+  "finding_en": "DMR aeromagnetic data, flown in 1984–1989 at 1 km line spacing, trace the Three Pagodas Fault Zone beneath Central Plain sediments from about 98°30'E, 15°00'N past Kanchanaburi to Samut Sakhon. The authors read the NW–SE faults as having reversed from sinistral to dextral slip, which opened the Tertiary basins.",
+  "value": "aeromagnetic flight-line spacing 1 km (DMR, 1984–1989)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Tulyatid J., Fairhead J.D. 1999, Tectonic development of Central Thailand: new evidences from airborne geophysical data, Bulletin of the Geological Society of Malaysia 43:63-76",
+   "url": "https://doi.org/10.7186/bgsm43199907"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref; abstract via OpenAlex; FULL TEXT read (PDF from gsmpubl.wordpress.com/wp-content/uploads/2014/09/bgsm1999007.pdf). Quotes: 'airborne magnetic and radiometric surveys covering nearly the entire country during 1984 and 1989 ... flown by Kenting Earth Sciences International Limited ... flight-line spacings are: 1 km for the aeromagnetic surveys'; 'The magnetic data clearly demonstrate that the TPFZ runs from approximately 98 D30'E and 15 D00'N passes Changwat Kanchanaburi, Pathum Thani, Samut Sakhon and continues to the Eastern Coastal part ... may indicate that the Three-Pagoda fault plane dips to the NNE'. Abstract: 'reversed movement from sinistral to dextral of the major NW-SE-trending strike-slip fault zones during Late Oligocene-Early Miocene'. Caveat: the reversal is an interpretation from basin geometry and the literature (Lacassin et al. 1997), not something the magnetic data measure directly. The paper also gives K/Ar 3.14 ± 0.17 Ma for Bo Phloi basalt (citing Barr & Macdonald 1981), but that is not geophysics."
+ },
+ {
+  "id": "geo-1983-source-model-chung-liu",
+  "event_ids": [
+   "kanchanaburi-1983-quake"
+  ],
+  "method": "seismicity",
+  "title_th": "แบบจำลองต้นกำเนิดแผ่นดินไหวศรีนครินทร์ 2526",
+  "title_en": "Source model of the 1983 Srinagarind earthquakes",
+  "finding_th": "การจำลองรูปคลื่นแผ่นดินไหว (waveform source modelling) ของแผ่นดินไหวหลักวันที่ 22 เมษายน 2526 (mb 5.8, Ms 5.9) ที่อ่างเก็บน้ำเขื่อนศรีนครินทร์ ได้โมเมนต์แผ่นดินไหว (seismic moment) 3.86×10²⁴ dyne-cm และความเค้นลดลง (stress drop) 180 bar กลไกเป็นแบบรอยเลื่อนย้อน (thrust) ซึ่งสัมพันธ์กับช่วงที่ระดับน้ำในอ่างลดลง (reservoir unloading)",
+  "finding_en": "Waveform source modelling of the 22 April 1983 mainshock (mb 5.8, Ms 5.9) at the Srinagarind reservoir gives a seismic moment of 3.86×10²⁴ dyne-cm and a stress drop of 180 bar. The thrust events coincide with unloading (drawdown) of the reservoir.",
+  "value": "mb 5.8, Ms 5.9; M0 3.86×10^24 dyne-cm; stress drop 180 bar",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Chung W.-Y., Liu C. 1992, The reservoir-associated earthquakes of April 1983 in western Thailand: source modeling and implications for induced seismicity, Pure and Applied Geophysics 138:17-41",
+   "url": "https://doi.org/10.1007/BF00876712"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (PAGEOPH 138(1), 17-41, March 1992). Abstract not fetched directly (Springer redirected to login; ADS behind a bot check). Values are from the ADS abstract as quoted in web-search results: 'mb=5.8, Ms=5.9'; 'epicenter was located at the Srinagarind reservoir about 190 km northwest of Bangkok'; 'seismic moment and the stress drop of the mainshock are determined to be 3.86x10^24 dyne-cm and 180 bars'; 'occurrence of these thrust events appears to correlate with the unloading of the Srinagarind reservoir'. Check the exact wording of 'unloading' in the PDF. 3.86e24 dyne-cm is 3.86e17 N·m, about Mw 5.7, which matches USGS."
+ },
+ {
+  "id": "geo-1983-usgs-catalogue",
+  "event_ids": [
+   "kanchanaburi-1983-quake"
+  ],
+  "method": "seismicity",
+  "title_th": "แคตตาล็อก USGS: แผ่นดินไหวกาญจนบุรี 2526",
+  "title_en": "USGS catalogue entry, 1983 Kanchanaburi earthquake",
+  "finding_th": "แคตตาล็อกแผ่นดินไหวของ USGS (ComCat) บันทึกเหตุการณ์วันที่ 22 เมษายน 2526 เวลา 00:37 UTC ขนาด Mw 5.7 ศูนย์กลางที่ 14.926°N, 99.023°E ราว 66 กม. ทางตะวันออกเฉียงใต้ของสังขละบุรี และมีผลคำนวณกลไกการเกิด (focal mechanism) ให้นักศึกษาดาวน์โหลดไปวิเคราะห์ต่อได้",
+  "finding_en": "The USGS ComCat catalogue lists the 22 April 1983, 00:37 UTC event as Mw 5.7 at 14.926°N, 99.023°E, about 66 km ESE of Sangkhla Buri. It includes a focal-mechanism product that students can download and plot.",
+  "value": "Mw 5.7",
+  "paleolat": null,
+  "site": {
+   "name_th": "ศูนย์กลางแผ่นดินไหว 2526 (USGS) ตอนบนอ่างเก็บน้ำศรีนครินทร์",
+   "name_en": "1983 epicentre (USGS), upper Srinagarind reservoir",
+   "lat": 14.926,
+   "lon": 99.023
+  },
+  "citation": {
+   "text": "U.S. Geological Survey 1983 (catalogue), M 5.7 - 66 km ESE of Sangkhla Buri, Thailand, event usp0001und, ANSS ComCat",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0001und"
+  },
+  "source_type": "government-report",
+  "verified": false,
+  "_notes": "Queried the USGS FDSN event web service (eventid=usp0001und, geojson): title 'M 5.7 - 66 km ESE of Sangkhla Buri, Thailand', mag 5.7, magType 'mw', time 1983-04-22 00:37:37 UTC, coordinates 99.023E 14.926N, depth 10 km (probably a fixed depth, so do not teach it as a measured value). Products listed: focal-mechanism, shakemap, phase-data. The same query also returned an mb 5.2 event usp0001unk (14.931N, 99.076E, 33 km) in the 21-23 April 1983 window, probably the foreshock. I did not fetch the focal-mechanism nodal planes. The epicentre is a catalogue location with probably several km of uncertainty."
+ },
+ {
+  "id": "geo-srinagarind-microseismic-network",
+  "event_ids": [
+   "kanchanaburi-1983-quake"
+  ],
+  "method": "seismicity",
+  "title_th": "เครือข่ายวัดแผ่นดินไหวขนาดเล็กเขื่อนศรีนครินทร์",
+  "title_en": "Microseismic monitoring at Srinagarind Dam",
+  "finding_th": "หลังเหตุการณ์ปี 2526 การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย (กฟผ.) ติดตั้งเครื่องวัดแผ่นดินไหวขนาดเล็ก (microseismic network) รอบอ่างเก็บน้ำศรีนครินทร์ เพื่อหาตำแหน่งและกลไกให้ละเอียดขึ้น จากข้อมูลเจ็ดปีเทียบกับลักษณะแผ่นดินไหวที่เกิดจากอ่างเก็บน้ำทั่วโลก (reservoir-triggered seismicity) สรุปว่าแผ่นดินไหวชุดนี้มีโอกาสสูงมากที่จะเกิดจากอ่างเก็บน้ำ",
+  "finding_en": "After the 1983 sequence, EGAT installed a microseismic network around the Srinagarind reservoir to locate events more precisely and work out their mechanism. After seven years of data, compared with reservoir-triggered seismicity worldwide, the team concluded that reservoir-induced seismicity was highly probable.",
+  "value": "7 years of microseismic monitoring",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Klaipongpan S., Chakramanont V., Pinrode J., Chittrakarn P. 1991, Geological and seismicity evaluation of Srinagarind Dam, Proc. 2nd Int. Conf. Recent Advances in Geotechnical Earthquake Engineering and Soil Dynamics (St. Louis)",
+   "url": "https://scholarsmine.mst.edu/icrageesd/02icrageesd/session09/8/"
+  },
+  "source_type": "conference",
+  "verified": false,
+  "_notes": "Read the abstract on the Scholars' Mine landing page (no DOI found; I did not check Crossref because the landing page gives none). Quoted: 'In April of 1983, a sequence of earthquakes were recorded by the National Seismic Network where the epicenters were located in the upper reaches of the Srinagarind Reservoir.' The page summary says the team installed microseismic instruments, collected seven years of data, and judged reservoir-induced seismicity 'highly probable'. Authors are EGAT staff (dam owner), so a possible bias should be mentioned. Full text not read: number of stations and event counts are unknown. Session 9, paper 8 per the URL; page numbers not confirmed."
+ },
+ {
+  "id": "geo-hindat-ert-hot-spring",
+  "event_ids": [
+   "hin-dat-hot-spring",
+   "india-asia-faults"
+  ],
+  "method": "electrical",
+  "title_th": "ภาพตัดขวางความต้านทานไฟฟ้าที่บ่อน้ำร้อนหินดาด",
+  "title_en": "Electrical resistivity imaging at Hin Dat hot spring",
+  "finding_th": "การสำรวจภาพความต้านทานไฟฟ้า (electrical resistivity imaging, ERT) ที่บ่อน้ำร้อนหินดาด โดยทีม AIT ร่วมกับมหิดล วิทยาเขตกาญจนบุรี พบชั้นความต้านทานสูง 400–1,800 Ωm (หินอัคนี) ทับอยู่บนเขตความต้านทานต่ำลงไปถึงราว 60 Ωm ซึ่งตีความว่าเป็นแนวรอยแตกที่น้ำร้อนไหลผ่าน ผู้วิจัยระบุว่าบ่อน้ำร้อนส่วนใหญ่ในกาญจนบุรีอยู่ตามแนวรอยเลื่อนเจดีย์สามองค์",
+  "finding_en": "Electrical resistivity imaging (ERT) at Hin Dat hot spring by an AIT and Mahidol Kanchanaburi team shows a 400–1,800 Ωm resistive zone (igneous rock) over a lower-resistivity zone down to about 60 Ωm, read as fractures carrying thermal water. The authors note that most Kanchanaburi hot springs lie along the Three Pagodas Fault.",
+  "value": "400–1800 Ωm over a low zone down to ~60 Ωm (line 2); spring water ~40 °C",
+  "paleolat": null,
+  "site": {
+   "name_th": "บ่อน้ำร้อนหินดาด อ.ทองผาภูมิ",
+   "name_en": "Hin Dat hot spring, Ban Kuymang, Thong Pha Phum",
+   "lat": 14.6254,
+   "lon": 98.7245
+  },
+  "citation": {
+   "text": "Giao P.H., Putthapiban P., Vichalai C. 2007, Geophysical investigation of hot spring sites in Kanchanaburi with reference to local tourism development, GEOTHAI'07 International Conference on Geology of Thailand, Bangkok, p. 104 ff.",
+   "url": "https://library.dmr.go.th/elib/cgi-bin/opacexe.exe?op=mmvw&db=Main&skin=S&mmid=7475&bid=12709"
+  },
+  "source_type": "conference",
+  "verified": false,
+  "_notes": "FULL TEXT read (PDF from the DMR e-library link). Quotes: 'For the survey line 2 at Hindat the EI results are shown in figure 6b, in which one can observe a high resistivity zone in the range of 400 to 1800 Ωm, which is underlain by a zone of low resistivity zone down to 60 Ωm.' Site: 'Hindat hot spring site is located at Ban Kuymang, which has the coordinates of 14°37'31.40\"N and 98°43'28.17\"E' (converted to 14.6254, 98.7245); 'temperature of hot water is about 40°C' (citing DMR 2007). 'Most of the Kanchanaburi hot springs are commonly located along the lines of Three Pagodas Fault.' The paper also reports that on 26 Dec 2004 'the temperature at the Hindat hot spring increased and water became milky' (anecdotal, no data). CAUTIONS: (1) The often-quoted '2 to 6 Ω.m' thermal-reservoir anomaly is from the OTHER site (Wat Wangkanai), not Hin Dat. (2) The PDF text order is jumbled, and the 'down to 5 Ωm ... 500 to 1700 Ωm' sentences may refer to Hin Dat line 1; check against the figures. (3) 'Ban Kuymang' is the paper's spelling, and I gave no Thai village name. The paper does not name the district; 'Thong Pha Phum' is my addition, so check it. (4) Pages printed on the PDF are 104-106 at least; the full page range is unconfirmed. No DOI. METHOD: ERT has no matching category; 'seismic' used per the fallback rule."
+ },
+ {
+  "id": "geo-ert-karst-sinkholes-analogue",
+  "event_ids": [
+   "ratburi-limestone"
+  ],
+  "method": "electrical",
+  "title_th": "ERT หาโพรงหินปูนก่อนเกิดหลุมยุบ",
+  "title_en": "ERT detects limestone cavities before sinkhole collapse",
+  "finding_th": "ภาพตัดขวางความต้านทานไฟฟ้าสองมิติ (2-D electrical resistivity tomography, ERT) ตามแนวหลุมยุบ (sinkhole) ใกล้เหมืองหินปูนในภาคตะวันออกเฉียงเหนือ แสดงโพรงที่ว่างเปล่าและรอยแตกต่อเนื่องซึ่งตรงกับหลุมยุบที่พบบนผิวดิน และชี้ว่าการสูบน้ำออกจากเหมืองที่ทำให้ระดับน้ำบาดาลลดลงเป็นตัวกระตุ้นหลัก ใช้เป็นตัวอย่างวิธีสำรวจโพรงในหินปูนราชบุรีที่กาญจนบุรีได้",
+  "finding_en": "2-D electrical resistivity tomography (ERT) along sinkhole trends near a limestone quarry in northeast Thailand imaged cavities and continuous fractures that match the collapses seen at the surface. Groundwater drawdown from quarry dewatering was the main trigger. The same method could be used to look for cavities in Ratburi limestone at Kanchanaburi.",
+  "value": null,
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Arjwech R., Everett M.E. 2024, Sinkhole formation induced by descending groundwater in a karst aquifer near a limestone quarry, Earth Surface Processes and Landforms 49:5027-5037",
+   "url": "https://doi.org/10.1002/esp.6010"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (ESPL 49, 5027-5037, 2024); abstract read via OpenAlex. Quoted: 'case studies conducted in northeast Thailand, where sinkhole collapses have continuously occurred ... 2D electrical resistivity tomography (ERT) profiles were executed along the trend of such sinkhole collapses ... Groundwater flows through conduits connecting a quarry with a karst cavern network, and dewatering of the quarry reduces the surrounding groundwater level.' ANALOGUE ONLY: this is NOT Kanchanaburi and NOT confirmed Ratburi limestone. The abstract does not name the formation; it may be Permian Saraburi Group or similar. I could not find a peer-reviewed ERT/GPR karst study in Kanchanaburi (searched in English and Thai). The instructor may know local theses (e.g., Mahidol Kanchanaburi or Kasetsart theses) that would be a better fit. A web summary said cavities 'extend to depths of approximately 80 m', but I could not tie that to this paper, so value is left null. METHOD: ERT; 'seismic' used per the fallback rule."
+ },
+ {
+  "id": "geo-gps-sundaland-block",
+  "event_ids": [
+   "india-asia-faults"
+  ],
+  "method": "geodesy",
+  "title_th": "GPS สิบปีชี้ว่าซุนดาแลนด์เคลื่อนเป็นก้อนแข็ง",
+  "title_en": "A decade of GPS: rigid Sundaland block",
+  "finding_th": "ข้อมูล GPS ช่วง พ.ศ. 2537–2547 จากกว่า 100 สถานีในเอเชียตะวันออกเฉียงใต้ รวมถึงประเทศไทย แสดงว่าแผ่นซุนดาแลนด์ (Sundaland) เคลื่อนไปทางตะวันออกเทียบกับยูเรเซียด้วยอัตรา 6±1 ถึง 10±1 มม./ปี และภายในแผ่นแทบไม่เปลี่ยนรูป (น้อยกว่า 7 nanostrain/ปี) จึงอธิบายได้ว่าเหตุใดรอยเลื่อนในกาญจนบุรีจึงเลื่อนช้ามาก แม้จะเกิดจากการชนของอินเดีย",
+  "finding_en": "GPS data from 1994–2004 at more than 100 sites in Southeast Asia, including Thailand, show Sundaland moving east relative to Eurasia at 6 ± 1 to 10 ± 1 mm/yr, with internal deformation below 7 nanostrain/yr. This explains why Kanchanaburi's India-collision faults now slip so slowly.",
+  "value": "Sundaland 6 ± 1 to 10 ± 1 mm/yr east of Eurasia; internal strain < 7 nanostrain/yr",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Simons W.J.F., Socquet A., Vigny C., et al. (incl. Promthong C.) 2007, A decade of GPS in Southeast Asia: resolving Sundaland motion and boundaries, Journal of Geophysical Research: Solid Earth 112(B6):2005JB003868",
+   "url": "https://doi.org/10.1029/2005JB003868"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (JGR Solid Earth 112, issue B6, June 2007; Crossref gives article number '2005JB003868'). The citation uses the Crossref article ID; the printed citation number (B06xxx) was not checked. Abstract read (Crossref). Quoted: '10 years (1994-2004) of GPS data at more than 100 sites in Indonesia, Malaysia, Thailand, Myanmar...'; 'Sundaland moves eastward at a velocity of 6 ± 1 to 10 ± 1 mm/yr from south to north'; 'Sundaland internal deformation is general very small (less than 7 nanostrain/yr)'. The link to slow Kanchanaburi faults is my teaching inference; the paper has no Kanchanaburi-specific slip rate."
+ },
+ {
+  "id": "geo-gps-sagaing-partitioning",
+  "event_ids": [
+   "india-asia-faults",
+   "myanmar-2025-earthquake"
+  ],
+  "method": "geodesy",
+  "title_th": "GPS วัดการเลื่อนของรอยเลื่อนสะกาย",
+  "title_en": "GPS measures Sagaing Fault motion",
+  "finding_th": "การวัด GPS ในเมียนมาปี 2541 และ 2543 รวมเครือข่ายท้องถิ่น 18 สถานีรอบมัณฑะเลย์ พบว่าระบบรอยเลื่อนสะกาย–ชานสคาร์ป (Sagaing/Shan Scarp) รับการเคลื่อนตัวแบบเลื่อนตามแนวระดับได้น้อยกว่า 20 มม./ปี จาก 35 มม./ปีระหว่างอินเดียกับซุนดาแลนด์ ส่วนที่เหลือกระจายไปยังรอยเลื่อนอื่นทางตะวันตก นี่คือรอยเลื่อนที่ปลดปล่อยพลังงานในแผ่นดินไหวปี 2568",
+  "finding_en": "GPS campaigns in Myanmar (1998, 2000), including an 18-station network around Mandalay, show the Sagaing/Shan Scarp system takes less than 20 mm/yr of the 35 mm/yr India–Sundaland strike-slip motion. The rest is spread over structures farther west. This is the fault that ruptured in 2025.",
+  "value": "Sagaing/Shan Scarp < 20 mm/yr of 35 mm/yr India–Sundaland motion",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Vigny C., Socquet A., Rangin C., et al. 2003, Present-day crustal deformation around Sagaing fault, Myanmar, Journal of Geophysical Research: Solid Earth 108(B11):2002JB001999",
+   "url": "https://doi.org/10.1029/2002JB001999"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (JGR 108, B11, Nov 2003). The citation uses the Crossref article ID; the printed citation number was not checked. Abstract read (Crossref/OpenAlex). Quoted: 'GPS measurement campaigns in Myanmar, conducted in 1998 and 2000 ... a local 18-station network centered on the city of Mandalay across the Sagaing fault'; 'the Sagaing/Shan Scarp fault system absorbs <20 mm/yr of the 35 mm/yr India/Sundaland strike-slip motion'. Many later papers give ~18 mm/yr for the Sagaing fault itself; this abstract says only '<20'. A newer GNSS slip rate for the southern Sagaing fault exists (Tha Zin Htet Tin et al. 2022, JAES 228:105125, DOI 10.1016/j.jseaes.2022.105125, confirmed on Crossref) but I could not read its abstract, so it is not used."
+ },
+ {
+  "id": "geo-2025-mandalay-usgs-mechanism",
+  "event_ids": [
+   "myanmar-2025-earthquake"
+  ],
+  "method": "seismicity",
+  "title_th": "กลไกแผ่นดินไหวมัณฑะเลย์ 2568 จาก USGS",
+  "title_en": "USGS mechanism of the 2025 Mandalay earthquake",
+  "finding_th": "USGS ระบุแผ่นดินไหววันที่ 28 มีนาคม 2568 เวลา 06:20 UTC ขนาด Mww 7.7 ศูนย์กลางที่ 22.011°N, 95.936°E ใกล้มัณฑะเลย์ และการผกผันเทนเซอร์โมเมนต์ (moment tensor) ให้ระนาบรอยเลื่อนแนวเหนือ–ใต้ (strike ~1°, dip ~82°, rake ~−174°) ตรงกับการเลื่อนตามแนวระดับแบบขวาเข้า (right-lateral strike-slip) ของรอยเลื่อนสะกาย",
+  "finding_en": "USGS lists the 28 March 2025, 06:20 UTC event as Mww 7.7 at 22.011°N, 95.936°E near Mandalay. Its moment tensor has a N–S nodal plane (strike ~1°, dip ~82°, rake ~−174°), consistent with right-lateral strike-slip on the Sagaing Fault.",
+  "value": "Mww 7.7; M0 4.63×10^20 N·m",
+  "paleolat": null,
+  "site": {
+   "name_th": "ศูนย์กลางแผ่นดินไหว 2568 (USGS) ใกล้มัณฑะเลย์ เมียนมา",
+   "name_en": "2025 epicentre (USGS) near Mandalay, Myanmar",
+   "lat": 22.011,
+   "lon": 95.9363
+  },
+  "citation": {
+   "text": "U.S. Geological Survey 2025 (catalogue), M 7.7 - 2025 Mandalay, Burma (Myanmar) Earthquake, event us7000pn9s, ANSS ComCat",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9s"
+  },
+  "source_type": "government-report",
+  "verified": false,
+  "_notes": "Queried the USGS FDSN event web service (eventid=us7000pn9s, geojson): title 'M 7.7 - 2025 Mandalay, Burma (Myanmar) Earthquake', mag 7.7 mww, origin time epoch 1743142852715 ms = 2025-03-28 06:20:52.7 UTC, hypocentre 95.9363E 22.011N, depth 10 km. Moment-tensor product: nodal plane 2 strike 0.71, dip 82.17, rake -173.86; nodal plane 1 strike 269.87, dip 83.92, rake -7.88; scalar-moment 4.63E+20 (USGS units are N·m). Choosing the N–S plane as the fault is standard (Sagaing is N–S) but is an interpretation. Products may be revised; I read the version on the query date."
+ },
+ {
+  "id": "geo-2025-mandalay-insar-rupture",
+  "event_ids": [
+   "myanmar-2025-earthquake",
+   "india-asia-faults"
+  ],
+  "method": "geodesy",
+  "title_th": "InSAR วัดแนวแตก 472 กม. ของแผ่นดินไหวเมียนมา",
+  "title_en": "InSAR maps 472 km Myanmar surface rupture",
+  "finding_th": "การรวมภาพถ่ายดาวเทียม (optical imagery) อินซาร์ (InSAR) การผกผันการเลื่อนของรอยเลื่อน (finite-fault inversion) และการฉายคลื่นย้อนกลับ (back-projection) พบว่าแผ่นดินไหวเมียนมาปี 2568 ทำให้ผิวดินแตกยาว 472 กม. เลื่อนเฉลี่ย 3.7±0.4 ม. และรอยแตกส่วนใต้วิ่งเร็วกว่าคลื่นเฉือน (supershear) เป็นระยะราว 312 กม.",
+  "finding_en": "Combining optical imagery, InSAR, finite-fault inversion and back-projection, the 2025 Myanmar earthquake produced 472 km of surface rupture with an average offset of 3.7 ± 0.4 m. The southward rupture travelled faster than shear waves (supershear) for about 312 km.",
+  "value": "surface rupture 472 km; mean offset 3.7 ± 0.4 m",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Li Y., Shan X., Li C., Huang C., Wang X., Xu X., Xiong H. 2025, Sustained supershear rupture during the 2025 Mandalay, Myanmar earthquake, Communications Earth & Environment 6:1030",
+   "url": "https://doi.org/10.1038/s43247-025-02927-5"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Commun. Earth Environ. 6, article 1030, published 2 Dec 2025, 7 authors). Abstract read via OpenAlex. Quoted: 'Surface rupture extended for 472 km, with an average offset of 3.7 ± 0.4 m'; 'Southward rupture exhibits sub-shear (2.9 km/s) in 20 s, then transitions to sustained supershear (4.1-5.9 km/s) over ~312 km in ~68 s'. Note: the abstract calls it 'Mw 7.8' in one sentence and 'Mw 7.7' in its summary line; USGS gives Mww 7.7. Other estimates of rupture length differ (e.g., Hirano et al. 2025 Seismica, DOI 10.26443/seismica.v4i2.1785, confirmed, which reports supershear-subshear-supershear from a CCTV video). Links to india-asia-faults as the modern analogue of the Sagaing-type dextral faults; drop that id if too loose."
+ },
+ {
+  "id": "geo-rf-indian-slab-myanmar",
+  "event_ids": [
+   "india-asia-collision",
+   "india-asia-faults"
+  ],
+  "method": "seismic",
+  "title_th": "ฟังก์ชันตัวรับเห็นแผ่นอินเดียมุดใต้เมียนมา",
+  "title_en": "Receiver functions image Indian crust subducting beneath Myanmar",
+  "finding_th": "การซ้อนภาพฟังก์ชันตัวรับแบบจุดแปลงร่วม (receiver function common-conversion-point imaging) จากแถวสถานีตรวจวัดที่วางถี่ ๆ ในเมียนมาตอนกลาง พบเปลือกโลกทวีปอินเดียหนาราว 30 กม. มุดลงด้วยมุมราว 19° ถึงความลึก 100 กม. ใต้เมียนมาตอนกลาง เป็นหลักฐานโดยตรงว่าการชนระหว่างอินเดียกับเอเชียยังดำเนินอยู่ทางตะวันตกของไทย",
+  "finding_en": "Receiver-function common-conversion-point imaging from a dense seismic array shows Indian continental crust about 30 km thick dipping at about 19° to 100 km depth beneath central Myanmar. It is direct evidence that India–Asia convergence continues west of Thailand.",
+  "value": "Indian crust ~30 km thick, dip ~19°, to 100 km depth",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Zheng T., He Y., Ding L., et al. 2020, Direct structural evidence of Indian continental subduction beneath Myanmar, Nature Communications 11:1944",
+   "url": "https://doi.org/10.1038/s41467-020-15746-3"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Nat. Commun. 11, article 1944, 23 Apr 2020). Abstract read (Crossref/OpenAlex). Quoted: 'we use receiver function common conversion point imaging from a densely spaced seismic array ... The entire subducting Indian crust has an average crustal thickness of ~30 km, dips at an angle of ~19°, and extends to a depth of 100 km under central Myanmar.' This is beneath Myanmar, not Thailand; its link to Kanchanaburi is the regional India-Asia context. A slab-tomography alternative (Yao et al. 2021 JGR, 10.1029/2020JB020164) appeared in searches, but I did not check it on Crossref or read it."
+ },
+ {
+  "id": "geo-psha-kanchanaburi-hazard",
+  "event_ids": [
+   "india-asia-faults",
+   "kanchanaburi-1983-quake"
+  ],
+  "method": "seismicity",
+  "title_th": "แผนที่ภัยแผ่นดินไหวชี้กาญจนบุรีเสี่ยงสูง",
+  "title_en": "Hazard analysis ranks Kanchanaburi among highest",
+  "finding_th": "การวิเคราะห์ภัยแผ่นดินไหวเชิงความน่าจะเป็น (probabilistic seismic hazard analysis, PSHA) ที่ใช้อัตราการเลื่อนของรอยเลื่อน เขตแหล่งกำเนิด และค่า a–b ของแคตตาล็อกแผ่นดินไหว พบว่าภาคตะวันตกของไทยเสี่ยงที่สุด โดยมีโอกาสเกิน 2% และ 10% ในรอบ 50 ปี ที่ความเร่งพื้นดิน 0.1–0.4 g และ 0.1–0.2 g ตามลำดับ และจังหวัดกาญจนบุรีกับตากมีความเสี่ยงสูงกว่าจังหวัดอื่นที่ศึกษา",
+  "finding_en": "A probabilistic seismic hazard analysis (PSHA) built from fault slip rates, source zones and catalogue a–b values finds western Thailand the most earthquake-prone region: 0.1–0.4 g and 0.1–0.2 g ground shaking at 2% and 10% probability of exceedance in 50 years. Kanchanaburi and Tak have the highest hazard of the ten provinces examined.",
+  "value": "0.1–0.4 g (2% POE in 50 yr), western Thailand",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Pailoplee S., Charusiri P. 2016, Seismic hazards in Thailand: a compilation and updated probabilistic analysis, Earth, Planets and Space 68:98",
+   "url": "https://doi.org/10.1186/s40623-016-0465-6"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (EPS 68, article 98, June 2016). Abstract read via OpenAlex. Quoted: 'a 2 and 10 % POE in the next 50 years of a 0.1-0.4 g and 0.1-0.2 g ground shaking, respectively, was found for western Thailand, defining this area as the most earthquake-prone region'; 'the Kanchanaburi and Tak provinces had comparatively high seismic hazards'. This is a model built on catalogue and paleoseismic inputs, not a direct measurement. Linked to kanchanaburi-1983-quake only loosely; drop that id if needed. For fault slip rates, see also Fenton, Charusiri & Wood 2003, Annals of Geophysics 46, DOI 10.4401/ag-3464 (confirmed; abstract: western Thailand right-lateral faults 'slip rate ... estimated to be 0.5 to 2.0 mm/yr', 'maximum earthquakes of up to M 7 1/2'). That is paleoseismology (trenching), not geophysics, so I left it out as its own item."
+ },
+ {
+  "id": "fossil-thong-pha-phum-darriwilian-conodonts",
+  "event_ids": [
+   "ordovician-limestone",
+   "gobe"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "โคโนดอนต์ยุคออร์โดวิเชียนกลางที่ทองผาภูมิ",
+  "title_en": "Middle Ordovician conodonts at Thong Pha Phum",
+  "finding_th": "ซากดึกดำบรรพ์ขนาดเล็กชนิดโคโนดอนต์ (conodont) 9 ชนิดจากหินปูนบริเวณอำเภอทองผาภูมิ จังหวัดกาญจนบุรี จัดอยู่ในซับโซน Pygodus lunnensis ของโซน Eoplacognathus suecicus จึงระบุอายุหินปูนได้เป็นช่วงดาร์ริวิเลียน (Darriwilian) ของยุคออร์โดวิเชียนกลาง ชุดซากยังบ่งชี้ว่าเป็นสัตว์น้ำเย็นบนไหล่ทวีปตอนกลางถึงตอนนอก",
+  "finding_en": "Nine conodont species from limestone in the Thong Pha Phum area, Kanchanaburi, belong to the Pygodus lunnensis Subzone of the Eoplacognathus suecicus Zone, dating the limestone to the Darriwilian (Middle Ordovician). The assemblage also points to cool-water conditions on the middle to outer shelf.",
+  "value": "Pygodus lunnensis Subzone, Eoplacognathus suecicus Zone (Darriwilian)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Agematsu, Sashida & Sardsud 2013, A new Middle Ordovician conodont fauna from the Thong Pha Phum area of western Thailand, Paleontological Research 17:179–188",
+   "url": "https://doi.org/10.2517/1342-8144-17.2.179"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Agematsu, Sashida, Sardsud; Paleontol. Res. 17(2):179-188, July 2013). Read the BioOne abstract page (not full text). It states the fauna (nine species, six genera) 'corresponds to the Pygodus lunnensis Subzone of the Eoplacognathus suecicus Zone' (Darriwilian), that it is the first Thai report of E. suecicus, P. lunnensis and three Protopanderodus species, and that it indicates a cool-water fauna on a middle to outer shelf. The abstract gives no coordinates, so site is null. Related earlier papers by the same group: Agematsu et al. 2006, J. Asian Earth Sci. 26:49-60 (doi:10.1016/j.jseaes.2004.09.009) and Agematsu et al. 2008, Paleontol. Res. 12:181-194 (doi:10.2517/1342-8144(2008)12[181:ROEAMO]2.0.CO;2). DOIs exist on Crossref but I did not read their abstracts. Chen et al. (2023) summarise the earlier Thong Pha Phum work as having documented 'the Triangulodus larapintinensis Range Zone of Floian and Aurilobodus leptosomatus Range Zone of Darriwilian'."
+ },
+ {
+  "id": "fossil-ban-tha-kradan-conodonts",
+  "event_ids": [
+   "ordovician-limestone",
+   "gobe"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "โคโนดอนต์และอายุหมวดหินท่ามะนาว บ้านท่ากระดาน",
+  "title_en": "Conodonts date Tha Manao Formation, Ban Tha Kradan",
+  "finding_th": "ตัวอย่างหินปูนจากหมวดหินท่ามะนาว (Tha Manao Formation) บริเวณบ้านท่ากระดาน อำเภอศรีสวัสดิ์ ให้โคโนดอนต์ 11 ชนิด รวมถึงโซนรวมชนิด Scolopodus striatus (Assemblage Zone) จึงกำหนดอายุหมวดหินท่ามะนาวเป็นช่วงฟลอเอียนตอนบนถึงดาร์ริวิเลียน (upper Floian–Darriwilian) ส่วนหมวดหินผาแก้ (Pa Kae Formation) ที่วางตัวอยู่ด้านบนมีอายุแซนด์เบียนถึงแคทีเอียนตอนล่าง (Sandbian–lower Katian)",
+  "finding_en": "Limestones of the Tha Manao Formation at Ban Tha Kradan (Si Sawat district) yielded 11 conodont species, including the Scolopodus striatus Assemblage Zone. This dates the Tha Manao Formation to the upper Floian–Darriwilian; the overlying Pa Kae Formation is Sandbian to lower Katian.",
+  "value": "Scolopodus striatus Assemblage Zone; Tha Manao Fm upper Floian–Darriwilian; Pa Kae Fm Sandbian–lower Katian",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Chen, Li, Fang, Li, Burrett, Udchachon & Zhang 2024, Ordovician conodonts from the Ban Tha Kradan area, western Thailand, Palaeoworld 33:546–558",
+   "url": "https://doi.org/10.1016/j.palwor.2022.12.004"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Palaeoworld DOI confirmed on Crossref (vol. 33, pp. 546-558, issue dated June 2024; published online about Dec 2022). ScienceDirect blocked access, so I read the full abstract of the matching conference abstract with the same title and authors, Estonian Journal of Earth Sciences 72:125 (2023), doi:10.3176/earth.2023.30, via Crossref. It states: 24 samples from the Wat Mong Krathae (WMK) section and 3 from the Nautiloid Site Geosite (NSG) section; 11 species in 9 genera; 'the Scolopodus striatus Assemblage Zone can be recognized in the Tha Manao Formation'; the upper part of the Tha Manao at NSG is reassigned to the Pa Kae Formation, based on Sinoceras chinense, Baltoniodus cf. alobatus and the GICE carbon-isotope excursion; and 'the Tha Manao Formation in Western Thailand is assigned to the upper Floian to Darriwilian, and the conformably overlying Pa Kae Formation to the Sandbian–lower Katian'. The search snippet of the Palaeoworld abstract says the same. I could not confirm coordinates of the sections. Placing Ban Tha Kradan in Si Sawat district follows the Maneerat thesis abstract, which names 'Ban Tha Kraden, Si Sawat District'."
+ },
+ {
+  "id": "fossil-sinoceras-nautiloid-kanchanaburi",
+  "event_ids": [
+   "ordovician-limestone"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "นอติลอยด์ Sinoceras chinense ครั้งแรกนอกประเทศจีน",
+  "title_en": "Sinoceras nautiloid found outside China",
+  "finding_th": "พบหอยงวงช้างโบราณกลุ่มนอติลอยด์ (nautiloid) ชนิด Sinoceras chinense ในส่วนบนของหมวดหินท่ามะนาว พื้นที่กาญจนบุรี ชนิดนี้เดิมพบเฉพาะในหินยุคออร์โดวิเชียนตอนบนของจีน จึงช่วยเทียบอายุชั้นหินกับหมวดหินพาโกดา (Pagoda Formation) ของจีนใต้ และชี้ว่าแผ่นซิบูมาสุอยู่ใกล้เทอร์เรนจีนที่ขอบกอนด์วานา",
+  "finding_en": "The nautiloid Sinoceras chinense, previously known only from the Upper Ordovician of Chinese blocks, occurs in the upper Tha Manao Formation in the Kanchanaburi area. It correlates these beds with the coeval Pagoda Formation of South China and supports placing Sibumasu near the peri-Gondwana Chinese terranes.",
+  "value": "Sinoceras chinense (Upper Ordovician index nautiloid)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Fang, Li, Li, Burrett, Udchachon & Zhang 2021, Sinoceras chinense (Foord, 1888) in western Thailand: first identification outside China, Palaeoworld 30:278–285",
+   "url": "https://doi.org/10.1016/j.palwor.2020.06.004"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Palaeoworld 30:278-285; issue 2021, online 2020). Read the abstract via the Semantic Scholar API. It states that S. chinense 'was previously only known from the Upper Ordovician of Chinese blocks/terranes' and is identified 'from the Kanchanaburi area, western Thailand'; that the 'upper part of the Tha Manao Formation containing S. chinense is extremely similar both faunally and lithologically to the coeval Pagoda Formation of South China'; and that this supports the palaeogeographic reconstruction of the peri-Gondwana Chinese terranes and Sibumasu. Chen et al. (2023/2024) later reassigned these beds to the Pa Kae Formation (Sandbian–lower Katian), so the item may be better tagged as Late Ordovician. The exact locality is probably the 'Nautiloid Site Geosite' at Ban Tha Kradan, but that is not stated in the abstract, so site is null."
+ },
+ {
+  "id": "fossil-thong-pha-phum-tentaculitids-graptolites",
+  "event_ids": [
+   "kanchanaburi-group"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "เทนตาคิวไลต์และแกรปโตไลต์ของกลุ่มหินทองผาภูมิ",
+  "title_en": "Tentaculitids and graptolites of Thong Pha Phum Group",
+  "finding_th": "หินดินดานและหินปูนเนื้อดินของกลุ่มหินทองผาภูมิ (Thong Pha Phum Group) ที่บ้านท่ากระดาน อำเภอศรีสวัสดิ์ มีเทนตาคิวไลต์ (tentaculitids) 7 ชนิด เช่น Nowakia acuaria และ Homoctenus tikhyi ซึ่งบ่งชี้อายุดีโวเนียนตอนต้นถึงตอนปลาย ส่วนแกรปโตไลต์ (graptolites) Monograptus และ Diplograptus ในชั้นล่างบ่งชี้อายุไซลูเรียน(?) ถึงดีโวเนียนตอนต้น สภาพการสะสมตัวเป็นลาดทวีปถึงแอ่งทะเลลึกที่มีพลังงานต่ำ",
+  "finding_en": "Shales and argillaceous limestones of the Thong Pha Phum Group at Ban Tha Kradan (Si Sawat district) contain seven tentaculitid species, including Nowakia acuaria and Homoctenus tikhyi, indicating an Early to Late Devonian age. Graptolites (Monograptus, Diplograptus) in lower strata suggest a Silurian(?) to Early Devonian age, in a low-energy slope to deep-marine setting.",
+  "value": "Tentaculitids: Early–Late Devonian; graptolites: Silurian?–Early Devonian",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Maneerat, Jitmahantakul & Charoentitirat 2022, Devonian tentaculite of the Thong Pha Phum Group in Si Sawat District, Kanchanaburi Province, Bulletin of Earth Sciences of Thailand 14(1):35–49",
+   "url": "https://ph01.tci-thaijo.org/index.php/bestjournal/article/view/248779"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read the ThaiJO article landing page and abstract summary, not the full text. No DOI was shown. The journal is the Chulalongkorn Geology Department bulletin (BEST); I assume it is peer-reviewed but did not confirm its review policy. The page lists 7 species (Nowakia acuaria, N. (Cepanowakia) pumilio, Styliolina fissurella, S. clavulus, Styliolina sp. A, Homoctenus tikhyi, H. arctus) that 'indicate Lower to Upper Devonian age', and graptolites from underlying strata giving 'Silurian? to Lower Devonian age'. The same data appear in Maneerat's MSc thesis (Chulalongkorn Univ. 2021, doi:10.58837/CHULA.THE.2021.186; abstract read on Crossref), which names Monograptus sp. and Diplograptus sp. Note: Diplograptus is normally an Ordovician genus, so the '?' on the Silurian age matters; the instructor should check the identifications. The page uses the Thai lexicon name 'Thong Pha Phum Group', which corresponds to what the timeline calls the Kanchanaburi Group / Silurian–Devonian deep-sea muds."
+ },
+ {
+  "id": "fossil-thong-pha-phum-frasnian-famennian-conodonts",
+  "event_ids": [
+   "kanchanaburi-group",
+   "late-devonian-extinction"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "โคโนดอนต์ช่วงรอยต่อฟราสเนียน–ฟาเมนเนียนที่ทองผาภูมิ",
+  "title_en": "Frasnian–Famennian conodonts at Thong Pha Phum",
+  "finding_th": "ลำดับชั้นหินยุคดีโวเนียนตอนปลายที่ทองผาภูมิมีโคโนดอนต์ครอบคลุมรอยต่อฟราสเนียน–ฟาเมนเนียน (Frasnian–Famennian boundary) และค่าไอโซโทปคาร์บอน (δ13C) แสดงการเพิ่มขึ้นในโซน Late rhenana และอีกครั้งใกล้เหตุการณ์สูญพันธุ์ของโคโนดอนต์ จึงบันทึกเหตุการณ์สูญพันธุ์ครั้งใหญ่ยุคดีโวเนียนตอนปลายไว้ในกาญจนบุรี",
+  "finding_en": "A Late Devonian section at Thong Pha Phum yields conodonts spanning the Frasnian–Famennian boundary. Its δ13C record shows a positive excursion in the Late rhenana Zone and a second one near the conodont extinction level, so the section records the Late Devonian mass extinction in Kanchanaburi.",
+  "value": "Late rhenana conodont Zone; positive δ13C excursions at F–F boundary",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Savage, Sardsud & Buggisch 2006, Late Devonian conodonts and the global Frasnian–Famennian extinction event, Thong Pha Phum, western Thailand, Palaeoworld 15:171–184",
+   "url": "https://doi.org/10.1016/j.palwor.2006.07.005"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Savage N.M., Sardsud A., Buggisch W.; Palaeoworld 15:171-184, 2006). Crossref, OpenAlex and Semantic Scholar have no abstract, and ScienceDirect blocked access. I saw only a search-engine snippet, quoted as: 'Stable isotope geochemistry for this interval shows a positive d13C excursion in the Late rhenana conodont Zone followed by a gradual return to normal, followed by a sudden positive excursion near the conodont extinction event.' Medium confidence: the instructor should read the paper for the exact zones and locality. Savage also published 'Frasnian-Famennian transition in western Thailand: conodonts, biofacies, eustatic changes, extinction' in Journal of Paleontology (seen as a search result only; DOI not checked)."
+ },
+ {
+  "id": "fossil-kaeng-krachan-cool-water-brachiopods",
+  "event_ids": [
+   "kaeng-krachan-diamictite",
+   "late-paleozoic-ice-age",
+   "sibumasu-rifting"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "บราคิโอพอดน้ำเย็นในหินโคลนปนกรวด",
+  "title_en": "Cool-water brachiopods in pebbly mudstones",
+  "finding_th": "บราคิโอพอด (brachiopods) อายุเพอร์เมียนตอนต้นจากหินโคลนปนกรวด (pebbly mudstone) ของกลุ่มหินภูเก็ต/แก่งกระจาน (Kaeng Krachan Group) ส่วนใหญ่เป็นสกุลของละติจูดเขตอบอุ่นถึงสูง ต่างจากฟอสซิลเพอร์เมียนอื่นของไทยที่เป็นแบบเขตร้อน จึงตีความว่าหินชุดนี้สะสมตัวในน้ำเย็นและมีอายุใกล้เคียงกับตะกอนธารน้ำแข็งช่วงแอสเซเลียนตอนปลาย (late Asselian) ของกอนด์วานา",
+  "finding_en": "Early Permian brachiopods from pebbly mudstones of the Phuket (Kaeng Krachan) Group belong mostly to temperate to high-latitude genera, unlike the tropical faunas of other Thai Permian rocks. This marks the beds as cool-water deposits, coeval with the late Asselian glacial deposits of Gondwana.",
+  "value": "Early Permian cool-water brachiopod fauna, coeval with late Asselian Gondwana glacials",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Waterhouse 1982, An early Permian cool-water fauna from pebbly mudstones in south Thailand, Geological Magazine 119:337–354",
+   "url": "https://doi.org/10.1017/S0016756800026261"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Geol. Mag. 119(4):337-354, 1982); full summary read on Crossref and OpenAlex. Quote: 'A small brachiopod fauna of early Permian age is recorded from pebbly mudstones and sandstones of the Phuket (Kaeng Krachan) Group at the Thai islands of Ko Muk, and Ko Phi Phi... Most species belong to genera found in temperate to high Permian palaeolatitudes... suggesting that the pebbly mudstones are cool water deposits, contemporaneous with the late Asselian glacial deposits of Gondwana.' CAVEAT: the localities are in the Andaman Sea (Trang/Krabi), not Kanchanaburi. I found no peer-reviewed palynology or brachiopod dating of the Kaeng Krachan diamictites inside Kanchanaburi. Other sources: Fujikawa et al. 2005, J. Asian Earth Sci. 24:739-752 (doi:10.1016/j.jseaes.2004.06.002), Early Permian ammonoids from the Kaeng Krachan Group (Phatthalung–Hat Yai; DOI verified, abstract not read); and Ampaiwan, Hisada & Charusiri 2009, Island Arc 18:52-68 (doi:10.1111/j.1440-1738.2008.00653.x), dropstones in the Lower Permian of Phuket (sedimentology, not dating). Search snippets also mention Sakmarian–Artinskian brachiopods (Stereochia koyanensis etc.) in the upper Kaeng Krachan Group, but I could not trace their primary source."
+ },
+ {
+  "id": "fossil-ratburi-fusulinids-sibumasu",
+  "event_ids": [
+   "ratburi-limestone"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ฟิวซูลินิดกำหนดอายุหินปูนราชบุรี",
+  "title_en": "Fusulinids date the Ratburi Limestone",
+  "finding_th": "ฟอแรมิเนียขนาดใหญ่กลุ่มฟิวซูลินิด (fusulinids) แบ่งหินปูนราชบุรี (Ratburi Limestone) บนแผ่นซิบูมาสุได้เป็นช่วงอายุ โดยส่วนฐานมี Monodiexodina อายุโบโลเรียน (≈คุงกูเรียน, Kungurian) และส่วนหลักมี Eopolydiexodina และ Yangchienia อายุเมอร์แกเบียน (≈เวิร์ดเดียน, Wordian) ยุคเพอร์เมียนตอนกลาง",
+  "finding_en": "Fusulinid foraminifera subdivide the Ratburi Limestone of Sibumasu: Monodiexodina in the basal part is probably Bolorian (≈Kungurian), and an Eopolydiexodina–Rugososchwagerina–Yangchienia fauna in the main part is Murgabian (≈Wordian, Middle Permian).",
+  "value": "Basal Monodiexodina fauna ≈ Kungurian; main Eopolydiexodina fauna ≈ Wordian",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Ueno 2003, The Permian fusulinoidean faunas of the Sibumasu and Baoshan blocks, Palaeogeography, Palaeoclimatology, Palaeoecology 193:1–24",
+   "url": "https://doi.org/10.1016/S0031-0182(02)00708-3"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Ueno K.; Palaeo3 193:1-24, April 2003). The abstract was not available through Crossref, OpenAlex or Semantic Scholar, and ScienceDirect blocked access. A search-engine snippet of the abstract gave: a fauna 'in the basal part of the Ratburi Limestone and equivalent strata in the Sibumasu Block, represented by Monodiexodina, ... probably referable to the Bolorian (=Kungurian)', and a fauna 'composed of Eopolydiexodina, Rugososchwagerina, Yangchienia, Chusenella, Jinzhangia, and several other genera, is dated to the Murgabian (=Wordian), and occurs in ... the main part of the Ratburi Limestone in the Sibumasu Block'. These are regional data for Sibumasu, not specifically Kanchanaburi. The ThaiLex lexicon (thailex.geolex.org, citing Ueno & Charoentitirat 2011) names 'Khao Muang Khrut of Kanchanaburi province' among the reference localities and lists Pseudofusulina cf. heratica and Yangchienia sp. in the upper member. Avoid Dawson 1993 (J. Micropalaeontol. 12:9-33): its 'Ratburi Limestone' is at Saraburi, which is now generally placed on the Indochina side. A Kanchanaburi Ratburi fossil site exists (Khao Mang Lat, Ban Kao district; gastropods, Karapunar et al. 2022, Alcheringa 46:147-155, doi:10.1080/03115518.2022.2050814), but that paper does not itself date the rocks."
+ },
+ {
+  "id": "fossil-tha-sao-norian-radiolarians",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "เรดิโอลาเรียนยุคไทรแอสซิกตอนปลายที่ท่าเสา",
+  "title_en": "Late Triassic radiolarians at Tha Sao",
+  "finding_th": "พบเรดิโอลาเรียน (radiolarians) อายุไทรแอสซิกตอนปลายช่วงนอเรียนตอนต้นถึงกลาง (Norian) และอายุไทรแอสซิกตอนปลายหรือจูแรสซิกตอนต้นในหินปูนและหินปูนโดโลไมต์บริเวณท่าเสา จังหวัดกาญจนบุรี ผู้วิจัยตีความว่าในช่วงเวลานี้มหาสมุทรเททิสระหว่างแผ่นซิบูมาสุกับอินโดจีนเกือบปิดตัวแล้วจากการชนกันของสองแผ่น",
+  "finding_en": "Limestone and dolomitic limestone in the Tha Sao area of Kanchanaburi yield radiolarians of late early to early middle Norian age, plus a Late Triassic or Early Jurassic fauna. The authors read these as low-latitude Tethyan faunas from a time when the ocean between Sibumasu and Indochina had almost closed through collision.",
+  "value": "Radiolarians: late early–early middle Norian (Late Triassic)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Sashida, Hong, Ito, Salyapongse & Putthapiban 2024, Late Triassic (late early to early middle Norian) radiolarians from limestone in the Tha Sao area, Kanchanaburi Province, Paleontological Research 28:37–67",
+   "url": "https://doi.org/10.2517/PR220007"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Paleontol. Res. 28(1); Crossref date 2023-04-05 is the online date, and the issue is likely 2024). Pages 37-67 come from the BioOne page. Read the BioOne abstract summary, not the full text. Quote: 'Moderately-preserved Late Triassic (late early to early middle Norian) and Late Triassic or Early Jurassic radiolarians have been identified from two sections of limestone and dolomitic limestone, respectively in the Tha Sao area, Kanchanaburi Province'. The page also says: 'At the Late Triassic time, the Tethys Ocean between Sibumasu and Indochina blocks almost closed due to the collision of these two continental blocks.' The locality was summarised as Ban Phu Ong Ka near Sai Yok; no coordinates were given. Caveat: this fauna is younger than the 242 Ma timeline age for the collision. It shows marine conditions persisting late in the Indosinian event; it does not date the collision itself. The instructor should check the year (2023 or 2024) on the PDF."
+ },
+ {
+  "id": "date-kanchanaburi-granites-zircon-upb",
+  "event_ids": [
+   "indosinian-collision",
+   "western-granites"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ U–Pb เซอร์คอนของหินแกรนิตกาญจนบุรี",
+  "title_en": "Zircon U–Pb ages of Kanchanaburi granites",
+  "finding_th": "การหาอายุด้วยวิธียูเรเนียม–ตะกั่วในแร่เซอร์คอน (zircon U–Pb) ของหินแกรนิตอยด์หลายแห่งในจังหวัดกาญจนบุรี พบการเกิดหินหนืดสองช่วงหลัก คือไทรแอสซิกตอนปลาย (227–214 ล้านปี) หลังการชนกันของซิบูมาสุ–อินโดจีน และครีเทเชียสตอนปลาย (79–68 ล้านปี) หินเป็นชนิด S-type อนุกรมอิลเมไนต์ (ilmenite series) ที่สัมพันธ์กับแร่ Pb–Zn–W–Sn",
+  "finding_en": "Zircon U–Pb dating of granitoids across Kanchanaburi Province shows two main magmatic episodes: Late Triassic (227–214 Ma), after the Sibumasu–Indochina collision, and Late Cretaceous (79–68 Ma). The rocks are peraluminous S-type, ilmenite-series granitoids linked to Pb–Zn–W–Sn mineralisation.",
+  "value": "Zircon U–Pb 227–214 Ma (Late Triassic) and 79–68 Ma (Late Cretaceous)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Nualkhao, Chandon, Sritangsirikul, Zaw, Sonnemans & Charusiri 2025, New insights into the geochemistry, petrography and geochronology of Triassic and Cretaceous granitoids in Kanchanaburi Province (preprint), Preprints.org 202512.1193",
+   "url": "https://doi.org/10.20944/preprints202512.1193.v1"
+  },
+  "source_type": "preprint",
+  "verified": false,
+  "_notes": "DOUBTFUL SOURCE TYPE: this is a non-peer-reviewed Preprints.org preprint (DOI confirmed on Crossref, posted 2025-12-12). 'conference' was the nearest allowed value. A related abstract, 'Petrochemistry of Granitoid Rocks in Kanchanaburi Province, Western Thailand', was apparently presented at the Mahidol University International Geoscience Conference (MUIGC 2024); I saw it only on ResearchGate (blocked) and in snippets. I read the full preprint abstract on Crossref. It states: 'U–Pb zircon dating identifies two main magmatic episodes: Late Triassic (227-214 Ma), and Late Cretaceous (79-68 Ma)', describes the rocks as 'peraluminous, S-type' and mostly ilmenite-series, and reports 'U-Pb cassiterite and wolframite ages of 80-77 Ma' for W-Sn mineralisation. A search snippet attributed different numbers, 216–214, 83–81 and 60–58 Ma, to possibly the conference version. Do not use those until checked. Check for a peer-reviewed version before publishing. For a peer-reviewed regional alternative, use Searle et al. 2012, J. Geol. Soc. 169:489-500 (doi:10.1144/0016-76492011-107; abstract read). It gives Phuket zircon cores of 212 ± 2 and 214 ± 2 Ma with rims of 81.2 ± 1.2 Ma, and Main Range S-type granites from crustal thickening after the Mid-Triassic Sibumasu–Indochina collision."
+ },
+ {
+  "id": "date-western-belt-granites-arar",
+  "event_ids": [
+   "western-granites"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ Ar–Ar ของแนวหินแกรนิตด้านตะวันตก",
+  "title_en": "Ar–Ar ages of the Western Granite Belt",
+  "finding_th": "การหาอายุด้วยวิธีอาร์กอน–อาร์กอน (40Ar/39Ar) ของแร่ไมกาในหินแกรนิตทั่วประเทศไทยแบ่งหินแกรนิตออกเป็นสามแนว โดยแนวตะวันตก (Western Belt) ซึ่งรวมถึงกาญจนบุรี ให้อายุครีเทเชียสตอนปลายถึงเทอร์เชียรีตอนกลาง (ประมาณ 80–50 ล้านปี) และมีหินแกรนิต S-type ที่สัมพันธ์กับแร่ดีบุก–ทังสเตน",
+  "finding_en": "40Ar/39Ar dating of granites across Thailand defines three granite belts. The Western Belt, which includes Kanchanaburi, gives Late Cretaceous to mid-Tertiary ages of about 80–50 Ma and includes S-type granites linked to Sn–W mineralisation.",
+  "value": "40Ar/39Ar ~80–50 Ma (Western Belt)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Charusiri, Clark, Farrar, Archibald & Charusiri 1993, Granite belts in Thailand: evidence from the 40Ar/39Ar geochronological and geological syntheses, Journal of Southeast Asian Earth Sciences 8:127–136",
+   "url": "https://doi.org/10.1016/0743-9547(93)90014-G"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (J. SE Asian Earth Sci. 8:127-136, 1993). No abstract was available through Crossref, OpenAlex or Semantic Scholar, and ScienceDirect blocked access. The age ranges come only from search-engine snippets and secondary citations: Eastern Belt 245–210 Ma, Central Belt 220–180 Ma, and 'Western Belt in Late Cretaceous to Middle Tertiary (80-50 Ma)', with S-type granites in the Western and Central belts related to Sn-W mineralisation. Medium confidence on the exact numbers, so check the paper. These are mica cooling ages, which can be younger than emplacement; newer zircon U–Pb work gives Western-belt emplacement of about 88–84 Ma (Uchida et al. 2024, Geosciences 14:135, doi:10.3390/geosciences14050135, abstract read: Ranong, Lam Pi, Ban Lam Ru and Phuket bodies, so not Kanchanaburi)."
+ },
+ {
+  "id": "date-pilok-cassiterite-wolframite-upb",
+  "event_ids": [
+   "pilok-tin-tungsten",
+   "western-granites"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ U–Pb แคสซิเทอไรต์และวุลแฟรไมต์ที่ปิล็อก",
+  "title_en": "Cassiterite and wolframite U–Pb ages, Pilok",
+  "finding_th": "การหาอายุแบบจุด (in-situ U–Pb) โดยตรงในแร่แคสซิเทอไรต์ (cassiterite) และวุลแฟรไมต์ (wolframite) จากแหล่งดีบุก–ทังสเตนปิล็อกและแหล่งอื่นในแนวตะวันตก ชี้ว่าการเกิดแร่เกิดในครีเทเชียสตอนปลาย (84–74 ล้านปีในแนวตะวันตก) โดยที่ปิล็อกวุลแฟรไมต์มีอายุแก่กว่าแคสซิเทอไรต์ แสดงว่าการเกิดแร่ทังสเตนเกิดก่อนดีบุก",
+  "finding_en": "In-situ U–Pb dating of cassiterite and wolframite from Pilok and other Western-belt deposits shows Late Cretaceous mineralisation (84–74 Ma in the Western belt). At Pilok, wolframite is older than cassiterite, so tungsten mineralisation came before tin.",
+  "value": "Western-belt ore ages 84–74 Ma; Pilok cassiterite U–Pb 74.3 ± 1.1 Ma, wolframite 83.8 ± 1.0 Ma (snippet, to confirm)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Liu, Hu, Fu, Yang, Zhou, Mao, Tang, Fanka et al. 2024, Cassiterite and zircon U–Pb ages and compositions from ore-bearing and barren granites in Thailand, Ore Geology Reviews 174:106282",
+   "url": "https://doi.org/10.1016/j.oregeorev.2024.106282"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Ore Geol. Rev. 174, article 106282, Nov 2024). I read the full abstract on OpenAlex: 'in-situ U-Pb age data of wolframite and cassiterite grains from nine representative Sn deposits in Thailand ... Cretaceous deposits (78–67 Ma) in the Central belt being younger than those in the Western belt (84–74 Ma)'. The abstract does NOT name Pilok. The Pilok-specific numbers (cassiterite 74.3 ± 1.1 Ma; wolframite 83.8 ± 1.0 Ma, a lower-intercept age; W predating Sn) come only from a search-engine snippet of this paper's text, so treat them as unconfirmed until the instructor checks the tables. The snippet also cited earlier muscovite/biotite 40Ar/39Ar ages of about 77–76 Ma (Sn) and 74.4 Ma (W) from Charusiri (1989, PhD thesis, Queen's Univ.); not checked. No Re–Os molybdenite age for Pilok was found. The Nualkhao et al. 2025 preprint reports cassiterite/wolframite U–Pb ages of 80–77 Ma for Kanchanaburi. Background: Linnen & Williams-Jones 1995, Econ. Geol. 90:1148-1166 (doi:10.2113/gsecongeo.90.5.1148; abstract read) describes the Pilok vein/stockwork system but gives no ages in its abstract."
+ },
+ {
+  "id": "date-three-pagodas-fault-biotite-arar",
+  "event_ids": [
+   "india-asia-faults",
+   "india-asia-collision"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ Ar–Ar ไบโอไทต์ในเขตรอยเลื่อนเจดีย์สามองค์",
+  "title_en": "Ar–Ar biotite age, Three Pagodas Fault",
+  "finding_th": "ไบโอไทต์ (biotite) จากหินไนส์ (orthogneiss) ที่ถูกเฉือนในเขตรอยเลื่อนเจดีย์สามองค์ (Three Pagodas Fault Zone) บริเวณเขาชนไก่ ทางตะวันตกเฉียงเหนือของเมืองกาญจนบุรี ให้อายุราบ (plateau age) 40Ar/39Ar 33.4 ± 0.3 ล้านปี ผู้วิจัยตีความว่าเป็นช่วงท้ายของการเฉือนแบบเลื่อนตามแนวระดับเหลื่อมซ้าย (left-lateral) เมื่ออินเดียดันเอเชียจนแผ่นอินโดจีนถูกบีบเคลื่อนออกด้านข้าง (extrusion) ช่วงอีโอซีนตอนปลาย–โอลิโกซีนตอนต้น",
+  "finding_en": "Biotite from a sheared orthogneiss in the Three Pagodas Fault Zone at Khao Chon Kai, NW of Kanchanaburi, gave a 40Ar/39Ar plateau age of 33.4 ± 0.3 Ma. The authors interpret it as the end of ductile left-lateral shear during India-driven extrusion of Indochina in the late Eocene–early Oligocene.",
+  "value": "40Ar/39Ar biotite plateau 33.4 ± 0.3 Ma (sample TL21)",
+  "paleolat": null,
+  "site": {
+   "name_th": "เขาชนไก่ อำเภอเมืองกาญจนบุรี (เขตรอยเลื่อนเจดีย์สามองค์)",
+   "name_en": "Khao Chon Kai, Three Pagodas Fault Zone, NW of Kanchanaburi",
+   "lat": 14.133,
+   "lon": 99.4
+  },
+  "citation": {
+   "text": "Lacassin, Maluski, Leloup, Tapponnier, Hinthong, Siribhakdi, Chuaviroj & Charoenravat 1997, Tertiary diachronic extrusion and deformation of western Indochina, Journal of Geophysical Research 102(B5):10013–10037",
+   "url": "https://doi.org/10.1029/96JB03831"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (JGR Solid Earth 102(B5):10013-10037, 10 May 1997). I read the FULL TEXT (the author's PDF from ipgp.fr, converted to text). Exact statements: 'An orthogneiss sample has been taken at Khao Chon Kai (99°24'-14°08'N), NW of Kanchanaburi within the Three Pagodas fault zone (TL21, Figure 1b).' Table 1: 'TL21 biotite plateau 33.4 ± 0.3, total 32.7 ± 0.8, isochron (32.6 ± 0.5)'. Text: 'A biotite age of 33.4 ± 0.3 Ma has been obtained in the sample TL21 from the Three Pagodas fault zone... we interpret this age as the age of terminal left-lateral shear along that zone. This is also in line with the previous K/Ar dating results (36 ± 1 Ma, 33 ± 2 Ma...)' (K–Ar on Thabsila gneisses, Bunopas 1981), 'possibly implying that shear lasted at least from 36 and 33 Ma B.P.' The paper also says 'a lowermost Oligocene age deformation (36 to 33 Ma)' for the Three Pagodas zone, and that ductile shear on the Wang Chao (Mae Ping) zone ended at about 30.5 Ma. Coordinates are converted from 99°24'E, 14°08'N, precision about 1'. The paper also notes that present-day slip senses are opposite to the finite geological offsets, which supports the separate 'fault-reversal' event, though that reversal is not dated here."
+ },
+ {
+  "id": "date-bo-phloi-basalt-kar",
+  "event_ids": [
+   "bo-phloi-basalt"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ K–Ar ของหินบะซอลต์บ่อพลอย",
+  "title_en": "K–Ar age of the Bo Phloi basalt",
+  "finding_th": "การหาอายุด้วยวิธีโพแทสเซียม–อาร์กอน (K–Ar) ของหินบะซอลต์แอลคาไลที่บ่อพลอย จังหวัดกาญจนบุรี ให้อายุ 3.14 ± 0.17 ล้านปี (สมัยไพลโอซีน) ซึ่งเป็นช่วงที่ลาวานำแร่คอรันดัม (ไพลินและบุษราคัม) ขึ้นมาสู่ผิวโลก",
+  "finding_en": "K–Ar dating of the alkali basalt at Bo Phloi, Kanchanaburi, gave 3.14 ± 0.17 Ma (Pliocene), the eruption that brought sapphire-bearing corundum to the surface.",
+  "value": "K–Ar 3.14 ± 0.17 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Barr & Macdonald 1981, Geochemistry and geochronology of late Cenozoic basalts of Southeast Asia, GSA Bulletin 92(8, Part II):1069–1142",
+   "url": "https://doi.org/10.1130/GSAB-P2-92-1069"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (GSA Bull. 92(8 Part II):1069-1142, Aug 1981). The companion Part I summary is doi:10.1130/0016-7606(1981)92<508:GAGOLC>2.0.CO;2 (GSA Bull. 92:508). I did NOT read either paper. The value 3.14 ± 0.17 Ma (K–Ar) for Bo Phloi, attributed to Barr & Macdonald 1981, is repeated in secondary sources seen as search snippets (a GIT/Khamloet et al. document on sapphire inclusions, and Mindat). The same snippets cite an 40Ar/39Ar age of 4.17 ± 0.11 Ma from 'Sutthirat et al., 1994', for which I found no verifiable publication. Sutthirat et al. 2020 (J. Asian Earth Sci. 187:104068; abstract read) refers to the '~4–3 Ma ages of the Bo Phloi basalt'. The timeline's 3.14 Ma matches this K–Ar value. Please check the sample table in Barr & Macdonald Part II (it may spell the site 'Bo Ploi'). Site is null because no coordinates were given in a source I read."
+ },
+ {
+  "id": "date-bo-phloi-zircon-sapphire-upb",
+  "event_ids": [
+   "bo-phloi-basalt",
+   "sapphire-gravels"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุ U–Pb เซอร์คอนในไพลินและกรวดบ่อพลอย",
+  "title_en": "Zircon U–Pb ages in Bo Phloi sapphires",
+  "finding_th": "เซอร์คอนที่เป็นมลทิน (inclusion) ในไพลิน และเซอร์คอนจากชั้นกรวดที่มีไพลินสองแหล่งที่บ่อพลอย ให้อายุ U–Pb เฉลี่ย 24 ± 0.9, 10.86 ± 0.14 และ 4.4 ± 0.4 ล้านปี ซึ่งเก่ากว่าหินบะซอลต์บ่อพลอย (~4–3 ล้านปี) แสดงว่าไพลินตกผลึกในเปลือกโลกตอนล่างเป็นระยะ ๆ ก่อน แล้วหินบะซอลต์จึงพาขึ้นมาภายหลัง",
+  "finding_en": "A zircon inclusion in sapphire and zircons from two sapphire-bearing gravels at Bo Phloi gave mean U–Pb ages of 24 ± 0.9, 10.86 ± 0.14 and 4.4 ± 0.4 Ma. These are older than the ~4–3 Ma Bo Phloi basalt, so the sapphires crystallised episodically at depth and were later carried up by the basalt.",
+  "value": "Zircon U–Pb 24 ± 0.9, 10.86 ± 0.14, 4.4 ± 0.4 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Sutthirat, Pisutha-Arnond, Khamloet & Assawincharoenkij 2020, Multistages of original sapphire formation related to basaltic magmatism in the Bo Phloi basaltic gem field, Journal of Asian Earth Sciences 187:104068",
+   "url": "https://doi.org/10.1016/j.jseaes.2019.104068"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (J. Asian Earth Sci. 187, article 104068, Jan 2020). Read the full abstract via the Semantic Scholar API. Quote: 'The U-Pb dating of a zircon inclusion in sapphire and zircons in two sapphire-bearing gravels yielded the average ages of 24 ± 0.9, 10.86 ± 0.14 and 4.4 ± 0.4 Ma, respectively... These ages are, however, mostly pre-dated (one is close to) ~4–3 Ma ages of the Bo Phloi basalt... the formation of sapphire... occurred episodically earlier during ~24–4 Ma... Later, the eruption of mantle-derived alkaline basalt carried the sapphire... to the surface during ~4–3 Ma.' Related: Fanka et al. 2021, J. Earth Sci. 32:1035-1052 (doi:10.1007/s12583-020-1347-1; zircon U–Pb of felsic xenoliths in the Bo Phloi basalt). That DOI is verified but I could not access the abstract, so I did not use it."
+ },
+ {
+  "id": "date-bo-phloi-gravels-radiocarbon",
+  "event_ids": [
+   "sapphire-gravels"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุคาร์บอน-14 ของกรวดไพลินบ่อพลอย",
+  "title_en": "Radiocarbon ages of Bo Phloi sapphire gravels",
+  "finding_th": "ไพลินที่บ่อพลอยสะสมตัวในชั้นกรวดของที่ราบน้ำท่วมถึงและตะพักลำน้ำระดับต่ำ การหาอายุด้วยคาร์บอน-14 (radiocarbon, 14C) ของเศษไม้และพีต (peat) ในชั้นที่มีอัญมณีชี้ว่าตะกอนชุดนี้สะสมตัวในสมัยไพลสโตซีนตอนกลางถึงตอนปลาย",
+  "finding_en": "At Bo Phloi, sapphires are concentrated in gravel beds of floodplain and low-terrace deposits. Radiocarbon (14C) dating of wood and peat within the gem-bearing layers shows that the deposit formed in the middle to late Pleistocene.",
+  "value": "14C on wood/peat: middle–late Pleistocene",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Choowong 2002, Quaternary geology and sapphire deposits from the Bo Phloi gem field, Kanchanaburi Province, Western Thailand, Journal of Asian Earth Sciences 20:119–125",
+   "url": "https://doi.org/10.1016/S1367-9120(01)00032-3"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (J. Asian Earth Sci. 20(2):119-125, Jan 2002). ScienceDirect, ADS, ResearchGate and Academia were all blocked, so I read only search-engine snippets of the abstract: 'Gemstones are recognized in floodplain and low terrace deposits where gemstone paystreaks concentrate mostly inside layers of gravel beds and foreset-bedded gravels lithofacies. C-14 dating of wood and peat within gemstone-bearing layers indicated that the deposit formed during the middle to late Pleistocene.' One snippet also gave numbers ('woods... dated by 14C... mostly between 24,500 and 33,500 yrs BP'), but I could not tie them to this paper, so they are NOT in 'value'; check them. Note: finite 14C ages of 24–34 ka would be late Pleistocene and are near the method's limit, so 'middle Pleistocene' cannot come from 14C. Check whether luminescence was also used. The timeline age of 0.393 Ma for 'sapphire-gravels' has no support in this source. Sutthirat et al. 2020 detrital-zircon ages (4.4 and 10.86 Ma) give only a maximum age for the gravels."
+ },
+ {
+  "id": "date-ban-kao-radiocarbon",
+  "event_ids": [
+   "ban-kao-neolithic"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุคาร์บอน-14 ของแหล่งโบราณคดีบ้านเก่า",
+  "title_en": "Radiocarbon dating of Ban Kao Neolithic",
+  "finding_th": "ค่าอายุคาร์บอน-14 (radiocarbon, 14C) จากถ่านไม้ในชั้นสมัยหินใหม่ (Neolithic) ทั้งสองระยะของแหล่งฝังศพบ้านเก่า จังหวัดกาญจนบุรี ซึ่งขุดค้นโดยคณะสำรวจไทย–เดนมาร์กช่วงต้นทศวรรษ 1960 ชี้ว่าชุมชนตั้งถิ่นฐานในช่วงครึ่งแรกของสหัสวรรษที่ 2 ก่อนคริสตกาล หรือช้ากว่านั้นเล็กน้อย (ราว 4,000–3,500 ปีก่อน)",
+  "finding_en": "Charcoal radiocarbon dates from both Neolithic phases at the Ban Kao settlement and cemetery, excavated by the Thai–Danish expedition in the early 1960s, place occupation in the first half of the 2nd millennium BC or slightly later (about 4000–3500 years ago).",
+  "value": "Charcoal 14C: first half of 2nd millennium BC or slightly later",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Higham, Higham, Ciarla, Douka, Kijngam & Rispoli 2011, The origins of the Bronze Age of Southeast Asia, Journal of World Prehistory 24:227–274",
+   "url": "https://doi.org/10.1007/s10963-011-9054-6"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (J. World Prehist. 24:227-274, Dec 2011). Read the FULL TEXT (PDF hosted at pages.upd.edu.ph). Exact statement (p. 244): 'Ban Kao is a Neolithic settlement and cemetery in Kanchanaburi, excavated in the early 1960s by Sørensen (Sørensen and Hatting 1967), who obtained radiocarbon determinations relating to both the Neolithic phases. These indicate settlement within the first half of the 2nd millennium BC or slightly later (Fig. 8).' The caption of Fig. 8 says the dates are 'based on charcoal'. The paper does not list lab numbers or BP values in the text; these are in Sørensen & Hatting 1967, Archaeological Excavations in Thailand vol. II: Ban-Kao (Munksgaard), which I did not see. A search summary claimed a Bayesian re-analysis (occupation from the 19th/18th century BC, lasting about five centuries), but I could NOT find its source, so it is not used. The '4000–3500 years ago' in the finding is my conversion of '1st half of 2nd millennium BC'. Charcoal may have inbuilt age, so the dates may be slightly too old. Site is null: Wikipedia gives 13.867 N, 99.150 E for Ban Kao, but I did not confirm that this is the excavation site."
+ }
+]

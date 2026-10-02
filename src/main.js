@@ -28,11 +28,10 @@ function start() {
   }
 
   const evidence = data.evidence || [];
-  const modelLatFor = e => data.slices[String(e.paleo_age)]?.kanchanaburi?.[1] ?? null;
   const card = createCard(document.getElementById('card'), {
     onPrev: () => goStop(stopIndex - 1),
     onNext: () => goStop(stopIndex + 1),
-    extraHtml: e => evidenceHtml(e.id, evidence, modelLatFor(e)),
+    extraHtml: e => evidenceHtml(e.id, evidence),
   });
 
   const timeline = createTimeline(document.getElementById('timeline'), data.events, data.periods, {

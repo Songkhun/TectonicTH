@@ -14,10 +14,10 @@ export function formatPaleolatCompare(paleolat, modelLat, lang) {
   const measured = `${Math.abs(paleolat.deg)}${err}°${paleolat.deg < 0 ? 'S' : 'N'}`;
   const head = `${th ? 'วัดได้' : 'measured'} ${measured}`;
   if (modelLat == null) return head;
-  return `${head} · ${th ? 'แบบจำลอง' : 'model'} ${formatLat(modelLat)}`;
+  return `${head} · ${th ? 'แบบจำลอง ณ จุดเก็บตัวอย่าง' : 'model at site'} ${formatLat(modelLat)}`;
 }
 
-export function evidenceHtml(eventId, items, modelLat) {
+export function evidenceHtml(eventId, items) {
   const list = evidenceFor(eventId, items);
   if (!list.length) return '';
   const lang = getLang();
@@ -25,7 +25,7 @@ export function evidenceHtml(eventId, items, modelLat) {
     const badge = it.verified ? '' : ` <span class="badge">${esc(t('draft'))}</span>`;
     const value = it.value ? `<span class="ev-value">${esc(it.value)}</span>` : '';
     const compare = it.paleolat
-      ? `<span class="ev-compare">${esc(formatPaleolatCompare(it.paleolat, modelLat, lang))}</span>`
+      ? `<span class="ev-compare">${esc(formatPaleolatCompare(it.paleolat, it.model_paleolat ? it.model_paleolat.deg : null, lang))}</span>`
       : '';
     const data = value || compare ? `<p class="ev-data">${value}${value && compare ? ' · ' : ''}${compare}</p>` : '';
     const site = it.site
