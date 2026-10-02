@@ -74,3 +74,48 @@ def validate_evidence(items, event_ids):
         if not isinstance(it.get("verified"), bool):
             err("verified must be true or false")
     return errors
+
+
+TEMPLATE_COLUMNS = ["id", "event_ids", "method", "title_th", "title_en", "finding_th", "finding_en", "value",
+                    "paleolat_deg", "paleolat_err", "site_name_th", "site_name_en", "site_lat", "site_lon",
+                    "citation_text", "citation_url", "source_type", "notes"]
+
+
+def _cell(row, key):
+    return (row.get(key) or "").strip()
+
+
+def rows_to_items(rows):
+    """Convert template rows to evidence items. New items are always unverified."""
+    items = []
+    for row in rows:
+        deg, err = _cell(row, "paleolat_deg"), _cell(row, "paleolat_err")
+        lat, lon = _cell(row, "site_lat"), _cell(row, "site_lon")
+        items.append({
+            "id": _cell(row, "id"),
+            "event_ids": [s.strip() for s in _cell(row, "event_ids").split(";") if s.strip()],
+            "method": _cell(row, "method"),
+            "title_th": _cell(row, "title_th"), "title_en": _cell(row, "title_en"),
+            "finding_th": _cell(row, "finding_th"), "finding_en": _cell(row, "finding_en"),
+            "value": _cell(row, "value") or None,
+            "paleolat": {"deg": float(deg), "err": float(err or 0)} if deg else None,
+            "site": ({"name_th": _cell(row, "site_name_th"), "name_en": _cell(row, "site_name_en"),
+                      "lat": float(lat), "lon": float(lon)} if lat and lon else None),
+            "citation": {"text": _cell(row, "citation_text"), "url": _cell(row, "citation_url")},
+            "source_type": _cell(row, "source_type") or "own-survey",
+            "verified": False,
+            "_notes": _cell(row, "notes"),
+        })
+    return items
+
+
+def import_rows(csv_path, evidence_path, event_ids):
+    """Append CSV rows to evidence.json. Returns errors; nothing is written unless all rows are valid."""
+    with Path(csv_path).open(encoding="utf-8-sig", newline="") as f:
+        new = rows_to_items(list(csv.DictReader(f)))
+    existing = load_evidence(evidence_path)
+    errors = validate_evidence(existing + new, event_ids)
+    if errors:
+        return errors
+    Path(evidence_path).write_text(json.dumps(existing + new, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    return []

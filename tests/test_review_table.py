@@ -32,3 +32,18 @@ def test_notes_column_carries_research_notes(tmp_path):
     csv_path, _ = write_review(EVENTS, tmp_path)
     rows = list(csv.DictReader(csv_path.open(encoding="utf-8-sig")))
     assert rows[0]["notes"] == "Age from Ridd 2011 table 5.1"
+
+
+from review_table import EVIDENCE_COLUMNS, write_evidence_review
+
+
+def test_evidence_review_csv(tmp_path):
+    items = [{"id": "pm", "event_ids": ["a", "b"], "method": "paleomagnetism", "title_th": "ก", "title_en": "Pole",
+              "finding_th": "ข", "finding_en": "F", "value": "32 ± 6°S", "paleolat": {"deg": -32, "err": 6},
+              "site": None, "citation": {"text": "S 2020", "url": "https://doi.org/10.1/x"},
+              "source_type": "peer-reviewed", "verified": False, "_notes": "n"}]
+    csv_path, md_path = write_evidence_review(items, tmp_path)
+    rows = list(csv.DictReader(csv_path.open(encoding="utf-8-sig")))
+    assert list(rows[0].keys()) == EVIDENCE_COLUMNS
+    assert rows[0]["event_ids"] == "a; b" and rows[0]["paleolat"] == "-32 ± 6" and rows[0]["notes"] == "n"
+    assert md_path.name == "evidence_review.md"
