@@ -65,3 +65,17 @@ def test_fossil_review_csv(tmp_path):
     assert rows[0]["locality"] == "บ้านท่ากระดาน ต.ท่ากระดาน อ.ศรีสวัสดิ์ จ.กาญจนบุรี"
     assert rows[0]["lat_lon"] == "14.6, 99.1 (area)" and rows[0]["age"] == "449–458 Ma"
     assert md_path.name == "fossil_review.md"
+
+
+from review_table import MODEL_COLUMNS, write_models_review
+
+
+def test_models_review_has_one_row_per_model_and_evidence_link(tmp_path):
+    from test_models import Q, SUT
+    csv_path, _ = write_models_review([Q], SUT, tmp_path)
+    rows = list(csv.DictReader(csv_path.open(encoding="utf-8-sig")))
+    assert list(rows[0].keys()) == MODEL_COLUMNS
+    kinds = [r["kind"] for r in rows]
+    assert kinds.count("model") == 2 and kinds.count("evidence-role") == 1 and kinds.count("suture") == 1 and kinds.count("terrane") == 1
+    role = next(r for r in rows if r["kind"] == "evidence-role")
+    assert role["detail"] == "inthanon: supports; nan: challenges"

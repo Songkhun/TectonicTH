@@ -5,6 +5,7 @@ from pathlib import Path
 
 from evidence import load_evidence
 from fossils import load_fossils
+from models import load_json_or
 from validate import load_json
 
 COLUMNS = ["id", "lane", "age_ma", "age_uncertainty_ma", "title_th", "title_en", "body_th", "body_en",
@@ -124,10 +125,57 @@ def write_fossil_review(items, out_dir):
     return csv_path, md_path
 
 
+MODEL_COLUMNS = ["question", "kind", "id", "name_en", "name_th", "ages", "detail", "reason_or_summary_en",
+                 "reason_or_summary_th", "citation", "verified", "notes", "corrections"]
+
+
+def write_models_review(questions, sutures, out_dir):
+    out_dir = Path(out_dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for q in questions:
+        for m in q["models"]:
+            ages = "; ".join(f"{ph['label_en']} {ph['base_ma']:g}–{ph['top_ma']:g} Ma" for ph in m["phases"])
+            rows.append({"question": q["id"], "kind": "model", "id": m["id"], "name_en": m["name_en"], "name_th": m["name_th"],
+                         "ages": ages, "detail": "", "reason_or_summary_en": m["summary_en"], "reason_or_summary_th": m["summary_th"],
+                         "citation": f"{m['citation']['text']} — {m['citation']['url']}", "verified": "yes" if q["verified"] else "no",
+                         "notes": q.get("_notes", ""), "corrections": ""})
+        for ev in q["evidence"]:
+            rows.append({"question": q["id"], "kind": "evidence-role", "id": ev["evidence_id"], "name_en": "", "name_th": "",
+                         "ages": f"{ev['age_base_ma']:g}–{ev['age_top_ma']:g} Ma",
+                         "detail": "; ".join(f"{k}: {v}" for k, v in ev["roles"].items()),
+                         "reason_or_summary_en": ev["reason_en"], "reason_or_summary_th": ev["reason_th"], "citation": "",
+                         "verified": "yes" if q["verified"] else "no", "notes": "", "corrections": ""})
+        rows.append({"question": q["id"], "kind": "synthesis", "id": q["id"], "name_en": q["title_en"], "name_th": q["title_th"],
+                     "ages": f"{q['axis']['base_ma']:g}–{q['axis']['top_ma']:g} Ma", "detail": "",
+                     "reason_or_summary_en": q["synthesis_en"], "reason_or_summary_th": q["synthesis_th"], "citation": "",
+                     "verified": "yes" if q["verified"] else "no", "notes": "", "corrections": ""})
+    for kind, items in (("suture", sutures.get("sutures", [])), ("terrane", sutures.get("terranes", []))):
+        for x in items:
+            pts = "; ".join(f"{p['place']} ({p['lat']}, {p['lon']})" for p in x.get("points", [])) or f"label at {x.get('label_lat')}, {x.get('label_lon')}"
+            rows.append({"question": "map", "kind": kind, "id": x["id"], "name_en": x["name_en"], "name_th": x["name_th"],
+                         "ages": "", "detail": pts, "reason_or_summary_en": "", "reason_or_summary_th": "",
+                         "citation": f"{x['citation']['text']} — {x['citation']['url']}", "verified": "yes" if x["verified"] else "no",
+                         "notes": x.get("_notes", ""), "corrections": ""})
+    csv_path = out_dir / "models_review.csv"
+    with csv_path.open("w", encoding="utf-8-sig", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=MODEL_COLUMNS)
+        w.writeheader()
+        w.writerows(rows)
+    md_path = out_dir / "models_review.md"
+    cell = lambda v: str(v).replace("|", "\\|").replace("\n", " ")  # noqa: E731
+    lines = ["| " + " | ".join(MODEL_COLUMNS) + " |", "|" + "---|" * len(MODEL_COLUMNS)]
+    lines += ["| " + " | ".join(cell(r[c]) for c in MODEL_COLUMNS) + " |" for r in rows]
+    md_path.write_text("# Deep Time Kanchanaburi — tectonic models and map schematics review\n\n" + "\n".join(lines) + "\n", encoding="utf-8")
+    return csv_path, md_path
+
+
 if __name__ == "__main__":
     root = Path(__file__).resolve().parent.parent
     paths = write_review(load_json(root / "content/events.json"), root / "review")
     paths += write_evidence_review(load_evidence(root / "content/evidence.json"), root / "review")
     paths += write_fossil_review(load_fossils(root / "content/fossils.json"), root / "review")
+    paths += write_models_review(load_json_or(root / "content/models.json", []),
+                                 load_json_or(root / "content/sutures.json", {"sutures": [], "terranes": []}), root / "review")
     print("\n".join(str(p) for p in paths))
     sys.exit(0)

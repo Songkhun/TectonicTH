@@ -10,6 +10,7 @@ from evidence import EvidenceFileError, load_evidence, validate_evidence
 from paleo import MODEL, check_present, load_slices
 from polarity import load_polarity, validate_polarity
 from fossils import load_fossils, validate_fossils
+from models import load_json_or, validate_models, validate_sutures
 from validate import load_json, validate_events, validate_timescale
 
 MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js", "fossils.js",
@@ -57,10 +58,16 @@ def build(root, strict=False, module_order=MODULE_ORDER):
 
     polarity = load_polarity(root / "content/polarity.json")
     fossils = load_fossils(root / "content/fossils.json")
+    models = load_json_or(root / "content/models.json", [])
+    sutures = load_json_or(root / "content/sutures.json", {"sutures": [], "terranes": []})
+    basemap = load_json_or(root / "content/basemap.json", None)
+    faults = load_json_or(root / "content/faults.json", None)
     errors = (validate_timescale(periods) + validate_events(events, periods, slice_ages)
               + validate_evidence(evidence, {e.get("id") for e in events},
                                   {e.get("id"): e.get("age_ma") for e in events}))
     errors += validate_fossils(fossils, max(p["start_ma"] for p in periods))
+    errors += validate_models(models, {it.get("id") for it in evidence}, {e.get("id") for e in events})
+    errors += validate_sutures(sutures)
     if polarity is not None:
         errors += validate_polarity(polarity.get("segments", []), max(p["start_ma"] for p in periods))
     if "0" not in slices:
@@ -84,6 +91,12 @@ def build(root, strict=False, module_order=MODULE_ORDER):
         unverified_fos = [f["id"] for f in fossils if not f["verified"]]
         if unverified_fos:
             raise BuildError("--strict: unverified fossils: " + ", ".join(unverified_fos))
+        unverified_models = [q["id"] for q in models if not q["verified"]]
+        if unverified_models:
+            raise BuildError("--strict: unverified tectonic models: " + ", ".join(unverified_models))
+        unverified_map = [x["id"] for x in sutures["sutures"] + sutures["terranes"] if not x["verified"]]
+        if unverified_map:
+            raise BuildError("--strict: unverified map schematics: " + ", ".join(unverified_map))
 
     js_parts, seen = [], {}
     for name in module_order:
@@ -102,7 +115,11 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     public_events = [{k: v for k, v in e.items() if not k.startswith("_")} for e in events]
     public_evidence = [{k: v for k, v in it.items() if not k.startswith("_")} for it in evidence]
     public_fossils = [{k: v for k, v in f.items() if not k.startswith("_")} for f in fossils]
-    data = json.dumps({"events": public_events, "fossils": public_fossils, "evidence": public_evidence, "polarity": polarity, "periods": periods, "slices": slices, "model": MODEL,
+    strip = lambda o: {k: v for k, v in o.items() if not k.startswith("_")}  # noqa: E731
+    public_models = [strip(q) for q in models]
+    public_sutures = {"sutures": [strip(x) for x in sutures["sutures"]], "terranes": [strip(x) for x in sutures["terranes"]]}
+    data = json.dumps({"events": public_events, "fossils": public_fossils, "models": public_models,
+                       "sutures": public_sutures, "basemap": basemap, "faults": faults, "evidence": public_evidence, "polarity": polarity, "periods": periods, "slices": slices, "model": MODEL,
                        "built": dt.date.today().isoformat()},
                       ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
 

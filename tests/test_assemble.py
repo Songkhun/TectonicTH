@@ -248,3 +248,54 @@ def test_build_without_fossils_embeds_empty_list(tmp_path):
     html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
     data = json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])
     assert data["fossils"] == []
+
+
+def _write(root, name, obj):
+    (root / f"content/{name}").write_text(json.dumps(obj, ensure_ascii=False), encoding="utf-8")
+
+
+def _data(html):
+    return json.loads(html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0])
+
+
+def test_build_embeds_map_layers_and_models(tmp_path):
+    from test_models import Q, SUT
+    root = make_root(tmp_path)
+    write_evidence(root, [{**EV, "id": "pmag-a"}, {**EV, "id": "date-b"}])
+    starter = json.loads((root / "content/events.json").read_text(encoding="utf-8"))
+    starter.append({**starter[0], "id": "indosinian-collision"})
+    _write(root, "events.json", starter)
+    _write(root, "models.json", [{**Q, "_notes": "private model note"}])
+    _write(root, "sutures.json", SUT)
+    _write(root, "basemap.json", {"land": {"type": "FeatureCollection", "features": []}, "borders": {"type": "FeatureCollection", "features": []}})
+    _write(root, "faults.json", {"faults": {"type": "FeatureCollection", "features": []}, "source": {"text": "GEM"}})
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    d = _data(html)
+    assert d["models"][0]["id"] == "paleo-tethys-suture" and "private model note" not in html
+    assert d["sutures"]["sutures"][0]["id"] == "nan-uttaradit"
+    assert "land" in d["basemap"] and "faults" in d["faults"]
+
+
+def test_build_rejects_models_pointing_to_unknown_evidence(tmp_path):
+    from test_models import Q
+    root = make_root(tmp_path)
+    _write(root, "models.json", [Q])
+    with pytest.raises(BuildError, match="unknown evidence id pmag-a"):
+        build(root, module_order=["a.js", "b.js"])
+
+
+def test_strict_refuses_unverified_models_and_sutures(tmp_path):
+    from test_models import SUT
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
+    for e in starter:
+        e["verified"] = True
+    root = make_root(tmp_path, starter)
+    _write(root, "sutures.json", SUT)
+    with pytest.raises(BuildError, match="unverified map schematics: nan-uttaradit, sibumasu"):
+        build(root, strict=True, module_order=["a.js", "b.js"])
+
+
+def test_build_without_new_files_embeds_empty_layers(tmp_path):
+    d = _data(build(make_root(tmp_path), module_order=["a.js", "b.js"]).read_text(encoding="utf-8"))
+    assert d["models"] == [] and d["sutures"] == {"sutures": [], "terranes": []}
+    assert d["basemap"] is None and d["faults"] is None
