@@ -51,3 +51,7 @@ test('every method has a label in both languages', () => {
 test('paleolatitude without a stated error omits the ±', () => {
   assert.equal(formatPaleolatCompare({ deg: -13, err: null }, -17.2, 'en'), 'measured 13°S · model ≈17°S');
 });
+
+test('electrical surveys (ERT, MT) are a method with labels', () => {
+  assert.ok(EVIDENCE_METHODS.includes('electrical'));
+});

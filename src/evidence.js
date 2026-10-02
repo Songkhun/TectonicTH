@@ -2,7 +2,7 @@ import { t, field, getLang } from './i18n.js';
 import { esc, formatLat } from './format.js';
 
 export const EVIDENCE_METHODS = ['paleomagnetism', 'geochronology', 'biostratigraphy', 'seismic', 'gravity',
-  'magnetic', 'seismicity', 'geodesy', 'field-survey'];
+  'magnetic', 'electrical', 'seismicity', 'geodesy', 'field-survey'];
 
 export function evidenceFor(eventId, items) {
   return items.filter(it => it.event_ids.includes(eventId));

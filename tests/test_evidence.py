@@ -143,3 +143,7 @@ def test_template_file_has_template_columns():
 
 def test_paleolat_without_stated_error_is_allowed():
     assert validate_evidence([item(paleolat={"deg": -13.0, "err": None})], EVENTS) == []
+
+
+def test_electrical_method_is_allowed():
+    assert validate_evidence([item(id="mt", method="electrical", paleolat=None)], EVENTS) == []
