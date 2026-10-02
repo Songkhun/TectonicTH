@@ -3,6 +3,7 @@ import { formatLat, formatSliceAge, esc } from './format.js';
 import { createGlobe } from './globe.js';
 import { createTimeline } from './timeline.js';
 import { createCard } from './card.js';
+import { evidenceHtml } from './evidence.js';
 
 function start() {
   const data = JSON.parse(document.getElementById('dt-data').textContent);
@@ -26,9 +27,12 @@ function start() {
     readout.textContent = `${t('paleo_label')} ${formatLat(info.lonlat[1])} · ${formatSliceAge(info.age, getLang())}${approx}`;
   }
 
+  const evidence = data.evidence || [];
+  const modelLatFor = e => data.slices[String(e.paleo_age)]?.kanchanaburi?.[1] ?? null;
   const card = createCard(document.getElementById('card'), {
     onPrev: () => goStop(stopIndex - 1),
     onNext: () => goStop(stopIndex + 1),
+    extraHtml: e => evidenceHtml(e.id, evidence, modelLatFor(e)),
   });
 
   const timeline = createTimeline(document.getElementById('timeline'), data.events, data.periods, {
@@ -57,7 +61,7 @@ function start() {
 
   function renderAbout() {
     const seen = new Set();
-    const cites = data.events
+    const cites = [...data.events, ...evidence]
       .filter(e => e.citation && !seen.has(e.citation.text) && seen.add(e.citation.text))
       .map(e => `<li><a href="${esc(e.citation.url)}" target="_blank" rel="noopener">${esc(e.citation.text)}</a></li>`)
       .join('');

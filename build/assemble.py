@@ -10,7 +10,7 @@ from evidence import load_evidence, validate_evidence
 from paleo import MODEL, load_slices
 from validate import load_json, validate_events, validate_timescale
 
-MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js",
+MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js",
                 "globe.js", "timeline.js", "card.js", "main.js"]
 MAX_HTML_BYTES = 3_000_000
 IMPORT_RE = re.compile(r"^import\s+\{[^}]*\}\s+from\s+'\./[\w-]+\.js';\s*$")

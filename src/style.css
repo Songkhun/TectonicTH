@@ -5,6 +5,7 @@
   --globe-edge: #8aa0b0; --globe-marker: #d13b1c;
   --font: "Noto Sans Thai", "Thonburi", "Leelawadee UI", system-ui, -apple-system, "Segoe UI", sans-serif;
   --scale: 1;
+  --ev-paleomag: #6a3fb5; --ev-dating: #a5531a; --ev-geophys: #1f6f8b; --ev-field: #2f7d32; --ev-chip-text: #ffffff;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -12,6 +13,7 @@
     --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
     --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
     --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
+    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; 
   }
 }
 :root[data-theme="dark"] {
@@ -19,6 +21,7 @@
   --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
   --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
   --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
+    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; 
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -88,3 +91,14 @@ dialog#about ol, dialog#about ul { padding-left: 20px; font-size: .85em; }
   .lane-life { width: 28px; }
   #card { max-height: 60%; }
 }
+.evidence { margin-top: 10px; border-top: 1px solid var(--border); padding-top: 8px; }
+.evidence h3 { font-size: .9em; margin: 0 0 6px; }
+.evidence ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ev-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: .88em; }
+.ev-chip { font-size: .72em; padding: 1px 8px; border-radius: 999px; color: var(--ev-chip-text); background: var(--ev-geophys); }
+.ev-paleomagnetism { background: var(--ev-paleomag); }
+.ev-geochronology, .ev-biostratigraphy { background: var(--ev-dating); }
+.ev-field-survey { background: var(--ev-field); }
+#card .ev-item p { margin: 2px 0; font-size: .85em; }
+#card .ev-data { font-variant-numeric: tabular-nums; color: var(--text); font-weight: 600; }
+#card .ev-cite { font-size: .76em; color: var(--muted); }

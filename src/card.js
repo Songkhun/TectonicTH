@@ -1,7 +1,7 @@
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
 
-export function createCard(el, { onPrev, onNext, onClose } = {}) {
+export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
   let shown = null;
   let lecture = false;
 
@@ -22,10 +22,11 @@ export function createCard(el, { onPrev, onNext, onClose } = {}) {
     const cite = e.citation
       ? `<p class="card-cite"><strong>${esc(t('source'))}:</strong> <a href="${esc(e.citation.url)}" target="_blank" rel="noopener">${esc(e.citation.text)}</a></p>`
       : '';
+    const extra = extraHtml ? extraHtml(e) : '';
     const nav = lecture
       ? `<div class="card-nav"><button type="button" class="prev">← ${esc(t('prev'))}</button><button type="button" class="next">${esc(t('next'))} →</button></div>`
       : '';
-    el.innerHTML = `<div class="card-head"><span class="card-age">${esc(formatAge(e.age_ma, e.age_uncertainty_ma, getLang()))}</span>${badge}<button type="button" class="card-close" aria-label="${esc(t('close'))}">×</button></div><h2>${esc(field(e, 'title'))}</h2>${body}${unit}${site}${cite}${nav}`;
+    el.innerHTML = `<div class="card-head"><span class="card-age">${esc(formatAge(e.age_ma, e.age_uncertainty_ma, getLang()))}</span>${badge}<button type="button" class="card-close" aria-label="${esc(t('close'))}">×</button></div><h2>${esc(field(e, 'title'))}</h2>${body}${unit}${site}${cite}${extra}${nav}`;
     el.hidden = false;
     el.querySelector('.card-close').addEventListener('click', () => { hide(); if (onClose) onClose(); });
     if (lecture) {
