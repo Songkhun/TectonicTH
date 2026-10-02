@@ -3,6 +3,7 @@ import { formatLat, formatSliceAge, esc } from './format.js';
 import { createGlobe } from './globe.js';
 import { createTimeline } from './timeline.js';
 import { createCard } from './card.js';
+import { nearestStopIndex, lectureKeyAction } from './select.js';
 import { evidenceHtml } from './evidence.js';
 
 function start() {
@@ -38,6 +39,7 @@ function start() {
     onActive: e => {
       showReadout(globe.showSlice(e.paleo_age));
       if (!lecture) card.hide();
+      else if (stops[stopIndex] !== e) stopIndex = nearestStopIndex(stops, e);
     },
     onSelect: e => card.show(e),
   });
@@ -81,9 +83,10 @@ function start() {
   document.getElementById('btn-about').addEventListener('click', () => document.getElementById('about').showModal());
   document.addEventListener('keydown', ev => {
     if (!lecture) return;
-    if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(ev.key)) { ev.preventDefault(); goStop(stopIndex + 1); }
-    if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(ev.key)) { ev.preventDefault(); goStop(stopIndex - 1); }
-    if (ev.key === 'Escape') setLecture(false);
+    const action = lectureKeyAction(ev.key, ev.target && ev.target.tagName, document.getElementById('about').open);
+    if (action === 'next') { ev.preventDefault(); goStop(stopIndex + 1); }
+    if (action === 'prev') { ev.preventDefault(); goStop(stopIndex - 1); }
+    if (action === 'exit') setLecture(false);
   });
   onLangChange(() => {
     applyStaticText();

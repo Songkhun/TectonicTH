@@ -15,6 +15,8 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
   let padBottom = 0;
   let active = -1;
   let rowEls = [];
+  let jumping = false;
+  let jumpTimer = null;
 
   function rowHtml(e) {
     if (e.lane === 'life') {
@@ -34,7 +36,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
       el.style.top = `${pad + b.y}px`;
       el.style.height = `${b.h - 4}px`;
       el.style.background = b.period.color;
-      el.innerHTML = `<span>${esc(field(b.period, 'name'))}</span>`;
+      el.innerHTML = `<span>${esc(field(b.period, 'name').replace(/^ยุค/, ''))}</span>`;
       inner.appendChild(el);
     }
     rowEls = layout.rows.map(r => {
@@ -59,7 +61,7 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
     if (rowEls[active]) rowEls[active].classList.remove('is-active');
     rowEls[i].classList.add('is-active');
     active = i;
-    onActive(layout.rows[i].event);
+    if (!jumping) onActive(layout.rows[i].event);
   }
 
   let ticking = false;
@@ -73,6 +75,20 @@ export function createTimeline(container, events, periods, { onActive, onSelect 
     const r = layout.rows.find(row => row.event.id === id);
     if (!r) return;
     const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+    // While a jump scrolls past other rows, only the destination reaches onActive,
+    // so the globe does not flicker through every slice in between.
+    jumping = true;
+    clearTimeout(jumpTimer);
+    const finish = () => {
+      if (!jumping) return;
+      jumping = false;
+      clearTimeout(jumpTimer);
+      container.removeEventListener('scrollend', finish);
+      active = -1;
+      update();
+    };
+    container.addEventListener('scrollend', finish);
+    jumpTimer = setTimeout(finish, smooth ? 900 : 50);
     container.scrollTo({ top: r.y + ROW_H / 2, behavior: smooth ? 'smooth' : 'auto' });
   }
 

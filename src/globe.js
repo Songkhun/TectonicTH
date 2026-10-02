@@ -44,6 +44,9 @@ export function createGlobe(canvas, slices, { reducedMotion = false } = {}) {
     path(slice.coastlines);
     ctx.fillStyle = c.land;
     ctx.fill();
+    ctx.strokeStyle = c.land; // hides hairline seams between neighbouring plate polygons
+    ctx.lineWidth = 0.8;
+    ctx.stroke();
   }
 
   function drawMarker(lonlat, c, now) {

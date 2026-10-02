@@ -10,16 +10,26 @@ METHODS = ("paleomagnetism", "geochronology", "biostratigraphy", "seismic", "gra
 SOURCE_TYPES = ("peer-reviewed", "government-report", "thesis", "conference", "preprint", "own-survey")
 
 
+class EvidenceFileError(ValueError):
+    pass
+
+
 def load_evidence(path):
     path = Path(path)
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        raise EvidenceFileError(f"{path.name} line {exc.lineno}, column {exc.colno}: {exc.msg}") from exc
 
 
 def validate_evidence(items, event_ids, event_ages=None):
     errors, seen = [], set()
     for i, it in enumerate(items):
+        if not isinstance(it, dict):
+            errors.append(f"#{i}: item must be an object")
+            continue
         iid = it.get("id", f"#{i}")
 
         def err(msg):
@@ -35,6 +45,9 @@ def validate_evidence(items, event_ids, event_ages=None):
         ids = it.get("event_ids")
         if not isinstance(ids, list) or not ids:
             err("event_ids must be a non-empty list")
+        elif not all(isinstance(x, str) for x in ids):
+            err("event_ids must be a list of ids")
+            ids = None
         else:
             for eid in ids:
                 if eid not in event_ids:
@@ -168,7 +181,8 @@ def add_model_paleolat(items, event_ages, session):
     out = []
     for it in items:
         it = dict(it)
-        if it.get("method") == "paleomagnetism" and it.get("paleolat") and it.get("site"):
+        if (it.get("method") == "paleomagnetism" and it.get("paleolat") and it.get("site")
+                and it["event_ids"] and it["event_ids"][0] in event_ages):
             age = event_ages[it["event_ids"][0]]
             r = session.get(f"{GWS_URL}/reconstruct/reconstruct_points/",
                             params={"points": f"{it['site']['lon']},{it['site']['lat']}", "time": age, "model": MODEL},

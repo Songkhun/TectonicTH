@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { activeIndex, nearestSlice, scrollPads, frameDue } from '../../src/select.js';
+import { activeIndex, nearestSlice, scrollPads, frameDue, nearestStopIndex, lectureKeyAction } from '../../src/select.js';
 
 const rows = [{ y: 0 }, { y: 50 }, { y: 100 }];
 
@@ -32,4 +32,24 @@ test('frameDue throttles idle pulse redraws but never an animation', () => {
   assert.equal(frameDue(1000, 990, false), false);
   assert.equal(frameDue(1100, 990, false), true);
   assert.equal(frameDue(1000, 999, true), true);
+});
+
+test('nearestStopIndex syncs lecture position to the event the student scrolled to', () => {
+  const stops = [{ age_ma: 466 }, { age_ma: 286 }, { age_ma: 260 }, { age_ma: 3 }];
+  assert.equal(nearestStopIndex(stops, { age_ma: 270 }), 2);
+  assert.equal(nearestStopIndex(stops, { age_ma: 500 }), 0);
+  assert.equal(nearestStopIndex(stops, { age_ma: 0 }), 3);
+  assert.equal(nearestStopIndex([], { age_ma: 1 }), -1);
+});
+
+test('lectureKeyAction leaves dialogs and focused buttons alone', () => {
+  assert.equal(lectureKeyAction('ArrowRight', 'DIV', false), 'next');
+  assert.equal(lectureKeyAction('PageUp', 'DIV', false), 'prev');
+  assert.equal(lectureKeyAction('Escape', 'DIV', false), 'exit');
+  assert.equal(lectureKeyAction('Escape', 'DIV', true), null);
+  assert.equal(lectureKeyAction('ArrowRight', 'DIV', true), null);
+  assert.equal(lectureKeyAction(' ', 'BUTTON', false), null);
+  assert.equal(lectureKeyAction(' ', 'A', false), null);
+  assert.equal(lectureKeyAction(' ', 'DIV', false), 'next');
+  assert.equal(lectureKeyAction('x', 'DIV', false), null);
 });

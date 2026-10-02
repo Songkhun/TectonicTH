@@ -29,7 +29,7 @@ export function evidenceHtml(eventId, items) {
       : '';
     const data = value || compare ? `<p class="ev-data">${value}${value && compare ? ' · ' : ''}${compare}</p>` : '';
     const site = it.site
-      ? ` · <a href="https://www.google.com/maps?q=${it.site.lat},${it.site.lon}" target="_blank" rel="noopener">${esc(field(it.site, 'name'))}</a>`
+      ? ` · <a href="https://www.google.com/maps?q=${esc(it.site.lat)},${esc(it.site.lon)}" target="_blank" rel="noopener">${esc(field(it.site, 'name'))}</a>`
       : '';
     return `<li class="ev-item"><div class="ev-head"><span class="ev-chip ev-${esc(it.method)}">${esc(t(`method_${it.method}`))}</span>`
       + `<strong>${esc(field(it, 'title'))}</strong>${badge}</div>`

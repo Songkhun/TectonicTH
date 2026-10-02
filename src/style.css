@@ -13,7 +13,7 @@
     --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
     --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
     --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
-    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; 
+    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a;
   }
 }
 :root[data-theme="dark"] {
@@ -21,7 +21,7 @@
   --accent: #f08a5d; --row-active: #3a2a22; --badge-bg: #4a3a0a; --badge-text: #ffe08a;
   --globe-ocean: #16283a; --globe-land: #6e6046; --globe-grid: rgba(200, 220, 240, .12);
   --globe-edge: #3e5568; --globe-marker: #ff7a50; color-scheme: dark;
-    --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a; 
+  --ev-paleomag: #b79cf0; --ev-dating: #f0a36b; --ev-geophys: #7cc7e0; --ev-field: #8fd18f; --ev-chip-text: #15171a;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; }
@@ -46,7 +46,8 @@ body.lecture { --scale: 1.4; }
 .tl-inner { position: relative; margin: 0 16px; }
 .tl-band { position: absolute; left: 0; width: 72px; border-radius: 6px; opacity: .85; display: flex;
   justify-content: center; padding-top: 8px; }
-.tl-band span { writing-mode: vertical-rl; font-size: .72em; color: #1d1b18; font-weight: 600; }
+.tl-band span { font-size: .68em; line-height: 1.25; color: #1d1b18; font-weight: 600; text-align: center;
+  padding: 0 4px; overflow-wrap: anywhere; }
 .tl-row { position: absolute; display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
   gap: 2px; padding: 4px 10px; border: 1px solid transparent; border-radius: 8px; background: none; color: var(--text);
   font: inherit; text-align: left; cursor: pointer; overflow: hidden; }

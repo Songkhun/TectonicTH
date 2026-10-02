@@ -27,3 +27,25 @@ export function scrollPads(clientHeight) {
 export function frameDue(now, lastDraw, animating, interval = 66) {
   return animating || now - lastDraw >= interval;
 }
+
+// Index of the lecture stop closest in age to the event now on screen (keeps Next/Previous in step
+// after the student scrolls by hand).
+export function nearestStopIndex(stops, event) {
+  let best = -1;
+  let bestDist = Infinity;
+  stops.forEach((s, i) => {
+    const d = Math.abs(s.age_ma - event.age_ma);
+    if (d < bestDist) { bestDist = d; best = i; }
+  });
+  return best;
+}
+
+// What a key does in lecture mode; null means let the browser handle it.
+export function lectureKeyAction(key, targetTag, dialogOpen) {
+  if (dialogOpen) return null;
+  if (key === ' ' && (targetTag === 'BUTTON' || targetTag === 'A')) return null;
+  if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(key)) return 'next';
+  if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(key)) return 'prev';
+  if (key === 'Escape') return 'exit';
+  return null;
+}

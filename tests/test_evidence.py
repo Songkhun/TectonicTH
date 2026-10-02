@@ -252,3 +252,23 @@ def test_unplaceable_site_removes_old_model_value():
     old = item(model_paleolat={"deg": -35.6, "age_ma": 200, "model": "TorsvikCocks2017"})
     out = add_model_paleolat([old], {"ratburi-limestone": 270.0}, S())
     assert "model_paleolat" not in out[0]
+
+
+def test_wrong_types_are_reported_not_crashing():
+    errors = validate_evidence(["not an item", item(id="nested", event_ids=[["ratburi-limestone"]])], EVENTS)
+    assert any("#0: item must be an object" in e for e in errors)
+    assert any("nested: event_ids must be a list of ids" in e for e in errors)
+
+
+def test_malformed_evidence_file_names_file_and_line(tmp_path):
+    from evidence import EvidenceFileError
+    p = tmp_path / "evidence.json"
+    p.write_text('[\n {"id": "a",\n  oops }\n]', encoding="utf-8")
+    with pytest.raises(EvidenceFileError, match=r"evidence\.json line 3"):
+        load_evidence(p)
+
+
+def test_add_model_paleolat_skips_items_whose_event_was_removed():
+    from evidence import add_model_paleolat
+    out = add_model_paleolat([item(event_ids=["gone"])], {"ratburi-limestone": 270.0}, _Session())
+    assert "model_paleolat" not in out[0]

@@ -17,7 +17,7 @@ export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
     const body = field(e, 'body') ? `<p>${esc(field(e, 'body'))}</p>` : '';
     const unit = e.rock_unit ? `<p class="card-unit">${esc(e.rock_unit)}</p>` : '';
     const site = e.visit_site
-      ? `<p><strong>${esc(t('visit'))}:</strong> <a href="https://www.google.com/maps?q=${e.visit_site.lat},${e.visit_site.lon}" target="_blank" rel="noopener">${esc(field(e.visit_site, 'name'))}</a></p>`
+      ? `<p><strong>${esc(t('visit'))}:</strong> <a href="https://www.google.com/maps?q=${esc(e.visit_site.lat)},${esc(e.visit_site.lon)}" target="_blank" rel="noopener">${esc(field(e.visit_site, 'name'))}</a></p>`
       : '';
     const cite = e.citation
       ? `<p class="card-cite"><strong>${esc(t('source'))}:</strong> <a href="${esc(e.citation.url)}" target="_blank" rel="noopener">${esc(e.citation.text)}</a></p>`

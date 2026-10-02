@@ -19,7 +19,7 @@ def make_root(tmp_path, events=None):
     starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
     (root / "content/events.json").write_text(json.dumps(events if events is not None else starter, ensure_ascii=False), encoding="utf-8")
     for age in (270, 250, 230, 0):
-        (root / f"paleo/{age}.json").write_text(json.dumps({"age": age, "kanchanaburi": [99.53, 14.02], "coastlines": {"type": "FeatureCollection", "features": []}}), encoding="utf-8")
+        (root / f"paleo/{age}.json").write_text(json.dumps({"age": age, "model": assemble.MODEL, "kanchanaburi": [99.53, 14.02], "coastlines": {"type": "FeatureCollection", "features": []}}), encoding="utf-8")
     (root / "src/index.html").write_text(TEMPLATE, encoding="utf-8")
     (root / "src/style.css").write_text("body{background:#fff}", encoding="utf-8")
     (root / "src/a.js").write_text("export function hello() { return 1; }\n", encoding="utf-8")
@@ -34,7 +34,9 @@ def test_strip_module_syntax():
     assert "function f()" in out and "const x = 1" in out
 
 
-@pytest.mark.parametrize("src", ["export default 1;\n", "import x from './a.js';\n", "export { a };\n", "import('./a.js');\n"])
+@pytest.mark.parametrize("src", ["export default 1;\n", "import x from './a.js';\n", "export { a };\n", "import('./a.js');\n",
+                                 "  import { a } from './a.js';\n", "  export function f() {}\n",
+                                 "import { a as b } from './a.js';\n"])
 def test_strip_rejects_unsupported(src):
     with pytest.raises(BuildError):
         strip_module_syntax(src, "bad.js")
@@ -175,3 +177,23 @@ def test_strict_refuses_unverified_evidence(tmp_path):
     write_evidence(root, [{**EV, "verified": False}])
     with pytest.raises(BuildError, match="unverified evidence: pmag-ratburi"):
         build(root, strict=True, module_order=["a.js", "b.js"])
+
+
+def test_build_rejects_slices_from_another_model(tmp_path):
+    root = make_root(tmp_path)
+    p = root / "paleo/250.json"
+    sl = json.loads(p.read_text(encoding="utf-8"))
+    sl["model"] = "SOMEOTHER2020"
+    p.write_text(json.dumps(sl), encoding="utf-8")
+    with pytest.raises(BuildError, match="250 Ma slice is from SOMEOTHER2020"):
+        build(root, module_order=["a.js", "b.js"])
+
+
+def test_build_rejects_wrong_present_day_position(tmp_path):
+    root = make_root(tmp_path)
+    p = root / "paleo/0.json"
+    sl = json.loads(p.read_text(encoding="utf-8"))
+    sl["kanchanaburi"] = [90.0, 14.02]
+    p.write_text(json.dumps(sl), encoding="utf-8")
+    with pytest.raises(BuildError, match="0 Ma Kanchanaburi position"):
+        build(root, module_order=["a.js", "b.js"])

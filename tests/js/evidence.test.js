@@ -64,3 +64,11 @@ test('paleomag item without a site-based model value shows the measured latitude
   assert.ok(html.includes('measured 32 ± 6°S') && !html.includes('model'));
   setLang('th');
 });
+
+test('site coordinates are escaped in the map link', () => {
+  initLang(null);
+  const odd = [{ ...items[1], id: 'odd', event_ids: ['w'], site: { name_th: 'ก', name_en: 'A', lat: '1"onmouseover="x', lon: 2 } }];
+  const html = evidenceHtml('w', odd);
+  assert.ok(!html.includes('1"onmouseover'));
+  assert.ok(html.includes('1&quot;onmouseover'));
+});

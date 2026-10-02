@@ -6,14 +6,14 @@ import re
 import sys
 from pathlib import Path
 
-from evidence import load_evidence, validate_evidence
-from paleo import MODEL, load_slices
+from evidence import EvidenceFileError, load_evidence, validate_evidence
+from paleo import MODEL, check_present, load_slices
 from validate import load_json, validate_events, validate_timescale
 
 MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js",
                 "globe.js", "timeline.js", "card.js", "main.js"]
 MAX_HTML_BYTES = 3_000_000
-IMPORT_RE = re.compile(r"^import\s+\{[^}]*\}\s+from\s+'\./[\w-]+\.js';\s*$")
+IMPORT_RE = re.compile(r"^import\s+\{[\w\s,$]*\}\s+from\s+'\./[\w-]+\.js';\s*$")
 EXPORT_RE = re.compile(r"^export\s+(?=(?:async\s+)?(?:function|const|let|class)\b)")
 TOP_DECL_RE = re.compile(r"^(?:async\s+)?(?:function\*?|const|let|class)\s+([A-Za-z_$][\w$]*)", re.M)
 
@@ -25,8 +25,10 @@ class BuildError(Exception):
 def strip_module_syntax(src, name):
     out = []
     for n, line in enumerate(src.splitlines(), 1):
+        if line != line.lstrip() and re.match(r"(import|export)\b", line.lstrip()):
+            raise BuildError(f"{name}:{n}: import/export must start at column 0")
         if line.startswith("import"):
-            if IMPORT_RE.match(line):
+            if IMPORT_RE.match(line) and not re.search(r"\bas\b", line.split("}")[0]):
                 continue
             raise BuildError(f"{name}:{n}: unsupported import (use: import {{ a }} from './x.js';)")
         if line.startswith("export"):
@@ -46,13 +48,23 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     events = load_json(root / "content/events.json")
     slices = load_slices(root / "paleo")
     slice_ages = {float(k) for k in slices}
-    evidence = load_evidence(root / "content/evidence.json")
+    try:
+        evidence = load_evidence(root / "content/evidence.json")
+    except EvidenceFileError as exc:
+        raise BuildError(f"content/{exc}") from exc
 
     errors = (validate_timescale(periods) + validate_events(events, periods, slice_ages)
               + validate_evidence(evidence, {e.get("id") for e in events},
                                   {e.get("id"): e.get("age_ma") for e in events}))
     if "0" not in slices:
         errors.append("paleo slice for 0 Ma is missing")
+    else:
+        present = check_present(slices)
+        if present:
+            errors.append(present)
+    for key, sl in slices.items():
+        if sl.get("model") != MODEL:
+            errors.append(f"{key} Ma slice is from {sl.get('model')}, not {MODEL}; re-run build/fetch_paleo.py")
     if errors:
         raise BuildError("content errors:\n  " + "\n  ".join(errors))
     if strict:
