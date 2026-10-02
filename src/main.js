@@ -46,6 +46,9 @@ function start() {
   if (!data.polarity) polarityBox.closest('label').hidden = true;
   polarityBox.checked = showPolarity;
   let tipTimer = null;
+  const hidePolarityTip = () => { poltip.hidden = true; clearTimeout(tipTimer); };
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') hidePolarityTip(); });
+  document.addEventListener('click', ev => { if (!ev.target.closest('.tl-pol, #poltip, .tl-band')) hidePolarityTip(); });
   const showPolarityTip = seg => {
     poltip.textContent = polarityLabel(seg, getLang());
     poltip.hidden = false;

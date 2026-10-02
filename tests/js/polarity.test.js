@@ -39,3 +39,12 @@ test('labels name the chron, ages and polarity in both languages', () => {
   assert.equal(polarityLabel({ top_ma: 121.4, base_ma: 265, polarity: 'mixed', name: 'Frequent reversals', approx: false }, 'th'),
     'Frequent reversals · 121.4–265 ล้านปีก่อน · สลับบ่อย/ไม่ทราบแน่ชัด');
 });
+
+test('polarityAt finds the chron under a tap, or the nearest thin one within reach', async () => {
+  const { polarityAt } = await import('../../src/polarity.js');
+  const rects = [{ y: 100, h: 50, seg: { name: 'A' } }, { y: 150, h: 0.6, seg: { name: 'thin' } }, { y: 150.6, h: 40, seg: { name: 'B' } }];
+  assert.equal(polarityAt(rects, 120).seg.name, 'A');
+  assert.equal(polarityAt(rects, 170).seg.name, 'B');
+  assert.equal(polarityAt(rects, 150.3).seg.name, 'thin');
+  assert.equal(polarityAt(rects, 400, 4), null);
+});

@@ -53,6 +53,14 @@ report.fossil_jump = await ev("(async () => { const q = document.getElementById(
 await shot('10-fossil-card.png');
 // polarity strip
 report.pol_strips_on = await ev("document.querySelectorAll('.tl-pol').length");
+report.card_survives_polarity_toggle = await ev("(async () => { document.querySelector('.tl-row.lane-local').click(); await new Promise(r => setTimeout(r, 200)); const box = document.getElementById('chk-polarity'); box.click(); await new Promise(r => setTimeout(r, 300)); const open = !document.getElementById('card').hidden; box.click(); await new Promise(r => setTimeout(r, 300)); return open && !document.getElementById('card').hidden; })()");
+const thin = await ev("(() => { const tl = document.getElementById('timeline'); const s = [...document.querySelectorAll('.tl-pol')].find(x => parseFloat(x.style.height) <= 1); tl.scrollTop = parseFloat(s.style.top) - 200; return true; })()"); await sleep(500);
+const pt = await ev("(() => { const s = [...document.querySelectorAll('.tl-pol')].find(x => parseFloat(x.style.height) <= 1); const b = s.getBoundingClientRect(); return { x: b.left + b.width / 2, y: b.top + 0.3 }; })()");
+await send('Input.dispatchMouseEvent', { type: 'mousePressed', x: pt.x, y: pt.y, button: 'left', clickCount: 1 });
+await send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: pt.x, y: pt.y, button: 'left', clickCount: 1 });
+await sleep(200);
+report.pol_thin_tap = await ev("document.getElementById('poltip').hidden ? null : document.getElementById('poltip').textContent");
+report.pol_tip_escape = await ev("(async () => { document.querySelector('.tl-pol').click(); await new Promise(r => setTimeout(r, 100)); const shown = !document.getElementById('poltip').hidden; document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' })); return shown && document.getElementById('poltip').hidden; })()");
 await ev("document.getElementById('timeline').scrollTop = document.getElementById('timeline').scrollHeight"); await sleep(900);
 await shot('01b-polarity-recent.png');
 report.pol_tip = await ev("(() => { const s = [...document.querySelectorAll('.tl-pol')].pop(); s.click(); return document.getElementById('poltip').textContent; })()");
@@ -108,6 +116,7 @@ await shot('05-about.png'); await ev("document.getElementById('about').close()")
 // phone
 await view(375, 812, true); await sleep(500); await ev("window.dispatchEvent(new Event('resize'))"); await sleep(600);
 report.phone_hscroll = await ev("document.documentElement.scrollWidth > window.innerWidth");
+report.phone_world_row_w = await ev("Math.round(document.querySelector('.tl-row.lane-world').getBoundingClientRect().width)");
 report.phone_title_h = await ev("Math.round(document.querySelector('.topbar h1').getBoundingClientRect().width)");
 report.phone_fossils_in_band = await ev("(() => { const bands = [...document.querySelectorAll('.tl-band')].map(b => [parseFloat(b.style.top), parseFloat(b.style.top) + parseFloat(b.style.height)]); return [...document.querySelectorAll('.tl-fossil')].every(f => { const y = parseFloat(f.style.top); return bands.some(([a, b]) => y >= a - 0.5 && y + 18 <= b + 0.5); }); })()");
 report.phone_globe_h = await ev("Math.round(document.getElementById('globe').getBoundingClientRect().height)");

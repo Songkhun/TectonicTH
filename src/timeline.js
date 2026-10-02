@@ -2,7 +2,7 @@ import { layoutTimeline } from './layout.js';
 import { activeIndex, scrollPads } from './select.js';
 import { t, field, getLang } from './i18n.js';
 import { formatAge, esc } from './format.js';
-import { polarityRects, polarityLabel } from './polarity.js';
+import { polarityRects, polarityLabel, polarityAt } from './polarity.js';
 import { placeFossils, FOSSIL_GROUPS } from './fossils.js';
 import { ageToY } from './layout.js';
 
@@ -20,6 +20,8 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
   let rowEls = [];
   let polarityOn = showPolarity && !!polarity;
   let jumping = false;
+  let polRects = [];
+  let placedFossils = [];
   let jumpTimer = null;
 
   function rowHtml(e) {
@@ -32,7 +34,9 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
 
   function render() {
     ({ top: pad, bottom: padBottom } = scrollPads(container.clientHeight));
+    const keepId = active >= 0 ? layout.rows[active].event.id : null;
     inner.innerHTML = '';
+    polRects = [];
     inner.style.height = `${layout.height + pad + padBottom}px`;
     for (const b of layout.bands) {
       const el = document.createElement('div');
@@ -49,15 +53,17 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
           s.style.top = `${r.y}px`;
           s.style.height = `${r.h}px`;
           s.title = polarityLabel(r.seg, getLang());
-          s.addEventListener('click', () => onPolarity && onPolarity(r.seg));
+          s.dataset.pol = String(polRects.length);
           inner.appendChild(s);
+          polRects.push(r);
         }
       }
     }
     inner.classList.toggle('with-pol', polarityOn);
     const columns = matchMedia('(max-width: 767px)').matches ? 1 : 2; // same breakpoint as --fossil-col
     const bandsPx = layout.bands.map(b => ({ period: b.period, y: pad + b.y, h: b.h - 4 }));
-    for (const p of placeFossils(bandsPx, fossils, { size: 18, columns })) {
+    placedFossils = placeFossils(bandsPx, fossils, { size: 18, columns });
+    placedFossils.forEach((p, idx) => {
       const f = p.fossil;
       const g = FOSSIL_GROUPS[f.group] || FOSSIL_GROUPS.other;
       const el = document.createElement('button');
@@ -68,10 +74,10 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
       el.title = `${f.taxon} · ${f.locality.province_th}`;
       el.setAttribute('aria-label', el.title);
       el.textContent = g.icon;
-      el.addEventListener('click', () => onFossil && onFossil(f));
+      el.dataset.fossil = String(idx);
       inner.appendChild(el);
-    }
-    rowEls = layout.rows.map(r => {
+    });
+    rowEls = layout.rows.map((r, idx) => {
       const el = document.createElement('button');
       el.type = 'button';
       el.className = `tl-row lane-${r.event.lane}`;
@@ -79,22 +85,41 @@ export function createTimeline(container, events, periods, { onActive, onSelect,
       el.style.height = `${ROW_H - 4}px`;
       el.title = field(r.event, 'title');
       el.innerHTML = rowHtml(r.event);
-      el.addEventListener('click', () => onSelect(r.event));
+      el.dataset.row = String(idx);
       inner.appendChild(el);
       return el;
     });
     active = -1;
-    update();
+    update(keepId);
   }
 
-  function update() {
+  // keepId: after a re-render, re-highlight the same event without telling the page it changed
+  // (so toggling polarity, switching language or resizing keeps an open card open).
+  function update(keepId = null) {
     const i = activeIndex(layout.rows, container.scrollTop, ROW_H);
     if (i < 0 || i === active) return;
     if (rowEls[active]) rowEls[active].classList.remove('is-active');
     rowEls[i].classList.add('is-active');
     active = i;
-    if (!jumping) onActive(layout.rows[i].event);
+    if (!jumping && layout.rows[i].event.id !== keepId) onActive(layout.rows[i].event);
   }
+
+  // One listener for every row, fossil icon and polarity strip.
+  inner.addEventListener('click', ev => {
+    const row = ev.target.closest('[data-row]');
+    if (row) { onSelect(layout.rows[Number(row.dataset.row)].event); return; }
+    const fos = ev.target.closest('[data-fossil]');
+    if (fos) { if (onFossil) onFossil(placedFossils[Number(fos.dataset.fossil)].fossil); return; }
+    if (!polarityOn || !onPolarity) return;
+    const strip = ev.target.closest('[data-pol]');
+    if (strip && ev.detail === 0) { onPolarity(polRects[Number(strip.dataset.pol)].seg); return; } // keyboard/scripted click
+    const box = inner.getBoundingClientRect();
+    const x = ev.clientX - box.left;
+    const bandW = parseFloat(getComputedStyle(inner).getPropertyValue('--band-w')) || 72;
+    if (x < bandW - 16 || x > bandW + 4) return;
+    const hit = polarityAt(polRects, ev.clientY - box.top);
+    if (hit) onPolarity(hit.seg);
+  });
 
   let ticking = false;
   container.addEventListener('scroll', () => {

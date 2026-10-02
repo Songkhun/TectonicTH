@@ -26,3 +26,14 @@ export function polarityLabel(seg, lang) {
   const ages = `${approx}${seg.top_ma}–${seg.base_ma} ${th ? 'ล้านปีก่อน' : 'Ma'}${note}`;
   return `${seg.name} · ${ages} · ${POLARITY_WORDS[th ? 'th' : 'en'][seg.polarity]}`;
 }
+
+// The chron at a tapped y: the rect containing it, else the nearest within `reach` px (thin chrons).
+export function polarityAt(rects, y, reach = 4) {
+  let best = null;
+  let bestDist = Infinity;
+  for (const r of rects) {
+    const d = y < r.y ? r.y - y : y > r.y + r.h ? y - (r.y + r.h) : 0;
+    if (d < bestDist || (d === 0 && bestDist === 0 && r.h < best.h)) { best = r; bestDist = d; }
+  }
+  return bestDist <= reach ? best : null;
+}
