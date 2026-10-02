@@ -6,6 +6,7 @@ import re
 import sys
 from pathlib import Path
 
+from evidence import load_evidence, validate_evidence
 from paleo import MODEL, load_slices
 from validate import load_json, validate_events, validate_timescale
 
@@ -45,8 +46,10 @@ def build(root, strict=False, module_order=MODULE_ORDER):
     events = load_json(root / "content/events.json")
     slices = load_slices(root / "paleo")
     slice_ages = {float(k) for k in slices}
+    evidence = load_evidence(root / "content/evidence.json")
 
-    errors = validate_timescale(periods) + validate_events(events, periods, slice_ages)
+    errors = (validate_timescale(periods) + validate_events(events, periods, slice_ages)
+              + validate_evidence(evidence, {e.get("id") for e in events}))
     if "0" not in slices:
         errors.append("paleo slice for 0 Ma is missing")
     if errors:
@@ -55,6 +58,9 @@ def build(root, strict=False, module_order=MODULE_ORDER):
         unverified = [e["id"] for e in events if not e["verified"]]
         if unverified:
             raise BuildError("--strict: unverified events: " + ", ".join(unverified))
+        unverified_ev = [it["id"] for it in evidence if not it["verified"]]
+        if unverified_ev:
+            raise BuildError("--strict: unverified evidence: " + ", ".join(unverified_ev))
 
     js_parts, seen = [], {}
     for name in module_order:
@@ -71,7 +77,8 @@ def build(root, strict=False, module_order=MODULE_ORDER):
         raise BuildError("a script contains '</script' and cannot be inlined")
 
     public_events = [{k: v for k, v in e.items() if not k.startswith("_")} for e in events]
-    data = json.dumps({"events": public_events, "periods": periods, "slices": slices, "model": MODEL,
+    public_evidence = [{k: v for k, v in it.items() if not k.startswith("_")} for it in evidence]
+    data = json.dumps({"events": public_events, "evidence": public_evidence, "periods": periods, "slices": slices, "model": MODEL,
                        "built": dt.date.today().isoformat()},
                       ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
 

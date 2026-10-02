@@ -130,3 +130,48 @@ def test_build_survives_html_comment_openers_in_content(tmp_path):
     block = html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0]
     assert "<" not in block
     assert json.loads(block)["events"][0]["body_en"] == "odd <!--<script> text <body> here"
+
+
+def write_evidence(root, items):
+    (root / "content/evidence.json").write_text(json.dumps(items, ensure_ascii=False), encoding="utf-8")
+
+
+EV = {"id": "pmag-ratburi", "event_ids": ["ratburi-limestone"], "method": "paleomagnetism",
+      "title_th": "ก", "title_en": "Pole", "finding_th": "ข", "finding_en": "Finding", "value": None,
+      "paleolat": {"deg": -32, "err": 6}, "site": None,
+      "citation": {"text": "S 2020", "url": "https://doi.org/10.1/x"}, "source_type": "peer-reviewed",
+      "verified": True, "_notes": "private evidence note"}
+
+
+def test_build_embeds_evidence_without_private_fields(tmp_path):
+    root = make_root(tmp_path)
+    write_evidence(root, [EV])
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    block = html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0]
+    data = json.loads(block)
+    assert data["evidence"][0]["id"] == "pmag-ratburi"
+    assert "private evidence note" not in html
+
+
+def test_build_without_evidence_file_embeds_empty_list(tmp_path):
+    root = make_root(tmp_path)
+    html = build(root, module_order=["a.js", "b.js"]).read_text(encoding="utf-8")
+    block = html.split('<script id="dt-data" type="application/json">')[1].split("</script>")[0]
+    assert json.loads(block)["evidence"] == []
+
+
+def test_build_rejects_evidence_for_unknown_event(tmp_path):
+    root = make_root(tmp_path)
+    write_evidence(root, [{**EV, "event_ids": ["gone"]}])
+    with pytest.raises(BuildError, match="unknown event id gone"):
+        build(root, module_order=["a.js", "b.js"])
+
+
+def test_strict_refuses_unverified_evidence(tmp_path):
+    starter = json.loads((ROOT / "tests/fixtures/starter_events.json").read_text(encoding="utf-8"))
+    for e in starter:
+        e["verified"] = True
+    root = make_root(tmp_path, starter)
+    write_evidence(root, [{**EV, "verified": False}])
+    with pytest.raises(BuildError, match="unverified evidence: pmag-ratburi"):
+        build(root, strict=True, module_order=["a.js", "b.js"])
