@@ -1903,7 +1903,7 @@
    "url": "https://doi.org/10.1111/j.1440-1738.2008.00653.x"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (Island Arc 18(1):52-68). Abstract read in full via OpenAlex. The method field has no 'sedimentology' option; 'mapping' (field facies description) is the nearest. Coordinates not stated in the abstract, so site = null. Age is 'Lower Permian' only; plotted as 298.9-273.01 Ma."
  },
  {
@@ -1924,7 +1924,7 @@
    "url": "https://doi.org/10.1130/B31210.1"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (GSA Bull. 127(9-10):1313-1330). Abstract read in full (OpenAlex record carries the GeoScienceWorld abstract). Individual dike ages and errors are not in the abstract, only the 301-282 Ma range. Sampling localities not stated in the abstract (site = null)."
  },
  {
@@ -1947,7 +1947,7 @@
    "url": "https://doi.org/10.1144/GSL.SP.1996.106.01.34"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (GSL Spec. Publ. 106:539-547, 1996; single author Wopfner H.). Abstract read in full via OpenAlex. Age given only as 'Upper Palaeozoic'/'Permo-Carboniferous'; plotted as 323.2-273.01 Ma (Pennsylvanian-Cisuralian), which is my conversion. That Tengchong lies west of the Luxi-Nujiang line (Ridd's Irrawaddy Block side) is my geographic reading, not stated in Wopfner's or Ridd's abstracts."
  },
  {
@@ -1969,7 +1969,7 @@
    "url": "https://doi.org/10.1017/S0016756823000328"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (Geol. Mag. 160(6):1177-1192, single author). Open-access full text read (Cambridge PDF). Quotes: 'located at c. 35oS latitude'; 'by early Artinskian times the terrane had begun to separate and migrate northwards from Gondwana with the opening of the Meso-Tethys Ocean'; 'moderately high (35-40 degrees south) palaeo-latitudes in the Sakmarian to Kungurian'. The 35°S is a palaeogeographic reconstruction, not a palaeomagnetic pole, so paleolat = null. Site coordinates not given in the parts I read (site = null). Plotted as the whole Kungurian (283.5-273.01 Ma)."
  },
  {
@@ -1990,7 +1990,7 @@
    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Read in the open-access full text of Sone & Metcalfe 2008 (sections 2.2 and 6, Fig. 2). This is their compilation; the primary radiolarian reports are Feng et al. 2002 (Symposium on Geology of Thailand, DMR, no DOI) and refs therein, which I did not read. Plotted 387.7-242 Ma (Givetian base to ~Anisian/Ladinian boundary)."
  },
  {
@@ -2011,7 +2011,7 @@
    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Read in the open-access full text of Sone & Metcalfe 2008 (sections 3.1-3.3, 6). Compilation of Hada et al. 1999 and other primary reports I did not read. Note that Metcalfe 1999 (model B) listed Carboniferous-Middle Triassic cherts and Middle Triassic radiolarian-dated thrust slices for the same belt; Sone & Metcalfe re-assign the Middle Triassic Chanthaburi chert-clastic sequence to a separate depression. Plotted 293.52-254.14 Ma."
  },
  {
@@ -2032,7 +2032,7 @@
    "url": "https://doi.org/10.1016/j.jseaes.2025.106800"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (JAES 294, article 106800, Dec 2025). Abstract read in full via OpenAlex. Sample coordinates not in the abstract (site = null; Mae Charim is in Nan Province)."
  },
  {
@@ -2053,7 +2053,7 @@
    "url": "https://doi.org/10.1080/00206814.2012.758354"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "DOI confirmed on Crossref (IGR 55(8):976-993). Abstract read in full via OpenAlex. Locality coordinates not in the abstract (site = null)."
  },
  {
@@ -2075,7 +2075,7 @@
    "url": "https://doi.org/10.1016/j.earscirev.2017.05.007"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Full text read (Utrecht repository green OA PDF, dspace.library.uu.nl/handle/1874/361053). Abstract points (2) and (3); p.68 text '~15° clockwise rotation for the Southern Indochina'. They also note Maranate & Vella (1986) data were 'not subjected to complete demagnetization'. Age window = Jurassic and younger rocks compiled (201.4–0 Ma)."
  },
  {
@@ -2101,7 +2101,7 @@
    "url": "https://doi.org/10.6038/cjg2022P0927"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "English abstract read on the journal site (geophy.cn); full text is in Chinese and was not read. DOI 10.6038/cjg2022P0927 resolves via doi.org but is NOT registered on Crossref (404), so the journal URL is used. Site coordinates are the approximate Nakhon Thai district centre, not the authors' sampling sites. Paleolatitudes are not given in the abstract, so paleolat is null."
  },
  {
@@ -2127,7 +2127,7 @@
    "url": "https://doi.org/10.6038/cjg2022P0927"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "English abstract read (geophy.cn). DOI not on Crossref; journal URL used. Coordinates approximate."
  },
  {
@@ -2148,7 +2148,7 @@
    "url": "https://doi.org/10.1144/SP315.6"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Racey et al. 1996 (J. Petroleum Geology 19:5-39, doi 10.1111/j.1747-5457.1996.tb00511.x, abstract read) earlier reassigned Phra Wihan–Khok Kruat to the Berriasian–Aptian, left Phu Kradung as 'probably Late Jurassic or Early Cretaceous', and reported palaeocurrents mainly from the north and east. Age window plotted 145.0–113.2 (Berriasian base to Aptian top, ICS)."
  },
  {
@@ -2169,7 +2169,7 @@
    "url": "https://doi.org/10.1046/j.1365-2117.2003.00201.x"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Note that a 114 ± 6 Ma youngest FT mode in the Phra Wihan sits awkwardly with its palynological Berriasian–Barremian age; the abstract does not discuss this. Full text not read."
  },
  {
@@ -2195,7 +2195,7 @@
    "url": "https://doi.org/10.3390/d15070851"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Same fossil as project record fos-minimocursor-phunoiensis-phu-noi (coordinates copied from there, district precision). The Late Jurassic age is the authors' stratigraphic assignment, not a new dating; plotted 161.5–143.1 (ICS Late Jurassic)."
  },
  {
@@ -2216,7 +2216,7 @@
    "url": "https://doi.org/10.1111/j.1365-3121.1989.tb00388.x"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). The species was later named P. sattayaraki from the Khok Kruat Formation (project record fos-psittacosaurus-sattayaraki-chaiyaphum, Buffetaut & Suteethorn 1992). Plotted as Early Cretaceous 143.1–100.5 Ma because the 1989 abstract gives no stage."
  },
  {
@@ -2242,7 +2242,7 @@
    "url": "https://doi.org/10.1029/96JB03831"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Full text read (local scratchpad text of the JGR paper; abstract also confirmed on OpenAlex). Quotes: 'deformation probably terminated around 30.5 Ma'; 'We conclude that about 300 km of sinistral motion took place between approximately 40 Ma and 30 Ma along the Wang Chao-Three Pagodas (WCTP) fault system'; 'A lower bound of 35 to 45 km of left-lateral displacement'. Coordinates are an approximate park centre, not a sample site."
  },
  {
@@ -2264,7 +2264,7 @@
    "url": "https://doi.org/10.1144/SP290.12"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Full text not read. Note the Phitsanulok inversion here is 22–18 Ma (Early Miocene), not the Middle Miocene date given in the synthesis."
  },
  {
@@ -2286,7 +2286,7 @@
    "url": "https://doi.org/10.1144/GSL.SP.2003.210.01.06"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Method is remote-sensing structural mapping. Plotted 27.3–15.98 Ma (Chattian base to Burdigalian top, ICS)."
  },
  {
@@ -2312,7 +2312,7 @@
    "url": "https://doi.org/10.1144/jgs.157.2.483"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Abstract read (Crossref). Coordinates approximate (Li district). Plotted 33.9–5.333 Ma (Oligocene–Miocene, ICS)."
  },
  {
@@ -2334,7 +2334,7 @@
    "url": "https://doi.org/10.1016/j.earscirev.2017.05.007"
   },
   "source_type": "peer-reviewed",
-  "verified": false,
+  "verified": true,
   "_notes": "Full text read (Utrecht green OA). They also quote 'about 160 km each' of offset on the Wang Chao and Three Pagodas shear zones (citing Lacassin et al. 1997; Morley 2007). Plotted 50–17 Ma, the interval of block rotations in their reconstruction (e.g. 'at 50–17 Ma')."
  }
 ]

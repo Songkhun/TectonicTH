@@ -1,215 +1,215 @@
 {
-  "_meta": {
-    "purpose": "Deep Time Kanchanaburi teaching map: SCHEMATIC suture lines and terrane labels. Draw dashed and label 'schematic — not mapped boundaries'.",
-    "method": "Each point is a named town, district, river or landmark that the cited source text names as lying on or along the suture, or within the terrane. Lines join these points in along-strike order. They are not traced from a geological map. Metcalfe (2013, J Asian Earth Sci 66:1-33, doi 10.1016/j.jseaes.2012.12.020) could not be read (closed access, abstract withheld by the publisher in OpenAlex, Crossref and Semantic Scholar), so no point relies on it. ",
-    "compiled": "2026-10-03"
+ "_meta": {
+  "purpose": "Deep Time Kanchanaburi teaching map: SCHEMATIC suture lines and terrane labels. Draw dashed and label 'schematic — not mapped boundaries'.",
+  "method": "Each point is a named town, district, river or landmark that the cited source text names as lying on or along the suture, or within the terrane. Lines join these points in along-strike order. They are not traced from a geological map. Metcalfe (2013, J Asian Earth Sci 66:1-33, doi 10.1016/j.jseaes.2012.12.020) could not be read (closed access, abstract withheld by the publisher in OpenAlex, Crossref and Semantic Scholar), so no point relies on it. ",
+  "compiled": "2026-10-03"
+ },
+ "sutures": [
+  {
+   "id": "inthanon-paleo-tethys-suture",
+   "name_th": "เขตรอยตะเข็บอินทนนท์ (เชียงใหม่) / มหาสมุทรพาลีโอเททิส",
+   "name_en": "Inthanon (Chiang Mai) suture zone / Palaeo-Tethys",
+   "points": [
+    {
+     "place": "Chiang Dao, Chiang Mai",
+     "lat": 19.3696,
+     "lon": 98.9657,
+     "basis": "Hisada et al. 2004 (doi 10.1111/j.1440-1738.2003.00412.x) say the Inthanon zone is made of Palaeo-Tethys oceanic remnants, citing 'the occurrence of Tethyan foraminiferal fauna from Chiang Dao in northern Thailand' (Ueno & Igo 1997). Randon et al. 2015 (doi 10.13130/2039-4942/6336) describe Late Devonian to Early Carboniferous 'oceanic cherts' from the Chiang Dao area, Chiang Mai province."
+    },
+    {
+     "place": "Chiang Mai",
+     "lat": 18.7953,
+     "lon": 98.9986,
+     "basis": "Sone & Metcalfe 2008 §2.2 say the rocks 'distributed within the Inthanon Suture Zone' include Permian basaltic volcanics, namely 'The Permian Chiang Mai Volcanics'. They also say 'the term Chiang Mai Suture used by Metcalfe is essentially equivalent to part of the Inthanon Suture Zone'."
+    },
+    {
+     "place": "Bo Phloi, Kanchanaburi Province",
+     "lat": 14.3253,
+     "lon": 99.5151,
+     "basis": "Sone & Metcalfe 2008 §2.2, on deep-sea sediments 'in the southern part of the Inthanon Suture Zone': 'To the west of Bangkok (Kanchanaburi Province), Middle Triassic radiolarian chert of the Bo Phloi Formation was reported'. The point is placed at Bo Phloi town, the namesake of the formation. The paper gives only the province."
+    },
+    {
+     "place": "Rayong",
+     "lat": 12.6742,
+     "lon": 101.2789,
+     "basis": "Sone & Metcalfe 2008 §2.2: 'In East Thailand, pelagic radiolarian cherts of Late Devonian or Early Carboniferous age near Rayong' are listed among the deep-sea sediments of the southern Inthanon Suture Zone. The paper also says the stretch between Bo Phloi and Rayong 'is not well observed due to the extensive Cenozoic fluvial cover of the Menam Delta'."
+    }
+   ],
+   "citation": {
+    "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
+    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 call the Inthanon Suture Zone (with the Changning-Menglian zone in Yunnan) the Palaeo-Tethys Suture Zone, a wide accretionary complex. Its eastern boundary in East Thailand is the 'Klaeng Fault', which runs from east of Chonburi to near Klaeng. Caveats: (1) The Bo Phloi to Rayong segment is concealed under the Chao Phraya (Menam) delta, so that part of the line is pure interpolation. (2) Kamata et al. 2014 (doi 10.1016/j.jseaes.2014.06.021; title only read) interpret the Rayong area as a continental margin of the Sibumasu Block rather than oceanic suture. (3) The Fang Chert and the Mae Sariang Group are also named as units of this zone, but the text does not tie them to specific towns, and Hisada et al. 2004 put the Mae Sariang area in Sibumasu, so neither is used as a point. (4) The Bo Phloi point is the formation's namesake town, which is an inference. The paper names only Kanchanaburi Province."
   },
-  "sutures": [
+  {
+   "id": "nan-uttaradit-suture",
+   "name_th": "แนวรอยตะเข็บน่าน–อุตรดิตถ์",
+   "name_en": "Nan–Uttaradit suture",
+   "points": [
     {
-      "id": "inthanon-paleo-tethys-suture",
-      "name_th": "เขตรอยตะเข็บอินทนนท์ (เชียงใหม่) / มหาสมุทรพาลีโอเททิส",
-      "name_en": "Inthanon (Chiang Mai) suture zone / Palaeo-Tethys",
-      "points": [
-        {
-          "place": "Chiang Dao, Chiang Mai",
-          "lat": 19.3696,
-          "lon": 98.9657,
-          "basis": "Hisada et al. 2004 (doi 10.1111/j.1440-1738.2003.00412.x) say the Inthanon zone is made of Palaeo-Tethys oceanic remnants, citing 'the occurrence of Tethyan foraminiferal fauna from Chiang Dao in northern Thailand' (Ueno & Igo 1997). Randon et al. 2015 (doi 10.13130/2039-4942/6336) describe Late Devonian to Early Carboniferous 'oceanic cherts' from the Chiang Dao area, Chiang Mai province."
-        },
-        {
-          "place": "Chiang Mai",
-          "lat": 18.7953,
-          "lon": 98.9986,
-          "basis": "Sone & Metcalfe 2008 §2.2 say the rocks 'distributed within the Inthanon Suture Zone' include Permian basaltic volcanics, namely 'The Permian Chiang Mai Volcanics'. They also say 'the term Chiang Mai Suture used by Metcalfe is essentially equivalent to part of the Inthanon Suture Zone'."
-        },
-        {
-          "place": "Bo Phloi, Kanchanaburi Province",
-          "lat": 14.3253,
-          "lon": 99.5151,
-          "basis": "Sone & Metcalfe 2008 §2.2, on deep-sea sediments 'in the southern part of the Inthanon Suture Zone': 'To the west of Bangkok (Kanchanaburi Province), Middle Triassic radiolarian chert of the Bo Phloi Formation was reported'. The point is placed at Bo Phloi town, the namesake of the formation. The paper gives only the province."
-        },
-        {
-          "place": "Rayong",
-          "lat": 12.6742,
-          "lon": 101.2789,
-          "basis": "Sone & Metcalfe 2008 §2.2: 'In East Thailand, pelagic radiolarian cherts of Late Devonian or Early Carboniferous age near Rayong' are listed among the deep-sea sediments of the southern Inthanon Suture Zone. The paper also says the stretch between Bo Phloi and Rayong 'is not well observed due to the extensive Cenozoic fluvial cover of the Menam Delta'."
-        }
-      ],
-      "citation": {
-        "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
-        "url": "https://doi.org/10.1016/j.crte.2007.09.008"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 call the Inthanon Suture Zone (with the Changning-Menglian zone in Yunnan) the Palaeo-Tethys Suture Zone, a wide accretionary complex. Its eastern boundary in East Thailand is the 'Klaeng Fault', which runs from east of Chonburi to near Klaeng. Caveats: (1) The Bo Phloi to Rayong segment is concealed under the Chao Phraya (Menam) delta, so that part of the line is pure interpolation. (2) Kamata et al. 2014 (doi 10.1016/j.jseaes.2014.06.021; title only read) interpret the Rayong area as a continental margin of the Sibumasu Block rather than oceanic suture. (3) The Fang Chert and the Mae Sariang Group are also named as units of this zone, but the text does not tie them to specific towns, and Hisada et al. 2004 put the Mae Sariang area in Sibumasu, so neither is used as a point. (4) The Bo Phloi point is the formation's namesake town, which is an inference. The paper names only Kanchanaburi Province."
+     "place": "Nan",
+     "lat": 18.7779,
+     "lon": 100.7737,
+     "basis": "Sone & Metcalfe 2008 §3.1: 'The Nan Suture, also called the Nan-Uttaradit Suture, forms the tectonic boundary between the Sukhothai Terrane and the Indochina Terrane'. Its only deep-sea evidence is 'A late Middle Permian radiolarian chert in the Nan Mine area'. Yang, Feng & Shen 2009 (OpenAlex W2383211283, abstract): the 'Nan suture zone in Nan, northern Thailand is a narrow N-S trending belt along the Nan River'."
     },
     {
-      "id": "nan-uttaradit-suture",
-      "name_th": "แนวรอยตะเข็บน่าน–อุตรดิตถ์",
-      "name_en": "Nan–Uttaradit suture",
-      "points": [
-        {
-          "place": "Nan",
-          "lat": 18.7779,
-          "lon": 100.7737,
-          "basis": "Sone & Metcalfe 2008 §3.1: 'The Nan Suture, also called the Nan-Uttaradit Suture, forms the tectonic boundary between the Sukhothai Terrane and the Indochina Terrane'. Its only deep-sea evidence is 'A late Middle Permian radiolarian chert in the Nan Mine area'. Yang, Feng & Shen 2009 (OpenAlex W2383211283, abstract): the 'Nan suture zone in Nan, northern Thailand is a narrow N-S trending belt along the Nan River'."
-        },
-        {
-          "place": "Sirikit Dam, Tha Pla district, Uttaradit",
-          "lat": 17.7642,
-          "lon": 100.5638,
-          "basis": "Singharajwarapan & Berry 1993, J Southeast Asian Earth Sci 8:233-245 (doi 10.1016/0743-9547(93)90025-K; title only read): 'Structural analysis of the accretionary complex in Sirikit Dam area, Uttaradit, Northern Thailand'. Yang et al. 2009 say the Nan suture zone 'separates Lampang terrane and Sirikit Dam terrane'. The dam sits on the Nan River, and Yang et al. describe the suture as a belt 'along the Nan River'."
-        },
-        {
-          "place": "Uttaradit",
-          "lat": 17.6231,
-          "lon": 100.0958,
-          "basis": "Yang et al. 2009 (abstract): the zone 'extends southwards to Chanthaburi and Sa Kaeo, eastern Thailand through Uttaradit and Phetchabun'. Uttaradit is also the suture's alternative name in Sone & Metcalfe 2008 ('Nan-Uttaradit Suture')."
-        }
-      ],
-      "citation": {
-        "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
-        "url": "https://doi.org/10.1016/j.crte.2007.09.008"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 interpret the Nan Suture as a closed Permian back-arc basin, not the main Palaeo-Tethys. It is a 'narrow zone of Permian ophiolites and mélange' (the Pha Som Metamorphic Complex). They correlate it northwards with the Jinghong Suture in Yunnan and southwards with the Sra Kaeo Suture. Caveats: (1) Uttaradit city lies about 45 km west of the Sirikit Dam. No text read puts the suture exactly at the city, so this point rests only on Yang et al.'s 'through Uttaradit' and the suture's name. (2) Yang et al. 2009 is a conference-type abstract with no DOI. (3) Yang et al. also extend the zone north to the 'Louangphrabang tectonic belt' in Laos and south through Phetchabun. These points are deliberately left out, because Sone & Metcalfe correlate the Nan Suture with Jinghong instead and do not mention Phetchabun on the suture. Barr & Macdonald 2000 (doi 10.1144/jgs.157.3.553) put the Phetchabun volcanic belt 'on the east side of the Nan River suture zone'. Add Luang Prabang (19.89, 102.1347) as a northern point only if you accept Yang et al. (4) Hisada et al. 2004 argue that the Gondwana-Tethys divide is the Mae Yuam Fault, 'not the Nan-Uttaradit suture'."
+     "place": "Sirikit Dam, Tha Pla district, Uttaradit",
+     "lat": 17.7642,
+     "lon": 100.5638,
+     "basis": "Singharajwarapan & Berry 1993, J Southeast Asian Earth Sci 8:233-245 (doi 10.1016/0743-9547(93)90025-K; title only read): 'Structural analysis of the accretionary complex in Sirikit Dam area, Uttaradit, Northern Thailand'. Yang et al. 2009 say the Nan suture zone 'separates Lampang terrane and Sirikit Dam terrane'. The dam sits on the Nan River, and Yang et al. describe the suture as a belt 'along the Nan River'."
     },
     {
-      "id": "sra-kaeo-suture",
-      "name_th": "แนวรอยตะเข็บสระแก้ว",
-      "name_en": "Sra Kaeo suture",
-      "points": [
-        {
-          "place": "Sa Kaeo",
-          "lat": 13.8195,
-          "lon": 102.0703,
-          "basis": "Sone & Metcalfe 2008 §3.2: 'The Sra Kaeo Suture in East Thailand is regarded as the southern extension of the Nan Suture and the boundary between the Indochina Terrane and the Chanthaburi Terrane'. The point is the town that gives the suture its name."
-        },
-        {
-          "place": "Thung Kabin junction, Wang Sombun district, Sa Kaeo",
-          "lat": 13.4403,
-          "lon": 102.0837,
-          "basis": "Sone & Metcalfe 2008 §3.2: 'An ophiolitic rock assembly called the Thung Kabin Mélange is distributed in the Sra Kaeo Suture'. The point is the OSM feature 'สี่แยกทุ่งกบินทร์' (Thung Kabin junction), taken as the mélange's namesake locality. The paper gives no location beyond the name."
-        },
-        {
-          "place": "Pailin (Cambodia)",
-          "lat": 12.8551,
-          "lon": 102.6052,
-          "basis": "Sone & Metcalfe 2008 §3.2: 'The Sra Kaeo Suture probably extends to Cambodia. Just beyond the Thai-Cambodia border, another mélange including basalts, peridotites, and possible Late Palaeozoic pelagic cherts is exposed near Pailin. It is probably equivalent to the Permian Thung Kabin Mélange'."
-        }
-      ],
-      "citation": {
-        "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
-        "url": "https://doi.org/10.1016/j.crte.2007.09.008"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 treat Sra Kaeo as part of the Jinghong-Nan-Sra Kaeo closed Permian back-arc basin suture, with Sakmarian to Wuchiapingian radiolarian cherts. The gap between Uttaradit and Sa Kaeo is not traced in any text read; Yang et al. 2009 only say the Nan zone runs 'through Uttaradit and Phetchabun' to Sa Kaeo. Draw it as a separate segment, or join the two with a dotted line. Weakest point: Thung Kabin. Its placement assumes the mélange crops out at the place it is named after. Pailin is 'probably' on the extension, in the authors' own words."
-    },
-    {
-      "id": "mae-yuam-fault-zone",
-      "name_th": "เขตรอยเลื่อนแม่ยวม (แนวแบ่งกอนด์วานา–เททิส)",
-      "name_en": "Mae Yuam fault zone (Gondwana–Tethys divide)",
-      "points": [
-        {
-          "place": "Mae Hong Son",
-          "lat": 19.3011,
-          "lon": 97.97,
-          "basis": "Hisada et al. 2004: 'This fault zone corresponds to the Yuam Fault system (Mae Sariang-Mae Hong Son Fault)'. The study area is the 'Mae Hong Son-Mae Sariang area', with a sampled section at Ban Huai Pong 'near Mae Hong Son'."
-        },
-        {
-          "place": "Mae Nam Yuam (Yuam River) valley near Khun Yuam",
-          "lat": 18.7229,
-          "lon": 97.8532,
-          "basis": "Hisada et al. 2004: 'The Mae Hong Son-Mae Sariang area is topographically characterized by a north-south trending valley of the Mae Nam Yuam (River). This valley is generally interpreted as marking a trace of a strike-slip fault'. The point is the OSM Yuam River feature in Khun Yuam district."
-        },
-        {
-          "place": "Mae Sariang",
-          "lat": 18.1596,
-          "lon": 97.9301,
-          "basis": "Hisada et al. 2004: 'Mae Yuam (called \"Mae Sariang\" by some researchers) Fault', also called the 'Mae Sariang-Mae Hong Son Fault'. A sampled section at Ban Huai Pho is 'near Mae Sariang'."
-        }
-      ],
-      "citation": {
-        "text": "Hisada, K., Sugiyama, M., Ueno, K., Charusiri, P. & Arai, S. (2004) Missing ophiolitic rocks along the Mae Yuam Fault as the Gondwana-Tethys divide in north-west Thailand. Island Arc 13(1):119-127.",
-        "url": "https://doi.org/10.1111/j.1440-1738.2003.00412.x"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Hisada et al. 2004 read from the Kanazawa University repository (CC BY-NC-SA; hdl.handle.net/2297/19550). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Hisada et al. argue from detrital chromian spinels in the Triassic Mae Sariang Group that 'the Gondwana-Tethys divide is located along the Mae Yuam Fault zone', between the Sibumasu block and the Inthanon zone. They say it is 'probably an extension of the Bentong-Raub suture'. The ophiolite is inferred: no ophiolitic rocks crop out along the fault ('missing ophiolitic rocks'). The present valley is a Tertiary strike-slip trace, so the line marks a reactivated, inferred boundary. This conflicts with Sone & Metcalfe 2008, who put the Mae Sariang Group inside the Inthanon Suture Zone. Only three points are sourced, and the southward continuation is not named in the text."
+     "place": "Uttaradit",
+     "lat": 17.6231,
+     "lon": 100.0958,
+     "basis": "Yang et al. 2009 (abstract): the zone 'extends southwards to Chanthaburi and Sa Kaeo, eastern Thailand through Uttaradit and Phetchabun'. Uttaradit is also the suture's alternative name in Sone & Metcalfe 2008 ('Nan-Uttaradit Suture')."
     }
-  ],
-  "terranes": [
+   ],
+   "citation": {
+    "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
+    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 interpret the Nan Suture as a closed Permian back-arc basin, not the main Palaeo-Tethys. It is a 'narrow zone of Permian ophiolites and mélange' (the Pha Som Metamorphic Complex). They correlate it northwards with the Jinghong Suture in Yunnan and southwards with the Sra Kaeo Suture. Caveats: (1) Uttaradit city lies about 45 km west of the Sirikit Dam. No text read puts the suture exactly at the city, so this point rests only on Yang et al.'s 'through Uttaradit' and the suture's name. (2) Yang et al. 2009 is a conference-type abstract with no DOI. (3) Yang et al. also extend the zone north to the 'Louangphrabang tectonic belt' in Laos and south through Phetchabun. These points are deliberately left out, because Sone & Metcalfe correlate the Nan Suture with Jinghong instead and do not mention Phetchabun on the suture. Barr & Macdonald 2000 (doi 10.1144/jgs.157.3.553) put the Phetchabun volcanic belt 'on the east side of the Nan River suture zone'. Add Luang Prabang (19.89, 102.1347) as a northern point only if you accept Yang et al. (4) Hisada et al. 2004 argue that the Gondwana-Tethys divide is the Mae Yuam Fault, 'not the Nan-Uttaradit suture'."
+  },
+  {
+   "id": "sra-kaeo-suture",
+   "name_th": "แนวรอยตะเข็บสระแก้ว",
+   "name_en": "Sra Kaeo suture",
+   "points": [
     {
-      "id": "sibumasu",
-      "name_th": "แผ่นซีบูมาสุ (ฉาน–ไทย)",
-      "name_en": "Sibumasu / Shan-Thai",
-      "label_lat": 7.8848,
-      "label_lon": 98.3892,
-      "citation": {
-        "text": "Ridd, M.F. (2009) The Phuket Terrane: A Late Palaeozoic rift at the margin of Sibumasu. J Asian Earth Sci 36:238-251; and Ampaiwan, T., Hisada, K. & Charusiri, P. (2009) Lower Permian glacially influenced deposits in Phuket and adjacent islands, peninsular Thailand. Island Arc 18:52-68.",
-        "url": "https://doi.org/10.1111/j.1440-1738.2008.00653.x"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Phuket city. Ampaiwan et al. 2009 (abstract) describe Lower Permian glaciomarine diamictites at Phuket as evidence for 'the Sibumasu block' at the Gondwana margin. Ridd 2009 (title only; doi 10.1016/j.jseaes.2009.06.006) places Phuket 'at the margin of Sibumasu'. Hisada et al. 2004 say the Mae Hong Son-Mae Sariang area 'corresponds to the central part of Sibumasu', but that area sits on the Mae Yuam line, so it is not used as the label point. For a second label in the north-west, place it west of the Mae Yuam line. Sone & Metcalfe 2008 say Shan-Thai and Sibumasu are used for the same block, and that the Sukhothai Terrane is NOT part of it. Whether Kanchanaburi lies in Sibumasu or in the Inthanon zone depends on the author: Sone & Metcalfe put the Bo Phloi chert in the Inthanon zone."
+     "place": "Sa Kaeo",
+     "lat": 13.8195,
+     "lon": 102.0703,
+     "basis": "Sone & Metcalfe 2008 §3.2: 'The Sra Kaeo Suture in East Thailand is regarded as the southern extension of the Nan Suture and the boundary between the Indochina Terrane and the Chanthaburi Terrane'. The point is the town that gives the suture its name."
     },
     {
-      "id": "sukhothai-arc",
-      "name_th": "แนวโค้งภูเขาไฟสุโขทัย",
-      "name_en": "Sukhothai arc terrane",
-      "label_lat": 18.2899,
-      "label_lon": 99.4959,
-      "citation": {
-        "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
-        "url": "https://doi.org/10.1016/j.crte.2007.09.008"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Lampang city. Sone & Metcalfe 2008 §4.1: the Sukhothai Terrane 'is delineated by the Inthanon Suture Zone to the west and by the Nan Suture to the east'. They add: 'Two Middle Triassic volcanics, the Lampang and Chiang Khong suites, show chemical characteristics indicative of a continental arc'. Barr et al. 2000 (doi 10.1144/jgs.157.3.553, abstract) place the Lampang volcanic belt 'between the towns of Lampang and Denchai'. Lampang (99.50 E) lies between the Inthanon line (Chiang Mai, 99.00 E) and the Nan line (100.77 E)."
+     "place": "Thung Kabin junction, Wang Sombun district, Sa Kaeo",
+     "lat": 13.4403,
+     "lon": 102.0837,
+     "basis": "Sone & Metcalfe 2008 §3.2: 'An ophiolitic rock assembly called the Thung Kabin Mélange is distributed in the Sra Kaeo Suture'. The point is the OSM feature 'สี่แยกทุ่งกบินทร์' (Thung Kabin junction), taken as the mélange's namesake locality. The paper gives no location beyond the name."
     },
     {
-      "id": "chanthaburi-terrane",
-      "name_th": "แผ่นจันทบุรี (ส่วนใต้ของแนวโค้งภูเขาไฟสุโขทัย)",
-      "name_en": "Chanthaburi terrane (southern Sukhothai arc)",
-      "label_lat": 12.6086,
-      "label_lon": 102.1039,
-      "citation": {
-        "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
-        "url": "https://doi.org/10.1016/j.crte.2007.09.008"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Chanthaburi city. Sone & Metcalfe 2008 §4.2: the Chanthaburi Terrane 'is defined as the southern extension of the Sukhothai Terrane'. They write: 'The name is after the Chanthaburi Pluton, which constitutes the core of this magmatic arc terrane'. Its eastern boundary is the Sra Kaeo Suture and its western boundary is the Klaeng Fault. The pluton's location is assumed to be near the city it is named after. Optional: merge this label into the Sukhothai arc label."
-    },
-    {
-      "id": "indochina",
-      "name_th": "แผ่นอินโดไชนา",
-      "name_en": "Indochina",
-      "label_lat": 15.6667,
-      "label_lon": 103.1667,
-      "citation": {
-        "text": "Minezaki, T., Hisada, K., Hara, H. & Kamata, Y. (2018) Tectono-stratigraphy of Late Carboniferous to Triassic successions of the Khorat Plateau Basin, Indochina Block, northeastern Thailand. J Asian Earth Sci 170:208-224.",
-        "url": "https://doi.org/10.1016/j.jseaes.2018.10.020"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: the Khorat Plateau (Wikipedia coordinate for the plateau). Minezaki et al. 2018 (title only read) place the 'Khorat Plateau Basin' in the 'Indochina Block, northeastern Thailand'. Racey 2009 (doi 10.1144/sp315.5, abstract) refers to 'the Indochina Block (on which the Khorat Group sits)'. Sone & Metcalfe 2008 also put 'the Loei-Phetchabun Volcanic Belt of the western Indochina Terrane' and the Saraburi limestone platform 'over the western Indochina Terrane' on this block, east of the Nan-Sra Kaeo back-arc suture."
-    },
-    {
-      "id": "west-burma",
-      "name_th": "แผ่นพม่าตะวันตก",
-      "name_en": "West Burma",
-      "label_lat": 22.5667,
-      "label_lon": 95.7,
-      "citation": {
-        "text": "Myint Thein & Maung Maung (2017) Chapter 8 The Eastern (Back-arc) Basin of Central Myanmar: Basement rocks, lithostratigraphic units, palaeocurrents, provenance and developmental history. Geological Society, London, Memoirs 48.",
-        "url": "https://doi.org/10.1144/m48.8"
-      },
-      "schematic": true,
-      "verified": false,
-      "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Shwebo, Myanmar. Myint Thein & Maung Maung 2017 (abstract): 'The Eastern Basin (Back-arc Trough) was initiated on the West Myanmar Block (WMB)'. They mention 'the eroded surface of the pre-Tertiary rocks in the Shwebo Basin (SBB)' within it. The point uses Shwebo town as a stand-in for the Shwebo Basin; the abstract does not give a town. Arboit et al. 2020 (doi 10.1016/j.gsf.2020.05.024) also treat the Central Myanmar Basin as part of the 'west Burma terrane'. WEAK for this map: West Burma lies entirely outside Thailand (more than 300 km west of the border at this latitude). None of the Thai-suture sources read here (Sone & Metcalfe 2008; Hisada et al. 2004) discuss it, so you may want to drop it or show it only as an off-map arrow."
+     "place": "Pailin (Cambodia)",
+     "lat": 12.8551,
+     "lon": 102.6052,
+     "basis": "Sone & Metcalfe 2008 §3.2: 'The Sra Kaeo Suture probably extends to Cambodia. Just beyond the Thai-Cambodia border, another mélange including basalts, peridotites, and possible Late Palaeozoic pelagic cherts is exposed near Pailin. It is probably equivalent to the Permian Thung Kabin Mélange'."
     }
-  ]
+   ],
+   "citation": {
+    "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
+    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Sone & Metcalfe 2008 treat Sra Kaeo as part of the Jinghong-Nan-Sra Kaeo closed Permian back-arc basin suture, with Sakmarian to Wuchiapingian radiolarian cherts. The gap between Uttaradit and Sa Kaeo is not traced in any text read; Yang et al. 2009 only say the Nan zone runs 'through Uttaradit and Phetchabun' to Sa Kaeo. Draw it as a separate segment, or join the two with a dotted line. Weakest point: Thung Kabin. Its placement assumes the mélange crops out at the place it is named after. Pailin is 'probably' on the extension, in the authors' own words."
+  },
+  {
+   "id": "mae-yuam-fault-zone",
+   "name_th": "เขตรอยเลื่อนแม่ยวม (แนวแบ่งกอนด์วานา–เททิส)",
+   "name_en": "Mae Yuam fault zone (Gondwana–Tethys divide)",
+   "points": [
+    {
+     "place": "Mae Hong Son",
+     "lat": 19.3011,
+     "lon": 97.97,
+     "basis": "Hisada et al. 2004: 'This fault zone corresponds to the Yuam Fault system (Mae Sariang-Mae Hong Son Fault)'. The study area is the 'Mae Hong Son-Mae Sariang area', with a sampled section at Ban Huai Pong 'near Mae Hong Son'."
+    },
+    {
+     "place": "Mae Nam Yuam (Yuam River) valley near Khun Yuam",
+     "lat": 18.7229,
+     "lon": 97.8532,
+     "basis": "Hisada et al. 2004: 'The Mae Hong Son-Mae Sariang area is topographically characterized by a north-south trending valley of the Mae Nam Yuam (River). This valley is generally interpreted as marking a trace of a strike-slip fault'. The point is the OSM Yuam River feature in Khun Yuam district."
+    },
+    {
+     "place": "Mae Sariang",
+     "lat": 18.1596,
+     "lon": 97.9301,
+     "basis": "Hisada et al. 2004: 'Mae Yuam (called \"Mae Sariang\" by some researchers) Fault', also called the 'Mae Sariang-Mae Hong Son Fault'. A sampled section at Ban Huai Pho is 'near Mae Sariang'."
+    }
+   ],
+   "citation": {
+    "text": "Hisada, K., Sugiyama, M., Ueno, K., Charusiri, P. & Arai, S. (2004) Missing ophiolitic rocks along the Mae Yuam Fault as the Gondwana-Tethys divide in north-west Thailand. Island Arc 13(1):119-127.",
+    "url": "https://doi.org/10.1111/j.1440-1738.2003.00412.x"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Hisada et al. 2004 read from the Kanazawa University repository (CC BY-NC-SA; hdl.handle.net/2297/19550). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Hisada et al. argue from detrital chromian spinels in the Triassic Mae Sariang Group that 'the Gondwana-Tethys divide is located along the Mae Yuam Fault zone', between the Sibumasu block and the Inthanon zone. They say it is 'probably an extension of the Bentong-Raub suture'. The ophiolite is inferred: no ophiolitic rocks crop out along the fault ('missing ophiolitic rocks'). The present valley is a Tertiary strike-slip trace, so the line marks a reactivated, inferred boundary. This conflicts with Sone & Metcalfe 2008, who put the Mae Sariang Group inside the Inthanon Suture Zone. Only three points are sourced, and the southward continuation is not named in the text."
+  }
+ ],
+ "terranes": [
+  {
+   "id": "sibumasu",
+   "name_th": "แผ่นซีบูมาสุ (ฉาน–ไทย)",
+   "name_en": "Sibumasu / Shan-Thai",
+   "label_lat": 7.8848,
+   "label_lon": 98.3892,
+   "citation": {
+    "text": "Ridd, M.F. (2009) The Phuket Terrane: A Late Palaeozoic rift at the margin of Sibumasu. J Asian Earth Sci 36:238-251; and Ampaiwan, T., Hisada, K. & Charusiri, P. (2009) Lower Permian glacially influenced deposits in Phuket and adjacent islands, peninsular Thailand. Island Arc 18:52-68.",
+    "url": "https://doi.org/10.1111/j.1440-1738.2008.00653.x"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Phuket city. Ampaiwan et al. 2009 (abstract) describe Lower Permian glaciomarine diamictites at Phuket as evidence for 'the Sibumasu block' at the Gondwana margin. Ridd 2009 (title only; doi 10.1016/j.jseaes.2009.06.006) places Phuket 'at the margin of Sibumasu'. Hisada et al. 2004 say the Mae Hong Son-Mae Sariang area 'corresponds to the central part of Sibumasu', but that area sits on the Mae Yuam line, so it is not used as the label point. For a second label in the north-west, place it west of the Mae Yuam line. Sone & Metcalfe 2008 say Shan-Thai and Sibumasu are used for the same block, and that the Sukhothai Terrane is NOT part of it. Whether Kanchanaburi lies in Sibumasu or in the Inthanon zone depends on the author: Sone & Metcalfe put the Bo Phloi chert in the Inthanon zone."
+  },
+  {
+   "id": "sukhothai-arc",
+   "name_th": "แนวโค้งภูเขาไฟสุโขทัย",
+   "name_en": "Sukhothai arc terrane",
+   "label_lat": 18.2899,
+   "label_lon": 99.4959,
+   "citation": {
+    "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
+    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Lampang city. Sone & Metcalfe 2008 §4.1: the Sukhothai Terrane 'is delineated by the Inthanon Suture Zone to the west and by the Nan Suture to the east'. They add: 'Two Middle Triassic volcanics, the Lampang and Chiang Khong suites, show chemical characteristics indicative of a continental arc'. Barr et al. 2000 (doi 10.1144/jgs.157.3.553, abstract) place the Lampang volcanic belt 'between the towns of Lampang and Denchai'. Lampang (99.50 E) lies between the Inthanon line (Chiang Mai, 99.00 E) and the Nan line (100.77 E)."
+  },
+  {
+   "id": "chanthaburi-terrane",
+   "name_th": "แผ่นจันทบุรี (ส่วนใต้ของแนวโค้งภูเขาไฟสุโขทัย)",
+   "name_en": "Chanthaburi terrane (southern Sukhothai arc)",
+   "label_lat": 12.6086,
+   "label_lon": 102.1039,
+   "citation": {
+    "text": "Sone, M. & Metcalfe, I. (2008) Parallel Tethyan sutures in mainland Southeast Asia: New insights for Palaeo-Tethys closure and implications for the Indosinian orogeny. Comptes Rendus Geoscience 340(2-3):166-179.",
+    "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Full text of Sone & Metcalfe (2008) read from the open-access Comptes Rendus site (comptes-rendus.academie-sciences.fr/geoscience/articles/10.1016/j.crte.2007.09.008/). Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Chanthaburi city. Sone & Metcalfe 2008 §4.2: the Chanthaburi Terrane 'is defined as the southern extension of the Sukhothai Terrane'. They write: 'The name is after the Chanthaburi Pluton, which constitutes the core of this magmatic arc terrane'. Its eastern boundary is the Sra Kaeo Suture and its western boundary is the Klaeng Fault. The pluton's location is assumed to be near the city it is named after. Optional: merge this label into the Sukhothai arc label."
+  },
+  {
+   "id": "indochina",
+   "name_th": "แผ่นอินโดไชนา",
+   "name_en": "Indochina",
+   "label_lat": 15.6667,
+   "label_lon": 103.1667,
+   "citation": {
+    "text": "Minezaki, T., Hisada, K., Hara, H. & Kamata, Y. (2018) Tectono-stratigraphy of Late Carboniferous to Triassic successions of the Khorat Plateau Basin, Indochina Block, northeastern Thailand. J Asian Earth Sci 170:208-224.",
+    "url": "https://doi.org/10.1016/j.jseaes.2018.10.020"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: the Khorat Plateau (Wikipedia coordinate for the plateau). Minezaki et al. 2018 (title only read) place the 'Khorat Plateau Basin' in the 'Indochina Block, northeastern Thailand'. Racey 2009 (doi 10.1144/sp315.5, abstract) refers to 'the Indochina Block (on which the Khorat Group sits)'. Sone & Metcalfe 2008 also put 'the Loei-Phetchabun Volcanic Belt of the western Indochina Terrane' and the Saraburi limestone platform 'over the western Indochina Terrane' on this block, east of the Nan-Sra Kaeo back-arc suture."
+  },
+  {
+   "id": "west-burma",
+   "name_th": "แผ่นพม่าตะวันตก",
+   "name_en": "West Burma",
+   "label_lat": 22.5667,
+   "label_lon": 95.7,
+   "citation": {
+    "text": "Myint Thein & Maung Maung (2017) Chapter 8 The Eastern (Back-arc) Basin of Central Myanmar: Basement rocks, lithostratigraphic units, palaeocurrents, provenance and developmental history. Geological Society, London, Memoirs 48.",
+    "url": "https://doi.org/10.1144/m48.8"
+   },
+   "schematic": true,
+   "verified": true,
+   "_notes": "Coordinates: Wikipedia API (prop=coordinates) or OpenStreetMap Nominatim, fetched 2026-10-03. Label point: Shwebo, Myanmar. Myint Thein & Maung Maung 2017 (abstract): 'The Eastern Basin (Back-arc Trough) was initiated on the West Myanmar Block (WMB)'. They mention 'the eroded surface of the pre-Tertiary rocks in the Shwebo Basin (SBB)' within it. The point uses Shwebo town as a stand-in for the Shwebo Basin; the abstract does not give a town. Arboit et al. 2020 (doi 10.1016/j.gsf.2020.05.024) also treat the Central Myanmar Basin as part of the 'west Burma terrane'. WEAK for this map: West Burma lies entirely outside Thailand (more than 300 km west of the border at this latitude). None of the Thai-suture sources read here (Sone & Metcalfe 2008; Hisada et al. 2004) discuss it, so you may want to drop it or show it only as an off-map arrow."
+  }
+ ]
 }
