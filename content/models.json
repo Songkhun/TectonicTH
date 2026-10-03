@@ -1,0 +1,915 @@
+[
+ {
+  "id": "sibumasu-rifting",
+  "title_th": "ซีบูมาสุแยกจากกอนด์วานาเมื่อใดและอย่างไร",
+  "title_en": "When and how Sibumasu left Gondwana",
+  "question_th": "แผ่นซีบูมาสุ (Sibumasu) แยกตัวออกจากขอบมหาทวีปกอนด์วานา (Gondwana) เมื่อใด และแยกออกไปด้วยกลไกแบบใด",
+  "question_en": "When did the Sibumasu block rift away from the Gondwana margin, and by what mechanism and geometry?",
+  "axis": {
+   "base_ma": 325,
+   "top_ma": 250
+  },
+  "event_ids": [
+   "sibumasu-rifting",
+   "kaeng-krachan-diamictite",
+   "late-paleozoic-ice-age",
+   "ratburi-limestone"
+  ],
+  "models": [
+   {
+    "id": "metcalfe-late-sakmarian",
+    "name_th": "แยกตัวช่วงปลายสักมาเรียน เปิดมหาสมุทรมีโซทีทิส (Metcalfe 2017)",
+    "name_en": "Late Sakmarian separation, Meso-Tethys opens (Metcalfe 2017)",
+    "citation": {
+     "text": "Metcalfe I. 2017, Tectonic evolution of Sundaland, Bulletin of the Geological Society of Malaysia 63:27–60",
+     "url": "https://doi.org/10.7186/bgsm63201702"
+    },
+    "summary_th": "ซีบูมาสุติดอยู่กับขอบกอนด์วานาด้านออสเตรเลียตะวันตกเฉียงเหนือจนถึงยุคเพอร์เมียนตอนต้น (Early Permian) และได้รับตะกอนทะเลจากธารน้ำแข็ง (glacial-marine deposits) ที่ภูเขาน้ำแข็งพามาทิ้งไว้ ต่อมาในช่วงปลายสักมาเรียน (late Sakmarian) แผ่นทวีปซิมเมอเรียตะวันออก (eastern Cimmerian continent) ซึ่งรวมซีบูมาสุได้แยกออกไปเป็นแนวยาวแผ่นเดียว และมหาสมุทรมีโซทีทิส (Meso-Tethys) เปิดขึ้นด้านหลัง จากนั้นซีบูมาสุเคลื่อนขึ้นเหนือ ซากสัตว์เปลี่ยนจากกลุ่มน้ำเย็นของกอนด์วานาเป็นกลุ่มเฉพาะถิ่นและกลุ่มคาเธย์เซีย (Cathaysian) ตามลำดับ",
+    "summary_en": "Sibumasu stayed attached to the NW Australian margin of Gondwana into the Early Permian, receiving iceberg-dropped glacial-marine deposits. In late Sakmarian time the eastern Cimmerian strip, including Sibumasu, separated as one sliver and the Meso-Tethys opened behind it; northward drift then turned its faunas from peri-Gondwanan to endemic Sibumasu and finally Cathaysian types. Metcalfe (2023, Geol. Mag.) later dates the start of separation to the early Artinskian, so the model's breakup sits near the Sakmarian–Artinskian boundary.",
+    "phases": [
+     {
+      "label_th": "ยังติดกับกอนด์วานา ตะกอนธารน้ำแข็งสะสมตัว",
+      "label_en": "Attached to Gondwana; glacial-marine deposition",
+      "base_ma": 298.9,
+      "top_ma": 290.1
+     },
+     {
+      "label_th": "แยกตัว มหาสมุทรมีโซทีทิสเปิด (ปลายสักมาเรียน)",
+      "label_en": "Separation; Meso-Tethys opens (late Sakmarian)",
+      "base_ma": 293.52,
+      "top_ma": 290.1
+     },
+     {
+      "label_th": "เคลื่อนขึ้นเหนือเข้าหาแนวภูเขาไฟสุโขทัย",
+      "label_en": "Northward drift towards the Sukhothai Arc",
+      "base_ma": 290.1,
+      "top_ma": 251.902
+     }
+    ]
+   },
+   {
+    "id": "liao-plume-rift",
+    "name_th": "พวยแมนเทิลจุดชนวนริฟต์ 301–282 ล้านปี (Liao et al. 2015)",
+    "name_en": "Plume-triggered rifting, 301–282 Ma (Liao et al. 2015)",
+    "citation": {
+     "text": "Liao S.-Y., Wang D.-B., Tang Y., Yin F.-G., Cao S.-N., Wang L.-Q., Wang B.-D., Sun Z.-M. 2015, Late Paleozoic Woniusi basaltic province from Sibumasu terrane: implications for the breakup of eastern Gondwana's northern margin, Geological Society of America Bulletin 127:1313–1330",
+     "url": "https://doi.org/10.1130/B31210.1"
+    },
+    "summary_th": "หินบะซอลต์วั่วหนิวซื่อ (Woniusi basaltic province) ทางตอนเหนือของซีบูมาสุ ครอบคลุมพื้นที่ราว 12,000 ตร.กม. หนา 300–500 ม. อายุยูเรเนียม–ตะกั่วในเซอร์คอน (zircon U–Pb) ของพนังหินมาฟิก (mafic dikes) อยู่ระหว่าง 301–282 ล้านปี คือปลายคาร์บอนิเฟอรัสถึงปลายเพอร์เมียนตอนต้น ผู้วิจัยเสนอว่าหินชุดนี้เป็นส่วนหนึ่งของมหาภาคหินอัคนี (large igneous province) ที่แตกเป็นชิ้น ร่วมกับ Panjal Traps หิมาลัย ลาซา และเชียงถังใต้ ซึ่งเกิดจากพวยแมนเทิล (mantle plume) ใต้อินเดียตอนเหนือ พวยนี้เป็นตัวจุดชนวนการแยกตัวช่วงแรกของซีบูมาสุและการเปิดมหาสมุทรมีโซทีทิส ดังนั้นการแยกตัวจึงเริ่มตั้งแต่ราว 301 ล้านปี",
+    "summary_en": "The Woniusi basaltic province of northern Sibumasu (~12,000 km², 300–500 m thick) was emplaced between 301 and 282 Ma (zircon U–Pb on mafic dikes), synchronous with the Panjal Traps, Tethyan Himalaya, Lhasa and southern Qiangtang basalts. The authors group these into one fragmented large igneous province fed by a mantle plume under northern Greater India, and argue that this plume triggered the initial rifting of Sibumasu and the opening of the Meso-Tethys. Rifting therefore starts in the latest Carboniferous, by about 301 Ma, rather than only in the Sakmarian.",
+    "phases": [
+     {
+      "label_th": "พวยแมนเทิลและริฟต์ บะซอลต์วั่วหนิวซื่อปะทุ",
+      "label_en": "Plume-driven rifting; Woniusi basalts erupt",
+      "base_ma": 301,
+      "top_ma": 282
+     }
+    ]
+   },
+   {
+    "id": "ridd-two-blocks",
+    "name_th": "สองแผ่น: อิระวดีติดขอบ ส่วนที่เหลืออยู่ไกลกว่า (Ridd 2016)",
+    "name_en": "Two blocks: Irrawaddy at margin, Sibuma offshore (Ridd 2016)",
+    "citation": {
+     "text": "Ridd M.F. 2016, Should Sibumasu be renamed Sibuma? The case for a discrete Gondwana-derived block embracing western Myanmar, upper Peninsular Thailand and NE Sumatra, Journal of the Geological Society 173:249–264",
+     "url": "https://doi.org/10.1144/jgs2015-065"
+    },
+    "summary_th": "ริดด์เสนอว่ารอยตะเข็บลู่ซี–นู่เจียง (Luxi–Nujiang suture) ต่อจากยูนนานผ่านเมียนมาเข้าสู่ไทยและช่องแคบมะละกา แบ่งซีบูมาสุเดิมออกเป็นสองแผ่น แผ่นอิระวดี (Irrawaddy Block) ทางตะวันตกมีหินตะกอนยุคเพอร์เมียนตอนต้นหนาที่มีหินโคลนปนกรวด (diamictite) จากกระแสตะกอนมวล (mass flow) สะสมตัวที่ขอบกอนด์วานาโดยตรง ส่วนที่เหลือ ('Sibuma') มีหินโคลนปนกรวดบางและเป็นท้องถิ่น ตีความว่าเป็นตะกอนที่ภูเขาน้ำแข็งพามา (ice-rafted) ซึ่งสะสมตัวห่างจากขอบกอนด์วานามากกว่า ดังนั้นในยุคเพอร์เมียนตอนต้นสองแผ่นนี้จึงอยู่ห่างจากขอบทวีปต่างกัน ไม่ได้แยกออกไปเป็นแผ่นเดียว",
+    "summary_en": "Ridd traces the Luxi–Nujiang suture from Yunnan through Myanmar into Thailand and the Malacca Strait, splitting former Sibumasu into two blocks. The western Irrawaddy Block carries thick Lower Permian glacially influenced, diamictite-bearing marine mass-flow units laid down at the Gondwana margin itself, whereas the rest ('Sibuma') has only thin, local ice-rafted diamictites deposited farther from the margin. In this model the Early Permian blocks sat at different distances from Gondwana, so Sibumasu did not leave as a single rigid sliver.",
+    "phases": [
+     {
+      "label_th": "แผ่นอิระวดี: หินโคลนปนกรวดหนาที่ขอบกอนด์วานา",
+      "label_en": "Irrawaddy Block: thick mass-flow diamictites at margin",
+      "base_ma": 298.9,
+      "top_ma": 274.4
+     },
+     {
+      "label_th": "แผ่นซีบูมา: หินโคลนปนกรวดบางจากภูเขาน้ำแข็ง ห่างขอบทวีป",
+      "label_en": "Sibuma: thin ice-rafted diamictites offshore",
+      "base_ma": 298.9,
+      "top_ma": 274.4
+     }
+    ]
+   }
+  ],
+  "evidence": [
+   {
+    "evidence_id": "fossil-kaeng-krachan-cool-water-brachiopods",
+    "age_base_ma": 298.9,
+    "age_top_ma": 293.52,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "neutral",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "แบบจำลองของ Metcalfe ได้รับการสนับสนุน เพราะซากบราคิโอพอดน้ำเย็นที่มีอายุร่วมกับยุคน้ำแข็งแอสเซเลียนตอนปลายของกอนด์วานาแสดงว่าซีบูมาสุยังอยู่ละติจูดสูงใกล้กอนด์วานาก่อนช่วงปลายสักมาเรียน ส่วนแบบจำลองของ Liao และ Ridd ไม่ได้รับผลโดยตรง เพราะซากดึกดำบรรพ์นี้ไม่ได้บอกทั้งเวลาเริ่มริฟต์และระยะห่างจากขอบทวีป",
+    "reason_en": "Supports Metcalfe: a cool-water fauna coeval with late Asselian Gondwana glacials places Sibumasu at high latitude near Gondwana before the late Sakmarian; neutral for Liao and Ridd because it dates neither rift onset nor distance from the margin."
+   },
+   {
+    "age_base_ma": 298.9,
+    "age_top_ma": 274.4,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "neutral",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "สนับสนุนแบบจำลองของ Metcalfe เพราะตะกอนตกจากน้ำแข็งในทะเลนอกชายฝั่งตรงกับภาพซีบูมาสุที่ยังอยู่ขอบออสเตรเลียตะวันตกเฉียงเหนือในยุคเพอร์เมียนตอนต้น ไม่เกี่ยวกับเวลาเริ่มริฟต์ของ Liao และเป็นกลางต่อ Ridd เพราะภูเก็ตมีทั้งตะกอนจากน้ำแข็งลอยและหินโคลนปนกรวดจากกระแสเศษหินที่หนา ซึ่งเป็นสองลักษณะที่ Ridd ใช้แยกสองแผ่น",
+    "reason_en": "Supports Metcalfe (offshore ice-rafted sediment on a NW Australian margin in the Early Permian); neutral for Liao (does not date rift onset) and for Ridd, because Phuket shows both ice-rafted mudstone and thick debris-flow diamictite, the two facies Ridd uses to tell his blocks apart.",
+    "evidence_id": "mdl-phuket-glaciomarine-dropstones"
+   },
+   {
+    "evidence_id": "pmag-baoshan-permian-rift-basalt",
+    "age_base_ma": 298.9,
+    "age_top_ma": 274.4,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "supports",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "สนับสนุนทั้ง Metcalfe และ Liao เพราะบะซอลต์ริฟต์ยุคเพอร์เมียนตอนต้นบอกว่าการแยกตัวเกิดที่ละติจูดราว 41.9°S โดยซีบูมาสุอยู่นอกชายฝั่งออสเตรเลียตะวันตกเฉียงเหนือ ตรงกับทั้งสองแบบจำลอง แต่เป็นกลางต่อ Ridd เพราะข้อมูลมาจากแผ่นเป่าซานเพียงแผ่นเดียว จึงทดสอบเรื่องสองแผ่นไม่ได้",
+    "reason_en": "Supports Metcalfe and Liao: Early Permian rift basalts put breakup at 41.9°S with Sibumasu offshore NW Australia, as both models require; neutral for Ridd because data from the Baoshan block alone cannot test a two-block split."
+   },
+   {
+    "age_base_ma": 301,
+    "age_top_ma": 282,
+    "roles": {
+     "metcalfe-late-sakmarian": "neutral",
+     "liao-plume-rift": "supports",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "เป็นหลักฐานหลักของแบบจำลอง Liao เพราะแสดงว่ามีหินหนืดจากการริฟต์ตั้งแต่ 301 ล้านปี เป็นกลางต่อ Metcalfe เพราะการริฟต์อาจเริ่มก่อนการแยกตัวจริงในช่วงปลายสักมาเรียนได้ และเป็นกลางต่อ Ridd เพราะไม่ได้บอกเรื่องจำนวนแผ่น",
+    "reason_en": "Core support for Liao (rift magmatism already by 301 Ma); neutral for Metcalfe, since rifting can precede late-Sakmarian separation, and for Ridd, since it says nothing about one block versus two.",
+    "evidence_id": "mdl-woniusi-dikes-zircon-upb"
+   },
+   {
+    "age_base_ma": 323.4,
+    "age_top_ma": 274.4,
+    "roles": {
+     "metcalfe-late-sakmarian": "neutral",
+     "liao-plume-rift": "supports",
+     "ridd-two-blocks": "supports"
+    },
+    "reason_th": "สนับสนุน Liao เพราะแผ่นเป่าซานมีบะซอลต์หนาในสภาพริฟต์ที่มีภูเขาไฟ และสนับสนุน Ridd เพราะแผ่นเถิงชงที่อยู่ติดกันมีตะกอนธารน้ำแข็งหนามากในขอบทวีปเฉื่อยใกล้ฝั่ง แสดงว่าสองแผ่นอยู่ในตำแหน่งต่างกันเมื่อเทียบกับขอบกอนด์วานา ส่วนแบบจำลอง Metcalfe ซึ่งให้ซีบูมาสุแยกเป็นแผ่นเดียวไม่ได้อธิบายความต่างนี้แต่ก็ไม่ขัดโดยตรง",
+    "reason_en": "Supports Liao (thick basalts in an active volcanic rift on Baoshan) and Ridd (the adjacent Tengchong block has >1000 m of glacigene beds on a proximal passive margin, so the two blocks sat in different positions relative to Gondwana); neutral for Metcalfe's single-sliver model, which neither predicts nor forbids the contrast.",
+    "evidence_id": "mdl-baoshan-tengchong-glacigene-contrast"
+   },
+   {
+    "age_base_ma": 283.3,
+    "age_top_ma": 274.4,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "neutral",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "สนับสนุน Metcalfe เพราะซีบูมาสุยังอยู่ละติจูดกลางค่อนสูงและมีสัตว์น้ำเย็นในคุงกูเรียนตอนปลาย ซึ่งเข้ากับการแยกตัวในช่วงสักมาเรียน–อาร์ทินสเกียนแล้วค่อยเคลื่อนขึ้นเหนือ เป็นกลางต่อ Liao และ Ridd เพราะไม่ได้บอกเวลาเริ่มริฟต์หรือจำนวนแผ่น",
+    "reason_en": "Supports Metcalfe (Sibumasu still at moderately high southern latitude with a cool-water fauna in the late Kungurian, consistent with Sakmarian–Artinskian separation followed by drift); neutral for Liao and Ridd, as it constrains neither rift onset nor block count.",
+    "evidence_id": "mdl-kanthan-kungurian-cool-water-conodonts"
+   },
+   {
+    "evidence_id": "fossil-ratburi-fusulinids-sibumasu",
+    "age_base_ma": 283.3,
+    "age_top_ma": 264.28,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "neutral",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "สนับสนุน Metcalfe เพราะฟิวซูลินิดในหินปูนราชบุรีเปลี่ยนจาก Monodiexodina ช่วงคุงกูเรียนที่ฐาน เป็นกลุ่มสัตว์ช่วงเวิร์ดเดียนในส่วนหลัก ซึ่งตรงกับการเคลื่อนเข้าสู่น้ำอุ่นขึ้นหลังการแยกตัว เป็นกลางต่อ Liao และ Ridd",
+    "reason_en": "Supports Metcalfe: Ratburi fusulinids pass from a basal Kungurian Monodiexodina fauna to a Wordian fauna as the drifting block reached warmer water; neutral for Liao and Ridd."
+   },
+   {
+    "evidence_id": "pmag-shan-middle-permian",
+    "age_base_ma": 274.4,
+    "age_top_ma": 259.51,
+    "roles": {
+     "metcalfe-late-sakmarian": "supports",
+     "liao-plume-rift": "supports",
+     "ridd-two-blocks": "neutral"
+    },
+    "reason_th": "สนับสนุนทั้ง Metcalfe และ Liao เพราะซีบูมาสุอยู่ราว 13°S แล้วในยุคเพอร์เมียนตอนกลาง แสดงว่าแยกตัวและเคลื่อนขึ้นเหนือไปแล้วก่อนช่วงนี้ เป็นกลางต่อ Ridd เพราะตัวอย่างมาจากรัฐฉานแห่งเดียว",
+    "reason_en": "Supports Metcalfe and Liao: Sibumasu was already near 13°S in the Middle Permian, so separation and drift came earlier; neutral for Ridd, since all samples come from one Shan State area."
+   }
+  ],
+  "synthesis_th": "ทั้งสามแบบจำลองเห็นตรงกันว่าซีบูมาสุอยู่ที่ขอบกอนด์วานาด้านออสเตรเลียตะวันตกเฉียงเหนือในยุคเพอร์เมียนตอนต้น ได้รับตะกอนจากธารน้ำแข็ง และแยกออกไปพร้อมการเปิดของมหาสมุทรมีโซทีทิส ความต่างอยู่ที่เวลาเริ่มต้นและรูปแบบการแยก Liao et al. (2015) ให้การริฟต์เริ่มตั้งแต่ราว 301 ล้านปีจากพวยแมนเทิล Metcalfe (2017) ให้การแยกตัวจริงในช่วงปลายสักมาเรียน (และ Metcalfe 2023 ขยับเป็นอาร์ทินสเกียนตอนต้น) ส่วน Ridd (2016) เห็นว่าซีบูมาสุไม่ได้แยกเป็นแผ่นเดียว หลักฐานที่ช่วยแยกแบบจำลองได้ดีที่สุดคืออายุของหินบะซอลต์ริฟต์ (301–282 ล้านปี) และความหนาของหินโคลนปนกรวดที่ต่างกันสองฝั่งแนวลู่ซี–นู่เจียง ข้อมูลละติจูดบรรพกาลยังขัดกันอยู่บ้าง คือ 41.9°S ตอนแยก ราว 35°S ในคุงกูเรียนตอนปลาย แต่ราว 13°S ในเพอร์เมียนตอนกลาง หากถูกทั้งหมดแผ่นต้องเคลื่อนเร็วมาก ความเชื่อมั่นสูงว่าแยกในยุคเพอร์เมียนตอนต้น แต่ความเชื่อมั่นยังต่ำถึงปานกลางเรื่องเวลาเริ่มริฟต์ที่แน่นอนและเรื่องแผ่นเดียวหรือหลายแผ่น",
+  "synthesis_en": "All three models place Sibumasu on the NW Australian margin of Gondwana in the Early Permian, receiving glacial-marine sediment, and have it leave as the Meso-Tethys opened. They differ on onset and geometry: Liao et al. (2015) start plume-driven rifting by about 301 Ma, Metcalfe (2017) puts separation in the late Sakmarian (early Artinskian in Metcalfe 2023), and Ridd (2016) argues the block did not leave as one sliver. The most discriminating data are the 301–282 Ma ages of the rift basalts and the contrast in diamictite thickness and setting across the Luxi–Nujiang line. Palaeolatitudes do not yet fit together cleanly: 41.9°S at breakup and about 35°S in the late Kungurian (a reconstruction) against about 13°S (palaeomagnetic) in the Middle Permian would need very fast drift if all three are right. Confidence is high for an Early Permian separation, and low to medium for the exact onset and for one block versus several.",
+  "_notes": "Sources read. FULL TEXT: Metcalfe 2017 BGSM 63:27-60 (open PDF from gsm.org.my; quotes 'In Early Permian (late Sakmarian) times, the Cimmerian continental strip ... and the Sibumasu Terrane of Sundaland separated from eastern Gondwana and the Meso-Tethys ocean basin opened'; 'In the early Permian, prior to and during rifting of Sibumasu, icebergs ... deposited distinctive glacial-marine deposits'); Metcalfe 2023 Geol. Mag. (open PDF). ABSTRACTS (OpenAlex/Crossref): Liao et al. 2015 GSA Bull.; Ridd 2016 JGS; Ali et al. 2013 GJI; Ampaiwan et al. 2009 Island Arc; Wopfner 1996 GSL SP 106; Waterhouse 1982 (via existing evidence item). SUBSTITUTION: the brief named Metcalfe 2013 (J Asian Earth Sci 66:1-33). Its abstract is withheld (ScienceDirect 403; no abstract in Crossref, OpenAlex, Semantic Scholar; Elsevier API needs a key), so I cite Metcalfe 2017, which states the same late-Sakmarian/Meso-Tethys model in full text and cites Metcalfe 2013a as its basis. Note Metcalfe's own dating moved to 'early Artinskian' in 2023. DROPPED (could not read the primary source): Ridd 2009 'The Phuket Terrane: a Late Palaeozoic rift at the margin of Sibumasu' (JAES 36:238-251; no abstract anywhere) - so no Ridd-2009 rift-onset model; Fang 1994 Middle-Ordovician-or-earlier rifting (JSAES 9:375-385; no abstract); Cai et al. 2017, Dew et al. 2021, Jiang et al. 2023 (Early Permian passive-margin magmatism), Wang et al. 2013 corals, Rozalli et al. 2026, Acharyya 1998 (no abstracts). Ali et al. 2013 is used as evidence, not as a separate model: its abstract gives breakup palaeolatitude (41.9°S) and site of origin, not a distinct timing. Metcalfe 2017 Fig. 8 attributes an 'Artinskian' reconstruction to Ali et al. 2013 but the abstract only says 'Early Permian', so it is plotted 298.9-273.01. Ridd 2016 phases: the abstract gives only 'Lower Permian' and no separation age, so both phases span the whole Cisuralian; the model is about geometry more than timing. Which of Ridd's blocks the Kaeng Krachan/Phuket diamictites belong to is not stated in the abstract (it says the Irrawaddy Block embraces 'upper Peninsular Thailand'); roles for those items are therefore neutral. Possible concern: the 13°S Shan pole (Zhao et al.) versus ~35°S Kanthan reconstruction implies ~20° of latitude in <15 Myr; worth flagging to students as an open data conflict rather than resolving it. Stage names were converted to Ma with the GSA Geologic Time Scale v6.0 (2022) picks in the instructor's timescl.pdf (e.g. Asselian 298.9, Sakmarian 293.52, Artinskian 290.1, Kungurian 283.5, Roadian 273.01, Wordian 266.9, Capitanian 264.28, Wuchiapingian 259.51, Changhsingian 254.14, Induan 251.90, Anisian 247.2, Ladinian ~242, Carnian ~237, Norian ~227, Rhaetian ~208.5, Givetian 387.7); where a source says only 'late X' the whole stage range is plotted. | Main session: stage-derived ages remapped to ICS v2024/12 stage bases: sibumasu-rifting/metcalfe-late-sakmarian/Northward drift towards the Su top_ma 251.9→251.902; sibumasu-rifting/ridd-two-blocks/Irrawaddy Block: thick mass-fl top_ma 273.01→274.4; sibumasu-rifting/ridd-two-blocks/Sibuma: thin ice-rafted diamic top_ma 273.01→274.4; sibumasu-rifting/mdl-phuket-glaciomarine-dropstones age_top_ma 273.01→274.4; sibumasu-rifting/pmag-baoshan-permian-rift-basalt age_top_ma 273.01→274.4; sibumasu-rifting/mdl-baoshan-tengchong-glacigene-contrast age_base_ma 323.2→323.4; sibumasu-rifting/mdl-baoshan-tengchong-glacigene-contrast age_top_ma 273.01→274.4; sibumasu-rifting/mdl-kanthan-kungurian-cool-water-conodonts age_base_ma 283.5→283.3; sibumasu-rifting/mdl-kanthan-kungurian-cool-water-conodonts age_top_ma 273.01→274.4; sibumasu-rifting/fossil-ratburi-fusulinids-sibumasu age_base_ma 283.5→283.3; sibumasu-rifting/pmag-shan-middle-permian age_base_ma 273.01→274.4",
+  "verified": false
+ },
+ {
+  "id": "paleo-tethys-suture",
+  "title_th": "รอยตะเข็บพาลีโอทีทิสหลักอยู่ที่ไหน และชนกันเมื่อใด",
+  "title_en": "Main Paleo-Tethys suture and collision age",
+  "question_th": "รอยตะเข็บหลักของมหาสมุทรพาลีโอทีทิส (Paleo-Tethys) ในประเทศไทยอยู่ที่แนวใด และแผ่นซีบูมาสุชนกับแนวหมู่เกาะภูเขาไฟสุโขทัยและแผ่นอินโดไชนาเมื่อใด",
+  "question_en": "Which belt in Thailand is the main Paleo-Tethys suture, and when did Sibumasu collide with the Sukhothai Arc and Indochina?",
+  "axis": {
+   "base_ma": 460,
+   "top_ma": 180
+  },
+  "event_ids": [
+   "indosinian-collision",
+   "ratburi-limestone"
+  ],
+  "models": [
+   {
+    "id": "sone-metcalfe-inthanon",
+    "name_th": "รอยตะเข็บอินทนนท์ ชนกันปลายไทรแอสซิกกลาง–ต้นไทรแอสซิกตอนปลาย (Sone & Metcalfe 2008)",
+    "name_en": "Inthanon suture, late Middle–early Late Triassic collision (Sone & Metcalfe 2008)",
+    "citation": {
+     "text": "Sone M., Metcalfe I. 2008, Parallel Tethyan sutures in mainland Southeast Asia: new insights for Palaeo-Tethys closure and implications for the Indosinian orogeny, Comptes Rendus Geoscience 340:166–179",
+     "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+    },
+    "summary_th": "แบบจำลองนี้แยกรอยตะเข็บขนานสองแนว แนวฉางหนิง–เมิ่งเหลียน (Changning–Menglian) และแนวอินทนนท์ (Inthanon) คือรอยตะเข็บของมหาสมุทรพาลีโอทีทิสยุคดีโวเนียน–ไทรแอสซิก เพราะมีหินเชิร์ตทะเลลึก (pelagic chert) ตั้งแต่จีเวเชียนถึงลาดิเนียน ส่วนแนวจิ่งหง–น่าน–สระแก้ว (Jinghong–Nan–Sra Kaeo) เป็นแอ่งหลังแนวภูเขาไฟ (back-arc basin) ยุคเพอร์เมียนที่ปิดตัวราวปลายเพอร์เมียน เพราะมีตะกอนทะเลลึกเฉพาะยุคเพอร์เมียน แนวหมู่เกาะภูเขาไฟสุโขทัย (Sukhothai Arc) จึงเป็นส่วนของอินโดไชนา ไม่ใช่ซีบูมาสุ และซีบูมาสุชนกับแนวภูเขาไฟสุโขทัยในช่วงปลายไทรแอสซิกตอนกลางถึงต้นไทรแอสซิกตอนปลาย (หลังอะนีเซียน) โดยหินแกรนิตชนิด S ของแนวเทือกเขาหลัก (Main Range) เริ่มเกิดราว 230 ล้านปี",
+    "summary_en": "Two parallel sutures are distinguished: the Changning–Menglian and Inthanon zones are the suture of the Devonian–Triassic Paleo-Tethys (pelagic cherts Givetian to Ladinian), while the Jinghong–Nan–Sra Kaeo belt is a Permian back-arc basin with only a Permian deep-sea record that closed about the end of the Permian. The Sukhothai Arc is therefore an island arc of Indochina, not part of Sibumasu. Sibumasu collided with the Sukhothai Arc in the late Middle–early Late Triassic (post-Anisian), and collisional Main Range S-type granites began at about 230 Ma.",
+    "phases": [
+     {
+      "label_th": "มหาสมุทรพาลีโอทีทิส (เชิร์ตทะเลลึกจีเวเชียน–ลาดิเนียน)",
+      "label_en": "Paleo-Tethys pelagic record (Givetian–Ladinian)",
+      "base_ma": 387.95,
+      "top_ma": 237
+     },
+     {
+      "label_th": "แอ่งหลังแนวภูเขาไฟน่าน–สระแก้ว เปิดถึงปิด",
+      "label_en": "Nan–Sra Kaeo back-arc opens and closes",
+      "base_ma": 298.9,
+      "top_ma": 251.902
+     },
+     {
+      "label_th": "ซีบูมาสุชนแนวภูเขาไฟสุโขทัย (หลังอะนีเซียน)",
+      "label_en": "Sibumasu–Sukhothai Arc collision (post-Anisian)",
+      "base_ma": 241.464,
+      "top_ma": 227.3
+     },
+     {
+      "label_th": "หินแกรนิตชนิด S แนวเทือกเขาหลัก",
+      "label_en": "Main Range S-type collisional granites",
+      "base_ma": 230,
+      "top_ma": 180
+     }
+    ]
+   },
+   {
+    "id": "metcalfe-1999-nan",
+    "name_th": "น่าน–อุตรดิตถ์–สระแก้วเป็นรอยตะเข็บหลัก ปิดในไทรแอสซิกตอนปลาย (Metcalfe 1999)",
+    "name_en": "Nan–Uttaradit–Sra Kaeo as main suture, Late Triassic closure (Metcalfe 1999)",
+    "citation": {
+     "text": "Metcalfe I. 1999, The Palaeo-Tethys in East Asia, Bulletin of the Geological Society of Malaysia 43:131–143",
+     "url": "https://doi.org/10.7186/bgsm43199913"
+    },
+    "summary_th": "แบบจำลองรุ่นก่อนนี้ถือว่ารอยตะเข็บน่าน–อุตรดิตถ์ (Nan–Uttaradit) และสระแก้ว (Sra Kaeo) คือส่วนในประเทศไทยของมหาสมุทรพาลีโอทีทิสสายหลัก ต่อเนื่องกับแนวเบนตง–เราบ์ (Bentong–Raub) ในมาเลเซีย และแนวฉางหนิง–เมิ่งเหลียนในยูนนาน หลักฐานคือหินโอฟิโอไลต์ (ophiolite) อายุก่อนเพอร์เมียนที่มีหินชีสต์สีน้ำเงิน (blueschist) หินคลุกเคล้า (mélange) และหินเชิร์ตทะเลลึกอายุคาร์บอนิเฟอรัสถึงไทรแอสซิกตอนกลาง มหาสมุทรส่วนนี้เปิดในยุคดีโวเนียนและปิดในไทรแอสซิกตอนปลาย แนวคิดนี้สืบมาจากงานยุคแรก เช่น Barr & Macdonald (1987) ที่มองแนวแม่น้ำน่านเป็นรอยต่อระหว่างแผ่นชาน-ไทยกับอินโดไชนา ต่อมา Metcalfe เองได้เปลี่ยนไปใช้แบบจำลองแนวอินทนนท์",
+    "summary_en": "This earlier model treats the Nan–Uttaradit and Sra Kaeo sutures as the Thai segment of the main Paleo-Tethys, correlated with Bentong–Raub in Malaysia and Changning–Menglian in Yunnan. It rests on pre-Permian ophiolites with blueschists, mélange and accretionary rocks, and oceanic cherts of Carboniferous to Middle Triassic age; the Thai segments opened in the Devonian and closed in the Late Triassic. The idea follows earlier work such as Barr & Macdonald (1987), who saw the Nan River belt as part of the Shan-Thai–Indosinian suture; Metcalfe himself later adopted the Inthanon model.",
+    "phases": [
+     {
+      "label_th": "พาลีโอทีทิสส่วนไทยเปิด (ดีโวเนียน)",
+      "label_en": "Thai Paleo-Tethys segments open (Devonian)",
+      "base_ma": 419.62,
+      "top_ma": 358.86
+     },
+     {
+      "label_th": "พาลีโอทีทิสปิดที่แนวน่าน–สระแก้ว (ไทรแอสซิกตอนปลาย)",
+      "label_en": "Closure along Nan–Sra Kaeo (Late Triassic)",
+      "base_ma": 237,
+      "top_ma": 201.4
+     }
+    ]
+   },
+   {
+    "id": "liao-early-closure",
+    "name_th": "ปิดเร็ว ปลายเพอร์เมียน–ไทรแอสซิกตอนต้น (Liao et al. 2013)",
+    "name_en": "Early closure, late Permian–Early Triassic (Liao et al. 2013)",
+    "citation": {
+     "text": "Liao S.-Y., Yin F.-G., Sun Z.-M., Wang D.-B., Tang Y., Sun J. 2013, Early Middle Triassic mafic dikes from the Baoshan subterrane, western Yunnan: implications for the tectonic evolution of the Palaeo-Tethys in Southeast Asia, International Geology Review 55:976–993",
+     "url": "https://doi.org/10.1080/00206814.2012.758354"
+    },
+    "summary_th": "พนังหินมาฟิกในแผ่นย่อยเป่าซาน (Baoshan subterrane) ทางตอนเหนือของซีบูมาสุมีอายุเซอร์คอน 240 ± 3 ล้านปี เป็นหินบะซอลต์คล้ายสันเขากลางสมุทรแบบเสริมสมบูรณ์ (E-MORB) ที่หลอมจากแมนเทิลแอสทีโนสเฟียร์ ผู้วิจัยตีความว่าเกิดในสภาพการชนขณะแผ่นเป่าซาน (ซีบูมาสุ) เชื่อมกับแผ่นซือเหมา (Simao, ส่วนของอินโดไชนา) จึงเป็นขอบอายุบนของการชน และสรุปว่าพาลีโอทีทิสปิดและซีบูมาสุชนอินโดไชนาในช่วงปลายเพอร์เมียนถึงไทรแอสซิกตอนต้น ซึ่งเร็วกว่าแบบจำลองไทรแอสซิกกลาง–ปลาย ข้อมูลนี้มาจากยูนนาน คือแนวต่อทางเหนือของรอยตะเข็บอินทนนท์",
+    "summary_en": "Mafic dikes in the Baoshan subterrane of northern Sibumasu, dated at 240 ± 3 Ma, are E-MORB-like tholeiites from depleted asthenosphere that the authors place in a collisional setting during suturing of Baoshan (Sibumasu) and Simao (Indochina). Taken as an upper limit for collision, they lead the authors to conclude that the Paleo-Tethys closed and Sibumasu met Indochina in the late Permian to Early Triassic, earlier than Middle–Late Triassic models. The data come from Yunnan, on the northern continuation of the Inthanon suture.",
+    "phases": [
+     {
+      "label_th": "พาลีโอทีทิสปิด ซีบูมาสุชนอินโดไชนา",
+      "label_en": "Paleo-Tethys closes; Sibumasu–Indochina collision",
+      "base_ma": 259.51,
+      "top_ma": 246.7
+     },
+     {
+      "label_th": "พนังหินมาฟิกในสภาพการชน 240 ± 3 ล้านปี",
+      "label_en": "Collision-setting mafic dikes, 240 ± 3 Ma",
+      "base_ma": 243,
+      "top_ma": 237
+     }
+    ]
+   },
+   {
+    "id": "khanmanee-nan-branch",
+    "name_th": "น่าน–อุตรดิตถ์เป็นสาขาพาลีโอทีทิสอายุยาว ไม่ใช่แอ่งหลังแนวภูเขาไฟ (Khanmanee et al. 2025)",
+    "name_en": "Nan–Uttaradit as long-lived Paleo-Tethys branch (Khanmanee et al. 2025)",
+    "citation": {
+     "text": "Khanmanee J., Feng Q., Zhao T., Nie X., Hu J., Gan Z., Makkhun T., Sribuatong P., Thanun N., Teja T., Phromkhan K., Charusiri P. 2025, Late Carboniferous plagiogranites within serpentinite mélange, northern Thailand: implications for the tectonic evolution of the Nan–Uttaradit Suture, Journal of Asian Earth Sciences 294:106800",
+     "url": "https://doi.org/10.1016/j.jseaes.2025.106800"
+    },
+    "summary_th": "พบหินแพลจิโอแกรนิต (plagiogranite) ในหินคลุกเคล้าเซอร์เพนทิไนต์ (serpentinite mélange) ของรอยตะเข็บน่าน–อุตรดิตถ์เป็นครั้งแรก อายุเซอร์คอน 320 ± 2 และ 302 ± 2 ล้านปี (คาร์บอนิเฟอรัสตอนปลาย) มีค่า εHf(t) เป็นบวกสูงซึ่งบ่งชี้ว่ามาจากแมนเทิลที่ถูกดึงธาตุออกไปแล้ว (depleted mantle) และมีเคมีแบบแพลจิโอแกรนิตจากการมุดตัวของเปลือกสมุทร ผู้วิจัยสรุปว่ามหาสมุทรน่าน–อุตรดิตถ์เชื่อมกับมหาสมุทรจินซาเจียง–อ้ายเหลาซาน–ซองมา–ซองไช และหลวงพระบาง ตั้งแต่ออร์โดวิเชียนตอนปลายถึงไทรแอสซิกตอนปลาย จึงเป็นสาขาหนึ่งของพาลีโอทีทิส ไม่ใช่แอ่งหลังแนวภูเขาไฟของพาลีโอทีทิสเชียงใหม่",
+    "summary_en": "Plagiogranites found for the first time in serpentinite mélange of the Nan–Uttaradit suture give zircon U–Pb ages of 320 ± 2 and 302 ± 2 Ma, with strongly positive εHf(t) and the chemistry of oceanic subduction-type plagiogranites. The authors conclude that the Nan–Uttaradit Ocean was connected with the Jinshajiang–Ailaoshan–Song Ma–Song Chay and Luang Prabang oceans from the Late Ordovician to the Late Triassic. It was thus a branch of the Paleo-Tethys, not a back-arc basin of the Chiang Mai Paleo-Tethys; the model does not say which branch closed last.",
+    "phases": [
+     {
+      "label_th": "มหาสมุทรน่าน–อุตรดิตถ์ เชื่อมกับสาขาพาลีโอทีทิส",
+      "label_en": "Nan–Uttaradit Ocean linked to Paleo-Tethys branches",
+      "base_ma": 458.2,
+      "top_ma": 201.4
+     },
+     {
+      "label_th": "แพลจิโอแกรนิตจากการมุดตัว 320–302 ล้านปี",
+      "label_en": "Subduction-type plagiogranites, 320–302 Ma",
+      "base_ma": 322,
+      "top_ma": 300
+     }
+    ]
+   }
+  ],
+  "evidence": [
+   {
+    "age_base_ma": 387.95,
+    "age_top_ma": 241.464,
+    "roles": {
+     "sone-metcalfe-inthanon": "supports",
+     "metcalfe-1999-nan": "challenges",
+     "liao-early-closure": "challenges",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Sone & Metcalfe เพราะบันทึกทะเลลึกยาวนานที่สุดอยู่ในแนวอินทนนท์ ขัดกับ Metcalfe (1999) ที่ให้แนวน่านเป็นมหาสมุทรหลัก ขัดกับ Liao เพราะยังมีตะกอนทะเลลึกจนถึงปลายอะนีเซียน–ต้นลาดิเนียน หลังจากที่ Liao ให้มหาสมุทรปิดไปแล้วในไทรแอสซิกตอนต้น และเป็นกลางต่อ Khanmanee เพราะไม่ได้ทดสอบแนวน่าน",
+    "reason_en": "Supports Sone & Metcalfe (the longest pelagic record lies in the Inthanon zone); challenges Metcalfe 1999 (main ocean placed at Nan) and Liao (deep-sea chert continues into the Late Anisian–Early Ladinian, after Liao's Early Triassic closure); neutral for Khanmanee, which concerns the Nan belt.",
+    "evidence_id": "mdl-inthanon-pelagic-givetian-ladinian"
+   },
+   {
+    "age_base_ma": 293.52,
+    "age_top_ma": 254.14,
+    "roles": {
+     "sone-metcalfe-inthanon": "supports",
+     "metcalfe-1999-nan": "challenges",
+     "liao-early-closure": "neutral",
+     "khanmanee-nan-branch": "challenges"
+    },
+    "reason_th": "สนับสนุน Sone & Metcalfe ที่ให้แนวน่าน–สระแก้วเป็นแอ่งหลังแนวภูเขาไฟอายุสั้น ขัดกับ Metcalfe (1999) และ Khanmanee ที่ต้องการมหาสมุทรที่มีอายุยาวนานในแนวนี้ และเป็นกลางต่อ Liao ซึ่งพูดถึงเวลาปิดของมหาสมุทรหลักทางตะวันตก",
+    "reason_en": "Supports Sone & Metcalfe (a short-lived Permian back-arc); challenges Metcalfe 1999 and Khanmanee, which both need a long-lived ocean in this belt; neutral for Liao, which concerns closure of the western main ocean.",
+    "evidence_id": "mdl-nan-srakaeo-permian-only-deep-sea"
+   },
+   {
+    "age_base_ma": 322,
+    "age_top_ma": 300,
+    "roles": {
+     "sone-metcalfe-inthanon": "challenges",
+     "metcalfe-1999-nan": "supports",
+     "liao-early-closure": "neutral",
+     "khanmanee-nan-branch": "supports"
+    },
+    "reason_th": "ขัดกับ Sone & Metcalfe เพราะเปลือกสมุทรจากการมุดตัวอายุ 320 ล้านปีในแนวน่านเก่ากว่าแอ่งหลังแนวภูเขาไฟที่เปิดราวแอสเซเลียน สนับสนุน Metcalfe (1999) และ Khanmanee ที่ให้แนวน่านเป็นมหาสมุทรที่มีอายุยาว และเป็นกลางต่อ Liao",
+    "reason_en": "Challenges Sone & Metcalfe (subduction-related oceanic crust at 320 Ma predates their Asselian back-arc opening); supports Metcalfe 1999 and Khanmanee (a long-lived ocean in the Nan belt); neutral for Liao.",
+    "evidence_id": "mdl-nan-plagiogranites-320-302"
+   },
+   {
+    "age_base_ma": 243,
+    "age_top_ma": 237,
+    "roles": {
+     "sone-metcalfe-inthanon": "neutral",
+     "metcalfe-1999-nan": "challenges",
+     "liao-early-closure": "supports",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Liao เพราะเป็นหลักฐานหลักของการชนก่อน 240 ล้านปี เป็นกลางต่อ Sone & Metcalfe เพราะแบบจำลองนั้นก็ให้การปิดตัวดำเนินอยู่แล้วในไทรแอสซิกตอนกลาง ขัดกับ Metcalfe (1999) ที่ให้ปิดในไทรแอสซิกตอนปลาย และเป็นกลางต่อ Khanmanee",
+    "reason_en": "Supports Liao (its key evidence for collision by 240 Ma); neutral for Sone & Metcalfe, who also have closure in progress in the Middle Triassic; challenges Metcalfe 1999's Late Triassic closure; neutral for Khanmanee.",
+    "evidence_id": "mdl-baoshan-collisional-dikes-240"
+   },
+   {
+    "evidence_id": "pmag-shan-middle-triassic",
+    "age_base_ma": 246.7,
+    "age_top_ma": 237,
+    "roles": {
+     "sone-metcalfe-inthanon": "supports",
+     "metcalfe-1999-nan": "neutral",
+     "liao-early-closure": "neutral",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Sone & Metcalfe เพราะซีบูมาสุอยู่ราว 18°N แล้วในไทรแอสซิกตอนกลาง ซึ่งผู้วิจัยตีความว่าชนอินโดไชนาในช่วงหรือก่อนไทรแอสซิกกลาง–ปลาย ส่วนแบบจำลองอื่นเป็นกลาง เพราะผลนี้ไม่ได้ระบุว่ารอยตะเข็บอยู่แนวใด และไม่แยกการชนช่วงต้นไทรแอสซิกออกจากช่วงกลาง",
+    "reason_en": "Supports Sone & Metcalfe (Sibumasu at ~18°N in the Middle Triassic, read as collision during or before Middle–Late Triassic time); neutral for the others, as it neither locates the suture nor separates Early from Middle Triassic collision."
+   },
+   {
+    "evidence_id": "fossil-tha-sao-norian-radiolarians",
+    "age_base_ma": 227.3,
+    "age_top_ma": 205.7,
+    "roles": {
+     "sone-metcalfe-inthanon": "neutral",
+     "metcalfe-1999-nan": "supports",
+     "liao-early-closure": "challenges",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Metcalfe (1999) เพราะผู้วิจัยตีความว่ามหาสมุทรระหว่างซีบูมาสุกับอินโดไชนาเกือบปิดแล้วในช่วงนอเรียน ซึ่งเข้ากับการปิดในไทรแอสซิกตอนปลาย ขัดกับ Liao ที่ให้ปิดไปตั้งแต่ไทรแอสซิกตอนต้น และเป็นกลางต่อ Sone & Metcalfe และ Khanmanee เพราะ 'เกือบปิด' ในนอเรียนไม่ได้บอกแนวรอยตะเข็บ",
+    "reason_en": "Supports Metcalfe 1999 (the authors read the Sibumasu–Indochina ocean as almost closed in the Norian, fitting Late Triassic closure); challenges Liao's Early Triassic closure; neutral for Sone & Metcalfe and Khanmanee, since 'almost closed' in the Norian does not locate the suture."
+   },
+   {
+    "evidence_id": "date-kanchanaburi-granites-zircon-upb",
+    "age_base_ma": 227,
+    "age_top_ma": 214,
+    "roles": {
+     "sone-metcalfe-inthanon": "supports",
+     "metcalfe-1999-nan": "supports",
+     "liao-early-closure": "neutral",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Sone & Metcalfe และ Metcalfe (1999) เพราะหินแกรนิตชนิด S ในกาญจนบุรีอายุ 227–214 ล้านปีตรงกับหินหนืดจากการชนในไทรแอสซิกตอนปลาย เป็นกลางต่อ Liao เพราะแกรนิตหลังการชนอาจเกิดนานหลังการชนได้ และเป็นกลางต่อ Khanmanee (หมายเหตุ: แหล่งข้อมูลเป็นบทความก่อนตีพิมพ์)",
+    "reason_en": "Supports Sone & Metcalfe and Metcalfe 1999 (227–214 Ma S-type granites in Kanchanaburi match Late Triassic collisional magmatism); neutral for Liao, since post-collisional granites can follow collision by tens of Myr, and for Khanmanee (note: preprint source)."
+   },
+   {
+    "evidence_id": "date-phuket-phang-nga-triassic-granites",
+    "age_base_ma": 216.5,
+    "age_top_ma": 212.5,
+    "roles": {
+     "sone-metcalfe-inthanon": "supports",
+     "metcalfe-1999-nan": "supports",
+     "liao-early-closure": "neutral",
+     "khanmanee-nan-branch": "neutral"
+    },
+    "reason_th": "สนับสนุน Sone & Metcalfe และ Metcalfe (1999) เพราะแกรนิตอายุราว 214 ล้านปีที่พังงาและภูเก็ตเป็นหินหนืดหลังการปิดของพาลีโอทีทิสในไทรแอสซิกตอนปลาย เป็นกลางต่อ Liao และ Khanmanee ด้วยเหตุผลเดียวกับหลักฐานแกรนิตกาญจนบุรี",
+    "reason_en": "Supports Sone & Metcalfe and Metcalfe 1999 (~214 Ma granites in Phang Nga and Phuket follow Paleo-Tethys closure in the Late Triassic); neutral for Liao and Khanmanee for the same reason as the Kanchanaburi granites."
+   }
+  ],
+  "synthesis_th": "ทุกแบบจำลองเห็นตรงกันว่ามหาสมุทรพาลีโอทีทิสปิดและซีบูมาสุชนกับฝั่งสุโขทัย–อินโดไชนาในช่วงเพอร์เมียน–ไทรแอสซิก แต่ไม่ตรงกันในสองเรื่อง เรื่องแรกคือตำแหน่งรอยตะเข็บหลัก ว่าเป็นแนวอินทนนท์ (Sone & Metcalfe 2008) หรือแนวน่าน–อุตรดิตถ์–สระแก้ว (Metcalfe 1999) โดยงานปี 2025 ของ Khanmanee et al. ยังเห็นว่าแนวน่านเป็นสาขามหาสมุทรที่มีอายุยาว ไม่ใช่แอ่งหลังแนวภูเขาไฟ เรื่องที่สองคือเวลาชน ว่าเป็นปลายเพอร์เมียน–ไทรแอสซิกตอนต้น (Liao et al. 2013) หรือไทรแอสซิกตอนกลาง–ปลาย หลักฐานที่แยกแบบจำลองได้ดีคือช่วงอายุตะกอนทะเลลึกในแต่ละแนว (อินทนนท์ จีเวเชียน–ลาดิเนียน แต่น่าน–สระแก้วมีเฉพาะเพอร์เมียน) อายุ 320–302 ล้านปีของเปลือกสมุทรในแนวน่าน และเรดิโอลาเรียนอายุนอเรียนกับแกรนิตชนิด S อายุ 227–214 ล้านปีที่ชี้ไปทางการชนในไทรแอสซิกตอนกลาง–ปลาย ปัจจุบันงานส่วนใหญ่ถือแนวอินทนนท์เป็นรอยตะเข็บหลักและให้ชนในไทรแอสซิกตอนกลาง–ปลาย (ความเชื่อมั่นปานกลางถึงสูง) แต่ธรรมชาติของแนวน่าน–อุตรดิตถ์กลับมาเป็นข้อถกเถียงอีกครั้ง",
+  "synthesis_en": "All four models close the Paleo-Tethys and bring Sibumasu against the Sukhothai–Indochina side in Permian–Triassic time. They disagree on where the main suture lies, Inthanon (Sone & Metcalfe 2008) or Nan–Uttaradit–Sra Kaeo (Metcalfe 1999), with Khanmanee et al. (2025) reviving a long-lived oceanic Nan branch, and on when collision happened: late Permian–Early Triassic (Liao et al. 2013) or Middle–Late Triassic. The discriminating data are the span of pelagic sediment in each belt (Givetian–Ladinian at Inthanon, Permian only at Nan–Sra Kaeo), the 320–302 Ma oceanic plagiogranites in the Nan mélange, and the Norian radiolarians and 227–214 Ma S-type granites, which favour a Middle–Late Triassic collision. Most current work takes Inthanon as the main suture with a Middle–Late Triassic collision (medium–high confidence), but the nature of the Nan–Uttaradit belt is open again.",
+  "_notes": "Sources read. FULL TEXT: Sone & Metcalfe 2008 (open-access PDF from comptes-rendus.academie-sciences.fr; conclusions quoted: 'The Changning-Menglian Suture and the Inthanon Suture represent the Palaeo-Tethys Suture Zone'; 'The Jinghong-Nan-Sra Kaeo back-arc Basin closed at about the end of the Permian'; 'The Palaeo-Tethys Ocean closed as Sibumasu collided with the continental Sukhothai Arc of Indochina in the late Middle Triassic-early Late Triassic (post-Anisian)'); Metcalfe 1999 BGSM 43:131-143 (open PDF from gsm.org.my; quote: 'The Palaeo-Tethys is represented in Thailand by the Nan-Uttaradit and Sra Kaeo suture segments ... the Thailand segments of the Palaeo-Tethys opened in the Devonian and closed in the Late Triassic'); Metcalfe 2017 BGSM (for context: there the back-arc collapses at the same time as the Middle-Late Triassic collision, unlike the end-Permian closure of Sone & Metcalfe 2008). ABSTRACTS (OpenAlex): Liao et al. 2013 IGR; Khanmanee et al. 2025 JAES; Barr & Macdonald 1987 Geology ('The Nan River belt forms part of the suture between the Indosinian and Shan-Thai cratonic blocks'; rocks 'probably pre-Permian'); Moonpa & Motanated 2018 Heliyon (Nam Pat Group best read as back-arc basin; not used as evidence). SUBSTITUTIONS: the brief suggested 'Bunopas & Vella' and 'Barr & Macdonald 1991' for the Nan-main-suture model. Bunopas & Vella is not on Crossref and I found no readable copy; Barr & Macdonald 1991 (J. Thai Geosci. 1:11-22) has no DOI. Barr & Macdonald 1987 (Geology 15:907-910) is the readable Nan-suture paper, but its abstract gives no collision age, so model B cites Metcalfe 1999, which states both the Nan-Sra Kaeo main-suture placement and its ages, and names Barr & Macdonald 1987 as precedent in the summary only. Metcalfe 2013 (unreadable, see Q1 notes) is not cited. DROPPED (only in the LeapSpace synthesis or not readable): Late Jurassic Shan-Thai-Indochina suturing from the Pak Lay Foldbelt (refs 324/325, not checked - out of scope and unverified); Sra Kaeo + Chiang Mai double main sutures (Metcalfe 2002, no abstract); Tan 1996 'only Nan-Uttaradit plausible' (no abstract); Indochina-South China first collision via the Khorat unconformity (Minezaki et al. 2019, not this question); 'Fang Chert Ladinian ~237 Ma' attributed in the synthesis to Qian et al. 2020 (a Lao granite paper - mismatch, not used; Ladinian age taken from Sone & Metcalfe instead); collision at ~237 Ma (Liu et al. 2020) and zircon growth 241.8-235 Ma (Kanjanapayont et al. 2020) - abstracts not read; Kamata et al. 2002 Mae Sariang Triassic radiolarians (no abstract; the Carnian age appears only via Sone & Metcalfe); Yang et al. 2016 Nan zircon (no abstract); MT dual-subduction evidence (geo-mt-dual-subduction-kanchanaburi) left out because its abstract was never read and it bears on polarity, not suture location or timing. DOUBTS: Model C's data are from Yunnan (Baoshan-Simao, on the Changning-Menglian continuation of the Inthanon suture), so applying its timing to Thailand is an extrapolation the instructor may want to flag. The phase 'Sibumasu-Sukhothai Arc collision' of model A is plotted 242-227 Ma as my conversion of 'late Middle Triassic-early Late Triassic (post-Anisian)'. Model D's 'Late Ordovician' base plotted at 458.4 Ma (GSA v6). The Kanchanaburi granite ages come from a preprint (existing evidence item flags this). The Tha Sao radiolarians are plotted as the whole Norian (227-208.5) although the source says late early to early middle Norian. Phuket-Phang Nga granite range plotted 216.5-212.5 Ma = 214.0 ± 1.5 and 214.8 ± 1.7 Ma envelopes. Stage names were converted to Ma with the GSA Geologic Time Scale v6.0 (2022) picks in the instructor's timescl.pdf (e.g. Asselian 298.9, Sakmarian 293.52, Artinskian 290.1, Kungurian 283.5, Roadian 273.01, Wordian 266.9, Capitanian 264.28, Wuchiapingian 259.51, Changhsingian 254.14, Induan 251.90, Anisian 247.2, Ladinian ~242, Carnian ~237, Norian ~227, Rhaetian ~208.5, Givetian 387.7); where a source says only 'late X' the whole stage range is plotted. | Main session: stage-derived ages remapped to ICS v2024/12 stage bases: paleo-tethys-suture/sone-metcalfe-inthanon/Paleo-Tethys pelagic record (G base_ma 387.7→387.95; paleo-tethys-suture/sone-metcalfe-inthanon/Nan–Sra Kaeo back-arc opens an top_ma 251.9→251.902; paleo-tethys-suture/sone-metcalfe-inthanon/Sibumasu–Sukhothai Arc collisi base_ma 242→241.464; paleo-tethys-suture/sone-metcalfe-inthanon/Sibumasu–Sukhothai Arc collisi top_ma 227→227.3; paleo-tethys-suture/liao-early-closure/Paleo-Tethys closes; Sibumasu– top_ma 247.2→246.7; paleo-tethys-suture/khanmanee-nan-branch/Nan–Uttaradit Ocean linked to  base_ma 458.4→458.2; paleo-tethys-suture/mdl-inthanon-pelagic-givetian-ladinian age_base_ma 387.7→387.95; paleo-tethys-suture/mdl-inthanon-pelagic-givetian-ladinian age_top_ma 242→241.464; paleo-tethys-suture/pmag-shan-middle-triassic age_base_ma 247.2→246.7; paleo-tethys-suture/fossil-tha-sao-norian-radiolarians age_base_ma 227→227.3; paleo-tethys-suture/fossil-tha-sao-norian-radiolarians age_top_ma 208.5→205.7",
+  "verified": false
+ },
+ {
+  "id": "khorat-mesozoic",
+  "title_th": "แอ่งโคราชและการเคลื่อนที่ของอินโดไชนาในมีโซโซอิก",
+  "title_en": "Khorat basin and Mesozoic motion of Indochina",
+  "question_th": "แอ่งโคราชเกิดขึ้นได้อย่างไร และแผ่นอินโดไชนาเลื่อนที่และหมุนไปมากเพียงใดในมหายุคมีโซโซอิก",
+  "question_en": "How did the Khorat basin form, and how far did the Indochina block move and rotate in the Mesozoic?",
+  "axis": {
+   "base_ma": 240,
+   "top_ma": 0
+  },
+  "event_ids": [
+   "indosinian-collision",
+   "india-asia-collision"
+  ],
+  "models": [
+   {
+    "id": "thermal-sag-stationary",
+    "name_th": "แอ่งทรุดตัวจากการเย็นตัวหลังการชนอินโดไซเนียน อินโดไชนาอยู่ละติจูดเดิม (Maranate & Vella 1986)",
+    "name_en": "Post-Indosinian thermal subsidence, Indochina at a fixed latitude (Maranate & Vella 1986)",
+    "citation": {
+     "text": "Maranate & Vella 1986, Paleomagnetism of the Khorat Group, Mesozoic, Northeast Thailand, Journal of Southeast Asian Earth Sciences 1(1):23-31",
+     "url": "https://doi.org/10.1016/0743-9547(86)90004-8"
+    },
+    "summary_th": "กลุ่มหินโคราช (Khorat Group) เป็นตะกอนกากภูเขา (molasse) หลังการสร้างภูเขาอินโดไซเนียน (Indosinian orogeny) ที่สะสมต่อเนื่องตั้งแต่ไทรแอสซิกตอนปลายถึงครีเทเชียสตอนกลาง เพราะธรณีภาค (lithosphere) ใต้ภาคอีสานค่อย ๆ เย็นตัวและทรุดลงด้วยอัตราที่ลดลงแบบเอกซ์โพเนนเชียล คล้ายการทรุดตัวจากความร้อน (thermal subsidence) ของพื้นสมุทร ค่าอินคลิเนชันแม่เหล็กโบราณแสดงว่าภาคอีสานอยู่ใกล้ละติจูดปัจจุบันตลอดช่วงนั้น ส่วนการหมุนตามเข็มนาฬิกา 37 ± 7° เกิดภายใน 100 ล้านปีที่ผ่านมา",
+    "summary_en": "The Khorat Group is a post-Indosinian molasse deposited continuously from the late Triassic to the middle Cretaceous as the NE Thailand lithosphere cooled and subsided at an exponentially decreasing rate, like thermally subsiding ocean lithosphere. Paleomagnetic inclinations show NE Thailand stayed near its present latitude throughout, while a 37 ± 7° clockwise rotation happened within the last 100 Myr.",
+    "phases": [
+     {
+      "label_th": "การทรุดตัวจากการเย็นตัวและการสะสมกลุ่มหินโคราช",
+      "label_en": "Cooling-driven subsidence and Khorat Group deposition",
+      "base_ma": 237.0,
+      "top_ma": 100.5
+     },
+     {
+      "label_th": "ช่องว่างตะกอนเสาขัว–ภูพาน (ระดับน้ำทะเลลดลงช่วงจูแรสซิกตอนปลาย)",
+      "label_en": "Sao Khua–Phu Phan gap (Late Jurassic sea-level fall)",
+      "base_ma": 163.5,
+      "top_ma": 143.1
+     },
+     {
+      "label_th": "หมุนตามเข็มนาฬิกา 37 ± 7° หลังครีเทเชียสตอนกลาง",
+      "label_en": "37 ± 7° clockwise rotation after the mid-Cretaceous",
+      "base_ma": 100.0,
+      "top_ma": 0.0
+     }
+    ]
+   },
+   {
+    "id": "foreland-south-china",
+    "name_th": "แอ่งหน้าเทือกเขาในจีนตอนใต้ แล้วถูกเลื่อนลงใต้และหมุน (Racey 2009)",
+    "name_en": "Foreland basin in southern China, later displaced and rotated (Racey 2009)",
+    "citation": {
+     "text": "Racey 2009, Mesozoic red bed sequences from SE Asia and the significance of the Khorat Group of NE Thailand, Geological Society, London, Special Publications 315:41-67",
+     "url": "https://doi.org/10.1144/SP315.5"
+    },
+    "summary_th": "ข้อมูลอายุใหม่แสดงว่ากลุ่มหินโคราชส่วนใหญ่ (หมวดหินภูกระดึงถึงโคกกรวด) มีอายุครีเทเชียสตอนต้น และมีช่องว่างตะกอนในจูแรสซิก จึงไม่มีความเชื่อมโยงชัดเจนกับการชนอินโดไซเนียนและแบบจำลองแอ่งทรุดตัวจากความร้อน (thermal sag basin) Racey เสนอว่ากลุ่มหินโคราชสะสมในแอ่งหน้าเทือกเขา (foreland basin) ทางเหนือในจีนตอนใต้ช่วงจูแรสซิกตอนปลาย–ครีเทเชียสตอนต้น แล้วถูกพามาอยู่ที่ปัจจุบันด้วยการเลื่อนตามรอยเลื่อนแม่น้ำแดง (Red River Fault) ร่วมกับการหมุนตามเข็มนาฬิกาของแผ่นอินโดไชนาเทียบกับจีนใต้",
+    "summary_en": "New ages show most of the Khorat Group (Phu Kradung to Khok Kruat) is Early Cretaceous, with a Jurassic hiatus, so it has no clear link to the Indosinian collision or to a Late Triassic–Early Cretaceous thermal sag. Racey proposes it was deposited in a Late Jurassic–Early Cretaceous foreland basin farther north in southern China and reached its present position by movement on the Red River Fault plus clockwise rotation of Indochina relative to South China.",
+    "phases": [
+     {
+      "label_th": "ภาคอีสานยกตัว ไม่มีตะกอนจูแรสซิกตอนกลาง–ปลาย",
+      "label_en": "Khorat region uplifted; Middle–Late Jurassic gap",
+      "base_ma": 174.7,
+      "top_ma": 143.1
+     },
+     {
+      "label_th": "สะสมตะกอนในแอ่งหน้าเทือกเขาทางเหนือ (จีนตอนใต้)",
+      "label_en": "Foreland-basin deposition to the north (southern China)",
+      "base_ma": 161.5,
+      "top_ma": 100.5
+     }
+    ]
+   },
+   {
+    "id": "reactivated-hinterland",
+    "name_th": "ตะกอนจากแนวเทือกเขาเก่าที่ถูกกระตุ้นใหม่ในครีเทเชียสตอนต้น (Carter & Bristow 2003)",
+    "name_en": "Sediment from a reactivated old hinterland in the Early Cretaceous (Carter & Bristow 2003)",
+    "citation": {
+     "text": "Carter & Bristow 2003, Linking hinterland evolution and continental basin sedimentation by using detrital zircon thermochronology: a study of the Khorat Plateau Basin, eastern Thailand, Basin Research 15:271-285",
+     "url": "https://doi.org/10.1046/j.1365-2117.2003.00201.x"
+    },
+    "summary_th": "อายุร่องรอยการแบ่งแยกนิวเคลียสในเซอร์คอน (zircon fission-track) ของเม็ดแร่ตะกอน (detrital) ในกลุ่มหินโคราชมีกลุ่มอายุอ่อนสุด 141–114 ล้านปี ตรงกับเหตุการณ์กระตุ้นใหม่ (reactivation) ช่วงจูแรสซิกตอนปลาย/ครีเทเชียสตอนต้นของแนวเทือกเขาฉินหลิง (Qinling) ซึ่งเป็นแหล่งตะกอนที่เป็นไปได้ ผู้วิจัยเสนอว่าการกร่อนนี้เกิดจากการชนกันของแผ่นลาซา (Lhasa) กับยูเรเชียในครีเทเชียส ตะกอนแอ่งโคราชจึงมาจากแนวเทือกเขาเก่าที่ถูกกระตุ้นใหม่ ไม่ใช่จากแนวเทือกเขาที่กำลังก่อตัว (เช่นการชนอินโดไซเนียน) ตามแบบจำลองเดิม",
+    "summary_en": "The youngest detrital zircon fission-track modes in the Khorat sequence (141–114 Ma) match a Late Jurassic/Early Cretaceous reactivation of the Qinling belt, the likely (though not uniquely proven) source. The authors attribute this erosion to Cretaceous Lhasa–Eurasia collision, so the basin was fed by a reactivated mature hinterland, not by an active orogen as earlier models assumed.",
+    "phases": [
+     {
+      "label_th": "แนวเทือกเขาต้นทางถูกกระตุ้นใหม่และกร่อน ป้อนตะกอนให้แอ่งโคราช",
+      "label_en": "Hinterland reactivation and erosion feeding the Khorat basin",
+      "base_ma": 141.0,
+      "top_ma": 114.0
+     }
+    ]
+   },
+   {
+    "id": "mesozoic-southward-drift",
+    "name_th": "อินโดไชนาเลื่อนลงใต้ 1,200–1,400 กม. และหมุนในมีโซโซอิก (Jia et al. 2022)",
+    "name_en": "Indochina drifts 1,200–1,400 km south and rotates in the Mesozoic (Jia et al. 2022)",
+    "citation": {
+     "text": "Jia, Huang, Yan, Zhao & Li 2022, Paleomagnetic study on the Mesozoic tectonic evolution of the Indochina Block, Chinese Journal of Geophysics (in Chinese) 65(9):3481-3501, doi:10.6038/cjg2022P0927",
+     "url": "https://doi.org/10.6038/cjg2022P0927"
+    },
+    "summary_th": "ขั้วแม่เหล็กโบราณใหม่จากแอ่งนครไทย (Nakhon Thai Basin) รวมกับขั้วที่เชื่อถือได้จากแอ่งโคราช ถูกใช้สร้างเส้นทางขั้วแม่เหล็กเคลื่อนปรากฏ (APWP) ยุคมีโซโซอิกของแผ่นอินโดไชนา ซึ่งแสดงว่าแผ่นเลื่อนลงใต้ราว 1,200–1,400 กม. นับจากไทรแอสซิกตอนปลาย โดยส่วนใหญ่เกิดในจูแรสซิก–ครีเทเชียส และหมุนตามเข็มนาฬิกา 18.8 ± 7.8° ไปพร้อมกัน ผู้วิจัยยอมรับว่าการชนของอินเดียในซีโนโซอิกอาจทำให้หมุนเพิ่มได้อีก",
+    "summary_en": "New poles from the Nakhon Thai Basin, combined with reliable Khorat Basin poles, define a Mesozoic APWP for Indochina showing ~1,200–1,400 km of southward movement since the Late Triassic, mainly in Jurassic–Cretaceous time, accompanied by 18.8 ± 7.8° of clockwise rotation. The authors allow that Cenozoic Indian indentation could have added further clockwise rotation.",
+    "phases": [
+     {
+      "label_th": "เลื่อนลงใต้ ~1,200–1,400 กม. พร้อมหมุนตามเข็มนาฬิกา 18.8 ± 7.8°",
+      "label_en": "~1,200–1,400 km southward drift with 18.8 ± 7.8° CW rotation",
+      "base_ma": 201.4,
+      "top_ma": 66.0
+     },
+     {
+      "label_th": "อาจหมุนเพิ่มเติมจากการดันของอินเดียในซีโนโซอิก",
+      "label_en": "Possible extra Cenozoic rotation from Indian indentation",
+      "base_ma": 66.0,
+      "top_ma": 0.0
+     }
+    ]
+   }
+  ],
+  "evidence": [
+   {
+    "evidence_id": "pmag-khorat-stable-latitude",
+    "age_base_ma": 227.3,
+    "age_top_ma": 100.5,
+    "roles": {
+     "thermal-sag-stationary": "supports",
+     "foreland-south-china": "challenges",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "challenges"
+    },
+    "reason_th": "ละติจูดโบราณของทุกหมวดหินต่างจากปัจจุบันเฉลี่ยเพียง 0.6 ± 4° ตรงกับแบบจำลองแอ่งทรุดตัวที่อยู่กับที่ แต่ขัดกับการเลื่อนลงใต้ 1,200–1,400 กม. ของ Jia et al. และขัดกับการที่ Racey ให้แอ่งเดิมอยู่ทางเหนือในจีนตอนใต้ เว้นแต่ค่าอินคลิเนชันจะตื้นลงจากการอัดตัวของตะกอน (inclination shallowing) ส่วนแบบจำลองแหล่งตะกอนของ Carter & Bristow ไม่ได้กล่าวถึงละติจูด",
+    "reason_en": "Paleolatitudes within 0.6 ± 4° of present fit the stationary thermal-subsidence model but contradict the 1,200–1,400 km Mesozoic drift of Jia et al. and Racey's original position farther north in southern China (unless inclinations are shallowed); the Carter & Bristow provenance model says nothing about latitude."
+   },
+   {
+    "evidence_id": "pmag-khorat-cw-37",
+    "age_base_ma": 100.0,
+    "age_top_ma": 0.0,
+    "roles": {
+     "thermal-sag-stationary": "supports",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "challenges"
+    },
+    "reason_th": "เดคลิเนชันของทุกหมวดหินลงไปถึงน้ำพองเบนเท่ากันราว 37°  จึงหมุนหลังครีเทเชียสตอนกลาง ตรงกับ Maranate & Vella และเข้ากับการหมุนตามเข็มนาฬิกาที่ Racey ใช้ แต่ขัดกับ Jia et al. ที่ให้การหมุนส่วนใหญ่เกิดพร้อมการเลื่อนลงใต้ในจูแรสซิก–ครีเทเชียส (ซึ่งควรทำให้หินแก่หมุนมากกว่าหินอ่อน) แบบจำลองของ Carter & Bristow ไม่เกี่ยว",
+    "reason_en": "The same ~37° clockwise deflection in every formation down to the Nam Phong places the rotation after the mid-Cretaceous, as Maranate & Vella propose and consistent with Racey's rotation; it argues against Jia et al., whose rotation accompanies Jurassic–Cretaceous drift and should leave older beds more rotated; irrelevant to Carter & Bristow."
+   },
+   {
+    "evidence_id": "pmag-indochina-cretaceous-pole-achache",
+    "age_base_ma": 121.4,
+    "age_top_ma": 100.5,
+    "roles": {
+     "thermal-sag-stationary": "supports",
+     "foreland-south-china": "neutral",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "challenges"
+    },
+    "reason_th": "Achache et al. พบว่าขั้วจูแรสซิกตอนปลายและครีเทเชียสหมุนพอ ๆ กัน (19 ± 5° และ 29 ± 16°) และการเลื่อนตามละติจูดเพียง −4.6 ± 7.6° ซึ่งไม่แตกต่างจากศูนย์อย่างมีนัยสำคัญ จึงสนับสนุนแบบจำลองอยู่กับที่ และขัดกับการเลื่อนลงใต้ขนาดใหญ่ในมีโซโซอิกของ Jia et al. ส่วนแบบจำลองของ Racey และ Carter & Bristow ไม่ได้ทดสอบโดยตรง",
+    "reason_en": "Achache et al. find similar rotation from Upper Jurassic and Cretaceous poles (19 ± 5° vs 29 ± 16°) and an insignificant latitude shift (−4.6 ± 7.6°), supporting the stationary model and arguing against large Mesozoic southward drift (Jia et al.); not a direct test of Racey or Carter & Bristow."
+   },
+   {
+    "age_base_ma": 201.4,
+    "age_top_ma": 0.0,
+    "roles": {
+     "thermal-sag-stationary": "supports",
+     "foreland-south-china": "neutral",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "challenges"
+    },
+    "reason_th": "การทบทวนข้อมูลทั้งหมดไม่พบการเลื่อนลงใต้ที่แยกแยะได้ จึงสนับสนุนแบบจำลองอยู่กับที่ของ Maranate & Vella และขัดกับ Jia et al. โดยตรง ขณะที่การหมุนตอนใต้ของอินโดไชนาราว 15° เข้าได้กับการหมุนตามแบบของ Racey โดยไม่ยืนยันหรือขัดตำแหน่งเดิมของแอ่ง",
+    "reason_en": "A full data review finds no resolvable southward motion, supporting the stationary model and directly contradicting Jia et al.; the ~15° rotation of southern Indochina neither confirms nor refutes Racey's original basin position, and does not bear on Carter & Bristow.",
+    "evidence_id": "mdl-li2017-no-southward-motion"
+   },
+   {
+    "age_base_ma": 208.0,
+    "age_top_ma": 140.0,
+    "roles": {
+     "thermal-sag-stationary": "challenges",
+     "foreland-south-china": "neutral",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "supports"
+    },
+    "reason_th": "ขั้วชุดนี้เป็นฐานของแบบจำลองการเลื่อนลงใต้ของ Jia et al. และขัดกับข้อสรุปว่าอินโดไชนาอยู่ละติจูดเดิมของ Maranate & Vella แต่ไม่ได้ทดสอบชนิดของแอ่ง (Racey) หรือแหล่งตะกอน (Carter & Bristow)",
+    "reason_en": "These poles underpin Jia et al.'s southward-drift model and conflict with Maranate & Vella's fixed latitude; they do not test the basin type (Racey) or the provenance (Carter & Bristow).",
+    "evidence_id": "mdl-jia2022-nakhon-thai-poles"
+   },
+   {
+    "age_base_ma": 208.0,
+    "age_top_ma": 140.0,
+    "roles": {
+     "thermal-sag-stationary": "challenges",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "supports",
+     "mesozoic-southward-drift": "neutral"
+    },
+    "reason_th": "อายุสะสมสูงสุด ~154 และ ~140 ล้านปีขัดกับการให้หมวดหินภูกระดึงอยู่ในจูแรสซิกตอนต้นและเสาขัวอยู่ในคัลโลเวียน (Callovian) ในแบบจำลองทรุดตัวต่อเนื่องของ Maranate & Vella สนับสนุนอายุครีเทเชียสตอนต้นของ Racey และการเปลี่ยนแหล่งตะกอนช่วงจูแรสซิกเข้ากับการป้อนตะกอนใหม่ตามแบบของ Carter & Bristow ส่วนเรื่องการเลื่อนลงใต้ไม่ได้ทดสอบ",
+    "reason_en": "Maximum depositional ages of ~154 and ~140 Ma contradict the Early Jurassic Phu Kradung and Callovian Sao Khua of Maranate & Vella's continuous-subsidence model, support Racey's Early Cretaceous ages, and the Jurassic provenance change fits Carter & Bristow's new sediment source; they do not test southward drift.",
+    "evidence_id": "mdl-jia2022-detrital-zircon-mda"
+   },
+   {
+    "age_base_ma": 145.0,
+    "age_top_ma": 113.2,
+    "roles": {
+     "thermal-sag-stationary": "challenges",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "neutral"
+    },
+    "reason_th": "อายุครีเทเชียสตอนต้นของภูกระดึงถึงโคกกรวดและช่องว่างในจูแรสซิกขัดกับการทรุดตัวต่อเนื่องตั้งแต่ไทรแอสซิกของ Maranate & Vella และเป็นข้อมูลหลักของแบบจำลองแอ่งหน้าเทือกเขาของ Racey ส่วนแบบจำลองของ Carter & Bristow และ Jia et al. ไม่ขึ้นกับอายุเหล่านี้โดยตรง",
+    "reason_en": "Early Cretaceous ages for Phu Kradung–Khok Kruat and a Jurassic hiatus contradict Maranate & Vella's continuous subsidence since the Triassic and are the core data of Racey's foreland model; Carter & Bristow and Jia et al. do not hinge on them.",
+    "evidence_id": "mdl-khorat-palynology-early-cretaceous"
+   },
+   {
+    "age_base_ma": 141.0,
+    "age_top_ma": 114.0,
+    "roles": {
+     "thermal-sag-stationary": "challenges",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "supports",
+     "mesozoic-southward-drift": "neutral"
+    },
+    "reason_th": "กลุ่มอายุ FT อ่อนสุด 141–114 ล้านปีเป็นหลักฐานหลักของ Carter & Bristow และเข้ากับแหล่งตะกอนทางเหนือ (ฉินหลิง/จีน) ในแบบจำลองของ Racey แต่ขัดกับแนวคิดของ Maranate & Vella ที่ว่ากลุ่มหินโคราชเป็นตะกอนกากภูเขาจากการชนอินโดไซเนียนที่สะสมตั้งแต่ไทรแอสซิก ไม่ได้ทดสอบการเลื่อนตามละติจูดของ Jia et al.",
+    "reason_en": "Youngest FT modes of 141–114 Ma are Carter & Bristow's key evidence and fit Racey's northern (Qinling/China) source, but argue against Maranate & Vella's Indosinian molasse deposited from the Triassic onward; they do not test Jia et al.'s drift.",
+    "evidence_id": "mdl-khorat-detrital-zircon-ft"
+   },
+   {
+    "age_base_ma": 161.5,
+    "age_top_ma": 143.1,
+    "roles": {
+     "thermal-sag-stationary": "challenges",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "neutral"
+    },
+    "reason_th": "อายุจูแรสซิกตอนปลายของภูกระดึงขัดกับการที่ Maranate & Vella ให้ภูกระดึงอยู่ในจูแรสซิกตอนต้นและไม่มีจูแรสซิกตอนบนในกลุ่มหินโคราช แต่อยู่ในช่วงจูแรสซิกตอนปลาย–ครีเทเชียสตอนต้นที่ Racey เสนอ และสัตว์ที่คล้ายของจีนเข้ากับแอ่งที่อยู่ใกล้จีน ส่วนแบบจำลองอื่นไม่ได้ทดสอบ",
+    "reason_en": "A Late Jurassic Phu Kradung conflicts with Maranate & Vella's Early Jurassic Phu Kradung and absent Upper Jurassic, but falls inside Racey's Late Jurassic–Early Cretaceous window, and the Chinese affinities fit a basin near China; it does not test the other two models.",
+    "evidence_id": "mdl-phu-kradung-minimocursor-late-jurassic"
+   },
+   {
+    "age_base_ma": 143.1,
+    "age_top_ma": 100.5,
+    "roles": {
+     "thermal-sag-stationary": "neutral",
+     "foreland-south-china": "supports",
+     "reactivated-hinterland": "neutral",
+     "mesozoic-southward-drift": "neutral"
+    },
+    "reason_th": "สัตว์ที่เหมือนเอเชียเหนือเข้ากับแบบจำลองของ Racey ที่ให้แอ่งโคราชเดิมอยู่ติดจีนตอนใต้ ส่วนแบบจำลองอื่นก็ยอมรับว่าอินโดไชนาเชื่อมกับเอเชียแล้วในเวลานั้น หลักฐานนี้จึงไม่ช่วยแยกแบบจำลองอื่นออกจากกัน",
+    "reason_en": "An Asian fauna suits Racey's basin next to southern China; the other models also have Indochina attached to Asia by then, so the fossil does not discriminate among them.",
+    "evidence_id": "mdl-khorat-psittacosaurus-asian-fauna"
+   }
+  ],
+  "synthesis_th": "ทุกแบบจำลองยอมรับว่ากลุ่มหินโคราชเป็นตะกอนบกสีแดงบนแผ่นอินโดไชนาที่ประกอบกันแล้ว และหินชุดนี้หมุนตามเข็มนาฬิกาเทียบกับยูเรเชีย ข้อถกเถียงหลักมีสองเรื่อง เรื่องแรกคือชนิดของแอ่งและอายุ: แบบจำลองแอ่งทรุดตัวจากความร้อนต่อเนื่องหลังการชนอินโดไซเนียนของ Maranate & Vella ใช้อายุแบบเก่า ขณะที่ละอองเรณู อายุเซอร์คอนตะกอน และอายุ FT ชี้ว่าภูกระดึงถึงโคกกรวดส่วนใหญ่อายุจูแรสซิกตอนปลาย–ครีเทเชียสตอนต้น มีช่องว่างในจูแรสซิก และตะกอนมาจากแหล่งทางเหนือที่ถูกกระตุ้นใหม่ จึงสนับสนุน Racey และ Carter & Bristow มากกว่า เรื่องที่สองคือการเลื่อนตามละติจูด: Jia et al. (2022) เสนอการเลื่อนลงใต้ 1,200–1,400 กม. ในมีโซโซอิก แต่ Maranate & Vella, Achache et al. และการทบทวนของ Li et al. (2017) ไม่พบการเลื่อนที่มีนัยสำคัญ โดยอธิบายค่าอินคลิเนชันตื้นว่าเกิดจากการอัดตัวของตะกอน ความมั่นใจ: ปานกลางว่าการหมุนส่วนใหญ่เกิดหลังครีเทเชียสตอนกลาง (10–37° แล้วแต่ชุดข้อมูล) และต่ำสำหรับขนาดการเลื่อนลงใต้ ซึ่งต้องอาศัยขั้วที่แก้การตื้นของอินคลิเนชันแล้ว",
+  "synthesis_en": "All models treat the Khorat Group as continental red beds on an already-assembled Indochina block that has since rotated clockwise relative to Eurasia. They disagree on two points. First, basin type and age: Maranate & Vella's continuous post-Indosinian thermal subsidence rests on the old stratigraphy, while palynology, detrital zircon maximum depositional ages and zircon fission-track modes put most of the Phu Kradung–Khok Kruat in the Late Jurassic–Early Cretaceous, after a Jurassic hiatus and fed by a reactivated northern hinterland, favouring Racey and Carter & Bristow. Second, latitude: Jia et al. (2022) infer 1,200–1,400 km of Mesozoic southward drift, whereas Maranate & Vella, Achache et al. and the Li et al. (2017) review find no significant change and blame inclination shallowing for low inclinations. Confidence is moderate that most rotation (10–37°, depending on dataset) post-dates the mid-Cretaceous, and low on the amount of southward drift, which needs poles corrected for inclination shallowing.",
+  "_notes": "Sources read: Maranate & Vella 1986 (full text, local PDF); Achache et al. 1983 (full text, local PDF, via existing evidence item); Li et al. 2017 (full text, Utrecht green OA); Racey 2009, Racey & Goodall 2009, Racey et al. 1996, Carter & Bristow 2003, Manitkoon et al. 2023, Buffetaut et al. 1989 (abstracts via Crossref); Jia et al. 2022 (English abstract on journal site; DOI 10.6038/cjg2022P0927 not on Crossref so the journal URL is given). Dropped because no primary text could be read: Booth & Sattayarak 2011 (Geology of Thailand chapter, doi 10.1144/goth.9, no abstract on Crossref, Lyell page blocked); Yang & Besse 1993 EPSL and Charusiri et al. 2006 Gondwana Research (Elsevier abstracts not returned by Crossref, OpenAlex or Semantic Scholar; ScienceDirect blocked). Li et al. 2017 report that Yang & Besse estimated up to 1500 km of displacement, but that is second-hand, so Yang & Besse is not used as a model. The thermal-sag model is therefore cited to Maranate & Vella 1986, who explicitly postulate cooling-driven isostatic subsidence after the Indosinian orogeny; the petroleum-industry 'Late Triassic rifting then thermal sag' version that Racey 2009 argues against is not separately cited. Synthesis claims dropped: the Indosinian angular unconformity with ~2,000 m missing section (source [114] had no bibliographic details); Late Triassic volcaniclastic primary remanence [223]; 'Phu Kradung–Khok Kruat' vertebrate ages beyond the two fossils used. Doubts: Racey's original-position model is not dated in the abstract, so its Red River displacement has no phase; Racey's 'foreland basin' is to an orogen the abstract does not name. Maranate & Vella's data were not fully demagnetized (Li et al. 2017). The 114 Ma Phra Wihan FT mode conflicts with its Berriasian–Barremian palynological age. Age conversions use ICS 2024/12 boundaries (e.g. Late Triassic 237, Jurassic base 201.4, Late Jurassic 161.5–143.1, Aptian 121.4–113.2, Albian top 100.5).",
+  "verified": false
+ },
+ {
+  "id": "cenozoic-extrusion",
+  "title_th": "การบีบเคลื่อนออกด้านข้างในซีโนโซอิก",
+  "title_en": "Cenozoic extrusion of Indochina",
+  "question_th": "การเปลี่ยนรูปของเปลือกโลกในประเทศไทยช่วงซีโนโซอิกเกิดจากการบีบเคลื่อนออกด้านข้าง (escape tectonics) ของอินโดไชนา/ซุนดาแลนด์ หรือจากกลไกอื่น",
+  "question_en": "Was Cenozoic deformation in Thailand driven by lateral extrusion (escape tectonics) of Indochina/Sundaland, or by other mechanisms?",
+  "axis": {
+   "base_ma": 50,
+   "top_ma": 0
+  },
+  "event_ids": [
+   "india-asia-collision",
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "models": [
+   {
+    "id": "diachronic-escape",
+    "name_th": "การบีบเคลื่อนออกด้านข้างแบบต่างเวลา: เลื่อนซ้ายแล้วกลับทิศ (Lacassin et al. 1997)",
+    "name_en": "Diachronic escape: sinistral faulting then reversal (Lacassin et al. 1997)",
+    "citation": {
+     "text": "Lacassin, Maluski, Leloup, Tapponnier, Hinthong, Siribhakdi, Chuaviroj & Charoenravat 1997, Tertiary diachronic extrusion and deformation of western Indochina: structural and 40Ar/39Ar evidence from NW Thailand, Journal of Geophysical Research 102(B5):10013-10037",
+     "url": "https://doi.org/10.1029/96JB03831"
+    },
+    "summary_th": "การดันของอนุทวีปอินเดียทำให้ส่วนตะวันตกเฉียงใต้ของอินโดไชนา (ซุนดาแลนด์) ถูกบีบเคลื่อนออกไปทางตะวันออกเฉียงใต้ก่อนส่วนที่เหลือ ตามรอยเลื่อนวังเจ้า (แม่ปิง) และเจดีย์สามองค์ซึ่งเลื่อนแบบเหลื่อมซ้าย (left-lateral) รวมราว 300 กม. ในช่วงประมาณ 40–30 ล้านปี และทำให้แอ่งในอ่าวไทยแยกตัว ต่อมาเมื่อมุมของแผ่นอินเดียเคลื่อนผ่านไปทางเหนือ รอยเลื่อนเหล่านี้กลับทิศเป็นเหลื่อมขวา (right-lateral) พร้อมกับการยืดตัวแนวตะวันออก–ตะวันตกราว 23 ล้านปี",
+    "summary_en": "Indian indentation extruded the southwestern part of Indochina (Sundaland) to the SE before the rest of Indochina, along the left-lateral Wang Chao (Mae Ping) and Three Pagodas faults, with about 300 km of sinistral motion between ~40 and 30 Ma that also induced rifting in Gulf of Thailand basins. As India's NE corner moved north past them, the faults reversed to right-lateral, coeval with the onset of E–W extension around 23 Ma.",
+    "phases": [
+     {
+      "label_th": "รอยเลื่อนเจดีย์สามองค์เลื่อนซ้าย",
+      "label_en": "Left-lateral slip on the Three Pagodas fault",
+      "base_ma": 36.0,
+      "top_ma": 33.0
+     },
+     {
+      "label_th": "รอยเลื่อนวังเจ้า (แม่ปิง) เลื่อนซ้าย",
+      "label_en": "Left-lateral slip on the Wang Chao (Mae Ping) fault",
+      "base_ma": 33.0,
+      "top_ma": 30.5
+     },
+     {
+      "label_th": "รอยเลื่อนกลับทิศเป็นเหลื่อมขวา พร้อมการยืดตัวตะวันออก–ตะวันตก",
+      "label_en": "Reversal to right-lateral with onset of E–W extension",
+      "base_ma": 23.5,
+      "top_ma": 23.0
+     }
+    ]
+   },
+   {
+    "id": "escape-plus-rollback",
+    "name_th": "การบีบเคลื่อนออกร่วมกับการถอยกลับของแผ่นมุดตัว (Morley 2001)",
+    "name_en": "Escape tectonics plus subduction rollback (Morley 2001)",
+    "citation": {
+     "text": "Morley 2001, Combined escape tectonics and subduction rollback-back arc extension: a model for the evolution of Tertiary rift basins in Thailand, Malaysia and Laos, Journal of the Geological Society 158(3):461-474",
+     "url": "https://doi.org/10.1144/jgs.158.3.461"
+    },
+    "summary_th": "แอ่งริฟต์เทอร์เชียรี (Tertiary rift basins) ของไทยเกิดบนบล็อกที่ถูกบีบเคลื่อนออกไปทางตะวันออกเฉียงใต้ แต่การเลื่อนซ้ายครั้งใหญ่ของรอยเลื่อนหยุดราว 30 ล้านปี ก่อนแอ่งส่วนใหญ่จะเกิด และการเลื่อนขวาภายหลังมีน้อยและเกิดจากการพลิกกลับของแอ่ง (inversion) จึงไม่ใช่กลไกเปิดแอ่ง Morley เสนอว่าการถอยกลับของแผ่นมุดตัว (subduction rollback) ของแผ่นอินเดียทางตะวันตกของไทยช่วยเปิดแอ่ง และอธิบายการยืดตัวของธรณีภาคแบบไม่สม่ำเสมอ แอ่งทรุดตัวลึก และการเริ่ม–สิ้นสุดการแยกตัวที่ต่างเวลากัน",
+    "summary_en": "Thailand's Tertiary rift basins formed on blocks extruded to the SE, but major sinistral slip ceased about 30 Ma, before most basins formed, and later dextral slip was minor and tied to inversion, so strike-slip did not open most basins. Morley proposes that rollback of the Indian slab west of Thailand drove rifting, explaining non-uniform lithospheric extension, deep sag basins and diachronous rift onset and termination.",
+    "phases": [
+     {
+      "label_th": "การเลื่อนซ้ายครั้งใหญ่หยุดลง",
+      "label_en": "Major sinistral slip ceases",
+      "base_ma": 30.0,
+      "top_ma": 30.0
+     },
+     {
+      "label_th": "แอ่งริฟต์เปิดจากการถอยกลับของแผ่นมุดตัว พร้อมการพลิกกลับเป็นช่วง ๆ",
+      "label_en": "Rift basins open by slab rollback, with episodic inversion",
+      "base_ma": 30.0,
+      "top_ma": 2.58
+     }
+    ]
+   },
+   {
+    "id": "limited-extrusion",
+    "name_th": "การเคลื่อนออกด้านข้างขนาดจำกัด ~250 กม. (van Hinsbergen et al. 2011)",
+    "name_en": "Limited extrusion of ~250 km (van Hinsbergen et al. 2011)",
+    "citation": {
+     "text": "van Hinsbergen, Kapp, Dupont-Nivet, Lippert, DeCelles & Torsvik 2011, Restoration of Cenozoic deformation in Asia and the size of Greater India, Tectonics 30(5):2011TC002908",
+     "url": "https://doi.org/10.1029/2011TC002908"
+    },
+    "summary_th": "การฟื้นฟูการเปลี่ยนรูปของเอเชียในซีโนโซอิกพบว่าหลักฐานธรณีวิทยาจากทิเบตไม่สอดคล้องกับแบบจำลองที่ให้อินโดไชนาเคลื่อนออกไปทางตะวันออก 750–1,250 กม. แต่การเคลื่อนออกราว 250 กม. ช่วง 30–20 ล้านปีตามแบบจำลองแผ่นธรณีของเอเชียตะวันออกเฉียงใต้ อธิบายได้ด้วยการบีบอัดเฉือนแบบเหลื่อมขวา (dextral transpression) ในทิเบตตะวันออก การรองรับแรงชนของอินเดียส่วนใหญ่จึงไม่ได้มาจากการบีบเคลื่อนออกของอินโดไชนา",
+    "summary_en": "A restoration of Cenozoic deformation in Asia finds geological evidence from Tibet inconsistent with 750–1,250 km of eastward extrusion of Indochina; the ~250 km of extrusion at 30–20 Ma suggested by SE Asian reconstructions can be reconciled with dextral transpression in eastern Tibet. Extrusion of Indochina therefore absorbed only a small part of India–Asia convergence.",
+    "phases": [
+     {
+      "label_th": "การชนอินเดีย–เอเชียเกิดขึ้นแล้ว",
+      "label_en": "India–Asia collision under way",
+      "base_ma": 50.0,
+      "top_ma": 50.0
+     },
+     {
+      "label_th": "อินโดไชนาเคลื่อนออกด้านข้างราว 250 กม.",
+      "label_en": "~250 km extrusion of Indochina",
+      "base_ma": 30.0,
+      "top_ma": 20.0
+     }
+    ]
+   }
+  ],
+  "evidence": [
+   {
+    "evidence_id": "date-three-pagodas-fault-biotite-arar",
+    "age_base_ma": 33.4,
+    "age_top_ma": 33.4,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "อายุ 33.4 ล้านปีของการเฉือนเหลื่อมซ้ายที่เขาชนไก่ กาญจนบุรี ตรงกับช่วงเลื่อนซ้ายของรอยเลื่อนเจดีย์สามองค์ใน Lacassin et al. และอยู่ก่อนการหยุดเลื่อนซ้ายราว 30 ล้านปีตาม Morley แต่เกิดก่อนช่วง 30–20 ล้านปีของ van Hinsbergen et al. และไม่ได้วัดขนาดการเลื่อน",
+    "reason_en": "A 33.4 Ma end of ductile left-lateral shear at Khao Chon Kai, Kanchanaburi, fits Lacassin et al.'s Three Pagodas sinistral phase and Morley's cessation of sinistral slip by ~30 Ma; it predates van Hinsbergen et al.'s 30–20 Ma extrusion window and gives no offset, so it does not test that model."
+   },
+   {
+    "age_base_ma": 32.5,
+    "age_top_ma": 30.5,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การเฉือนซ้ายที่หยุดราว 30.5 ล้านปีและระยะเลื่อนหลายร้อยกิโลเมตรเป็นแกนของแบบจำลอง Lacassin et al. และตรงกับข้อสรุปของ Morley ว่าการเลื่อนซ้ายหยุดราว 30 ล้านปี ส่วน van Hinsbergen et al. พูดถึงการเคลื่อนของอินโดไชนาทั้งแผ่นเทียบกับจีนใต้ ไม่ใช่รอยเลื่อนภายในไทย",
+    "reason_en": "Sinistral shear ending ~30.5 Ma with hundreds of km of offset is the core of Lacassin et al.'s model and matches Morley's ~30 Ma cessation; van Hinsbergen et al. address Indochina's motion relative to South China, not these intra-Thailand faults.",
+    "evidence_id": "mdl-lansang-shear-end-30ma"
+   },
+   {
+    "evidence_id": "thermo-klaeng-mae-ping-33ma-cooling",
+    "age_base_ma": 33.7,
+    "age_top_ma": 33.0,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การเย็นตัวเร็วจนถึงราว 33 ล้านปีในเขตรอยเลื่อนแกลงและแม่ปิงทางภาคตะวันออก สอดคล้องกับช่วงเลื่อนซ้ายและการยกตัวของ Lacassin et al. และกับการหยุดเลื่อนซ้ายก่อน 30 ล้านปีตาม Morley แต่ไม่บอกขนาดการเคลื่อนออก จึงไม่ทดสอบ van Hinsbergen et al.",
+    "reason_en": "Rapid cooling until ~33 Ma in the Klaeng and Mae Ping fault zones fits Lacassin et al.'s sinistral exhumation phase and Morley's pre-30 Ma end of sinistral slip; it says nothing about extrusion magnitude, so it does not test van Hinsbergen et al."
+   },
+   {
+    "age_base_ma": 36.0,
+    "age_top_ma": 18.0,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การเลื่อนซ้ายมากกว่า 150 กม. และการยกตัว 36–30 ล้านปีสนับสนุนช่วงเลื่อนซ้ายของ Lacassin et al. ส่วนการเลื่อนขวาและซ้ายเพียงเล็กน้อยหลังไมโอซีนและการพลิกกลับของแอ่ง 22–18 ล้านปีเข้ากับข้อเสนอของ Morley ว่าการเลื่อนขวาภายหลังมีน้อยและสัมพันธ์กับการพลิกกลับ ไม่ได้ทดสอบขนาดการเคลื่อนออกของ van Hinsbergen et al.",
+    "reason_en": ">150 km sinistral motion and 36–30 Ma exhumation support Lacassin et al.'s sinistral phase, while only minor Miocene–Recent dextral/sinistral slip and 22–18 Ma inversion fit Morley's view that later dextral slip was minor and inversion-related; it does not test van Hinsbergen et al.'s extrusion budget.",
+    "evidence_id": "mdl-mae-ping-restraining-bend-cooling"
+   },
+   {
+    "evidence_id": "thermo-chanthaburi-late-oligocene-dextral",
+    "age_base_ma": 26.1,
+    "age_top_ma": 23.9,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "neutral",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การเย็นตัวช่วงปลายโอลิโกซีน (26–24 ล้านปี) ที่ผู้วิจัยโยงกับการกลับทิศเป็นเหลื่อมขวา สนับสนุนการกลับทิศตาม Lacassin et al. แม้จะเร็วกว่าราว 23 ล้านปีที่ Lacassin เสนอ ส่วน Morley ยอมรับการเลื่อนขวาบ้างอยู่แล้ว และ van Hinsbergen et al. ไม่ได้กล่าวถึง",
+    "reason_en": "Late Oligocene (26–24 Ma) cooling linked by the authors to a switch to dextral slip supports Lacassin et al.'s reversal, though slightly earlier than their ~23 Ma; Morley already allows minor dextral slip, and van Hinsbergen et al. do not address it."
+   },
+   {
+    "age_base_ma": 27.3,
+    "age_top_ma": 15.98,
+    "roles": {
+     "diachronic-escape": "supports",
+     "escape-plus-rollback": "challenges",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การที่แอ่งส่วนใหญ่ผูกกับรอยเลื่อนตามแนวระดับสนับสนุนแนวคิดการบีบเคลื่อนออกและการเปิดแอ่งแบบดึงแยกของ Lacassin et al. และขัดกับข้อเสนอของ Morley ว่าการเลื่อนตามแนวระดับไม่ได้เปิดแอ่งส่วนใหญ่ แต่ไม่บอกขนาดการเคลื่อนออกตามแบบ van Hinsbergen et al.",
+    "reason_en": "Most basins being strike-slip related supports Lacassin et al.'s escape-driven pull-apart opening and contradicts Morley's claim that strike-slip did not open most basins; it does not constrain van Hinsbergen et al.'s extrusion magnitude.",
+    "evidence_id": "mdl-northern-basins-strike-slip-opening"
+   },
+   {
+    "age_base_ma": 33.9,
+    "age_top_ma": 5.333,
+    "roles": {
+     "diachronic-escape": "challenges",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การยืดตัวสลับกับการบีบอัดหลายครั้งขัดกับการเปิดแอ่งแบบดึงแยกตามรอยเลื่อนอย่างง่ายตามแนวคิดของ Lacassin et al. และสนับสนุนภาพของ Morley ที่ให้กลไกยืดตัวแยกจากการเลื่อนตามแนวระดับ โดยมีการพลิกกลับเป็นช่วง ๆ ไม่เกี่ยวกับขนาดการเคลื่อนออกของ van Hinsbergen et al.",
+    "reason_en": "Extension repeatedly interrupted by compression is inconsistent with simple strike-slip pull-apart opening (Lacassin et al.) and supports Morley's separate extensional driver with episodic inversion; irrelevant to van Hinsbergen et al.'s extrusion budget.",
+    "evidence_id": "mdl-li-basin-episodic-inversion"
+   },
+   {
+    "evidence_id": "thermo-23ma-end-of-exhumation-inversion",
+    "age_base_ma": 23.0,
+    "age_top_ma": 23.0,
+    "roles": {
+     "diachronic-escape": "neutral",
+     "escape-plus-rollback": "supports",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การยกตัวที่ลดลงและการหยุดแยกตัวของแอ่งราว 23 ล้านปี ซึ่งผู้วิจัยอธิบายว่าเป็นการเปลี่ยนจากการถอยกลับของแผ่นมุดตัวไปเป็นการยืดเฉือน สนับสนุนบทบาทของการถอยกลับของแผ่นมุดตัวตาม Morley ส่วนเวลา 23 ล้านปีตรงกับการกลับทิศของ Lacassin et al. แต่การหยุดแยกตัวในอ่าวไทยตะวันออกไม่ใช่สิ่งที่แบบจำลองนั้นทำนาย",
+    "reason_en": "Waning exhumation and the end of rifting at ~23 Ma, explained by a switch from slab rollback to transtension, supports Morley's rollback driver; the timing matches Lacassin et al.'s reversal but the end of eastern Gulf rifting is not what their model predicts, so it is neutral there and for van Hinsbergen et al."
+   },
+   {
+    "age_base_ma": 50.0,
+    "age_top_ma": 17.0,
+    "roles": {
+     "diachronic-escape": "challenges",
+     "escape-plus-rollback": "neutral",
+     "limited-extrusion": "supports"
+    },
+    "reason_th": "การที่ตอนใต้ของอินโดไชนาเคลื่อนเพียงราว 250 กม. และหมุนเพียงราว 15° โดยการเปลี่ยนรูปภายในบล็อกทางเหนือรับส่วนต่าง สนับสนุนการเคลื่อนออกขนาดจำกัดของ van Hinsbergen et al. และขัดกับการเคลื่อนออกของบล็อกแข็งขนาดใหญ่ (700 ± 200 กม. ตามรอยเลื่อนแม่น้ำแดง) ที่ Lacassin et al. อ้าง ส่วนกลไกเปิดแอ่งของ Morley ไม่ได้ทดสอบ",
+    "reason_en": "Only ~250 km of extrusion and ~15° rotation of southern Indochina, with internal block rotation taking up the difference, supports van Hinsbergen et al.'s limited extrusion and argues against the large rigid-block extrusion (700 ± 200 km on the Red River) cited by Lacassin et al.; it does not test Morley's basin-opening mechanism.",
+    "evidence_id": "mdl-li2017-red-river-offset-budget"
+   },
+   {
+    "evidence_id": "pmag-thai-basins-local-rotations",
+    "age_base_ma": 33.9,
+    "age_top_ma": 5.333,
+    "roles": {
+     "diachronic-escape": "challenges",
+     "escape-plus-rollback": "neutral",
+     "limited-extrusion": "neutral"
+    },
+    "reason_th": "การหมุนทั้งตามและทวนเข็มนาฬิกาในแอ่งเทอร์เชียรีที่ผู้วิจัยตีความว่าเป็นการหมุนเฉพาะที่ในแนวรอยเลื่อน แสดงว่าการเปลี่ยนรูปกระจายตัวมากกว่าการเคลื่อนออกของบล็อกแข็งที่หมุนพร้อมกันตามแบบ Lacassin et al. แต่ไม่ได้ช่วยแยก Morley กับ van Hinsbergen et al.",
+    "reason_en": "Rotations of both senses in Tertiary basins, read as local fault-zone rotations, point to distributed deformation rather than coherent rigid-block extrusion (Lacassin et al.); they do not separate Morley from van Hinsbergen et al."
+   }
+  ],
+  "synthesis_th": "ทุกแบบจำลองยอมรับว่ารอยเลื่อนเจดีย์สามองค์และแม่ปิงเลื่อนแบบเหลื่อมซ้ายช่วงปลายอีโอซีน–ต้นโอลิโกซีน และหยุดราว 33–30 ล้านปี อายุ Ar–Ar และอายุการเย็นตัวจากอะพาไทต์ยืนยันตรงกันจากทั้งภาคตะวันตกและภาคตะวันออก ข้อถกเถียงอยู่ที่สองเรื่อง เรื่องแรกคือกลไกเปิดแอ่งริฟต์โอลิโกซีน–ไมโอซีน: Lacassin et al. และการทำแผนที่แอ่งภาคเหนือของ Uttamo et al. โยงแอ่งกับรอยเลื่อนตามแนวระดับ ขณะที่ Morley ชี้ว่าแอ่งส่วนใหญ่เกิดหลังการเลื่อนซ้ายหยุดแล้ว และการยืดตัวสลับการบีบอัดในแอ่งลี้กับการหยุดแยกตัวราว 23 ล้านปีเข้ากับการถอยกลับของแผ่นมุดตัวมากกว่า เรื่องที่สองคือขนาดการเคลื่อนออก: ข้อมูลแม่เหล็กโบราณและการฟื้นฟูการเปลี่ยนรูปของเอเชียชี้ว่าตอนใต้ของอินโดไชนาเคลื่อนเพียงราว 250 กม. และการเปลี่ยนรูปกระจายอยู่ในบล็อกที่หมุน ความมั่นใจ: สูงว่ามีช่วงเลื่อนซ้ายช่วง 36–30 ล้านปีตามด้วยการเลื่อนขวาเล็กน้อย ปานกลางว่าแอ่งริฟต์เปิดจากหลายกลไกร่วมกัน และต่ำถึงปานกลางสำหรับระยะการเคลื่อนออกรวม",
+  "synthesis_en": "All three models accept late Eocene–early Oligocene sinistral slip on the Three Pagodas and Mae Ping faults ending around 33–30 Ma; Ar–Ar shear ages and apatite cooling ages from western and eastern Thailand agree on this. They differ on two issues. First, what opened the Oligocene–Miocene rift basins: Lacassin et al. and Uttamo et al.'s basin mapping link them to strike-slip faulting, whereas Morley notes most basins post-date the end of sinistral slip, and the episodic inversion of the Li Basin and the ~23 Ma end of rifting fit a rollback-driven extensional driver better. Second, how far Indochina moved: paleomagnetic block reconstructions and Asia-wide restorations favour only ~250 km of extrusion for southern Indochina, with the rest taken up by rotating blocks and distributed deformation. Confidence is high for the 36–30 Ma sinistral phase and later minor dextral reactivation, moderate that basin opening had mixed causes, and low to moderate on the total extrusion budget.",
+  "_notes": "Sources read: Lacassin et al. 1997 (full text, local text extracted earlier in this session's scratchpad; abstract confirmed on OpenAlex); Nachtergaele et al. 2020 J Geol Soc (full text, local PDF, via the existing thermo-* items); Li et al. 2017 (full text, Utrecht OA); Morley 2001, van Hinsbergen et al. 2011, Morley et al. 2007, Uttamo et al. 2003, Morley et al. 2000 (abstracts via Crossref/OpenAlex). Dropped because no primary text could be read: Tapponnier et al. 1982 Geology (no abstract from Crossref, OpenAlex or Semantic Scholar), Morley 2002 Tectonophysics, Hall 2002 JAES, Morley 2012 ESR, Morley & Wang 2023 ESR (all abstracts withheld by the publisher in the APIs; ScienceDirect/Lyell blocked), Lin et al. 2021 CMP (Springer page blocked), Palin et al. 2013, Österle et al. 2019. So the 'Sagaing-linked dextral / hyper-oblique collision' model (Morley 2017; Morley & Wang 2023) is not a separate model; its gist appears only as Nachtergaele et al.'s cited explanation in thermo-23ma-end-of-exhumation-inversion. Synthesis claims dropped: 'Middle Miocene inversion' as a regional event (the only readable date is 22–18 Ma Phitsanulok inversion, Morley et al. 2007, and the Li Basin episodes are undated in the abstract); offsets of 120–150 km 'on the Mae Ping Fault' (Morley et al. 2007 abstract says >150 km); 'Ranong/Khlong Marui dextral then sinistral' (not checked). GPS (geo-gps-sundaland-block) was left out: it measures present-day motion only and is neutral for all three Oligocene–Miocene models; with 10 items the slot went to discriminating data. Doubts: Morley 2001 abstract dates only the ~30 Ma end of sinistral slip; its rift phase is drawn 30–2.58 Ma ('Tertiary rift basins'), not a stated age. van Hinsbergen et al. 2011 is an Asia-wide restoration, not a Thailand study; it is used as the 'smaller offsets' model because Morley 2002 and Hall 2002 could not be read. Lacassin's dextral reversal is plotted at its stated onset (~23.5–23 Ma); its end is not stated.",
+  "verified": false
+ }
+]

@@ -37,13 +37,13 @@ export function rolesTableHtml(q, evidenceById) {
 // Draw every question: phase bars per model, a data row of evidence markers, the roles table and synthesis.
 export function renderModels(container, data, { onEvidence }) {
   const evidenceById = Object.fromEntries((data.evidence || []).map(it => [it.id, it]));
-  const width = Math.max(320, container.clientWidth - 32);
-  const rowH = 26;
+  const width = Math.max(300, Math.min(1100, container.clientWidth - 34)); // matches .mdl-q max-width
+  const rowH = 34; // model name on top, bar underneath
   container.innerHTML = '';
   for (const q of data.models || []) {
     const sec = document.createElement('section');
     sec.className = 'mdl-q';
-    const L = modelLayout(q, width, { left: Math.min(170, width * 0.32), right: 12 });
+    const L = modelLayout(q, width, { left: 8, right: 14 });
     const h = (q.models.length + 1) * rowH + 30;
     const ticks = d3.ticks(q.axis.top_ma, q.axis.base_ma, 6);
     let svg = `<svg class="mdl-chart" viewBox="0 0 ${width} ${h}" width="${width}" height="${h}" role="img" aria-label="${esc(field(q, 'title'))}">`;
@@ -52,19 +52,19 @@ export function renderModels(container, data, { onEvidence }) {
     }
     L.rows.forEach((row, i) => {
       const y = i * rowH + 4;
-      svg += `<text class="mdl-name" x="0" y="${y + 15}">${esc(field(row.model, 'name'))}</text>`;
+      svg += `<text class="mdl-name" x="8" y="${y + 11}">${esc(field(row.model, 'name'))}</text>`;
       for (const b of row.bars) {
-        svg += `<rect class="mdl-bar mdl-bar-${i % 4}" x="${b.x}" y="${y + 3}" width="${Math.max(2, b.w)}" height="${rowH - 8}" rx="3"><title>${esc(field(b.phase, 'label'))} · ${b.phase.base_ma}–${b.phase.top_ma} Ma</title></rect>`;
+        svg += `<rect class="mdl-bar mdl-bar-${i % 4}" x="${b.x}" y="${y + 16}" width="${Math.max(2, b.w)}" height="12" rx="3"><title>${esc(field(b.phase, 'label'))} · ${b.phase.base_ma}–${b.phase.top_ma} Ma</title></rect>`;
       }
     });
     const dy = q.models.length * rowH + 4;
-    svg += `<text class="mdl-name mdl-data" x="0" y="${dy + 15}">${esc(t('models_data_row'))}</text>`;
+    svg += `<text class="mdl-name mdl-data" x="8" y="${dy + 11}">${esc(t('models_data_row'))}</text>`;
     for (const m of L.markers) {
       const it = evidenceById[m.ev.evidence_id] || {};
       const cx = m.x + m.w / 2;
       svg += `<g class="mdl-marker" data-evidence="${esc(m.ev.evidence_id)}" tabindex="0" role="button" aria-label="${esc(field(it, 'title'))}">`
-        + (m.w > 1 ? `<line x1="${m.x}" x2="${m.x + m.w}" y1="${dy + 12}" y2="${dy + 12}"></line>` : '')
-        + `<circle cx="${cx}" cy="${dy + 12}" r="5"></circle><title>${esc(field(it, 'title'))} · ${m.ev.age_base_ma}–${m.ev.age_top_ma} Ma</title></g>`;
+        + (m.w > 1 ? `<line x1="${m.x}" x2="${m.x + m.w}" y1="${dy + 22}" y2="${dy + 22}"></line>` : '')
+        + `<circle cx="${cx}" cy="${dy + 22}" r="5"></circle><title>${esc(field(it, 'title'))} · ${m.ev.age_base_ma}–${m.ev.age_top_ma} Ma</title></g>`;
     }
     svg += '</svg>';
     const modelsList = q.models.map(m => `<li><strong>${esc(field(m, 'name'))}</strong> — ${esc(field(m, 'summary'))} `

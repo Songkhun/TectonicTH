@@ -1882,5 +1882,459 @@
   "source_type": "peer-reviewed",
   "verified": true,
   "_notes": "Read from local full text (Resource Geology 2026, 76:e70024; page numbers are the article's 'x of 20'). Citation metadata from Crossref (doi 10.1111/rge.70024): vol 76 issue 1, article e70024, published online 2025-12-23, issue 2026-01; Crossref has no page range, so the article number is given. Site null: no sample coordinates in the text. Results 5.2 p. 11 and Fig. 9a, 9f; Discussion 6.1 p. 14 (names Khao Po, Phang Nga '216 Ma' and Khao Rang, Phuket '214 Ma'; Charusiri et al. 1993 belt ages 88–65 and 60–50 Ma). INCONSISTENCY: the paper repeatedly gives '216–214 Ma' and calls Khao Po '216 Ma', but the only Late Triassic weighted means reported are 214.0 ± 1.5 and 214.8 ± 1.7 Ma; that PNG04 is the Khao Po sample is my inference from 'biotite granite ... 216 Ma' at Khao Po — please check against Fig. 11. Tectonic link: Abstract p. 1 and Section 6.3 p. 16. Tagged indosinian-collision rather than western-granites because the paper attributes these granites to the Sibumasu–Indochina collision, not to Western Belt magmatism."
+ },
+ {
+  "id": "mdl-phuket-glaciomarine-dropstones",
+  "event_ids": [
+   "kaeng-krachan-diamictite",
+   "late-paleozoic-ice-age",
+   "sibumasu-rifting"
+  ],
+  "method": "mapping",
+  "title_th": "ก้อนหินตกจากน้ำแข็งในหินเพอร์เมียนภูเก็ต",
+  "title_en": "Dropstones in Lower Permian Phuket diamictites",
+  "finding_th": "การวิเคราะห์ลักษณะปรากฏ (facies analysis) ของหมวดหินเกาะสิเหร่ (Ko Sire Formation) และหมวดหินเกาะเฮ (Ko He Formation) อายุเพอร์เมียนตอนต้นที่ภูเก็ตและเกาะใกล้เคียง พบก้อนหินตกจากน้ำแข็ง (dropstones) และโครงสร้างกองหินทิ้ง (dump structures) ร่วมกับร่องรอยซากดึกดำบรรพ์กลุ่ม Cruziana ในหินโคลนเป็นชั้นบาง แสดงว่าตะกอนตกจากน้ำแข็งลอยในทะเลนอกชายฝั่งที่ได้รับอิทธิพลจากธารน้ำแข็ง ส่วนหินโคลนปนกรวดของหมวดหินเกาะเฮเป็นตะกอนกระแสเศษหิน (debris flow) ที่น่าจะพัดพามาจากตะกอนธารน้ำแข็งเดิม ผลนี้สนับสนุนว่าซีบูมาสุอยู่ที่ขอบกอนด์วานาด้านออสเตรเลียตะวันตกเฉียงเหนือ",
+  "finding_en": "Facies analysis of the Lower Permian Ko Sire and Ko He formations on Phuket and nearby islands found dropstones and dump structures with Cruziana-ichnofacies traces in laminated mudstone, recording ice-rafted sedimentation in a glacially influenced offshore setting. The overlying Ko He diamictites are debris-flow deposits probably remobilised from earlier glacial sediment. The authors take this as support for a Sibumasu position on the NW Australian margin of Gondwana.",
+  "value": "Ko Sire Fm up to 400 m (ice-rafted); Ko He Fm up to 400 m (debris-flow diamictite)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Ampaiwan T., Hisada K., Charusiri P. 2009, Lower Permian glacially influenced deposits in Phuket and adjacent islands, peninsular Thailand, Island Arc 18:52–68",
+   "url": "https://doi.org/10.1111/j.1440-1738.2008.00653.x"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Island Arc 18(1):52-68). Abstract read in full via OpenAlex. The method field has no 'sedimentology' option; 'mapping' (field facies description) is the nearest. Coordinates not stated in the abstract, so site = null. Age is 'Lower Permian' only; plotted as 298.9-273.01 Ma."
+ },
+ {
+  "id": "mdl-woniusi-dikes-zircon-upb",
+  "event_ids": [
+   "sibumasu-rifting"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุเซอร์คอนของพนังหินบะซอลต์วั่วหนิวซื่อ",
+  "title_en": "Zircon U–Pb ages of Woniusi rift dikes",
+  "finding_th": "การหาอายุยูเรเนียม–ตะกั่วในเซอร์คอน (zircon U–Pb) โดยตรงของพนังหินมาฟิก (mafic dikes) ในมหาภาคหินบะซอลต์วั่วหนิวซื่อ (Woniusi basaltic province) ทางตอนเหนือของซีบูมาสุ ได้อายุ 301–282 ล้านปี (ปลายคาร์บอนิเฟอรัสถึงปลายเพอร์เมียนตอนต้น) หินเป็นบะซอลต์โทเลอีไอต์ (tholeiite) ที่มีธาตุหายากเบา (LREE) และธาตุลิโทไฟล์ไอออนใหญ่ (LILE) สูง แต่ Nb และ Ta ต่ำ ผู้วิจัยตีความว่าเกิดจากเนื้อโลกชั้นธรณีภาคที่เสริมสมบูรณ์ (enriched subcontinental lithospheric mantle) ภายใต้การริฟต์ที่พวยแมนเทิลเป็นตัวกระตุ้น",
+  "finding_en": "Direct zircon U–Pb dating of mafic dikes in the Woniusi basaltic province of northern Sibumasu gives 301–282 Ma (latest Carboniferous to late Early Permian). The rocks are subalkaline tholeiites enriched in LREE and LILE and depleted in Nb and Ta, read as melts of enriched subcontinental lithospheric mantle during plume-induced rifting.",
+  "value": "zircon U–Pb 301–282 Ma; province ~12,000 km², 300–500 m thick",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Liao S.-Y., Wang D.-B., Tang Y., Yin F.-G., Cao S.-N., Wang L.-Q., Wang B.-D., Sun Z.-M. 2015, Late Paleozoic Woniusi basaltic province from Sibumasu terrane: implications for the breakup of eastern Gondwana's northern margin, Geological Society of America Bulletin 127:1313–1330",
+   "url": "https://doi.org/10.1130/B31210.1"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (GSA Bull. 127(9-10):1313-1330). Abstract read in full (OpenAlex record carries the GeoScienceWorld abstract). Individual dike ages and errors are not in the abstract, only the 301-282 Ma range. Sampling localities not stated in the abstract (site = null)."
+ },
+ {
+  "id": "mdl-baoshan-tengchong-glacigene-contrast",
+  "event_ids": [
+   "kaeng-krachan-diamictite",
+   "late-paleozoic-ice-age",
+   "sibumasu-rifting"
+  ],
+  "method": "mapping",
+  "title_th": "ตะกอนธารน้ำแข็งเป่าซานบาง เถิงชงหนา",
+  "title_en": "Thin Baoshan, thick Tengchong glacigene successions",
+  "finding_th": "ตะกอนทะเลจากธารน้ำแข็งยุคเพอร์โม–คาร์บอนิเฟอรัส (Permo-Carboniferous) ในยูนนานตะวันตกแบ่งได้สามส่วน คือหินโคลนปนกรวดที่มีก้อนหินเป็นเหลี่ยมและมีรอยครูด หินชั้นบางที่มีก้อนหินตกจากน้ำแข็ง และชั้นหินดำจากช่วงน้ำแข็งละลาย ร่วมกับซากสัตว์น้ำเย็นและพืช Glossopteris ซึ่งบ่งชี้ว่าแผ่นเป่าซาน (Baoshan) และเถิงชง (Tengchong) มาจากกอนด์วานา บนแผ่นเป่าซานชั้นตะกอนธารน้ำแข็งค่อนข้างบางและปิดทับด้วยบะซอลต์หนาและหินทรายแดง จึงตีความเป็นริฟต์ที่มีภูเขาไฟ ส่วนบนแผ่นเถิงชงตะกอนธารน้ำแข็งหนากว่า 1,000 ม. ปิดทับด้วยหินปูนแนวปะการังเพอร์เมียนตอนต้น ตีความเป็นขอบทวีปเฉื่อย (passive margin) ใกล้ฝั่ง ที่ละติจูดต่ำกว่าเล็กน้อย",
+  "finding_en": "Permo-Carboniferous glaciomarine deposits of western Yunnan (striated-clast diamictites, dropstone laminites and a black deglaciation facies, with cold-water faunas and Glossopteris) show a Gondwana origin for the Baoshan and Tengchong blocks. On Baoshan the glacigene beds are thin and overlain by thick basalts and red beds, suggesting an active volcanic rift; on Tengchong they exceed 1000 m and pass up into Lower Permian reef limestones, suggesting a proximal passive margin at a somewhat lower latitude.",
+  "value": "Tengchong glacigene marine deposits > 1000 m; Baoshan comparatively thin, overlain by thick basalts",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Wopfner H. 1996, Gondwana origin of the Baoshan and Tengchong terranes of west Yunnan, Geological Society, London, Special Publications 106:539–547",
+   "url": "https://doi.org/10.1144/GSL.SP.1996.106.01.34"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (GSL Spec. Publ. 106:539-547, 1996; single author Wopfner H.). Abstract read in full via OpenAlex. Age given only as 'Upper Palaeozoic'/'Permo-Carboniferous'; plotted as 323.2-273.01 Ma (Pennsylvanian-Cisuralian), which is my conversion. That Tengchong lies west of the Luxi-Nujiang line (Ridd's Irrawaddy Block side) is my geographic reading, not stated in Wopfner's or Ridd's abstracts."
+ },
+ {
+  "id": "mdl-kanthan-kungurian-cool-water-conodonts",
+  "event_ids": [
+   "sibumasu-rifting",
+   "ratburi-limestone"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "โคโนดอนต์น้ำเย็นคุงกูเรียนตอนปลาย หินปูนกันทัน",
+  "title_en": "Late Kungurian cool-water conodonts, Kanthan Limestone",
+  "finding_th": "โคโนดอนต์ (conodonts) จากหินปูนกันทัน (Kanthan Limestone) รัฐเประ มาเลเซีย ซึ่งอยู่บนซีบูมาสุ ได้แก่ Gullodus และ Mesogondolella lamberti จัดอยู่ในเขตโคโนดอนต์ Mesogondolella lamberti อายุคุงกูเรียนตอนปลาย (late Kungurian) ยุคเพอร์เมียนตอนต้น ตะกอนสะสมตัวในน้ำค่อนข้างลึกบนขอบทวีปเฉื่อยด้านเหนือของซีบูมาสุ ไม่มีโคโนดอนต์เขตร้อนสกุล Sweetognathus และไม่มีฟิวซูลินิด จึงจัดเป็นมณฑลน้ำเย็นรอบกอนด์วานาตอนใต้ (peri-Gondwana Cool Water Province) ผู้วิจัยวางตำแหน่งไว้ที่ละติจูดราว 35°S จากข้อมูลหลายด้าน และระบุว่าซีบูมาสุเริ่มแยกจากกอนด์วานาในช่วงอาร์ทินสเกียนตอนต้น (early Artinskian)",
+  "finding_en": "Conodonts of the Mesogondolella lamberti Zone (late Kungurian, Early Permian) from the Kanthan Limestone, Perak, Malaysia, were deposited in fairly deep water on the northern passive margin of Sibumasu. The fauna lacks the warm-water genus Sweetognathus and fusulinids and belongs to the southern peri-Gondwana Cool Water Province; the author places it at about 35°S from multidisciplinary data and states that Sibumasu began to separate from Gondwana in the early Artinskian.",
+  "value": "late Kungurian, Mesogondolella lamberti Zone; c. 35°S (reconstruction, not a palaeomagnetic result)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Metcalfe I. 2023, Lower Permian (Late Kungurian) conodonts from the Sibumasu Terrane, Malaysia: paleoecological, paleobiogeographical and tectonic implications, Geological Magazine 160:1177–1192",
+   "url": "https://doi.org/10.1017/S0016756823000328"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (Geol. Mag. 160(6):1177-1192, single author). Open-access full text read (Cambridge PDF). Quotes: 'located at c. 35oS latitude'; 'by early Artinskian times the terrane had begun to separate and migrate northwards from Gondwana with the opening of the Meso-Tethys Ocean'; 'moderately high (35-40 degrees south) palaeo-latitudes in the Sakmarian to Kungurian'. The 35°S is a palaeogeographic reconstruction, not a palaeomagnetic pole, so paleolat = null. Site coordinates not given in the parts I read (site = null). Plotted as the whole Kungurian (283.5-273.01 Ma)."
+ },
+ {
+  "id": "mdl-inthanon-pelagic-givetian-ladinian",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "เชิร์ตทะเลลึกแนวอินทนนท์ จีเวเชียน–ลาดิเนียน",
+  "title_en": "Inthanon pelagic cherts span Givetian to Ladinian",
+  "finding_th": "หินเชิร์ตเรดิโอลาเรียนเป็นชั้นแถบ (ribbon-bedded radiolarian chert) ของเชิร์ตฝาง (Fang Chert) ในแนวรอยตะเข็บอินทนนท์ ภาคเหนือของไทย เป็นตะกอนทะเลลึกแท้ของพาลีโอทีทิส ชั้นเก่าสุดอายุจีเวเชียน (Givetian, ปลายดีโวเนียนตอนกลาง) และชั้นอายุน้อยสุดคือกลุ่มเรดิโอลาเรียน Triassocampe deweveri อายุปลายอะนีเซียนถึงต้นลาดิเนียน (ไทรแอสซิกตอนกลาง) แนวฉางหนิง–เมิ่งเหลียนในยูนนานมีช่วงอายุคล้ายกัน ส่วนกลุ่มหินแม่สะเรียงซึ่งอายุอ่อนสุดถึงคาร์เนียนเป็นตะกอนใกล้ฝั่งก่อนและระหว่างการก่อเทือกเขา ไม่ใช่ตะกอนทะเลลึกแท้",
+  "finding_en": "Ribbon-bedded radiolarian cherts of the Fang Chert in the Inthanon suture zone, northern Thailand, are true pelagic Paleo-Tethys deposits ranging from Givetian (late Middle Devonian) to the Late Anisian/Early Ladinian Triassocampe deweveri assemblage (Middle Triassic). The Changning–Menglian suture of Yunnan shows a similar range, while the Mae Sariang Group (youngest beds Carnian) is non-pelagic, pre- to syn-orogenic sediment.",
+  "value": "pelagic chert Givetian to Late Anisian/Early Ladinian (Triassocampe deweveri assemblage)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Sone M., Metcalfe I. 2008, Parallel Tethyan sutures in mainland Southeast Asia: new insights for Palaeo-Tethys closure and implications for the Indosinian orogeny, Comptes Rendus Geoscience 340:166–179",
+   "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read in the open-access full text of Sone & Metcalfe 2008 (sections 2.2 and 6, Fig. 2). This is their compilation; the primary radiolarian reports are Feng et al. 2002 (Symposium on Geology of Thailand, DMR, no DOI) and refs therein, which I did not read. Plotted 387.7-242 Ma (Givetian base to ~Anisian/Ladinian boundary)."
+ },
+ {
+  "id": "mdl-nan-srakaeo-permian-only-deep-sea",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "แนวน่าน–สระแก้วมีตะกอนทะเลลึกเฉพาะเพอร์เมียน",
+  "title_en": "Nan–Sra Kaeo deep-sea record is Permian only",
+  "finding_th": "ตะกอนทะเลลึกในแนวจิ่งหง–น่าน–สระแก้วมีอายุเฉพาะยุคเพอร์เมียน แนวน่านมีเพียงเชิร์ตปลายเพอร์เมียนตอนกลางจากบริเวณเหมืองน่าน แนวสระแก้วมีเรดิโอลาเรียนอายุสักมาเรียน–คุงกูเรียน และแคปิแทเนียน–อู่เจียผิงเกียน ในหินคลุกเคล้าทุ่งกบินทร์ (Thung Kabin Mélange) ส่วนแนวจิ่งหงในยูนนานมีตั้งแต่ปลายเพอร์เมียนตอนต้นถึงต้นฉางซิงเกียน ชิ้นเชิร์ตไทรแอสซิกตอนกลาง (Triassocampe) ที่พบในแนวน่านเป็นก้อนกรวดที่ถูกพัดมาสะสมใหม่ในกลุ่มหินโคราช จึงไม่ใช่หลักฐานในที่ ผู้เขียนสรุปว่าแอ่งนี้เป็นแอ่งอายุสั้นยุคเพอร์เมียน ไม่ใช่มหาสมุทรพาลีโอทีทิสที่มีอายุยาวนาน",
+  "finding_en": "Deep-sea sediments of the Jinghong–Nan–Sra Kaeo belt are Permian only: a single late Middle Permian chert in the Nan suture; Sakmarian–Kungurian and Capitanian–Wuchiapingian radiolarians from the Thung Kabin Mélange of the Sra Kaeo suture; late Early Permian to early Changhsingian in the Jinghong suture. A Middle Triassic radiolarian (Triassocampe) from the Nan area occurs in a reworked chert clast in the Khorat Group and is not taken as in situ. The authors conclude the basin was short-lived and Permian, not the long-lived Paleo-Tethys.",
+  "value": "deep-sea record Sakmarian to early Changhsingian only",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Sone M., Metcalfe I. 2008, Parallel Tethyan sutures in mainland Southeast Asia: new insights for Palaeo-Tethys closure and implications for the Indosinian orogeny, Comptes Rendus Geoscience 340:166–179",
+   "url": "https://doi.org/10.1016/j.crte.2007.09.008"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Read in the open-access full text of Sone & Metcalfe 2008 (sections 3.1-3.3, 6). Compilation of Hada et al. 1999 and other primary reports I did not read. Note that Metcalfe 1999 (model B) listed Carboniferous-Middle Triassic cherts and Middle Triassic radiolarian-dated thrust slices for the same belt; Sone & Metcalfe re-assign the Middle Triassic Chanthaburi chert-clastic sequence to a separate depression. Plotted 293.52-254.14 Ma."
+ },
+ {
+  "id": "mdl-nan-plagiogranites-320-302",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "geochronology",
+  "title_th": "แพลจิโอแกรนิตคาร์บอนิเฟอรัสในแนวน่าน–อุตรดิตถ์",
+  "title_en": "Late Carboniferous plagiogranites in Nan–Uttaradit mélange",
+  "finding_th": "หินแพลจิโอแกรนิตแม่จริม (Mae Charim plagiogranites) ในหินคลุกเคล้าเซอร์เพนทิไนต์ของรอยตะเข็บน่าน–อุตรดิตถ์ ให้อายุยูเรเนียม–ตะกั่วในเซอร์คอนด้วยวิธี LA-ICP-MS 320 ± 2 และ 302 ± 2 ล้านปี หินมี SiO2, Al2O3 และ Na2O สูง K2O และ TiO2 ต่ำ มีความผิดปกติของ Eu เป็นบวก และค่า εHf(t) เป็นบวกสูง แสดงว่ามาจากแมนเทิลที่ถูกดึงธาตุออกไปแล้ว ผู้วิจัยตีความว่าเกิดจากการหลอมของแผ่นเปลือกสมุทรที่มุดตัวลงแล้วผสมกับลิ่มแมนเทิล (mantle wedge)",
+  "finding_en": "Mae Charim plagiogranites in serpentinite mélange of the Nan–Uttaradit suture give LA-ICP-MS zircon U–Pb ages of 320 ± 2 and 302 ± 2 Ma. They are high in SiO2, Al2O3 and Na2O, low in K2O and TiO2, with positive Eu anomalies and strongly positive εHf(t), indicating a depleted-mantle source; the authors read them as melts of subducted oceanic slab that interacted with the mantle wedge.",
+  "value": "zircon U–Pb 320 ± 2 Ma and 302 ± 2 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Khanmanee J., Feng Q., Zhao T., Nie X., Hu J., Gan Z., Makkhun T., Sribuatong P., Thanun N., Teja T., Phromkhan K., Charusiri P. 2025, Late Carboniferous plagiogranites within serpentinite mélange, northern Thailand: implications for the tectonic evolution of the Nan–Uttaradit Suture, Journal of Asian Earth Sciences 294:106800",
+   "url": "https://doi.org/10.1016/j.jseaes.2025.106800"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (JAES 294, article 106800, Dec 2025). Abstract read in full via OpenAlex. Sample coordinates not in the abstract (site = null; Mae Charim is in Nan Province)."
+ },
+ {
+  "id": "mdl-baoshan-collisional-dikes-240",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "geochronology",
+  "title_th": "พนังหินมาฟิก 240 ล้านปีในแผ่นเป่าซาน",
+  "title_en": "240 Ma collision-setting mafic dikes, Baoshan",
+  "finding_th": "พนังหินมาฟิกที่พบใหม่ในแผ่นย่อยเป่าซาน (ส่วนเหนือของซีบูมาสุ) ยูนนานตะวันตก มีอายุเซอร์คอน 240 ± 3 ล้านปี ซึ่งเป็นหินอัคนีมีโซโซอิกที่เก่าที่สุดที่รายงานในซีบูมาสุ เป็นหินโทเลอีไอต์คล้าย E-MORB มี 87Sr/86Sr(t) 0.703161–0.703826, εNd(t) +4.8 ถึง +7.5 และ εHf(t) ของเซอร์คอน +9.2 ถึง +13.3 แสดงว่ามาจากการหลอมแมนเทิลแอสทีโนสเฟียร์ ผู้วิจัยตีความว่าเกิดในสภาพการชนขณะแผ่นเป่าซานกับซือเหมาเชื่อมกัน",
+  "finding_en": "Newly found mafic dikes in the Baoshan subterrane (northern Sibumasu), western Yunnan, give a zircon U–Pb age of 240 ± 3 Ma, the earliest Mesozoic magmatic rocks reported from Sibumasu. They are E-MORB-like tholeiites (87Sr/86Sr(t) 0.703161–0.703826, εNd(t) +4.8 to +7.5, zircon εHf(t) +9.2 to +13.3) from asthenospheric mantle, interpreted as formed in a collisional setting during Baoshan–Simao suturing.",
+  "value": "zircon U–Pb 240 ± 3 Ma",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Liao S.-Y., Yin F.-G., Sun Z.-M., Wang D.-B., Tang Y., Sun J. 2013, Early Middle Triassic mafic dikes from the Baoshan subterrane, western Yunnan: implications for the tectonic evolution of the Palaeo-Tethys in Southeast Asia, International Geology Review 55:976–993",
+   "url": "https://doi.org/10.1080/00206814.2012.758354"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "DOI confirmed on Crossref (IGR 55(8):976-993). Abstract read in full via OpenAlex. Locality coordinates not in the abstract (site = null)."
+ },
+ {
+  "id": "mdl-li2017-no-southward-motion",
+  "event_ids": [
+   "india-asia-collision",
+   "indosinian-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ทบทวนข้อมูล: อินโดไชนาไม่ได้เลื่อนลงใต้ชัดเจน",
+  "title_en": "Review: no resolvable southward motion of Indochina",
+  "finding_th": "Li และคณะ (2017) รวบรวมและประเมินข้อมูลแม่เหล็กโบราณ (paleomagnetism) ของหินจูแรสซิกและอ่อนกว่าจากอินโดไชนา ขอบตะวันออกเฉียงใต้ของทิเบต และจีนใต้ใหม่ทั้งหมด พบว่าไม่มีการเลื่อนลงใต้ของแผ่นอินโดไชนาเทียบกับยูเรเชียที่แยกแยะได้ด้วยข้อมูลแม่เหล็กโบราณ ค่าอินคลิเนชันที่ตื้นกว่าคาดน่าจะเกิดจากการตื้นลงของอินคลิเนชันในหินตะกอน (inclination shallowing) ไม่ใช่การเคลื่อนที่จริง ส่วนตอนใต้ของอินโดไชนาซึ่งค่อนข้างเสถียร (รวมที่ราบสูงโคราช) หมุนตามเข็มนาฬิกาเพียงราว 10–15° ขณะที่บล็อกทางเหนือหมุนได้ถึง 70°",
+  "finding_en": "Li et al. (2017) critically re-evaluated Jurassic and younger paleomagnetic data from Indochina, the SE Tibetan margin and South China. They find no paleomagnetically resolvable southward motion of Indochina relative to Eurasia; low inclinations probably reflect compaction-induced inclination shallowing in red beds. The stable southeastern part of Indochina rotated only ~10–15° clockwise, while northern blocks rotated up to 70°.",
+  "value": "No resolvable southward motion of Indochina vs Eurasia; stable SE Indochina ~10–15° CW (Southern Indochina ~15°); northern Indochina/SE Tibet blocks up to 70° CW",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Li, Advokaat, van Hinsbergen, Koymans, Deng & Zhu 2017, Paleomagnetic constraints on the Mesozoic-Cenozoic paleolatitudinal and rotational history of Indochina and South China: review and updated kinematic reconstruction, Earth-Science Reviews 171:58-77",
+   "url": "https://doi.org/10.1016/j.earscirev.2017.05.007"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (Utrecht repository green OA PDF, dspace.library.uu.nl/handle/1874/361053). Abstract points (2) and (3); p.68 text '~15° clockwise rotation for the Southern Indochina'. They also note Maranate & Vella (1986) data were 'not subjected to complete demagnetization'. Age window = Jurassic and younger rocks compiled (201.4–0 Ma)."
+ },
+ {
+  "id": "mdl-jia2022-nakhon-thai-poles",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "ขั้วแม่เหล็กมีโซโซอิกจากแอ่งนครไทย",
+  "title_en": "Mesozoic paleomagnetic poles from Nakhon Thai Basin",
+  "finding_th": "หินตะกอนหมวดหินน้ำพอง (Nam Phong) ภูกระดึง (Phu Kradung) และพระวิหาร (Phra Wihan) ในแอ่งนครไทย ภาคเหนือตอนล่างของไทย ให้ขั้วแม่เหล็กโบราณ (paleomagnetic pole) สามขั้ว สองขั้วแรกผ่านการทดสอบการคดโค้ง (fold test) ที่ระดับความเชื่อมั่น 95% และสอดคล้องกับข้อมูลจากแอ่งโคราช ผู้วิจัยจึงถือว่าเป็นแม่เหล็กปฐมภูมิ (primary remanence) และใช้สร้างเส้นทางขั้วแม่เหล็กเคลื่อนปรากฏ (APWP) ที่บ่งว่าอินโดไชนาเลื่อนลงใต้ราว 1,200–1,400 กม. ในมีโซโซอิก",
+  "finding_en": "Nam Phong, Phu Kradung and Phra Wihan sediments of the Nakhon Thai Basin, NW Thailand, give three poles; the first two pass a fold test at 95% and agree with Khorat Basin data, so the authors treat them as primary and build an APWP implying ~1,200–1,400 km of Mesozoic southward movement of Indochina.",
+  "value": "Poles: Nam Phong (Late Triassic) 55.9°N/172.2°E (A95 = 4.6°); Phu Kradung (Late Jurassic) 61.0°N/182.3°E (A95 = 6.3°); Phra Wihan (Early Cretaceous) 67.0°N/192.1°E (A95 = 3.6°); southward movement ~1200–1400 km; CW rotation 18.8° ± 7.8°",
+  "paleolat": null,
+  "site": {
+   "name_th": "แอ่งนครไทย จังหวัดพิษณุโลก (ตำแหน่งโดยประมาณ)",
+   "name_en": "Nakhon Thai Basin, Phitsanulok (approximate)",
+   "lat": 17.1,
+   "lon": 100.83
+  },
+  "citation": {
+   "text": "Jia, Huang, Yan, Zhao & Li 2022, Paleomagnetic study on the Mesozoic tectonic evolution of the Indochina Block, Chinese Journal of Geophysics (in Chinese) 65(9):3481-3501, doi:10.6038/cjg2022P0927",
+   "url": "https://doi.org/10.6038/cjg2022P0927"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "English abstract read on the journal site (geophy.cn); full text is in Chinese and was not read. DOI 10.6038/cjg2022P0927 resolves via doi.org but is NOT registered on Crossref (404), so the journal URL is used. Site coordinates are the approximate Nakhon Thai district centre, not the authors' sampling sites. Paleolatitudes are not given in the abstract, so paleolat is null."
+ },
+ {
+  "id": "mdl-jia2022-detrital-zircon-mda",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "geochronology",
+  "title_th": "อายุเซอร์คอนตะกอนให้อายุสะสมสูงสุดของหมวดหิน",
+  "title_en": "Detrital zircons cap Khorat formation ages",
+  "finding_th": "การหาอายุ U–Pb ของเซอร์คอนจากตะกอน (detrital zircon) ในหมวดหินน้ำพอง ภูกระดึง และพระวิหาร ในแอ่งนครไทย ให้อายุสะสมสูงสุดที่เป็นไปได้ (maximum depositional age) ราว 208, 154 และ 140 ล้านปีตามลำดับ แสดงว่าหมวดหินพระวิหารและหมวดหินเสาขัวที่อยู่ด้านบนสะสมในครีเทเชียสตอนต้น และพบการเปลี่ยนแหล่งตะกอน (provenance) ของแผ่นอินโดไชนาในช่วงจูแรสซิกตอนกลาง–ปลาย",
+  "finding_en": "Detrital zircon U–Pb maximum depositional ages for the Nam Phong, Phu Kradung and Phra Wihan formations in the Nakhon Thai Basin are ~208, ~154 and ~140 Ma, so the Phra Wihan and overlying Sao Khua formations are Early Cretaceous; the age spectra also record a Middle–Late Jurassic provenance change on Indochina.",
+  "value": "Maximum depositional ages ~208 Ma (Nam Phong), ~154 Ma (Phu Kradung), ~140 Ma (Phra Wihan)",
+  "paleolat": null,
+  "site": {
+   "name_th": "แอ่งนครไทย จังหวัดพิษณุโลก (ตำแหน่งโดยประมาณ)",
+   "name_en": "Nakhon Thai Basin, Phitsanulok (approximate)",
+   "lat": 17.1,
+   "lon": 100.83
+  },
+  "citation": {
+   "text": "Jia, Huang, Yan, Zhao & Li 2022, Paleomagnetic study on the Mesozoic tectonic evolution of the Indochina Block, Chinese Journal of Geophysics (in Chinese) 65(9):3481-3501, doi:10.6038/cjg2022P0927",
+   "url": "https://doi.org/10.6038/cjg2022P0927"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "English abstract read (geophy.cn). DOI not on Crossref; journal URL used. Coordinates approximate."
+ },
+ {
+  "id": "mdl-khorat-palynology-early-cretaceous",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ละอองเรณูชี้กลุ่มหินโคราชอายุครีเทเชียสตอนต้น",
+  "title_en": "Pollen date most Khorat Group as Early Cretaceous",
+  "finding_th": "ละอองเรณูและสปอร์ (palynology) จากหินโผล่และหลุมเจาะสำรวจปิโตรเลียมพบ Dicheiropollis etruscus ซึ่งเป็นเรณูที่จำกัดอยู่ในครีเทเชียสตอนต้น ในหมวดหินภูกระดึง พระวิหาร และเสาขัว จึงจัดหมวดหินเหล่านี้ไว้ในช่วงเบอร์ริเอเซียน–บาร์เรเมียน (Berriasian–Barremian) และหมวดหินโคกกรวดในแอปเชียน (Aptian) ส่วนหมวดหินน้ำพองตอนล่างมีอายุไทรแอสซิกตอนปลาย (Rhaetian) และแยกจากน้ำพองตอนบนด้วยรอยชั้นไม่ต่อเนื่อง (unconformity) ที่เห็นในข้อมูลคลื่นไหวสะเทือน จึงมีช่องว่างตะกอนขนาดใหญ่ในจูแรสซิก",
+  "finding_en": "Palynology from outcrops and exploration wells finds Dicheiropollis etruscus, restricted to the Early Cretaceous, in the Phu Kradung, Phra Wihan and Sao Khua formations (Berriasian–Barremian); the Khok Kruat is Aptian. The Lower Nam Phong is Late Triassic (Rhaetian) and is separated from the Upper Nam Phong by a seismically imaged unconformity, implying a major Jurassic hiatus.",
+  "value": "Phu Kradung, Phra Wihan, Sao Khua: Berriasian–Barremian (Dicheiropollis etruscus); Khok Kruat: Aptian; Lower Nam Phong: Rhaetian; Upper Nam Phong no older than Pliensbachian",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Racey & Goodall 2009, Palynology and stratigraphy of the Mesozoic Khorat Group red bed sequences from Thailand, Geological Society, London, Special Publications 315:69-83",
+   "url": "https://doi.org/10.1144/SP315.6"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Racey et al. 1996 (J. Petroleum Geology 19:5-39, doi 10.1111/j.1747-5457.1996.tb00511.x, abstract read) earlier reassigned Phra Wihan–Khok Kruat to the Berriasian–Aptian, left Phu Kradung as 'probably Late Jurassic or Early Cretaceous', and reported palaeocurrents mainly from the north and east. Age window plotted 145.0–113.2 (Berriasian base to Aptian top, ICS)."
+ },
+ {
+  "id": "mdl-khorat-detrital-zircon-ft",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "thermochronology",
+  "title_th": "อายุ FT ของเซอร์คอนตะกอนชี้แหล่งตะกอนครีเทเชียสตอนต้น",
+  "title_en": "Detrital zircon fission tracks trace Khorat sediment source",
+  "finding_th": "เซอร์คอนจากหมวดหินภูกระดึงให้กลุ่มอายุร่องรอยการแบ่งแยกนิวเคลียส (fission track, FT) 141 ± 17 และ 210 ± 24 ล้านปี และกลุ่มอายุ U–Pb 2456, 2001, 251 และ 168 ล้านปี คล้ายหมวดหินที่อยู่ด้านบน กลุ่มอายุ FT อ่อนสุดของลำดับชั้นหินโคราชอยู่ระหว่าง 114 ± 6 (พระวิหาร) ถึง 141 ± 17 ล้านปี (ภูกระดึง) ตรงกับการกระตุ้นใหม่ของแนวเทือกเขาฉินหลิง (Qinling) ช่วงจูแรสซิกตอนปลาย/ครีเทเชียสตอนต้น ผู้วิจัยเตือนว่าอายุ U–Pb อย่างเดียวระบุแหล่งตะกอนไม่ได้แน่ชัด เพราะการหมุนเวียนตะกอนกว่า 250 ล้านปีไม่ลบลายเซ็นอายุระดับภูมิภาค",
+  "finding_en": "Phu Kradung zircons give fission-track modes of 141 ± 17 and 210 ± 24 Ma and U–Pb modes of 2456, 2001, 251 and 168 Ma, similar to overlying formations. The youngest zircon FT modes range from 114 ± 6 Ma (Phra Wihan) to 141 ± 17 Ma (Phu Kradung), matching a Late Jurassic/Early Cretaceous reactivation of the Qinling belt; U–Pb alone cannot fix the source because 250 Myr of recycling preserves the regional signature.",
+  "value": "Phu Kradung ZFT modes 141 ± 17 and 210 ± 24 Ma; U–Pb modes 2456 ± 4, 2001 ± 4, 251 ± 3, 168 ± 2 Ma; youngest ZFT modes 114 ± 6 (Phra Wihan) to 141 ± 17 Ma (Phu Kradung)",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Carter & Bristow 2003, Linking hinterland evolution and continental basin sedimentation by using detrital zircon thermochronology: a study of the Khorat Plateau Basin, eastern Thailand, Basin Research 15:271-285",
+   "url": "https://doi.org/10.1046/j.1365-2117.2003.00201.x"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Note that a 114 ± 6 Ma youngest FT mode in the Phra Wihan sits awkwardly with its palynological Berriasian–Barremian age; the abstract does not discuss this. Full text not read."
+ },
+ {
+  "id": "mdl-phu-kradung-minimocursor-late-jurassic",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ไดโนเสาร์ภูน้อยกับอายุจูแรสซิกตอนปลายของภูกระดึง",
+  "title_en": "Phu Noi dinosaur and Late Jurassic Phu Kradung",
+  "finding_th": "โครงกระดูกต่อเนื่องของไดโนเสาร์กลุ่มนีออร์นิธิสเชียนฐาน (basal neornithischian) Minimocursor phunoiensis จากแหล่งภูน้อย จังหวัดกาฬสินธุ์ พบในหมวดหินภูกระดึงซึ่งผู้วิจัยระบุว่าอายุจูแรสซิกตอนปลาย และมีลักษณะคล้ายออร์นิธิสเชียนขนาดเล็กของจีนช่วงจูแรสซิกตอนปลายถึงครีเทเชียสตอนต้น อายุนี้ต่างจากละอองเรณูที่ชี้ครีเทเชียสตอนต้น จึงแสดงว่าอายุของภูกระดึงยังถกเถียงกันอยู่",
+  "finding_en": "An articulated skeleton of the basal neornithischian Minimocursor phunoiensis from Phu Noi, Kalasin, comes from the Phu Kradung Formation, which the authors call Late Jurassic; it resembles Late Jurassic–Early Cretaceous small ornithischians from China. This contrasts with palynological Early Cretaceous ages, so the Phu Kradung age remains debated.",
+  "value": "Phu Kradung Formation stated as Late Jurassic; affinities with Late Jurassic–Early Cretaceous Chinese ornithischians",
+  "paleolat": null,
+  "site": {
+   "name_th": "แหล่งภูน้อย อำเภอคำม่วง จังหวัดกาฬสินธุ์",
+   "name_en": "Phu Noi locality, Kham Muang, Kalasin",
+   "lat": 16.9233,
+   "lon": 103.6317
+  },
+  "citation": {
+   "text": "Manitkoon, Deesri, Khalloufi, Nonsrirach, Suteethorn, Chanthasit, Boonla & Buffetaut 2023, A new basal neornithischian dinosaur from the Phu Kradung Formation (Upper Jurassic) of northeastern Thailand, Diversity 15(7):851",
+   "url": "https://doi.org/10.3390/d15070851"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Same fossil as project record fos-minimocursor-phunoiensis-phu-noi (coordinates copied from there, district precision). The Late Jurassic age is the authors' stratigraphic assignment, not a new dating; plotted 161.5–143.1 (ICS Late Jurassic)."
+ },
+ {
+  "id": "mdl-khorat-psittacosaurus-asian-fauna",
+  "event_ids": [
+   "indosinian-collision"
+  ],
+  "method": "biostratigraphy",
+  "title_th": "ซิตตะโคซอรัสโคราช: อินโดไชนาเชื่อมเอเชียในครีเทเชียสตอนต้น",
+  "title_en": "Khorat Psittacosaurus ties Indochina to Asia",
+  "finding_th": "ขากรรไกรของไดโนเสาร์ซีราทอปเซียนดั้งเดิม Psittacosaurus จากหินครีเทเชียสตอนต้นบนที่ราบสูงโคราช เป็นการพบนอกเอเชียกลางและเอเชียเหนือครั้งแรก แสดงว่าสัตว์บกครีเทเชียสของเอเชียตะวันออกเฉียงใต้คล้ายกับของจีนตอนเหนือ–มองโกเลีย ผู้วิจัยสรุปว่าภายในครีเทเชียสตอนต้นแผ่นอินโดไชนาเป็นส่วนหนึ่งของแผ่นดินใหญ่เอเชียแล้ว ขัดกับแผนที่บรรพภูมิศาสตร์บางชุดในขณะนั้น",
+  "finding_en": "Psittacosaurus jaws from Early Cretaceous rocks of the Khorat Plateau, the first outside central and northern Asia, show that the Cretaceous continental fauna of SE Asia resembled that of northern and central Asia; the authors conclude that by Early Cretaceous time the Indochina block was part of mainland Asia.",
+  "value": "Psittacosaurus (Early Cretaceous); Indochina part of mainland Asia by the Early Cretaceous",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Buffetaut, Sattayarak & Suteethorn 1989, A psittacosaurid dinosaur from the Cretaceous of Thailand and its implications for the palaeogeographical history of Asia, Terra Nova 1(4):370-373",
+   "url": "https://doi.org/10.1111/j.1365-3121.1989.tb00388.x"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). The species was later named P. sattayaraki from the Khok Kruat Formation (project record fos-psittacosaurus-sattayaraki-chaiyaphum, Buffetaut & Suteethorn 1992). Plotted as Early Cretaceous 143.1–100.5 Ma because the 1989 abstract gives no stage."
+ },
+ {
+  "id": "mdl-lansang-shear-end-30ma",
+  "event_ids": [
+   "india-asia-faults"
+  ],
+  "method": "geochronology",
+  "title_th": "ไนส์ลานสางชี้การเฉือนซ้ายหยุดราว 30.5 ล้านปี",
+  "title_en": "Lansang gneiss: sinistral shear ends ~30.5 Ma",
+  "finding_th": "หินไนส์ลานสาง (Lansang gneiss) แนวกว้างราว 5 กม. ตามรอยเลื่อนวังเจ้า (แม่ปิง) ใกล้จังหวัดตาก แสดงการเฉือนเหลื่อมซ้ายแบบเหนียว (ductile left-lateral shear) อย่างรุนแรง อายุ 40Ar/39Ar และแบบจำลองความร้อนของเฟลด์สปาร์โพแทสเซียมชี้ว่าการเย็นตัวอย่างเร็วเกิดช่วง 32.5–30.5 ล้านปี และการเฉือนแบบเหนียวหยุดราว 30.5 ล้านปี รอยเลื่อนวังเจ้าเลื่อนแนวหินแปรแนวเหนือ–ใต้ไปราว 160 กม. ผู้วิจัยสรุปว่ามีการเลื่อนซ้ายรวมราว 300 กม. บนระบบรอยเลื่อนวังเจ้า–เจดีย์สามองค์ระหว่างประมาณ 40 ถึง 30 ล้านปี",
+  "finding_en": "The ~5 km wide Lansang gneiss core of the Wang Chao (Mae Ping) fault near Tak records intense ductile left-lateral shear. 40Ar/39Ar ages and K-feldspar thermal modelling show rapid cooling at 32.5–30.5 Ma, with ductile shear ending around 30.5 Ma. The fault offsets the N–S metamorphic belt by about 160 km, and the authors infer about 300 km of sinistral motion on the Wang Chao–Three Pagodas system between ~40 and 30 Ma.",
+  "value": "Ductile sinistral shear ended ~30.5 Ma (rapid cooling 32.5–30.5 Ma); Wang Chao offset ~160 km; ~300 km sinistral motion on WCTP system ~40–30 Ma; minimum 35–45 km from shear strain",
+  "paleolat": null,
+  "site": {
+   "name_th": "อุทยานแห่งชาติลานสาง จังหวัดตาก (ตำแหน่งโดยประมาณ)",
+   "name_en": "Lansang National Park, Tak (approximate)",
+   "lat": 16.78,
+   "lon": 99.0
+  },
+  "citation": {
+   "text": "Lacassin, Maluski, Leloup, Tapponnier, Hinthong, Siribhakdi, Chuaviroj & Charoenravat 1997, Tertiary diachronic extrusion and deformation of western Indochina: structural and 40Ar/39Ar evidence from NW Thailand, Journal of Geophysical Research 102(B5):10013-10037",
+   "url": "https://doi.org/10.1029/96JB03831"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (local scratchpad text of the JGR paper; abstract also confirmed on OpenAlex). Quotes: 'deformation probably terminated around 30.5 Ma'; 'We conclude that about 300 km of sinistral motion took place between approximately 40 Ma and 30 Ma along the Wang Chao-Three Pagodas (WCTP) fault system'; 'A lower bound of 35 to 45 km of left-lateral displacement'. Coordinates are an approximate park centre, not a sample site."
+ },
+ {
+  "id": "mdl-mae-ping-restraining-bend-cooling",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "thermochronology",
+  "title_th": "ประวัติการเย็นตัวตามรอยเลื่อนแม่ปิง",
+  "title_en": "Cooling history along the Mae Ping fault",
+  "finding_th": "รอยเลื่อนแม่ปิง (Mae Ping fault zone) ยาวราว 500 กม. น่าจะเลื่อนซ้ายรวมมากกว่า 150 กม. ในซีโนโซอิก ข้อมูลอายุการเย็นตัวและอายุ fission-track ใหม่ของอะพาไทต์และเซอร์คอนแสดงว่าการยกตัวเก่าสุด (อีโอซีน) อยู่ที่ไนส์อุ้มผาง ช่วง 36–30 ล้านปีการยกตัวแรงสุดอยู่ทางเหนือของแนวชัยนาทดูเพล็กซ์ (Chainat duplex) ตามไนส์ลานสาง หลังการยืดตัวช่วงโอลิโกซีนตอนปลาย–ไมโอซีนตอนต้น มีการยกตัว 22–18 ล้านปีในชัยนาทดูเพล็กซ์ซึ่งตรงกับการพลิกกลับ (inversion) ของแอ่งพิษณุโลก และตั้งแต่ไมโอซีนถึงปัจจุบันมีเพียงการเลื่อนซ้ายและขวาเล็กน้อยภายใต้สนามแรงเค้นที่เปลี่ยนเร็ว",
+  "finding_en": "The ~500 km Mae Ping fault zone probably underwent more than 150 km of Cenozoic sinistral motion. Published cooling ages plus new apatite and zircon fission-track data show the oldest (Eocene) exhumation in the Umphang gneiss, strongest exhumation at 36–30 Ma north of the Chainat duplex along the Lansang gneiss, and, after Late Oligocene–Early Miocene extension, 22–18 Ma exhumation in the Chainat duplex coinciding with inversion of the Phitsanulok Basin; the Miocene–Recent history is one of minor sinistral and dextral displacements in a rapidly evolving stress field.",
+  "value": ">150 km sinistral (Cenozoic); exhumation 36–30 Ma (Lansang segment); AFT exhumation 22–18 Ma in Chainat duplex coeval with Phitsanulok Basin inversion",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Morley, Smith, Carter, Charusiri & Chantraprasert 2007, Evolution of deformation styles at a major restraining bend, constraints from cooling histories, Mae Ping fault zone, western Thailand, Geological Society, London, Special Publications 290:325-349",
+   "url": "https://doi.org/10.1144/SP290.12"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Full text not read. Note the Phitsanulok inversion here is 22–18 Ma (Early Miocene), not the Middle Miocene date given in the synthesis."
+ },
+ {
+  "id": "mdl-northern-basins-strike-slip-opening",
+  "event_ids": [
+   "india-asia-faults",
+   "fault-reversal"
+  ],
+  "method": "mapping",
+  "title_th": "แอ่งภาคเหนือส่วนใหญ่สัมพันธ์กับรอยเลื่อนตามแนวระดับ",
+  "title_en": "Most northern Thai basins tied to strike-slip",
+  "finding_th": "การแปลภาพดาวเทียม Landsat TM ระบุรอยเลื่อนหลัก 36 แนวและแอ่งตะกอนภายในทวีป 42 แอ่งในภาคเหนือของไทย มากกว่า 70% ของแอ่งสัมพันธ์กับการเลื่อนตามแนวระดับ (strike-slip) แบ่งเป็นแอ่งปลายรอยเลื่อน แอ่งดึงแยก (pull-apart) แอ่งลิ่มรอยเลื่อน แอ่งในเขตรอยเลื่อน และแอ่งยืดตัว ผู้วิจัยสรุปว่าการเคลื่อนของรอยเลื่อนเหลื่อมขวาแนวตะวันตกเฉียงเหนือและเหลื่อมซ้ายแนวตะวันออกเฉียงเหนือ ร่วมกับการยืดตัวตะวันออก–ตะวันตกช่วงโอลิโกซีนตอนปลาย–ไมโอซีนตอนต้น เป็นตัวเริ่มการเกิดแอ่งเทอร์เชียรี",
+  "finding_en": "Landsat TM mapping identified 36 major faults and 42 intracratonic basins in northern Thailand; more than 70% of the basins are related to strike-slip tectonics (fault-tip, pull-apart, fault-wedge, fault-zone and extensional types). The authors conclude that movement of NW-trending dextral and NE-trending sinistral faults during Late Oligocene–Early Miocene E–W extension initiated the Tertiary basins.",
+  "value": "36 major faults, 42 basins; >70% of basins related to strike-slip; basin initiation Late Oligocene–Early Miocene",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Uttamo, Elders & Nichols 2003, Relationships between Cenozoic strike-slip faulting and basin opening in northern Thailand, Geological Society, London, Special Publications 210:89-108",
+   "url": "https://doi.org/10.1144/GSL.SP.2003.210.01.06"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Method is remote-sensing structural mapping. Plotted 27.3–15.98 Ma (Chattian base to Burdigalian top, ICS)."
+ },
+ {
+  "id": "mdl-li-basin-episodic-inversion",
+  "event_ids": [
+   "fault-reversal"
+  ],
+  "method": "mapping",
+  "title_th": "แอ่งลี้: ยืดตัวสลับบีบอัดอย่างน้อยห้าครั้ง",
+  "title_en": "Li Basin: extension interrupted by compression episodes",
+  "finding_th": "หน้าเหมืองถ่านหินในชั้นหินโอลิโกซีน–ไมโอซีนของแอ่งลี้ จังหวัดลำพูน แสดงว่าแอ่งเกิดภายใต้การยืดตัวราวตะวันออก–ตะวันตก มีรอยเลื่อนปกติแนวตะวันตกเฉียงเหนือถึงเหนือ–ใต้เป็นหลัก แต่การบีบอัดหรือการเลื่อนตามแนวระดับอย่างน้อยห้าครั้งขัดจังหวะการยืดตัว สร้างรอยเลื่อนย้อนและชั้นหินคดโค้ง และพลิกกลับรอยเลื่อนปกติบางแนว ผู้วิจัยโยงการบีบอัดกับการบีบเคลื่อนออกจากเทือกเขาหิมาลัย และสรุปว่ารูปแบบสลับนี้ขัดกับทั้งการเปิดแอ่งด้วยรอยเลื่อนตามแนวระดับอย่างเดียวและการยืดตัวอย่างเดียว",
+  "finding_en": "Coal-mine exposures of the Oligocene–Miocene Li Basin, Lamphun, show basin formation under roughly E–W extension on NW to N–S normal faults, interrupted by at least five episodes of NNW–SSE to NE–SW compression that created thrusts and folds and inverted some normal faults. The authors relate compression to Himalayan escape tectonics and find the episodic pattern inconsistent with either simple strike-slip opening or simple extension.",
+  "value": "At least five compression episodes interrupting Oligocene–Miocene extension",
+  "paleolat": null,
+  "site": {
+   "name_th": "แอ่งลี้ จังหวัดลำพูน (ตำแหน่งโดยประมาณ)",
+   "name_en": "Li Basin, Lamphun (approximate)",
+   "lat": 17.8,
+   "lon": 98.95
+  },
+  "citation": {
+   "text": "Morley, Sangkumarn, Hoon, Chonglakmani & Lambiase 2000, Structural evolution of the Li Basin, northern Thailand, Journal of the Geological Society 157(2):483-492",
+   "url": "https://doi.org/10.1144/jgs.157.2.483"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Abstract read (Crossref). Coordinates approximate (Li district). Plotted 33.9–5.333 Ma (Oligocene–Miocene, ICS)."
+ },
+ {
+  "id": "mdl-li2017-red-river-offset-budget",
+  "event_ids": [
+   "india-asia-faults",
+   "india-asia-collision"
+  ],
+  "method": "paleomagnetism",
+  "title_th": "การหมุนของบล็อกทำให้ระยะเลื่อนรอยเลื่อนแม่น้ำแดงต่างกัน",
+  "title_en": "Block rotations reconcile Red River offset estimates",
+  "finding_th": "Li และคณะ (2017) ใช้ค่าเดคลิเนชันแม่เหล็กโบราณสร้างแบบจำลองจลนศาสตร์ (kinematic reconstruction) ของอินโดไชนาในซีโนโซอิก พบว่าตอนใต้ของอินโดไชนาซึ่งเสถียรหมุนตามเข็มนาฬิการาว 15° ขณะที่บล็อกทางเหนือที่คั่นด้วยแนวรอยคดโค้งย้อนและรอยเลื่อนตามแนวระดับหมุนได้ถึง 70° อินโดไชนาตะวันตกเฉียงเหนือจึงเคลื่อนออกไปทางตะวันออกเฉียงใต้มากกว่าตอนใต้ราว 350 กม. ถ้าตอนใต้เลื่อนราว 250 กม. ตามรอยเลื่อนไอเหลาชาน–แม่น้ำแดง (Ailao Shan–Red River) ตอนตะวันตกเฉียงเหนือจะเลื่อนราว 600 กม. ซึ่งประสานค่าประมาณเล็ก (~250 กม.) กับค่าประมาณใหญ่ (700 ± 200 กม.) ในเอกสารเดิม",
+  "finding_en": "Li et al. (2017) built a paleomagnetically constrained Cenozoic kinematic reconstruction: stable southern Indochina rotated ~15° clockwise while northern blocks bounded by fold-thrust belts and strike-slip faults rotated up to 70°. Northwestern Indochina therefore extruded ~350 km farther SE than the southeastern block; with ~250 km of extrusion of southern Indochina, ~600 km of sinistral motion is predicted on the northwestern Ailao Shan–Red River fault, reconciling the small (~250 km) and large (700 ± 200 km) estimates.",
+  "value": "Southern Indochina ~15° CW; northern blocks up to 70° CW; NW Indochina extruded ~350 km more than SE; ~250 km (SE) vs ~600 km (NW) sinistral on Ailao Shan–Red River",
+  "paleolat": null,
+  "site": null,
+  "citation": {
+   "text": "Li, Advokaat, van Hinsbergen, Koymans, Deng & Zhu 2017, Paleomagnetic constraints on the Mesozoic-Cenozoic paleolatitudinal and rotational history of Indochina and South China: review and updated kinematic reconstruction, Earth-Science Reviews 171:58-77",
+   "url": "https://doi.org/10.1016/j.earscirev.2017.05.007"
+  },
+  "source_type": "peer-reviewed",
+  "verified": false,
+  "_notes": "Full text read (Utrecht green OA). They also quote 'about 160 km each' of offset on the Wang Chao and Three Pagodas shear zones (citing Lacassin et al. 1997; Morley 2007). Plotted 50–17 Ma, the interval of block rotations in their reconstruction (e.g. 'at 50–17 Ma')."
  }
 ]

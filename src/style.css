@@ -207,6 +207,7 @@ dialog#fossils::backdrop { background: rgba(0, 0, 0, .4); }
 .mdl-marker:focus-visible circle { fill: var(--accent); }
 .mdl-models { font-size: .85em; padding-left: 18px; }
 .mdl-models li { margin: 4px 0; }
+.mdl-models a { color: var(--accent); }
 .mdl-table-wrap { overflow-x: auto; }
 .mdl-table { border-collapse: collapse; width: 100%; font-size: .82em; min-width: 560px; }
 .mdl-table th, .mdl-table td { border-bottom: 1px solid var(--border); padding: 6px 8px; text-align: left; vertical-align: top; }
