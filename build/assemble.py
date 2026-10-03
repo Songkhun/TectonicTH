@@ -13,7 +13,7 @@ from fossils import load_fossils, validate_fossils
 from models import load_json_or, validate_models, validate_sutures
 from validate import load_json, validate_events, validate_timescale
 
-MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js", "fossils.js",
+MODULE_ORDER = ["i18n.js", "format.js", "layout.js", "select.js", "geo.js", "evidence.js", "polarity.js", "fossils.js", "map.js", "models.js",
                 "globe.js", "timeline.js", "card.js", "main.js"]
 MAX_HTML_BYTES = 3_000_000
 IMPORT_RE = re.compile(r"^import\s+\{[\w\s,$]*\}\s+from\s+'\./[\w-]+\.js';\s*$")

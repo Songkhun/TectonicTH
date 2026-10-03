@@ -15,7 +15,12 @@
   <button type="button" id="btn-about" data-i18n="btn_about"></button>
   <button type="button" id="btn-lang" data-i18n="btn_lang"></button>
 </header>
-<main class="main">
+<nav class="tabs" role="tablist">
+  <button type="button" role="tab" data-tab="timeline" aria-selected="true" data-i18n="tab_timeline"></button>
+  <button type="button" role="tab" data-tab="map" aria-selected="false" data-i18n="tab_map"></button>
+  <button type="button" role="tab" data-tab="models" aria-selected="false" data-i18n="tab_models"></button>
+</nav>
+<main class="main" id="view-timeline">
   <section class="globe-pane">
     <canvas id="globe" role="img"></canvas>
     <div id="readout"></div>
@@ -29,6 +34,23 @@
     <article id="card" hidden></article>
   </section>
 </main>
+<section class="view-map" id="view-map" hidden>
+  <div class="map-bar">
+    <label><input type="checkbox" data-layer="evidence" checked> <span data-i18n="layer_evidence"></span></label>
+    <label><input type="checkbox" data-layer="fossils" checked> <span data-i18n="layer_fossils"></span></label>
+    <label><input type="checkbox" data-layer="visits" checked> <span data-i18n="layer_visits"></span></label>
+    <label><input type="checkbox" data-layer="faults" checked> <span data-i18n="layer_faults"></span></label>
+    <label><input type="checkbox" data-layer="sutures" checked> <span data-i18n="layer_sutures"></span></label>
+    <label><input type="checkbox" data-layer="terranes" checked> <span data-i18n="layer_terranes"></span></label>
+    <span class="map-views"><button type="button" id="map-th" data-i18n="map_thailand"></button><button type="button" id="map-world" data-i18n="map_world"></button></span>
+  </div>
+  <p class="map-note" data-i18n="map_schematic_note"></p>
+  <div class="map-wrap"><svg id="mapsvg" role="img"></svg><article id="mapcard" class="floatcard" hidden></article></div>
+</section>
+<section class="view-models" id="view-models" hidden>
+  <div id="models-body"></div>
+  <article id="modelcard" class="floatcard" hidden></article>
+</section>
 <dialog id="fossils">
   <div class="fos-head"><h2 data-i18n="fossils_title"></h2><form method="dialog"><button data-i18n="close"></button></form></div>
   <div class="fos-filters">

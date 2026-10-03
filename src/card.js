@@ -13,8 +13,8 @@ export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
 
   function render() {
     if (!shown) { el.hidden = true; return; }
-    if (shown.__fossil) {
-      el.innerHTML = fossilCardHtml(shown.__fossil);
+    if (shown.__fossil || shown.__html) {
+      el.innerHTML = shown.__html || fossilCardHtml(shown.__fossil);
       el.hidden = false;
       el.querySelector('.card-close').addEventListener('click', () => { hide(); if (onClose) onClose(); });
       return;
@@ -44,7 +44,8 @@ export function createCard(el, { onPrev, onNext, onClose, extraHtml } = {}) {
 
   function show(e) { shown = e; render(); }
   function showFossil(f) { shown = { __fossil: f }; render(); }
+  function showHtml(html) { shown = { __html: html }; render(); }
   function lectureMode(on) { lecture = on; render(); }
 
-  return { show, showFossil, hide, refresh: render, lectureMode };
+  return { show, showFossil, showHtml, hide, refresh: render, lectureMode };
 }

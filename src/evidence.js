@@ -38,3 +38,10 @@ export function evidenceHtml(eventId, items) {
   }).join('');
   return `<section class="evidence"><h3>${esc(t('evidence_heading'))}</h3><ul>${rows}</ul></section>`;
 }
+
+// A single evidence item as a card (used when it is opened from the map or the models table).
+export function evidenceItemCardHtml(it) {
+  const inner = evidenceHtml(it.event_ids[0], [it]).replace(/^<section class="evidence">.*?<ul>/, '<ul class="ev-single">');
+  return `<div class="card-head"><span class="card-age">${esc(t('evidence_heading'))}</span>`
+    + `<button type="button" class="card-close" aria-label="${esc(t('close'))}">×</button></div>${inner.replace(/<\/section>$/, '')}`;
+}

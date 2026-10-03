@@ -6,7 +6,9 @@ import { createCard } from './card.js';
 import { nearestStopIndex, lectureKeyAction } from './select.js';
 import { polarityLabel } from './polarity.js';
 import { FOSSIL_GROUPS, filterFossils, localityText, fossilAgeText, fossilMidAge, shortCitation } from './fossils.js';
-import { evidenceHtml } from './evidence.js';
+import { evidenceHtml, evidenceItemCardHtml } from './evidence.js';
+import { createMap } from './map.js';
+import { renderModels } from './models.js';
 
 function start() {
   const data = JSON.parse(document.getElementById('dt-data').textContent);
@@ -102,6 +104,7 @@ function start() {
           + Object.values(data.polarity.sources).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.text)}</a></li>`).join('')
           + '</ul>'
         : '') +
+      [data.basemap, data.faults].filter(Boolean).map(x => `<p class="card-cite"><a href="${esc(x.source.url)}" target="_blank" rel="noopener">${esc(x.source.text)}</a></p>`).join('') +
       `<h3>${esc(t('citations_heading'))}</h3><ol>${cites}</ol>`;
   }
 
@@ -179,6 +182,43 @@ function start() {
     renderFossilRows();
     fosDialog.showModal();
   });
+  // ---- tabs: timeline, map, tectonic models (deep-linkable with #timeline / #map / #models)
+  const views = { timeline: document.getElementById('view-timeline'), map: document.getElementById('view-map'), models: document.getElementById('view-models') };
+  const tabButtons = [...document.querySelectorAll('.tabs [data-tab]')];
+  const mapCard = createCard(document.getElementById('mapcard'));
+  const modelCard = createCard(document.getElementById('modelcard'));
+  let map = null;
+  let modelsDrawn = false;
+  const openPointCard = p => {
+    if (p.kind === 'fossil') mapCard.showFossil(p.item);
+    else if (p.kind === 'evidence') mapCard.showHtml(evidenceItemCardHtml(p.item));
+    else mapCard.show(p.item);
+  };
+  const drawModels = () => {
+    renderModels(document.getElementById('models-body'), data, { onEvidence: it => modelCard.showHtml(evidenceItemCardHtml(it)) });
+    modelsDrawn = true;
+  };
+  function showTab(name) {
+    if (!views[name]) name = 'timeline';
+    for (const [k, el] of Object.entries(views)) el.hidden = k !== name;
+    tabButtons.forEach(b => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+    lectureBtn.hidden = name !== 'timeline';
+    if (name !== 'timeline' && lecture) setLecture(false);
+    if (name === 'map') {
+      if (!map) { map = createMap(document.getElementById('mapsvg'), data, { onSelect: openPointCard }); map.showThailand(); } else map.refresh();
+    }
+    if (name === 'models' && !modelsDrawn) drawModels();
+    if (name === 'timeline') requestAnimationFrame(() => { globe.resize(); timeline.refresh(); });
+  }
+  tabButtons.forEach(b => b.addEventListener('click', () => {
+    try { history.replaceState(null, '', `#${b.dataset.tab}`); } catch (_) { /* sandboxed */ }
+    showTab(b.dataset.tab);
+  }));
+  document.querySelectorAll('.map-bar [data-layer]').forEach(c => c.addEventListener('change', () => map && map.setLayer(c.dataset.layer, c.checked)));
+  document.getElementById('map-th').addEventListener('click', () => map && map.showThailand());
+  document.getElementById('map-world').addEventListener('click', () => map && map.showWorld());
+  if (!(data.models || []).length) tabButtons.find(b => b.dataset.tab === 'models').hidden = true;
+
   lectureBtn.addEventListener('click', () => setLecture(!lecture));
   document.getElementById('btn-lang').addEventListener('click', () => setLang(getLang() === 'th' ? 'en' : 'th'));
   document.getElementById('btn-about').addEventListener('click', () => document.getElementById('about').showModal());
@@ -193,6 +233,10 @@ function start() {
     applyStaticText();
     renderAbout();
     if (fosDialog.open) { renderFossilFilters(); renderFossilRows(); }
+    if (map && !views.map.hidden) map.refresh();
+    if (modelsDrawn) drawModels();
+    mapCard.refresh();
+    modelCard.refresh();
     timeline.refresh();
     card.refresh();
     if (lastInfo) showReadout(lastInfo);
@@ -200,13 +244,18 @@ function start() {
   let resizeTimer = null;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(() => { globe.resize(); timeline.refresh(); }, 120);
+    resizeTimer = setTimeout(() => {
+      if (!views.timeline.hidden) { globe.resize(); timeline.refresh(); }
+      if (map && !views.map.hidden) map.refresh();
+      if (!views.models.hidden) drawModels();
+    }, 120);
   });
 
   applyStaticText();
   renderAbout();
   globe.resize();
   timeline.refresh();
+  showTab((location.hash || '').replace('#', '') || 'timeline');
 }
 
 start();

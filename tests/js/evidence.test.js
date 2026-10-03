@@ -80,3 +80,14 @@ test('geochemistry and mapping are methods with labels', () => {
 test('thermochronology is a method with labels', () => {
   assert.ok(EVIDENCE_METHODS.includes('thermochronology'));
 });
+
+test('evidenceItemCardHtml shows one evidence item as a card, escaped, with a close button', async () => {
+  const { evidenceItemCardHtml } = await import('../../src/evidence.js');
+  initLang(null);
+  setLang('en');
+  const html = evidenceItemCardHtml(items[1]);
+  assert.ok(html.includes('card-close'));
+  assert.ok(html.includes('Survey &lt;b&gt;') && html.includes('ev-seismic'));
+  assert.ok(html.includes('https://doi.org/10.2/y'));
+  setLang('th');
+});
