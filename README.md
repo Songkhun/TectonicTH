@@ -50,6 +50,10 @@ To add evidence, fill rows in `content/evidence_template.csv` and run `python3 b
 - Active faults: [GEM Global Active Faults Database](https://github.com/GEMScienceTools/gem-global-active-faults)
 - Base map: [Natural Earth](https://www.naturalearthdata.com/) 1:50m
 
+## License
+
+[MIT](LICENSE). Third-party data and D3 (`vendor/d3.min.js`, ISC licence) keep their own licences; see Data sources.
+
 ## Author
 
 Songkhun Boonchaisuk, Mahidol University
