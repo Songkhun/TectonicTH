@@ -52,7 +52,9 @@ To add evidence, fill rows in `content/evidence_template.csv` and run `python3 b
 
 ## License
 
-[MIT](LICENSE). Third-party data and D3 (`vendor/d3.min.js`, ISC licence) keep their own licences; see Data sources.
+- **Code** (`src/`, `build/`, `tests/`, `tools/`): [MIT](LICENSE).
+- **Teaching content** (events, evidence, fossils, tectonic models, sutures and `docs/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE-CONTENT](LICENSE-CONTENT) for the file list.
+- **Third-party data and D3** keep their own licences, including the GEM active faults (CC BY-SA 4.0) and D3 (ISC). See [LICENSE-CONTENT](LICENSE-CONTENT) and Data sources.
 
 ## Author
 

@@ -1,0 +1,32 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Songkhun Boonchaisuk
+
+The teaching content in this repository is licensed under CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This covers:
+  content/events.json
+  content/evidence.json
+  content/fossils.json
+  content/models.json
+  content/sutures.json
+  content/evidence_template.csv
+  docs/
+
+You may share and adapt this material for any purpose, including commercially,
+as long as you give appropriate credit, link to the licence and indicate if
+changes were made. Suggested credit:
+  "Deep Time Kanchanaburi" by Songkhun Boonchaisuk, Mahidol University, CC BY 4.0
+
+Not covered (these keep their original licences):
+  content/faults.json            GEM Global Active Faults Database, CC BY-SA 4.0
+  content/basemap.json           Natural Earth, public domain
+  content/timescale.json         ICS International Chronostratigraphic Chart
+  content/polarity.json          GTS2020 chrons via PmagPy
+  content/msequence_gsa_v6.json  GSA Geologic Time Scale v6.0
+  paleo/                         GPlates Web Service, TorsvikCocks2017 model
+  vendor/d3.min.js               D3, ISC licence
+
+Code (src/, build/, tests/, tools/) is under the MIT licence in LICENSE.
